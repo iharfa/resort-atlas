@@ -114,18 +114,29 @@
     .app {
       height: calc(100vh - 54px);
       display: grid;
-      grid-template-columns: 380px minmax(0, 1fr);
+      grid-template-columns: minmax(0, 1fr);
     }
-    aside {
-      background: #ffffff;
-      border-right: 1px solid var(--outline);
+    .filters-panel {
+      position: absolute;
+      left: 14px;
+      top: 14px;
+      z-index: 500;
+      width: 340px;
+      max-width: calc(100% - 28px);
+      max-height: calc(100% - 28px);
       overflow: auto;
-      min-height: 0;
+      background: #ffffff;
+      border: 1px solid var(--navy);
+      box-shadow: 0 18px 60px rgba(0, 18, 32, 0.22);
+      display: none;
     }
+    .filters-panel.open { display: block; }
+    .top-button.is-active { background: #ffffff; color: var(--navy); }
     .side-section {
       padding: 14px;
       border-bottom: 1px solid var(--outline);
     }
+    .side-section:last-child { border-bottom: 0; }
     .section-title {
       margin: 0 0 10px;
       font-size: 11px;
@@ -370,10 +381,8 @@
       .brand { border-right: 0; padding: 10px 12px; }
       .top-search { grid-column: 1 / -1; grid-row: 2; padding: 0 12px 10px; }
       .top-meta { display: none; }
-      .top-actions-mobile { display: flex; }
-      .app { height: auto; min-height: calc(100vh - 102px); grid-template-columns: 1fr; grid-template-rows: 52vh auto; }
-      aside { grid-row: 2; border-right: 0; border-top: 1px solid var(--outline); overflow: visible; }
-      .map-wrap { grid-row: 1; }
+      .top-actions-mobile { display: flex; flex-wrap: wrap; }
+      .app { height: calc(100vh - 102px); grid-template-columns: 1fr; }
       .map-legend { width: calc(100% - 28px); max-width: 360px; }
     }
   </style>
@@ -389,69 +398,50 @@
     </div>
     <div class="top-meta mono">
       <span id="topMeta">Loading datasets</span>
+      <button class="top-button mono" id="filtersBtn" type="button">Filters</button>
       <a class="top-button mono" href="data.html">Data</a>
       <button class="top-button mono" id="aboutBtn" type="button">About</button>
     </div>
     <div class="top-actions-mobile">
+      <button class="top-button mono" id="filtersBtnMobile" type="button">Filters</button>
       <a class="top-button mono" href="data.html">Data</a>
       <button class="top-button mono" id="aboutBtnMobile" type="button">About</button>
     </div>
   </header>
 
   <div class="app">
-    <aside>
-      <section class="side-section">
-        <h2 class="section-title">Resort data</h2>
-        <div class="summary-grid">
-          <div class="metric"><div class="metric-value" id="kpiOperating">0</div><div class="metric-label">Operating resort records</div></div>
-          <div class="metric"><div class="metric-value" id="kpiDevelopment">0</div><div class="metric-label">Under-development records</div></div>
-          <div class="metric"><div class="metric-value" id="kpiMatched">0</div><div class="metric-label">Matched to OneMap</div></div>
-          <div class="metric"><div class="metric-value" id="kpiUnmatched">0</div><div class="metric-label">Need manual review</div></div>
-          <div class="metric"><div class="metric-value" id="kpiCorrections">0</div><div class="metric-label">Verified status corrections</div></div>
-          <div class="metric"><div class="metric-value" id="kpiMMPRC">0</div><div class="metric-label">MMPRC implicated matches</div></div>
-        </div>
-      </section>
-
-      <section class="side-section">
-        <h2 class="section-title">Status</h2>
-        <div class="status" id="status">Loading local resort datasets.</div>
-      </section>
-
-      <section class="side-section collapsed" id="filtersSection">
-        <button class="section-head" type="button" data-collapse="filtersSection">
-          <span>Filters</span>
-          <span class="head-right"><span class="head-count" id="filterCount" hidden></span><span class="chev">▾</span></span>
-        </button>
-        <div class="section-body">
-        <div class="controls">
-          <select id="atollFilter"><option value="">All atolls</option></select>
-          <select id="mmprcFilter"><option value="">All records</option><option value="implicated">MMPRC implicated only</option><option value="context">Paradise Leased context only</option><option value="none">Not on Paradise Leased list</option></select>
-          <div class="toggle-grid">
-            <label class="toggle"><input type="checkbox" id="showOperating" checked> Operating</label>
-            <label class="toggle"><input type="checkbox" id="showDevelopment" checked> Development</label>
-            <label class="toggle"><input type="checkbox" id="showCoordinates" checked> PDF coordinates</label>
-            <label class="toggle"><input type="checkbox" id="showOneMap" checked> OneMap outlines</label>
-            <label class="toggle"><input type="checkbox" id="showCorrections" checked> Status corrections</label>
-            <label class="toggle"><input type="checkbox" id="showMMPRCLabels"> MMPRC labels</label>
-          </div>
-        </div>
-        </div>
-      </section>
-
-      <section class="side-section collapsed" id="reviewSection">
-        <button class="section-head" type="button" data-collapse="reviewSection">
-          <span>Manual review queue</span>
-          <span class="head-right"><span class="head-count" id="reviewCount" hidden></span><span class="chev">▾</span></span>
-        </button>
-        <div class="section-body">
-          <p class="review-intro">Records with no coordinate and no confident OneMap island match. Use this list to make manual joins before publishing final coordinates.</p>
-          <div class="list" id="unmatchedList"></div>
-        </div>
-      </section>
-    </aside>
-
     <main class="map-wrap">
       <div id="map"></div>
+
+      <div class="filters-panel" id="filtersPanel">
+        <section class="side-section" id="filtersSection">
+          <h2 class="section-title">Filters</h2>
+          <div class="controls">
+            <select id="atollFilter"><option value="">All atolls</option></select>
+            <select id="mmprcFilter"><option value="">All records</option><option value="implicated">MMPRC implicated only</option><option value="context">Paradise Leased context only</option><option value="none">Not on Paradise Leased list</option></select>
+            <div class="toggle-grid">
+              <label class="toggle"><input type="checkbox" id="showOperating" checked> Operating</label>
+              <label class="toggle"><input type="checkbox" id="showDevelopment" checked> Development</label>
+              <label class="toggle"><input type="checkbox" id="showCoordinates" checked> PDF coordinates</label>
+              <label class="toggle"><input type="checkbox" id="showOneMap" checked> OneMap outlines</label>
+              <label class="toggle"><input type="checkbox" id="showCorrections" checked> Status corrections</label>
+              <label class="toggle"><input type="checkbox" id="showMMPRCLabels"> MMPRC labels</label>
+            </div>
+          </div>
+        </section>
+
+        <section class="side-section collapsed" id="reviewSection">
+          <button class="section-head" type="button" data-collapse="reviewSection">
+            <span>Manual review queue</span>
+            <span class="head-right"><span class="head-count" id="reviewCount" hidden></span><span class="chev">▾</span></span>
+          </button>
+          <div class="section-body">
+            <p class="review-intro">Records with no coordinate and no confident OneMap island match. Use this list to make manual joins before publishing final coordinates.</p>
+            <div class="list" id="unmatchedList"></div>
+          </div>
+        </section>
+      </div>
+
       <div class="map-loading mono" id="mapLoading">Loading satellite map</div>
       <div class="map-legend">
         <h2 class="section-title">Legend</h2>
@@ -953,21 +943,17 @@ function populateAtollFilter(records) {
   });
 }
 
+function setText(id, value) {
+  const el = document.getElementById(id);
+  if (el) el.textContent = value;
+}
+
 function refreshStats() {
   const op = state.operating.length;
   const dev = state.development.length;
-  const matched = state.allMatchResults.filter(m => m.feature).length;
-  const unmatched = state.unmatched.length;
   const coords = state.coordinateRecords.length;
-  const corrections = [...state.operating, ...state.development].filter(r => hasStatusCorrection(r)).length;
   const mmprcMatches = [...state.operating, ...state.development].filter(r => r.mmprc_implicated).length;
-  document.getElementById('kpiOperating').textContent = op.toLocaleString();
-  document.getElementById('kpiDevelopment').textContent = dev.toLocaleString();
-  document.getElementById('kpiMatched').textContent = matched.toLocaleString();
-  document.getElementById('kpiUnmatched').textContent = unmatched.toLocaleString();
-  document.getElementById('kpiCorrections').textContent = corrections.toLocaleString();
-  document.getElementById('kpiMMPRC').textContent = mmprcMatches.toLocaleString();
-  document.getElementById('topMeta').textContent = `${op.toLocaleString()} operating · ${dev.toLocaleString()} development · ${coords.toLocaleString()} coordinate records · ${mmprcMatches.toLocaleString()} MMPRC matches`;
+  setText('topMeta', `${op.toLocaleString()} operating · ${dev.toLocaleString()} development · ${coords.toLocaleString()} coordinate records · ${mmprcMatches.toLocaleString()} MMPRC matches`);
 }
 
 function initMap() {
@@ -1000,7 +986,7 @@ async function init() {
     state.mmprc = mmprc;
     populateAtollFilter([...state.operating, ...state.development]);
     refreshStats();
-    document.getElementById('status').textContent = 'Loading OneMap island polygons.';
+    setText('status', 'Loading OneMap island polygons.');
     document.getElementById('mapLoading').textContent = 'Loading OneMap';
 
     state.islands = await fetchOneMap();
@@ -1012,13 +998,13 @@ async function init() {
     state.unmatched = state.allMatchResults.filter(m => m.matchType === 'unmatched');
 
     refreshStats();
-    document.getElementById('status').textContent = `Loaded ${state.islands.features.length.toLocaleString()} OneMap island polygons on satellite basemap. Review unmatched records, status corrections, and Paradise Leased cross-matches before publishing final coordinates.`;
+    setText('status', `Loaded ${state.islands.features.length.toLocaleString()} OneMap island polygons.`);
     document.getElementById('mapLoading').style.display = 'none';
     renderLayers();
   } catch (err) {
     console.error(err);
-    document.getElementById('status').textContent = err.message + '. Serve this folder through a local web server or deploy it to Vercel.';
-    document.getElementById('mapLoading').textContent = 'Map load failed';
+    setText('status', err.message + '. Serve this folder through a local web server or deploy it to Vercel.');
+    document.getElementById('mapLoading').textContent = err.message;
   }
 }
 
@@ -1042,11 +1028,24 @@ function updateFilterCount() {
     if (!document.getElementById(id).checked) n++;
   });
   if (document.getElementById('showMMPRCLabels').checked) n++;
-  const el = document.getElementById('filterCount');
-  el.textContent = n + ' active';
-  el.hidden = n === 0;
+  const label = n ? `Filters · ${n}` : 'Filters';
+  ['filtersBtn','filtersBtnMobile'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = label;
+  });
 }
 
+function toggleFilters() {
+  const panel = document.getElementById('filtersPanel');
+  const open = panel.classList.toggle('open');
+  ['filtersBtn','filtersBtnMobile'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.classList.toggle('is-active', open);
+  });
+}
+
+document.getElementById('filtersBtn').addEventListener('click', toggleFilters);
+document.getElementById('filtersBtnMobile').addEventListener('click', toggleFilters);
 document.getElementById('aboutBtn').addEventListener('click', openAbout);
 document.getElementById('aboutBtnMobile').addEventListener('click', openAbout);
 document.getElementById('closeAbout').addEventListener('click', closeAbout);
