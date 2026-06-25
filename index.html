@@ -97,15 +97,19 @@
       white-space: nowrap;
     }
     .top-button {
+      display: inline-block;
       border: 1px solid rgba(255,255,255,0.9);
       background: transparent;
       color: #ffffff;
       padding: 6px 8px;
       font-size: 11px;
+      line-height: 1;
       text-transform: uppercase;
       letter-spacing: 0.08em;
+      text-decoration: none;
     }
     .top-button:hover { background: #ffffff; color: var(--navy); }
+    .top-actions-mobile { display: none; align-items: center; gap: 8px; padding-right: 12px; }
 
     .app {
       height: calc(100vh - 54px);
@@ -131,6 +135,38 @@
       font-family: "JetBrains Mono", ui-monospace, monospace;
       font-weight: 700;
     }
+    .section-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      width: 100%;
+      margin: 0 0 10px;
+      padding: 0;
+      border: 0;
+      background: transparent;
+      text-align: left;
+      color: var(--muted);
+      font-family: "JetBrains Mono", ui-monospace, monospace;
+      font-weight: 700;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+    }
+    .section-head:hover { color: var(--ink); }
+    .section-head .head-right { display: flex; align-items: center; gap: 8px; }
+    .section-head .head-count {
+      color: var(--cyan);
+      background: #e6f3f6;
+      border: 1px solid #bfe0e7;
+      padding: 2px 6px;
+      font-size: 10px;
+      letter-spacing: 0.04em;
+    }
+    .section-head .chev { transition: transform 0.15s ease; font-size: 10px; color: var(--muted); }
+    .side-section.collapsed .section-head { margin-bottom: 0; }
+    .side-section.collapsed .section-head .chev { transform: rotate(-90deg); }
+    .side-section.collapsed .section-body { display: none; }
     .summary-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -189,7 +225,12 @@
       font-size: 12px;
       color: var(--ink);
     }
+    .toggle:hover { border-color: var(--cyan); background: #f6fafe; }
     .toggle input { accent-color: var(--cyan); }
+    .item { transition: border-color 0.12s ease, box-shadow 0.12s ease; }
+    .item:hover { box-shadow: 0 4px 14px rgba(0,18,32,0.08); }
+    :focus-visible { outline: 2px solid var(--cyan); outline-offset: 1px; }
+    .top-button:focus-visible { outline-color: var(--cyan-bright); }
     .legend-grid {
       display: grid;
       grid-template-columns: 1fr;
@@ -207,6 +248,12 @@
       height: 14px;
       border: 1px solid var(--navy);
       display: inline-block;
+      flex: none;
+    }
+    .swatch.ring {
+      background: transparent;
+      border: 3px solid #a41623;
+      border-radius: 50% !important;
     }
     .review-intro {
       font-size: 12px;
@@ -271,27 +318,6 @@
       box-shadow: 0 10px 30px rgba(0, 18, 32, 0.08);
     }
     .map-legend .section-title { margin-bottom: 8px; }
-    .data-actions {
-      position: absolute;
-      right: 14px;
-      bottom: 14px;
-      z-index: 400;
-      display: grid;
-      gap: 6px;
-    }
-    .data-actions a {
-      display: block;
-      border: 1px solid var(--navy);
-      background: #ffffff;
-      color: var(--navy);
-      text-decoration: none;
-      padding: 7px 9px;
-      font-size: 10px;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      text-align: right;
-    }
-    .data-actions a:hover { background: var(--navy); color: #ffffff; }
 
     .leaflet-control-zoom a {
       border-radius: 0 !important;
@@ -302,7 +328,7 @@
       color: var(--ink);
     }
     .leaflet-popup-content { width: 320px !important; margin: 13px; }
-    .mmprc-label { background: var(--navy); color: #ffffff; border: 1px solid var(--hotpink); padding: 3px 5px; font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 10px; letter-spacing: 0.06em; text-transform: uppercase; box-shadow: 0 4px 14px rgba(0,18,32,0.35); }
+    .mmprc-label { background: var(--navy); color: #ffffff; border: 1px solid #a41623; padding: 3px 5px; font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 10px; letter-spacing: 0.06em; text-transform: uppercase; box-shadow: 0 4px 14px rgba(0,18,32,0.35); }
     .popup h3 { margin: 0 0 6px; font-size: 16px; line-height: 1.2; }
     .popup p { margin: 4px 0; font-size: 12px; line-height: 1.35; }
     .popup .rec { border-top: 1px solid var(--outline); padding-top: 7px; margin-top: 7px; }
@@ -338,20 +364,17 @@
     .about-body { padding: 14px; color: var(--muted); font-size: 13px; line-height: 1.55; }
     .about-body h3 { margin: 14px 0 6px; color: var(--ink); font-size: 14px; }
     .about-body ul { margin: 8px 0; padding-left: 20px; }
-    .mobile-filters { display: none; }
-
     @media (max-width: 900px) {
       body { overflow: auto; }
       .topbar { grid-template-columns: 1fr auto; height: auto; min-height: 58px; }
       .brand { border-right: 0; padding: 10px 12px; }
       .top-search { grid-column: 1 / -1; grid-row: 2; padding: 0 12px 10px; }
       .top-meta { display: none; }
-      .mobile-filters { display: inline-block; margin-right: 12px; }
-      .app { height: calc(100vh - 102px); grid-template-columns: 1fr; grid-template-rows: 52vh 1fr; }
-      aside { grid-row: 2; border-right: 0; border-top: 1px solid var(--outline); }
+      .top-actions-mobile { display: flex; }
+      .app { height: auto; min-height: calc(100vh - 102px); grid-template-columns: 1fr; grid-template-rows: 52vh auto; }
+      aside { grid-row: 2; border-right: 0; border-top: 1px solid var(--outline); overflow: visible; }
       .map-wrap { grid-row: 1; }
       .map-legend { width: calc(100% - 28px); max-width: 360px; }
-      .data-actions { display: none; }
     }
   </style>
 </head>
@@ -366,9 +389,13 @@
     </div>
     <div class="top-meta mono">
       <span id="topMeta">Loading datasets</span>
+      <a class="top-button mono" href="data.html">Data</a>
       <button class="top-button mono" id="aboutBtn" type="button">About</button>
     </div>
-    <button class="top-button mono mobile-filters" id="aboutBtnMobile" type="button">About</button>
+    <div class="top-actions-mobile">
+      <a class="top-button mono" href="data.html">Data</a>
+      <button class="top-button mono" id="aboutBtnMobile" type="button">About</button>
+    </div>
   </header>
 
   <div class="app">
@@ -390,8 +417,12 @@
         <div class="status" id="status">Loading local resort datasets.</div>
       </section>
 
-      <section class="side-section">
-        <h2 class="section-title">Filters</h2>
+      <section class="side-section collapsed" id="filtersSection">
+        <button class="section-head" type="button" data-collapse="filtersSection">
+          <span>Filters</span>
+          <span class="head-right"><span class="head-count" id="filterCount" hidden></span><span class="chev">▾</span></span>
+        </button>
+        <div class="section-body">
         <div class="controls">
           <select id="atollFilter"><option value="">All atolls</option></select>
           <select id="mmprcFilter"><option value="">All records</option><option value="implicated">MMPRC implicated only</option><option value="context">Paradise Leased context only</option><option value="none">Not on Paradise Leased list</option></select>
@@ -401,15 +432,21 @@
             <label class="toggle"><input type="checkbox" id="showCoordinates" checked> PDF coordinates</label>
             <label class="toggle"><input type="checkbox" id="showOneMap" checked> OneMap outlines</label>
             <label class="toggle"><input type="checkbox" id="showCorrections" checked> Status corrections</label>
-            <label class="toggle"><input type="checkbox" id="showMMPRCLabels" checked> MMPRC labels</label>
+            <label class="toggle"><input type="checkbox" id="showMMPRCLabels"> MMPRC labels</label>
           </div>
+        </div>
         </div>
       </section>
 
-      <section class="side-section">
-        <h2 class="section-title">Manual review queue</h2>
-        <p class="review-intro">Records with no coordinate and no confident OneMap island match. Use this list to make manual joins before publishing final coordinates.</p>
-        <div class="list" id="unmatchedList"></div>
+      <section class="side-section collapsed" id="reviewSection">
+        <button class="section-head" type="button" data-collapse="reviewSection">
+          <span>Manual review queue</span>
+          <span class="head-right"><span class="head-count" id="reviewCount" hidden></span><span class="chev">▾</span></span>
+        </button>
+        <div class="section-body">
+          <p class="review-intro">Records with no coordinate and no confident OneMap island match. Use this list to make manual joins before publishing final coordinates.</p>
+          <div class="list" id="unmatchedList"></div>
+        </div>
       </section>
     </aside>
 
@@ -419,24 +456,10 @@
       <div class="map-legend">
         <h2 class="section-title">Legend</h2>
         <div class="legend-grid">
-          <div class="legend-item"><span class="swatch" style="background:var(--reef)"></span> Operating resort island</div>
-          <div class="legend-item"><span class="swatch" style="background:var(--amber)"></span> Resort under development</div>
-          <div class="legend-item"><span class="swatch" style="background:var(--purple)"></span> Operating and development overlap</div>
-          <div class="legend-item"><span class="swatch" style="background:var(--cyan)"></span> Coordinate site from PDF</div>
-          <div class="legend-item"><span class="swatch" style="background:var(--cyan-bright)"></span> Verified status correction</div>
-          <div class="legend-item"><span class="swatch" style="background:var(--red)"></span> Verified not operating</div>
-          <div class="legend-item"><span class="swatch" style="background:var(--hotpink)"></span> MMPRC implicated island</div>
-          <div class="legend-item"><span class="swatch" style="background:var(--outline)"></span> Fuzzy match</div>
+          <div class="legend-item"><span class="swatch" style="background:#f85e00"></span> Operating resort</div>
+          <div class="legend-item"><span class="swatch" style="background:#ffb563"></span> Currently in development</div>
+          <div class="legend-item"><span class="swatch ring"></span> MMPRC implicated (outlined)</div>
         </div>
-      </div>
-      <div class="data-actions mono">
-        <a href="data/resorts_combined_for_onemap_join.csv" download>Download combined CSV</a>
-        <a href="data/operating_resorts_clean.csv" download>Download operating CSV</a>
-        <a href="data/under_development_resorts_clean.csv" download>Download development CSV</a>
-        <a href="data/under_development_explicit_coordinates.geojson" download>Download coordinate GeoJSON</a>
-        <a href="data/status_verification.csv" download>Download status verification CSV</a>
-        <a href="data/mmprc_cross_match.csv" download>Download MMPRC cross-match CSV</a>
-        <a href="data/mmprc_paradise_leased_islands.csv" download>Download Paradise Leased source CSV</a>
       </div>
     </main>
   </div>
@@ -755,22 +778,14 @@ function escapeHtml(s) {
   }[ch]));
 }
 
+const COLOR_OPERATING = '#f85e00';
+const COLOR_DEVELOPMENT = '#ffb563';
+const COLOR_MMPRC = '#a41623';
+
 function colorForRecords(records) {
-  const hasMMPRC = records.some(m => m.record.mmprc_implicated);
-  const hasContext = records.some(m => m.record.mmprc_context_only);
-  const hasCorrection = records.some(m => hasStatusCorrection(m.record));
-  const hasOp = records.some(m => m.record.dataset === 'operating' && norm(effectiveStatus(m.record)) === norm('Operating'));
-  const hasNot = records.some(m => m.record.dataset === 'operating' && norm(effectiveStatus(m.record)) === norm('Not Operating'));
-  const hasDev = records.some(m => m.record.dataset === 'development');
-  const hasFuzzy = records.some(m => m.matchType === 'fuzzy');
-  if (hasMMPRC) return '#ff2d55';
-  if (hasContext) return '#001220';
-  if (hasCorrection) return '#50d9fe';
-  if (hasOp && hasDev) return '#7b2fbe';
-  if (hasNot) return '#ba1a1a';
-  if (hasDev) return '#b8860b';
-  if (hasFuzzy) return '#c3c7cd';
-  return '#1f8a4c';
+  const hasOp = records.some(m => m.record.dataset === 'operating');
+  if (hasOp) return COLOR_OPERATING;
+  return COLOR_DEVELOPMENT;
 }
 
 function passesFilters(record) {
@@ -793,6 +808,7 @@ function passesFilters(record) {
 }
 
 function renderLayers() {
+  updateFilterCount();
   const map = state.map;
   state.layers.matched.clearLayers();
   state.layers.coords.clearLayers();
@@ -818,12 +834,14 @@ function renderLayers() {
 
   for (const { feature, records } of grouped.values()) {
     const color = colorForRecords(records);
+    const implicated = records.some(m => m.record.mmprc_implicated);
     const islandLayer = L.geoJSON(feature, {
-      style: { color, weight: records.some(m => m.record.mmprc_implicated) ? 4 : 2.5, fillOpacity: records.some(m => m.record.mmprc_implicated) ? 0.42 : 0.32, fillColor: color }
+      style: { color: implicated ? COLOR_MMPRC : color, weight: implicated ? 4 : 2, fillOpacity: implicated ? 0.42 : 0.32, fillColor: color }
     }).bindPopup(buildPopupForIsland(feature, records)).addTo(state.layers.matched);
-    if (document.getElementById('showMMPRCLabels').checked && records.some(m => m.record.mmprc_implicated || m.record.mmprc_context_only)) {
+    if (records.some(m => m.record.mmprc_implicated || m.record.mmprc_context_only)) {
       const labelText = records.some(m => m.record.mmprc_implicated) ? 'MMPRC implicated' : 'Paradise context';
-      islandLayer.bindTooltip(labelText, { permanent: true, direction: 'center', className: 'mmprc-label' });
+      const permanent = document.getElementById('showMMPRCLabels').checked;
+      islandLayer.bindTooltip(labelText, { permanent, direction: 'center', className: 'mmprc-label' });
     }
   }
 
@@ -832,17 +850,20 @@ function renderLayers() {
       if (!passesFilters(record)) continue;
       const latlngs = (record.coordinates || []).map(c => [c.lat, c.lon]);
       if (!latlngs.length) continue;
+      const impl = record.mmprc_implicated;
+      const stroke = impl ? COLOR_MMPRC : COLOR_DEVELOPMENT;
       let layer;
       if (latlngs.length === 1) {
-        layer = L.circleMarker(latlngs[0], { radius: record.mmprc_implicated ? 8 : 6, color: record.mmprc_implicated ? '#ff2d55' : '#00677d', weight: record.mmprc_implicated ? 3 : 2, fillOpacity: 0.78, fillColor: record.mmprc_implicated ? '#ff2d55' : '#50d9fe' });
+        layer = L.circleMarker(latlngs[0], { radius: impl ? 9 : 6, color: stroke, weight: impl ? 3 : 1.5, fillOpacity: 0.85, fillColor: COLOR_DEVELOPMENT });
       } else if (latlngs.length >= 3) {
-        layer = L.polygon(latlngs, { color: record.mmprc_implicated ? '#ff2d55' : '#00677d', weight: record.mmprc_implicated ? 3 : 2, fillOpacity: record.mmprc_implicated ? 0.24 : 0.14, fillColor: record.mmprc_implicated ? '#ff2d55' : '#50d9fe' });
+        layer = L.polygon(latlngs, { color: stroke, weight: impl ? 4 : 2, fillOpacity: impl ? 0.28 : 0.18, fillColor: COLOR_DEVELOPMENT });
       } else {
-        layer = L.polyline(latlngs, { color: record.mmprc_implicated ? '#ff2d55' : '#00677d', weight: record.mmprc_implicated ? 3 : 2 });
+        layer = L.polyline(latlngs, { color: stroke, weight: impl ? 4 : 2 });
       }
       layer.bindPopup(buildPopupForCoordinate(record)).addTo(state.layers.coords);
-      if (document.getElementById('showMMPRCLabels').checked && (record.mmprc_implicated || record.mmprc_context_only)) {
-        layer.bindTooltip(record.mmprc_implicated ? 'MMPRC implicated' : 'Paradise context', { permanent: true, direction: 'top', className: 'mmprc-label' });
+      if (record.mmprc_implicated || record.mmprc_context_only) {
+        const permanent = document.getElementById('showMMPRCLabels').checked;
+        layer.bindTooltip(record.mmprc_implicated ? 'MMPRC implicated' : 'Paradise context', { permanent, direction: 'top', className: 'mmprc-label' });
       }
     }
   }
@@ -862,9 +883,14 @@ function renderLayers() {
 
 function renderUnmatchedList() {
   const list = document.getElementById('unmatchedList');
-  const items = state.unmatched
-    .filter(m => passesFilters(m.record))
-    .slice(0, 80);
+  const matching = state.unmatched.filter(m => passesFilters(m.record));
+  const items = matching.slice(0, 80);
+
+  const countEl = document.getElementById('reviewCount');
+  if (countEl) {
+    countEl.textContent = matching.length.toLocaleString();
+    countEl.hidden = matching.length === 0;
+  }
 
   if (!items.length) {
     list.innerHTML = '<div class="status">No unmatched records under the current filters.</div>';
@@ -1000,6 +1026,26 @@ async function init() {
   document.addEventListener('input', e => { if (e.target && e.target.id === id) renderLayers(); });
   document.addEventListener('change', e => { if (e.target && e.target.id === id) renderLayers(); });
 });
+
+document.querySelectorAll('.section-head[data-collapse]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.getElementById(btn.dataset.collapse).classList.toggle('collapsed');
+  });
+});
+
+function updateFilterCount() {
+  let n = 0;
+  if (document.getElementById('search').value.trim()) n++;
+  if (document.getElementById('atollFilter').value) n++;
+  if (document.getElementById('mmprcFilter').value) n++;
+  ['showOperating','showDevelopment','showCoordinates','showOneMap','showCorrections'].forEach(id => {
+    if (!document.getElementById(id).checked) n++;
+  });
+  if (document.getElementById('showMMPRCLabels').checked) n++;
+  const el = document.getElementById('filterCount');
+  el.textContent = n + ' active';
+  el.hidden = n === 0;
+}
 
 document.getElementById('aboutBtn').addEventListener('click', openAbout);
 document.getElementById('aboutBtnMobile').addEventListener('click', openAbout);

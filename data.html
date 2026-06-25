@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Data · Resort Atlas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --sand: #f6fafe;
+      --navy: #001220;
+      --ink: #171c1f;
+      --muted: #42474c;
+      --outline: #c3c7cd;
+      --cyan: #00677d;
+      --white: #ffffff;
+    }
+    * { box-sizing: border-box; border-radius: 0 !important; }
+    body {
+      margin: 0;
+      background: var(--sand);
+      color: var(--ink);
+      font-family: Inter, system-ui, sans-serif;
+    }
+    .mono { font-family: "JetBrains Mono", ui-monospace, monospace; }
+    a { color: var(--cyan); }
+
+    .topbar {
+      height: 54px;
+      background: var(--navy);
+      color: var(--white);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 18px;
+      position: sticky;
+      top: 0;
+      z-index: 30;
+    }
+    .brand-title { font-size: 20px; font-weight: 800; letter-spacing: -0.03em; line-height: 1; }
+    .brand-subtitle { margin-top: 4px; color: #d8e6ef; font-size: 11px; letter-spacing: 0.05em; text-transform: uppercase; }
+    .top-button {
+      display: inline-block;
+      border: 1px solid rgba(255,255,255,0.9);
+      background: transparent;
+      color: #ffffff;
+      padding: 7px 10px;
+      font-size: 11px;
+      line-height: 1;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      text-decoration: none;
+    }
+    .top-button:hover { background: #ffffff; color: var(--navy); }
+
+    .wrap { max-width: 980px; margin: 0 auto; padding: 28px 18px 60px; }
+    .lede {
+      border: 1px solid var(--outline);
+      background: #ffffff;
+      padding: 18px 20px;
+      margin-bottom: 24px;
+    }
+    .lede h1 { margin: 0 0 8px; font-size: 22px; letter-spacing: -0.02em; }
+    .lede p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.55; }
+
+    .section-label {
+      font-family: "JetBrains Mono", ui-monospace, monospace;
+      font-weight: 700;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+      margin: 0 0 12px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+    }
+    .card {
+      border: 1px solid var(--outline);
+      background: #ffffff;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+    }
+    .card-top { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+    .card h3 { margin: 0; font-size: 15px; line-height: 1.3; }
+    .card .count {
+      font-family: "JetBrains Mono", ui-monospace, monospace;
+      font-weight: 700;
+      font-size: 13px;
+      color: var(--cyan);
+      white-space: nowrap;
+    }
+    .card p { margin: 10px 0 0; color: var(--muted); font-size: 13px; line-height: 1.5; }
+    .card .files { margin-top: 14px; display: grid; gap: 6px; }
+    .card .files a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      border: 1px solid var(--navy);
+      background: #ffffff;
+      color: var(--navy);
+      text-decoration: none;
+      padding: 8px 10px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-family: "JetBrains Mono", ui-monospace, monospace;
+    }
+    .card .files a:hover { background: var(--navy); color: #ffffff; }
+    .card .files a .ext { opacity: 0.7; font-size: 10px; }
+
+    .footnote { margin-top: 28px; color: var(--muted); font-size: 12px; line-height: 1.6; }
+
+    @media (max-width: 720px) {
+      .grid { grid-template-columns: 1fr; }
+      .topbar { height: auto; min-height: 54px; padding: 10px 14px; gap: 10px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <div class="brand-title">Resort Atlas</div>
+      <div class="brand-subtitle mono">Data &amp; Downloads</div>
+    </div>
+    <a class="top-button mono" href="index.html">← Back to map</a>
+  </header>
+
+  <main class="wrap">
+    <div class="lede">
+      <h1>About this data</h1>
+      <p>Resort Atlas maps Maldives operating resort records and resort development records against
+      OneMap island geometry, then cross-checks both against the Paradise Leased / MMPRC island lease
+      spreadsheet. The datasets below are the raw inputs and the derived outputs powering the map.
+      Every file is downloadable for your own GIS or analysis work.</p>
+    </div>
+
+    <h2 class="section-label">Datasets</h2>
+    <div class="grid">
+
+      <section class="card">
+        <div class="card-top">
+          <h3>Operating resorts</h3>
+          <span class="count" id="countOperating">—</span>
+        </div>
+        <p>Operating resort records sourced from the Ministry / CSV list. Each record keeps the
+        original <em>source status</em> separately from a cross-checked <em>verified status</em>, plus
+        rooms, beds, operator, owner/lessee, and evidence links where a status was corrected.</p>
+        <div class="files">
+          <a href="data/operating_resorts_clean.csv" download>Operating resorts <span class="ext">CSV</span></a>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="card-top">
+          <h3>Resorts under development</h3>
+          <span class="count" id="countDevelopment">—</span>
+        </div>
+        <p>Resort development sites from the Ministry of Tourism "under development" list (07 April 2025),
+        including project type, lessee/holder, source PDF page, and any explicit coordinates extracted
+        from the document.</p>
+        <div class="files">
+          <a href="data/under_development_resorts_clean.csv" download>Development resorts <span class="ext">CSV</span></a>
+          <a href="data/under_development_explicit_coordinates.geojson" download>Explicit coordinates <span class="ext">GeoJSON</span></a>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="card-top">
+          <h3>Combined join table</h3>
+          <span class="count" id="countCombined">—</span>
+        </div>
+        <p>Operating and development records merged into one flat table formatted for joining against
+        OneMap island geometry in a GIS. This is the convenience export for spatial analysis.</p>
+        <div class="files">
+          <a href="data/resorts_combined_for_onemap_join.csv" download>Combined for OneMap join <span class="ext">CSV</span></a>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="card-top">
+          <h3>Status verification</h3>
+          <span class="count" id="countStatus">—</span>
+        </div>
+        <p>The records where the verified status differs from the source status, with confidence level
+        and the independent evidence sources used. These corrections are highlighted on the map.</p>
+        <div class="files">
+          <a href="data/status_verification.csv" download>Status corrections <span class="ext">CSV</span></a>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="card-top">
+          <h3>MMPRC cross-match</h3>
+          <span class="count" id="countCrossMatch">—</span>
+        </div>
+        <p>The output of cross-matching resort records against the Paradise Leased spreadsheet: which
+        islands are implicated in the MMPRC lease scheme, the lease holder, acquisition cost, and the
+        method used to make each match.</p>
+        <div class="files">
+          <a href="data/mmprc_cross_match.csv" download>MMPRC cross-match <span class="ext">CSV</span></a>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="card-top">
+          <h3>Paradise Leased source</h3>
+          <span class="count" id="countParadise">—</span>
+        </div>
+        <p>The source island-lease spreadsheet behind the MMPRC layer. Most rows are implicated in the
+        scheme; a couple are flagged "context only" where the comments note no suggestion of wrongdoing
+        or a lease that predates the scheme.</p>
+        <div class="files">
+          <a href="data/mmprc_paradise_leased_islands.csv" download>Paradise Leased islands <span class="ext">CSV</span></a>
+          <a href="data/mmprc_paradise_leased_islands.json" download>Paradise Leased islands <span class="ext">JSON</span></a>
+        </div>
+      </section>
+
+    </div>
+
+    <p class="footnote">
+      Island geometry comes from the public OneMap ArcGIS layer, fetched live by the map and not
+      redistributed here. Status corrections rely on at least two independent sources where possible
+      (official site or booking engine, live listings, recent trade news). Record counts above are
+      read from the live data files.
+    </p>
+  </main>
+
+  <script>
+    async function count(path) {
+      try {
+        const res = await fetch(path);
+        if (!res.ok) throw new Error();
+        const data = await res.json();
+        return Array.isArray(data) ? data.length : null;
+      } catch (e) { return null; }
+    }
+    function set(id, n, suffix) {
+      const el = document.getElementById(id);
+      if (!el) return;
+      el.textContent = n == null ? '—' : n.toLocaleString() + (suffix || '');
+    }
+    async function csvRowCount(path) {
+      try {
+        const res = await fetch(path);
+        if (!res.ok) throw new Error();
+        const text = (await res.text()).trim();
+        if (!text) return 0;
+        return Math.max(0, text.split(/\r?\n/).length - 1);
+      } catch (e) { return null; }
+    }
+    (async () => {
+      const [op, dev, paradise, status, summary] = await Promise.all([
+        count('data/operating_resorts.json'),
+        count('data/under_development_resorts.json'),
+        count('data/mmprc_paradise_leased_islands.json'),
+        csvRowCount('data/status_verification.csv'),
+        fetch('data/mmprc_summary.json').then(r => r.ok ? r.json() : null).catch(() => null)
+      ]);
+      set('countOperating', op, ' records');
+      set('countDevelopment', dev, ' records');
+      set('countCombined', (op != null && dev != null) ? op + dev : null, ' rows');
+      set('countParadise', paradise, ' islands');
+      set('countStatus', status, status === 1 ? ' correction' : ' corrections');
+      if (summary) set('countCrossMatch', summary.cross_match_rows, ' matches');
+    })();
+  </script>
+</body>
+</html>
