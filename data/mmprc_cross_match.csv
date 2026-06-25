@@ -1,0 +1,74 @@
+mmprc_id,mmprc_name,mmprc_atoll,mmprc_label,context_only,dataset,record_title,record_atoll,record_site,match_method,match_score,mm_candidate,record_candidate
+1,Fohtheyo Bodufushi — Hotel Properties Limited,Vaavu,MMPRC corruption implicated island,False,development,"Foththeyobodufushi
+3°23'40.272""N, 73°39'52.677""E",Vaavu,"Foththeyobodufushi
+3°23'40.272""N, 73°39'52.677""E",name,0.944,Fohtheyo Bodufushi,Foththeyobodufushi
+2,Huruvalhi — Amir Mansoor (Carpe Diem Beach Resort & Spa),Raa,MMPRC corruption implicated island,False,operating,The Standard Huruvalhi Maldives,Raa,Huruvalhi,name,1,Huruvalhi,Huruvalhi
+3,"Miriandhoo — Asia Capital, Belluna (The Westin Miriandhoo Maldives Resort)",Baa,MMPRC corruption implicated island,False,operating,The Westin Maldives Miriandhoo Resort,Baa,Miriandhoo,name,1,Miriandhoo,Miriandhoo
+5,Raafushi — Aitken Spence,Noonu,MMPRC corruption implicated island,False,development,Raafushi,Noonu,Raafushi,name,1,Raafushi,Raafushi
+6,Faarufushi — Universal Enterprises (Faarufushi Maldives Resort),Raa,MMPRC corruption implicated island,False,operating,Emerald Faarufushi Resort & Spa,Raa,Faarufushi,name,1,Faarufushi,Faarufushi
+7,Aarah — Aitken Spence (Heritance Aarah Resort),Raa,MMPRC corruption implicated island,False,operating,Heritance Aarah,Raa,Aarah,name,1,Aarah,Aarah
+8,Orivaru — Robinson (Robinson Club Maldives),Noonu,MMPRC corruption implicated island,False,operating,Robinson Noonu,Noonu,Orivaru,name,1,Orivaru,Orivaru
+9,"Maagau — New Mood Resorts, Albertino Peruzzo (Baglioni Resort Maldives)",Dhaalu,MMPRC corruption implicated island,False,operating,Baglioni Resort Maldives,Dhaalu,Maagau,name,1,Maagau,Maagau
+11,Hibalhidhoo — Biznas Maldives,Baa,MMPRC corruption implicated island,False,development,Hibalhidhoo,Baa,Hibalhidhoo,name,1,Hibalhidhoo,Hibalhidhoo
+12,Aluvifushi — Sun Siyam (Sun Aqua Iru Veli),Dhaalu,MMPRC corruption implicated island,False,operating,Sun Siyam Iru Veli Maldives,Dhaalu,Aluvifushi,name,1,Aluvifushi,Aluvifushi
+13,Medhufaru and Surrounds — Soneva (Soneva Jani Resort),Noonu,MMPRC corruption implicated island,False,operating,Soneva Jani,Noonu,Medhufaru,name,1,Medhufaru,Medhufaru
+14,"Maamaduvvari — Coastline Group, Universal Enterprises",Baa,MMPRC corruption implicated island,False,development,Maamaduvvari,Baa,Maamaduvvari,name,1,Maamaduvvari,Maamaduvvari
+15,Olhugiri — Family of Riyaz Rasheed,Thaa,MMPRC corruption implicated island,False,development,Olhugiri,Thaa,Olhugiri,name,1,Olhugiri,Olhugiri
+16,Lagoon — Sea House Resorts,Kaafu,MMPRC corruption implicated island,False,development,"Plot of Lagoon (Dhonmaaga)
+3°57'54.9972""N 73°26'47.8507""E",Kaafu,"Plot of Lagoon (Dhonmaaga)
+3°57'54.9972""N 73°26'47.8507""E",lessee match,1,Sea House Resorts Pvt Ltd,Sea House Resorts Pvt Ltd
+17,Vashugiri — Ismail Rasheed Umar and Family,Vaavu,MMPRC corruption implicated island,False,operating,Cocogiri Island Resort,Vaavu,Vashugiri,name,1,Vashugiri,Vashugiri
+18,Kan'doogan'du and Veyvah — Mohamed Hussain Fulhu,Raa,MMPRC corruption implicated island,False,development,Kan'doogan'du,Raa,Kan'doogan'du,name,1,Kan'doogan'du,Kan'doogan'du
+19,Kalhudiyafushi — Huravee International (Gran Meliá Maldives),Thaa,MMPRC corruption implicated island,False,development,Kalhudhiyafushi,Thaa,Kalhudhiyafushi,name,0.933,Kalhudiyafushi,Kalhudhiyafushi
+20,Fuggiri — Classic Citi Island Holdings,Raa,MMPRC corruption implicated island,False,development,Fuggiri,Raa,Fuggiri,name,1,Fuggiri,Fuggiri
+21,"Aarah — Two G, Aarah Investment",Vaavu,MMPRC corruption implicated island,False,operating,Cinnamon Velifushi Maldives,Vaavu,Aarah,name,1,Aarah,Aarah
+22,Lagoon — Mohamed Wafir,Kaafu,MMPRC corruption implicated island,False,development,"Plot of Lagoon
+4°40’49.9”N, 73°31’34.2”E",Kaafu,"Plot of Lagoon
+4°40’49.9”N, 73°31’34.2”E",coordinate 0.00 km,1.0,"4.680528, 73.526167","4°40'49.9""N 73°31'34.2""E"
+23,Vodamulaa — International Trade Holding Company K.S.C.,Gaafu Alifu,MMPRC corruption implicated island,False,development,Vodamulaa,Gaafu Alifu,Vodamulaa,name,1,Vodamulaa,Vodamulaa
+24,Heenfaru — Hussain Sharih,Alifu Dhaalu,MMPRC corruption implicated island,False,development,Heenfaru,Alifu Dhaalu,Heenfaru,name,1,Heenfaru,Heenfaru
+26,Bodukaashi Huraa — Millennium Capital Management,Alifu Dhaalu,MMPRC corruption implicated island,False,development,Bodukaashihuraa,Alifu Dhaalu,Bodukaashihuraa,name,1,Bodukaashi Huraa,Bodukaashihuraa
+27,Fushidhigga,Alifu Dhaalu,MMPRC corruption implicated island,False,development,Fushidhigga,Alifu Dhaalu,Fushidhigga,name,1,Fushidhigga,Fushidhigga
+28,Muthaafushi — Well Land Investment (Forthcoming Centara-branded Resort),Baa,MMPRC corruption implicated island,False,development,Muthaafushi,Baa,Muthaafushi,name,1,Muthaafushi,Muthaafushi
+29,Dhandhoo — Samed Resorts,Baa,MMPRC corruption implicated island,False,development,Dhandhoo,Baa,Dhandhoo,name,1,Dhandhoo,Dhandhoo
+30,Ithaafushi — ASSETS Real Estate Development (Waldorf Astoria Maldives Ithaafushi),Kaafu,MMPRC corruption implicated island,False,operating,Waldorf Astoria Maldives Ithaafushi,Kaafu,Ithaafushi,name,1,Ithaafushi,Ithaafushi
+31,Bodufaru Finolhu — Lanka Orix Leasing Company,Raa,MMPRC corruption implicated island,False,development,Bodufarufinolhu,Raa,Bodufarufinolhu,name,1,Bodufaru Finolhu,Bodufarufinolhu
+32,Innafushi — Seagull Group,Alifu Dhaalu,MMPRC corruption implicated island,False,development,Innafushi,Alifu Dhaalu,Innafushi,name,1,Innafushi,Innafushi
+33,"Dhigudefaru — Dhigudhefaru Investment, Ahmed Iqbal",Baa,MMPRC corruption implicated island,False,development,Dhigudhefaru,Baa,Dhigudhefaru,name,0.917,Dhigudefaru,Dhigudhefaru
+34,Bodufinolhu — Lanka Orix Leasing Company (Bodufaru Beach Resort),Alifu Dhaalu,MMPRC corruption implicated island,False,operating,Melia Whale Lagoon Maldives,Alifu Dhaalu,Bodufinolhu,name,1,Bodufinolhu,Bodufinolhu
+34,Bodufinolhu — Lanka Orix Leasing Company (Bodufaru Beach Resort),Alifu Dhaalu,MMPRC corruption implicated island,False,development,"Plot of lagoon: Bodufinolhu Lagoon
+3°30'42.95"" N 72°43'45.58""E",Alifu Dhaalu,"Plot of lagoon: Bodufinolhu Lagoon
+3°30'42.95"" N 72°43'45.58""E",name,1,Bodufinolhu,Bodufinolhu
+35,Lagoons — Lanka Orix Leasing Company,Kaafu,MMPRC corruption implicated island,False,development,"Plot of Lagoon
+4°40’49.9”N, 73°31’34.2”E",Kaafu,"Plot of Lagoon
+4°40’49.9”N, 73°31’34.2”E",coordinate 1.08 km,0.9,"4.674667, 73.533944","4°40'49.9""N 73°31'34.2""E"
+36,"Uthuruboduveli, Uthurugasveli, and Hurasveli — Island Channels",Meemu,MMPRC corruption implicated island,False,development,"Uthuruboduveli, Hurasveli and Uthurugasveli",Meemu,"Uthuruboduveli, Hurasveli and Uthurugasveli",name,1,Uthuruboduveli,Uthuruboduveli
+37,Milaidhoo — Universal Enterprises (Milaidhoo Island Maldives Resort),Baa,MMPRC corruption implicated island,False,operating,Milaidhoo Island Maldives,Baa,Milaidhoo,name,1,Milaidhoo,Milaidhoo
+38,"Lagoon — Depezar Services Fettah Tamince, Tufan Aytekin Gultekin (Linked to Rixos Hotels)",Kaafu,MMPRC corruption implicated island,False,development,"Plot of Lagoon
+3°55'33.81"" N 73°21'18.50""E",Kaafu,"Plot of Lagoon
+3°55'33.81"" N 73°21'18.50""E",coordinate 0.00 km,1.0,"3.926058, 73.355139","3°55'33.81"" N 73°21'18.50""E"
+39,Kothaifaru and Kuroshigili — Orient Landscape,Raa,MMPRC corruption implicated island,False,operating,Alila Kothaifaru Maldives,Raa,Kothaifaru and Kuroshigiri,name,1,Kothaifaru,Kothaifaru
+40,"Lagoon — Coral Tree, Ali Zahir Hilmy",Kaafu,MMPRC corruption implicated island,False,development,"Plot of Lagoon
+4°15'58.82""N 73°25'18.90""E",Kaafu,"Plot of Lagoon
+4°15'58.82""N 73°25'18.90""E",lessee match,1,Coral Tree Pvt Ltd,Coral Tree Pvt Ltd
+42,Maniyafaru Lagoon — Ebony Pvt Ltd (Ownership Tied to Reethi Beach and Reethi Faru Resorts),Kaafu,MMPRC corruption implicated island,False,development,"Lagoon (Maniyafaru)
+4°03’25.1”N 73°23’16.2”E",Kaafu,"Lagoon (Maniyafaru)
+4°03’25.1”N 73°23’16.2”E",coordinate 0.00 km,1.0,"4.056972, 73.387833","4°03'25.1""N 73°23'16.2""E"
+43,"Uthurumaafaru — Sun Front, Azemar (You and Me by Cocoon Maldives Resort)",Raa,MMPRC corruption implicated island,False,operating,You & Me Maldives,Raa,Uthurumaafaru,name,1,Uthurumaafaru,Uthurumaafaru
+44,Maabinhuraa — Crown & Champa Resorts,Lhaviyani,MMPRC corruption implicated island,False,operating,Mabinhura by Jawakara Islands Maldives,Lhaviyani,Maabinhuraa,name,1,Maabinhuraa,Maabinhuraa
+45,Lagoon between Olhuveli and Rihiveli — Sun Siyam,Kaafu,MMPRC corruption implicated island,False,development,"Plot of Lagoon (Emerald Lagoon)
+3°49'30.32""N, 73°26'19.37""E",Kaafu,"Plot of Lagoon (Emerald Lagoon)
+3°49'30.32""N, 73°26'19.37""E",coordinate 1.22 km,0.9,"3.832556, 73.446778","3°49'30.32""N 73°26'19.37""E"
+46,Bodufushi — Gürallar Group (Ali Bey Hotels & Resorts),Raa,MMPRC corruption implicated island,False,operating,Joali Being Bodufushi,Raa,Bodufushi,name,1,Bodufushi,Bodufushi
+47,"Lagoon — Radhun Resorts and Investments, linked to Ahmed Nashid",Kaafu,MMPRC corruption implicated island,False,development,"Dhonfushi - 4 36'32""N, 73 24'28""E",Kaafu,"Dhonfushi - 4 36'32""N, 73 24'28""E",lessee match,0.939,Radhun Resorts and Investments Pvt Ltd,Radhun Resorts and Investmetns Pvt Ltd
+48,Maamunagau — Hotel Properties Limited (InterContinental Maldives Maamunagau Resort),Raa,Paradise Leased context only,True,operating,Inter Continental Maldives Maamunagau,Raa,Maamunagau,name,1,Maamunagau,Maamunagau
+49,Dheruffinolhu — Crown & Champa Resorts,Lhaviyani,MMPRC corruption implicated island,False,operating,Dheruhfinolhu by Jawakara Islands Maldives,Lhaviyani,Dheruhfinolhu,name,0.923,Dheruffinolhu,Dheruhfinolhu
+50,Huravalhi — Crown & Champa Resorts (Hurawalhi Island Resort),Lhaviyani,MMPRC corruption implicated island,False,operating,Hurawalhi Island Resort,Lhaviyani,Huravalhi,name,1,Huravalhi,Huravalhi
+51,Innahuraa — Crown & Champa Resorts (Innahuraa Maldivian Resort),Lhaviyani,MMPRC corruption implicated island,False,operating,Nala Maldives by Jawakara,Lhaviyani,Innahuraa,name,1,Innahuraa,Innahuraa
+52,Kudadhoo — Crown & Champa Resorts (Kudadoo Maldives Private Island),Lhaviyani,MMPRC corruption implicated island,False,operating,Kudadoo Maldives Private island,Lhaviyani,Kudadhoo,name,1,Kudadhoo,Kudadhoo
+53,Lagoon — Gulf Craft,Kaafu,MMPRC corruption implicated island,False,development,"Plot of Lagoon 4°16'40.06"" N 73°21'7.27""E",Kaafu,"Plot of Lagoon 4°16'40.06"" N 73°21'7.27""E",lessee match,1,Gulf Craft Service Centre Maldives Pvt Ltd,Gulf Craft Service Centre Maldives Pvt Ltd
+54,Himithi — Saudi Royals,Faafu,MMPRC corruption implicated island,False,development,Himithi,Faafu,Himithi,name,1,Himithi,Himithi
+55,Lagoon — Sunny Holdings,Kaafu,MMPRC corruption implicated island,False,development,"Plot of Lagoon
+3°53’34.89”N, 73°24’27.66”E",Kaafu,"Plot of Lagoon
+3°53’34.89”N, 73°24’27.66”E",coordinate 0.00 km,1.0,"3.893025, 73.407683","3°53'34.89""N 73°24'27.66""E"
+56,Voavah — Hotel Properties Limited (Four Seasons Maldives Private Island at Voavah),Baa,Paradise Leased context only,True,operating,Four Seasons Private Island Maldives at Voavah,Baa,Voavah,name,1,Voavah,Voavah

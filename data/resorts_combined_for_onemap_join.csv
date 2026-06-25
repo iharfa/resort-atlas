@@ -1,1509 +1,473 @@
-dataset,record_id,name,atoll,atoll_code,site_or_island,status,project_type,lessee_or_owner,operator,rooms,beds,join_candidates,coordinate_count,coordinates_json,ministry_status,verified_status,status_verification,status_confidence,status_discrepancy
-operating_resorts_csv,1,Aanugandu Island Resort,Kaafu,K,Aanugan'du Finolhu and Aanugan'du Huraa,Operating,Operating resort,"Aqua Blue Investments Pvt Ltd 
-M. Mirihimaage
-3A, Kulhidhoshumagu
-Male', Republic of Maldives","Promonant Pvt Ltd 
-H. Aage, 6th Floor
-12 Boduthakurufaanu Magu
-Male', Republic of Maldives",384.0,768.0,Aanugan'du Finolhu|Aanugan'du Huraa,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,2,Adaaran Club Rannalhi,Kaafu,K,Rannalhi,Operating,Operating resort,"Jetan Travel Services Company Pvt Ltd
-H. Thuniya Building (6th Floor) 
-Boduthakurufaanu Magu
-Male', Republic of Maldives","Jetan Travel Services Company Pvt Ltd
-H. Thuniya Building (6th Floor) 
-Boduthakurufaanu Magu
-Male', Republic of Maldives",122.0,244.0,Rannalhi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,3,Adaaran Prestige Vadoo,Kaafu,K,Vaadhoo,Operating,Operating resort,"Unique Resorts Pvt Ltd
-H. Thuniya, 6th Floor, 
-Boduthakurufaanu Magu,
-Male', Republic of Maldives","Unique Resorts Pvt Ltd
-H. Thuniya, 6th Floor, 
-Boduthakurufaanu Magu,
-Male', Republic of Maldives",50.0,100.0,Vaadhoo,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,4,Adaaran Select Hudhuranfushi,Kaafu,K,Lhohifushi,Operating,Operating resort,"Altaf Enterprises Pvt. Ltd. 
-H. No.8, Ibrahim Hassan Didi Magu, 
-Male', Republic of Maldives","A.D.S Resorts Pvt. Ltd.
-H. Thuniya, 6th Floor, 
-Boduthakurufaanu Magu, 
-Male', Republic of Maldives",202.0,404.0,Lhohifushi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,5,Adaaran Select Meedhupparu,Raa,R,Meedhupparu,Operating,Operating resort,"Cowrie Investment Pvt. Ltd.
-H. STO Aifaanu Building, 7th Floor, 
-Boduthakurufaanu Magu, 
-Male', Republic of Maldives","Cowrie Investment Pvt. Ltd.
-H. STO Aifaanu Building, 7th Floor, 
-Boduthakurufaanu Magu, 
-Male', Republic of Maldives",238.0,476.0,Meedhupparu,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,6,Alila Kothaifaru Maldives,Raa,R,Kothaifaru and Kuroshigiri,Operating,Operating resort,"Ballentine Pvt Ltd 
-M. Faamudheyrige, 05th Floor
-Orchid Magu
-Male', Republic of Maldives","Ballentine Pvt Ltd 
-M. Faamudheyrige, 05th Floor
-Orchid Magu
-Male', Republic of Maldives",86.0,172.0,Kothaifaru|Kuroshigiri,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,7,Alimatha Aquatic Resort,Vaavu,V,Alimatha,Operating,Operating resort,"Safari Tours Pvt. Ltd 
-Opera Building, Chaandhanee Magu
-Male', Republic of Maldives
-safari@dhivehinet.net.mv","L.A Resorts Pvt Ltd 
-M.Opera Building
-Chaandhanee Magu
-Male', Republic of Maldives",156.0,312.0,Alimatha,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,8,Ananea Madivaru Maldives,Alifu Alifu,AA,Etheremadivaru,Operating,Operating resort,"Twin Island Pvt Ltd 
-M. Maaveyodhoshuge,
-Maaveyo Magu, 
-Male', Republic of Maldives","Twin Island Pvt Ltd 
-M. Maaveyodhoshuge,
-Maaveyo Magu, 
-Male', Republic of Maldives",137.0,274.0,Etheremadivaru,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,9,Anantara Kihavah Villas,Baa,B,Kihavah Huravalhi,Operating,Operating resort,"Maldives Tourism Development Corporation Plc
-01st Floor, Fathuruvehi
-Buruzu Magu
-Republic of Maldives","Minor International (Labuan) Ltd
-Level 15 (A2), Main Office Tower Financial Park
-Labuan, Jalan Mereedeka, 87000 FT
-Malaysia",89.0,178.0,Kihavah Huravalhi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,10,Anantara Resort and Spa Maldives,Kaafu,K,Dhigufinolhu,Operating,Operating resort,"SS & L Beach Pvt Ltd 
-H. #02-01, Millennia Tower
-10 Ameer Ahmed Magu
-Male', Republic of Maldives","SS & L Beach Pvt Ltd 
-H. #02-01, Millennia Tower
-10 Ameer Ahmed Magu
-Male', Republic of Maldives",113.0,226.0,Dhigufinolhu,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,11,Anantara Veli and Naladhu,Kaafu,K,Veligan'du Huraa,Operating,Operating resort,"SS & L Beach Pvt Ltd 
-H. #02-01, Millennia Tower
-10 Ameer Ahmed Magu
-Male', Republic of Maldives","SS & L Beach Pvt Ltd 
-H. #02-01, Millennia Tower
-10 Ameer Ahmed Magu
-Male', Republic of Maldives",88.0,176.0,Veligan'du Huraa,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,12,Angaga Island Resort and Spa,Alifu Dhaalu,ADh,Angaga,Operating,Operating resort,"Angiri Resorts Management and Operations Pvt Ltd 
-M.New Plot, 2nd Floor 
-Ameenee Magu
-Male', Republic of Maldives","Angiri Resorts Management and Operations Pvt Ltd
-M.New Plot, 2nd Floor 
-Ameenee Magu
-Male', Republic of Maldives",90.0,180.0,Angaga,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,13,Angsana Resort & Spa Maldives - Velavaru,Dhaalu,Dh,Velavaru,Operating,Operating resort,"Sancturay Sands Maldives Pvt. Ltd
-H. Aage, 6th Floor, 
-Boduthakurufaanu Magu, 
-Male', Republic of Maldives","Maldives Bay Pvt Ltd
-M. Gulfaamuge, 4th Floor, 
-Fareedhee Magu, 
-Male', Republic of Maldives",119.0,238.0,Velavaru,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,14,Atmosphere Kanifushi Maldives,Lhaviyani,Lh,Kanifushi,Operating,Operating resort,"Kanifushi Investment Pvt. Ltd.
-M. Rowville, 5th Floor
-Fareedhee Magu
-Male, Rep of Maldives","Kanifushi Investment Pvt. Ltd
-M. Rowville, 5th Floor
-Fareedhee Magu
-Male, Rep of Maldives",190.0,380.0,Kanifushi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,15,Avani + Fares Maldives,Baa,B,Fares,Operating,Operating resort,"Plexus Maldives Private Limited
-H. The Cyprea, Boduthakurufaanu Magu, Male', Republic of Maldives","Plexus Maldives Private Limited
-H. The Cyprea, Boduthakurufaanu Magu, Male', Republic of Maldives",210.0,420.0,Fares,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,16,Ayada Maldives,Gaafu Dhaalu,GDh,Magudhdhuvaa,Operating,Operating resort,"Maldives Tourism Development and Corporation 
-G. Fathuruvehi, 1st Floor
-Buruzu Magu 20124
-Male', Republic of Maldives","Ahmet Aydeniz Maldives Pvt. Ltd 
-H. Aagadhage, 4th Floor
-Boduthakurufaanu Magu
-Male', Republic of Maldives",100.0,200.0,Magudhdhuvaa,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,17,Baglioni Resort Maldives,Dhaalu,Dh,Maagau,Operating,Operating resort,"New Mood Resorts Pvt Ltd 
-M. Faamudheyrige, 6th Floor Unit A, Orchid Magu, 
-Male', Republic of Maldives","Baglioni Maldives Pvt Ltd 
-H. Hulhugali, 1st Floor, South Wing, 
-Kalhuhuraa Magu, 
-Male', Republic of Maldives",101.0,206.0,Maagau,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,18,Bandos Maldives,Kaafu,K,Bandos,Operating,Operating resort,"Mohamed Waheed Deen
-H. Deens Villa
-Meheli Goalhi
-Male', Republic of Maldives","Orchid Holdings Private Limited
-H. Deens Villa, 
-Meheli Goalhi, 
-Male', Republic of Maldives",220.0,440.0,Bandos,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,19,Banyan Tree Maldives Vabbinfaru,Kaafu,K,Vabbinfaru,Operating,Operating resort,"Vabbinvest Maldives Pvt. Ltd, 
-K. Vabbinfaru 
- c/o 211 Upper Bukit Timah Road
- Singapore 588182","Vabbinvest Maldives Pvt. Ltd, 
- K. Vabbinfaru 
- c/o 211 Upper Bukit Timah Road
- Singapore 588182",48.0,96.0,Vabbinfaru,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,20,Baros Maldives,Kaafu,K,Baros,Operating,Operating resort,"Universal Enterprises Pvt Ltd
-M. No. 39, Orchid Magu
-Male', Republic of Maldives","Universal Enterprises Pvt Ltd
-M. No. 39, Orchid Magu
-Male', Republic of Maldives",75.0,150.0,Baros,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,21,Bolifushi Island Resort,Kaafu,K,Bolifushi,Operating,Operating resort,"Gateway Maldives Pvt. Ltd 
-H. Mirihi 
-Abadhah Ufaa Magu
-Male', Republic of Maldives","Alpha Property (BVI)Limited 
-Mill Mall, Suite 6
-Wickhams Cay1, P.O. Box 3085, British Virgin Islands",114.0,228.0,Bolifushi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,22,Brennia Kottefaru,Raa,R,Kottefaru,Operating,Operating resort,"ABN Pvt Ltd 
-M. Uniya Building 
-Fareedhee Magu 
-Male', Republic of Maldives","Brennia Maldives Pvt Ltd 
-G. Gevadige
-Faashanaakilege Magu 
-Male', Republic of Maldives",145.0,290.0,Kottefaru,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,23,Canareef Resort Maldives,Seenu,S,Herethere,Operating,Operating resort,"Canaries Pte. Ltd. 
-63 UBI Avenue 1 #06-01, 
-Singapore 408937","Canaries Resorts Maldives Pvt Ltd
-M. Marina Building, 5th floor
-Koli Umar Manik Goalhi 
-Male’, Republic of Maldives",271.0,542.0,Herethere,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,24,Centara Mirage Lagoon Maldives & Centara Grand Lagoon Maldives,Kaafu,K,4°19’0.85”N73°20’43.59”E,Operating,Operating resort,"Lagoon Assets Private Limited
-H. Shah, Hussain & Co. Barristers and Attorneys, 6th Floor, Aage,Boduthakurufaanu Magu, 
-Male', Republic of Maldives","Lagoon Assets Private Limited 
-H. Shah, Hussain & Co. Barristers and Attorneys, 6th Floor, Aage,Boduthakurufaanu Magu, 
-Male', Republic of Maldives",416.0,832.0,,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,25,Centara Ras Fushi Resort & Spa,Kaafu,K,Giraavaru,Operating,Operating resort,"Legal Heirs of Late Mr. Abdul Rauf, M. Snow Rose, Male', Republic of Maldives:
-
-1. Aishath Shareef 
-G. Summer Rose, Male', Republic of Maldives
-2. Aminath Rifna
-G. Nasru Villa, Male', Republic of Maldives
-3. Fathimath Anoosha 
-M. Snow Rose, Male', Republic of Maldives
-4. Aminath Faghiya
-M. Snow Rose, Male', Republic of Maldives
-5. Aishath Zeeliya 
-M. Snow Rose, Male', Republic of Maldives
-6. Hussain Shahee
-M. Snow Rose, Male', Republic of Maldives
-7. Mariyam Leeshiya 
-M. Snow Rose, Male', Republic of Maldives
-8. Ahmed Affan Abdul Rauf 
-Dew Berry, Male', Republic of Maldives
-9. Luyuna Abdul Rauf 
-Dew Berry, Male', Republic of Maldives","Centara Maldives Pvt. Ltd. 
-C/O. SHAH, HUSSAIN & CO. Barristers and Attorneys, 
-H. Aage, 6th Floor,
-Boduthakurufaanu Magu, Male', Republic of Maldives",140.0,280.0,Giraavaru,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,26,Cheval Blanc Randheli,Noonu,N,Randheli,Operating,Operating resort,"I & T Management Pvt Ltd 
-H. Bonthi Villa, Level 2, 
-Ameer Ahmed Magu, 
-Male', Republic of Maldives","I & T Management Pvt Ltd 
-H. Bonthi Villa, Level 2, 
-Ameer Ahmed Magu, 
-Male', Republic of Maldives",60.0,120.0,Randheli,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,27,Cinnamon Dhonveli Maldives,Kaafu,K,Kanuoiy Huraa,Operating,Operating resort,"Tranquility Pvt Ltd
-G. Kelam 4th Floor, 
- Magu, 
-Male', Republic of Maldives","Tranquility Pvt Ltd 
-G. Kelam 4th Floor, 
-Hithaffinivaa Magu, 
-Male', Republic of Maldives",148.0,296.0,Kanuoiy Huraa,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,28,Cinnamon Hakuraa Huraa Maldives,Meemu,M,Hakuraahuraa,Operating,Operating resort,"Fantasea World Investments Pvt. Ltd.
-G. Kelam 4th Floor, 
-Hithaffinivaa Magu, 
-Male', Republic of Maldives","Fantasea World Investments Pvt. Ltd.
-G. Kelam 4th Floor, 
-Hithaffinivaa Magu, 
-Male', Republic of Maldives",100.0,200.0,Hakuraahuraa,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,29,Cinnamon Velifushi Maldives,Vaavu,V,Aarah,Operating,Operating resort,"Aaarah Investment Pvt Ltd 
-M. Omadu Fannu (2nd Floor)
-Male', Republic of Maldives","Tranquility Pvt. Ltd. 
-2nd Floor H. Maizan, Sosun Magu
-Male', Republic of Maldives",90.0,180.0,Aarah,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,30,Club Med Finolhu Villas,Kaafu,K,Gasfinolhu,Operating,Operating resort,"Global Pvt Ltd
-Champa Building, 3rd Floor
-Kandi Dhon Manik Goalhi
-Male', Rep.. of Maldives","Maldivian Holiday Villages Private Ltd
-Club Med Kanifinolhu, 
-Kaafu Atoll, 
-PO Box 2051, 
-Male', Republic of Maldives",52.0,104.0,Gasfinolhu,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,31,Club Med Kanifinolhu,Kaafu,K,Kanifinolhu,Operating,Operating resort,"Cyprea Pvt. Ltd. (436)
-66/17 Boduthakurufaanu Magu
-Male', Republic of Maldives","Maldivian Holiday Villages Ltd  (On Behalf of Club Mediterrannee S. A) (FC-0007/2012)
-11 Rue De Cambrai
-75957 Paris Cedex 19, France",272.0,544.0,Kanifinolhu,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,32,Coco Bodu Hithi,Kaafu,K,Boduhithi,Operating,Operating resort,"Shinetree Holdings Pvt Ltd.(C-0198/1994)
-Oceanic Building
-No.7 Boduthakurufaanu Magu 
-Male', Republic of Maldives","Sunland Hotels Pte. Ltd.
-H. Moonlit Villa
-Medhuziyaaraiy Magu
-Male', Republic of Maldives",100.0,200.0,Boduhithi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,33,Coco Palm Dhunikolhu,Baa,B,Dhunikolhu,Operating,Operating resort,"Sunland Hotels Pte. Ltd.
-#04-01, STO Trade Center, 
-Orchid Magu
-Male', Republic of Maldives
-sunland@dhivehinet.net.mv","Sunland Hotels Pte. Ltd.
-#04-01, STO Trade Center,
-Orchid Magu
-Male', Republic of Maldives",98.0,196.0,Dhunikolhu,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,34,Cocoa Island,Kaafu,K,Makunufushi,Operating,Operating resort,"Ahmed Fayaz Waheed
-Shaamilaa Abdulla
-Mohamed Niyaz Waheed
-Aminath Riyaaza Waheed
-Aishath Shiyaaza Waheed
-Fathmath Shifaza waheed
-Hawwa Hifaza Waheed
-Ibrahim Shiyaz Waheed
-Hassan Mafaz Waheed
-mariyam Ali
-M. Sosunmaage, Male'
-(Legal Heirs of the late Abdulla Waheed,
- M. Sosunmaage)","Orchid Resorts Management Pvt. Ltd.
-H. Deens Villa, Meheli Goalhi
-Male', Republic of Maldives",33.0,66.0,Makunufushi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,35,Cocogiri Island Resort,Vaavu,V,Vashugiri,Operating,Operating resort,"Vashugiri Pvt Ltd
-M. Anchorage, 1st Floor
-Shaheed Ali Hingun
-Male', Republic of Maldives","Vashugiri Pvt Ltd
-M. Anchorage, 1st Floor
-Shaheed Ali Hingun
-Male', Republic of Maldives",40.0,80.0,Vashugiri,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,36,Cocoon Maldives,Lhaviyani,Lh,Ookolhu Finolhu,Operating,Operating resort,"Cocoon Investments Pvt Ltd 
-H. Sonary, 2nd Floor
-Boduthakurufaanu Magu
-Male', Republic of Maldives","Cocoon Investments Pvt Ltd 
-H. Sonary, 2nd Floor
-Boduthakurufaanu Magu
-Male', Republic of Maldives",151.0,302.0,Ookolhu Finolhu,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,37,Como Maalifushi,Thaa,Th,Male'fushi,Operating,Operating resort,"I.V.P.L Investment Ventures Pvt. Ltd.
-H. #04-01, Millennia Tower,
-10 Ameer Ahmed Magu, 
-Male', Republic of Maldives","I.V.P.L Investment Ventures Pvt. Ltd 
-H. #04-01, Millennia Tower,
-10 Ameer Ahmed Magu, 
-Male', Republic of Maldives",76.0,152.0,Male'fushi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,38,Conrad Maldives Rangali Island,Alifu Dhaalu,ADh,Rangalifinolhu,Operating,Operating resort,"Maldives Property Holdings Pvt Ltd
-H. #02-01, Millennia Tower, 
-10 Ameer Ahmed Magu
-Male', Republic of Maldives","Maldives Property Holdings Pvt Ltd
-H. #02-01, Millennia Tower, 
-10 Ameer Ahmed Magu
-Male', Republic of Maldives",176.0,352.0,Rangalifinolhu,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,39,Constance Halaveli Resort,Alifu Alifu,AA,Halaveli,Operating,Operating resort,"Ari Atoll Services Ltd (FC)
-C/O Multiconsult Limited, 
-Les Cascades Building, 
-Edith Cavell Street, 
-Port Louis Mauritius","The Waterfront Pvt Ltd .
-2nd Floor, H.Thandiraiymaage
-Roashanee Magu
-Male', Republic of Maldives",86.0,172.0,Halaveli,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,40,Constance Moofushi Resort,Alifu Dhaalu,ADh,Moofushi,Operating,Operating resort,"Moofushi Investments Pvt. Ltd.
-Yaagoothuge, Muniyaa Magu
-Male'Republic of Maldives","Moofushi Development Ltd.
-10, Frere Felix de Valois Street
-Port Loius, Mauritius
-c/o Shah Hussain & Co.
-12, Boduthakurufaanu Magu
-2nd Floor (East Wing) H.Aage
-Male', Rep. of Maldives",110.0,220.0,Moofushi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,41,Cora Cora Maldives,Raa,R,Maamigili,Operating,Operating resort,"Legal Heirs of Late Ahmed Waheed
-G. Vaffushi  
-Male', Republic of Maldives","HMM Pvt Ltd 
-H. Millennia Tower 
-10, Ameer Ahmed Magu 
-Male', Republic of Maldives",106.0,212.0,Maamigili,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,42,Dhawa Ihuru,Kaafu,K,Ihuru,Operating,Operating resort,"Ihuru Investments Pvt Ltd 
-Ma. Rimkhaa, Ground Floor
-Dhilbahaaru Goalhi,
-Male', Republic of Maldives","Maldives Angsana Pvt Ltd 
-M. Gulfaamuge, 04th Floor
-Fareedhee Magu
-Male', Republic of Maldives",45.0,90.0,Ihuru,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,43,Dheruhfinolhu by Jawakara Islands Maldives,Lhaviyani,Lh,Dheruhfinolhu,Operating,Operating resort,"Champalars Holdings Pvt Ltd 
-M. Champa Building 4th Floor, 
-Kandi Dhonmaniku Goalhi, 
-Male', Republic of Maldives","Champalars Holdings Pvt Ltd 
-M. Champa Building 4th Floor, 
-Kandi Dhonmaniku Goalhi, 
-Male', Republic of Maldives",93.0,186.0,Dheruhfinolhu,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,44,Dhiggiri Tourist Resort,Vaavu,V,Dhiggiri,Operating,Operating resort,,Dhiggiri Investment Pte Ltd. ,61.0,122.0,Dhiggiri,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,45,Dhigufaru Island Resort,Baa,B,Dhigufaruvinagandu,Operating,Operating resort,"Dhigufaru Investments Pvt Ltd 
-M. Huraa
-Fareedhee Magu
-Male', Republic of Maldives","Dhigufaru Investments Pvt Ltd 
-M. Huraa
-Fareedhee Magu
-Male', Republic of Maldives",85.0,170.0,Dhigufaruvinagandu,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,46,Diamonds Athuruga Beach & Water Villas,Alifu Dhaalu,ADh,Athurugau,Operating,Operating resort,"Voyages Maldives Pvt Ltd 
-M. Narugis,
-Chandhanee Magu,
-Male', Republic of Maldives","F & P Worlds Sporting & Hotel Pvt Ltd 
-M. No. 2, 
-Fareedhee Magu, 
-Male', Republic of Maldives",72.0,144.0,Athurugau,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,47,Diamonds Thudufushi Beach and Water Villas,Alifu Dhaalu,ADh,Thundufushi,Operating,Operating resort,"Seagull Group Pvt. Ltd.
-Narugis, 
-Chaandhanee Magu
-Male', Republic of Maldives","Seagull Group Pvt. Ltd.
-Narugis, 
-Chaandhanee Magu
-Male', Republic of Maldives",72.0,144.0,Thundufushi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,48,Dreamland - The Unique Sea & Lake Resort/Spa,Baa,B,Hirundhoo,Operating,Operating resort,"Angiri Joint Venture Pvt Ltd 
-M. Newport, 
-Ameenee Magu, 
-Male', Republic of Maldives","Angiri Joint Venture Pvt Ltd 
-M. Newport, 
-Ameenee Magu, 
-Male', Republic of Maldives",90.0,180.0,Hirundhoo,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,49,Drift Theluveliga Retreat,Alifu Dhaalu,ADh,Theluveliga,Operating,Operating resort,"Theluveliga Retreat Pvt Ltd 
-Ma. Vahaari, 
-Javaahiru Goalhi, 
-Male', Republic of Maldives","Theluveliga Retreat Pvt Ltd 
-Ma. Vahaari, 
-Javaahiru Goalhi, 
-Male', Republic of Maldives",30.0,60.0,Theluveliga,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,50,Dusit Thani Maldives,Baa,B,Mudhdhoo,Operating,Operating resort,"Dusit Maldives Investment Pvt Ltd,
-H. #02-01, Millenia Tower, 
-10 Ameer Ahmed Magu, 
-Male', Republic of Maldives","Dusit Maldives Management Pvt Ltd,  
-H. #02-01, Millenia Tower, 
-10 Ameer Ahmed Magu, 
-Male', Republic of Maldives",104.0,208.0,Mudhdhoo,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,51,dusitD2,Kaafu,K,Feydhoo Finolhu,Operating,Operating resort,"Pearl Atoll Pvt Ltd 
-H-Block 3.5, First Floor, Feydhoo Finolhu, Kaafu Atoll, Republic of Maldives","Pearl Atoll Pvt Ltd 
-H-Block 3.5, First Floor, Feydhoo Finolhu, Kaafu Atoll, Republic of Maldives",69.0,138.0,Feydhoo Finolhu,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,52,Ellaidhoo Maldives By Cinnamon,Alifu Alifu,AA,Ellaidhoo,Operating,Operating resort,"Ellaidhoo Investments Pvt Ltd
-5A STO Aifaanu Building, 
-Boduthakurufaanu Magu Male', Republic of Maldives","Travel Club Pvt. Ltd. 
-H. Maizaan, 2nd Floor
-Sosun Magu
-Male', Republic of Maldives",112.0,224.0,Ellaidhoo,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,53,Embudhu Village,Kaafu,K,Embudhu,Operating,Operating resort,"Kaimoo Travels & Hotels Services Pvt. Ltd.
-H. Maagala, 
-Meheli Goalhi
-Male', Republic of Maldives","Kaimoo Travels & Hotels Services Pvt. Ltd.
-H. Maagala, 
-Meheli Goalhi
-Male', Republic of Maldives",118.0,236.0,Embudhu,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,54,Emerald Faarufushi Resort & Spa,Raa,R,Faarufushi,Operating,Operating resort,"Fasmendhoo Pvt Ltd 
-H. Aage, 6th Floor, 
-12 Boduthakurufaanu Magu
-Male', Republic of Maldives","Fasmendhoo Pvt Ltd 
-H. Aage, 6th Floor, 
-12 Boduthakurufaanu Magu
-Male', Republic of Maldives",88.0,176.0,Faarufushi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,55,Emerald Maldives Resort & Spa Fasmendho,Raa,R,Fasmendhoo,Operating,Operating resort,"Emil Resort Pvt Ltd
-H. Aage, 06th Floor, 
-Boduthakurufaanu Magu, 
-Male', Republic of Maldives","Emil Resort Pvt Ltd 
-H. Aage, 06th Floor, 
-Boduthakurufaanu Magu, 
-Male', Republic of Maldives",143.0,286.0,Fasmendhoo,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,56,Eri Maldives,Kaafu,K,Eriyadhu,Operating,Operating resort,"Eri Holdings Pvt Ltd 
-M. Kaneeru Villa, 4th Floor,
-Orchid Magu, 
-Male’, Republic of Maldives","Eri Holdings Pvt Ltd 
-M. Kaneeru Villa, 4th Floor,
-Orchid Magu, 
-Male’, Republic of Maldives",76.0,152.0,Eriyadhu,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,57,Fihaalhohi Maldives,Kaafu,K,Fihaalhohi,Operating,Operating resort,"Fehi Moorithi Pvt Ltd 
-6th Floor, Moorithi Buiding 
-Chaandhanee Magu
-Male' City, Republic of Maldives","Fehi Moorithi Pvt Ltd 
-6th Floor, Moorithi Buiding 
-Chaandhanee Magu
-Male', Republic of Maldives",150.0,300.0,Fihaalhohi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,58,Filitheyo Island Resort,Faafu,F,Filitheyo,Operating,Operating resort,"A.A.A. & Trading Company Pvt. Ltd.
-#17 & 19 Chaandhanee Magu
-Male', Republic of Maldives","A.A.A. & Trading Company Pvt. Ltd.
-G. Neem, Majeedhee Magu
-Male', Republic of Maldives",125.0,250.0,Filitheyo,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,59,Finolhu Baa Atoll Maldives,Baa,B,Kanufushi,Operating,Operating resort,"Seaside Finolhu Maldives Pvt Ltd 
-6th Floor, H. Aage'
-12 Boduthakurufaanu Magu
-Male', Republic of Maldives","Seaside Finolhu Maldives Pvt Ltd 
-6th Floor, H. Aage'
-12 Boduthakurufaanu Magu
-Male', Republic of Maldives",168.0,336.0,Kanufushi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,60,Four Seasons Private Island Maldives at Voavah,Baa,B,Voavah,Operating,Operating resort,"Landaa Giraavaru Pvt. Ltd. 
-M. Lux Lodge, Level 2
-Orchid Magu
-Male’, Republic of Maldives","Landaa Giraavaru Pvt. Ltd. 
-M. Lux Lodge, Level 2
-Orchid Magu
-Male’, Republic of Maldives",11.0,26.0,Voavah,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,61,Four Seasons Resort Maldives at Kuda Huraa,Kaafu,K,Kuda Huraa,Operating,Operating resort,"HPL Resorts (Maldives) Private Limited.
-M. Lux Lodge, 2nd Floor
-Orchid Magu
-Male', Republic of Maldives","Four Seasons Hotel & Resorts BVI
-(On behalf ofHPL Resorts (Maldives) Pvt. Ltd. 
-Aurora Building, 7th Floor, Stadhouderskade 2
-1054 Es Amsterdam, Netherlands",112.0,224.0,Kuda Huraa,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,62,Four Seasons Resort Maldives at Landaa Giraavaru,Baa,B,Landaa Giraavaru,Operating,Operating resort,"Landaa Giraavaru Pvt Ltd (FC)
-H. #02-1, Millennia Tower, 
-Male', Republic of Maldives","Landaa Giraavaru Pvt Ltd (FC)
-H. #02-1, Millennia Tower, 
-Male', Republic of Maldives",145.0,290.0,Landaa Giraavaru,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,63,Furaveri Maldives,Raa,R,Furaveri,Operating,Operating resort,"Ahmed Ibrahim Didi 
-Ma. Niyazvilla, 10th Floor
-Buruzumagu
-Male', Rep. of Maldives","NAID Investments Pvt Ltd 
-M. Newton, 3rd Floor
-Dhanbu Goalhi
-Male', Republic of Maldives",171.0,342.0,Furaveri,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,64,Fushifaru Maldives,Lhaviyani,Lh,Fushifaru,Operating,Operating resort,"Fushifaru Investments Pvt Ltd
-M. Loobiya, 4th Floor
-Ameenee Magu
-Male', Republic of Maldives","Fushifaru Investments Pvt Ltd 
-M. Loobiya, 4th Floor
-Ameenee Magu
-Male', Republic of Maldives",63.0,126.0,Fushifaru,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,65,Gangehi Island Resort,Alifu Alifu,AA,Gangehi,Operating,Operating resort,"Gangehi Invesments Pvt Ltd
-H. Dhonveli Thundi, Ground Floor, 
-Dhunbugas Magu, 
-Male', Republic of Maldives","Noomadi Resorts Pvt. Ltd.
-H. East Light, No.4/A, 4th floor, 
-Ameer Ahmed Magu, 
-Male', Republic of Maldives",36.0,72.0,Gangehi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,66,Gili Lankanfushi,Kaafu,K,Lankanfushi,Operating,Operating resort,"Transco Pvt Ltd
-2nd Floor, H. Marvel
-Male', Republic of Maldives","Promus Pvt. Ltd.
-2nd Floor, 3/4 Faamudheyri Magu
-Male', Republic of Maldives",49.0,98.0,Lankanfushi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,67,Grand Park Kodhipparu Maldives,Kaafu,K,Kodhipparu,Operating,Operating resort,"CES Park Kodhipparu Pvt Ltd
-H. Aage, 6th Floor
-Male', Republic of Maldives","CES Park Kodhipparu Pvt Ltd 
-H. Aage, 6th Floor
-Male', Republic of Maldives",125.0,250.0,Kodhipparu,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,68,Hard Rock Hotel Maldives,Kaafu,K,Akasdhoo,Operating,Operating resort,"Dream Islands Development 2 Pvt. Ltd. 
-H. #02-01, Millennia Tower, 10 Ameer Ahmed Magu, Male', Republic of Maldives","Dream Islands Development 2 Pvt. Ltd. 
-H. #02-01, Millennia Tower, 10 Ameer Ahmed Magu, Male', Republic of Maldives",197.0,394.0,Akasdhoo,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,69,Heritance Aarah,Raa,R,Aarah,Operating,Operating resort,"Cowrie Investment Pvt Ltd 
-H. Thuniya, 6th Floor, 
-Boduthakurufaanu Magu, 
-Male', Republic of Maldives","Cowrie Investment Pvt Ltd 
-H. Thuniya, 6th Floor, 
-Boduthakurufaanu Magu, 
-Male', Republic of Maldives",158.0,316.0,Aarah,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,70,Hilton Maldives Amingiri Resort & Spa,Kaafu,K,Kohdhipparu Lagoon,Operating,Operating resort,"Amingiri Holdings Pvt Ltd 
-M. World Dream, 2nd Floor
-Handhuvaree Hingun
-Male', Republic of Maldives","Amingiri Holdings Pvt Ltd 
-M. World Dream, 2nd Floor
-Handhuvaree Hingun
-Male', Republic of Maldives",132.0,264.0,Kohdhipparu,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,71,Holiday Inn Resort Kandooma Maldives,Kaafu,K,Kandoomafushi,Operating,Operating resort,"Kandooma Holdings Pvt Ltd 
-H. Aagadhage Building, 5th Floor, 
-Boduthakurufaanu Magu, 
-Male', Republic of Maldives","Leisure Holidays Pvt Ltd
-H. Millennia Tower, #02-01, 10 
-Ameer Ahmed Magu, 20026, 
-Male', Republic ofMaldives",162.0,324.0,Kandoomafushi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,72,Hondaafushi Island Resort,Haa Dhaalu,HDh,Hondaafushi,Operating,Operating resort,"Mr. Abdulla Ali
-M. Three A Villa
-Fareedhee Magu
-Male', Republic of Maldives","Hondaafushi Island Resort (SP)
-Mr. Abdulla Ali 
-M. Three A Villa
-Fareedhee Magu
-Male', Republic of Maldives",57.0,114.0,Hondaafushi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,73,Hurawalhi Island Resort,Lhaviyani,Lh,Huravalhi,Operating,Operating resort,"Champalars Holdings Pvt Ltd 
-M. Champa Building, 4th Floor
-Kani Dhonmaniku Goalhi
-Male', Republic of Maldives","Champalars Holdings Pvt Ltd 
-M. Champa Building, 4th Floor
-Kani Dhonmaniku Goalhi
-Male', Republic of Maldives",90.0,180.0,Huravalhi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,74,Huvafenfushi Maldives,Kaafu,K,Nakatchafushi,Operating,Operating resort,"Nakatchafushi Holdings Pvt. Ltd.
-H. 39, Orchid Magu
-Male', Republic of Maldivesv","Nakatchafushi Holdings Pvt. Ltd.  
-H. 39, Orchid Magu
-Male', Republic of Maldives",51.0,102.0,Nakatchafushi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,75,Inter Continental Maldives Maamunagau,Raa,R,Maamunagau,Operating,Operating resort,"Leisure Horizons Pvt Ltd 
-M. Lux Lodge (2nd Floor) 
-Orchid Magu 
-Male', Republic of Maldives","Leisure Horizons Pvt Ltd 
-M. Lux Lodge (2nd Floor) 
-Orchid Magu 
-Male', Republic of Maldives",97.0,194.0,Maamunagau,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,76,JA Manafaru,Haa Alifu,HA,Manafaru,Operating,Operating resort,"Jarh Maldives Pvt Ltd 
-Marina Building, 7th Floor
-Koli Umar Maniku Goalhi
-Male', Republic of Maldives","Jarh Maldives Pvt Ltd 
-Marina Building, 7th Floor
-Koli Umar Maniku Goalhi
-Male', Republic of Maldives",88.0,176.0,Manafaru,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,77,Joali Being Bodufushi,Raa,R,Bodufushi,Operating,Operating resort,"Ali Bey Maldives Pvt Ltd 
-Ma. MF Building, 3rd Floor
-Chaandhanee Magu
-Male', Republic of Maldives","Ali Bey Maldives Pvt Ltd
-Ma. MF Building, 3rd Floor
-Chaandhanee Magu
-Male', Republic of Maldives",85.0,170.0,Bodufushi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,78,Joali Muravandhoo,Raa,R,Muravandhoo,Operating,Operating resort,"Ali Bey Maldives Pvt Ltd
-Ma. MF Building, 3rd Floor
-Chaandhanee Magu
-Male', Republic of Maldives","Ali Bey Maldives Pvt Ltd 
-Ma. MF Building, 3rd Floor
-Chaandhanee Magu
-Male', Republic of Maldives",80.0,160.0,Muravandhoo,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,79,Joy Island,Kaafu,K,Island 1 Plot of Lagoon,Operating,Operating resort,"AB Lagoon Pvt Ltd
-H. Sonary, 2nd Floor,
-Boduthakurufaanu Magu,
-Male', Republic of Maldives","Joy Resort Pvt Ltd 
-H. Sonary, 2nd Floor,
-Boduthakurufaanu Magu,
-Male', Republic of Maldives",153.0,306.0,,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,80,Jumeirah Maldives Olhahali Island,Kaafu,K,Olhahali,Operating,Operating resort,"Trifidus Investments Pvt Ltd 
-M. Kaneeru Villa, 6th Floor,
-Orchid Magu,
-Male', Republic of Maldives","Grand Meridian Pvt Ltd 
-H. #04-01, Millennia Tower,
-10 Ameer Ahmed Magu,
-Male', Republic of Maldives",91.0,182.0,Olhahali,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,81,JW Marriott Kaafu Atoll Island Resort,Kaafu,K,Hathaafinolhu,Operating,Operating resort,"Bayswater Maldives Pvt Ltd
-M. Faamdheyrige Building, 5th floor, Unit C, 
-Orchid Magu, 
-Male', Republic of Maldives","Bayswater Maldives Pvt Ltd
-M. Faamdheyrige Building, 5th floor, Unit C, 
-Orchid Magu, 
-Male', Republic of Maldives",86.0,172.0,Hathaafinolhu,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,82,JW Marriott Maldives Resort & Spa,Shaviyani,Sh,Vagaru,Operating,Operating resort,"Bon Free Private Limited
-H. Aage, Boduthakurufaanu Magu
-Male', Republic of Maldives
-www.viceroyhotelsandresorts.com","Bon Free Private Limited
-H. Aage, Boduthakurufaanu Magu
-Male', Republic of Maldives
-www.viceroyhotelsandresorts.com",73.0,146.0,Vagaru,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,83,Kagi Maldives Resort and Spa,Kaafu,K,Kagi,Operating,Operating resort,"Kagi Development Pvt Ltd
-Champa Building, 3rd Floor
-Kandi Dhon Maniku Goalhi
-Male', Republic of Maldives","Kagi Development Pvt Ltd 
-Champa Building, 3rd Floor
-Kandi Dhon Maniku Goalhi
-Male', Republic of Maldives",50.0,100.0,Kagi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,84,Kandima Maldives,Dhaalu,Dh,Kadinma,Operating,Operating resort,"Kandinma Holdings Pvt Ltd 
-M. Kaneeru Villa, 04th Floor
-Orchid Magu
-Male', Republic of Maldives","Kandinma Holdings Pvt Ltd 
-M. Kaneeru Villa, 04th Floor
-Orchid Magu
-Male', Republic of Maldives",272.0,544.0,Kadinma,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,85,Kandolhu Maldives,Alifu Alifu,AA,Kandholhudhoo,Operating,Operating resort,"Kandholhudhoo Island Investments Pvt. Ltd. 
-39 Orchid Magu,
-Male', Republic of Maldives","Kandholhudhoo Holdings Pvt Ltd 
-39 Orchid Magu, 
-Male', Republic of Maldives",30.0,60.0,Kandholhudhoo,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,86,Komandoo Island Resort,Lhaviyani,Lh,Komandoo,Operating,Operating resort,"Komandoo Holdings Pvt. Ltd.
-CHP-3
-Kandi Dhon Manik Goalhi
-Male', Republic of Maldives","Komandoo Holdings Pvt. Ltd. 
-CHP-3
-Kandi Dhon Manik Goalhi
-Male', Republic of Maldives",65.0,130.0,Komandoo,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,87,Kuda Villingili Resort Maldives,Kaafu,K,Kudavillingili,Operating,Operating resort,"MFAR Kudavillingili Pvt Ltd 
-H. Magma, 3rd Floor, 
-Nasheed & Co LLP,
-Sikka Goalhi, 
-Male', Republic of Maldives","MFAR Kudavillingili Pvt Ltd 
-H. Magma, 3rd Floor, 
-Nasheed & Co LLP,
-Sikka Goalhi, 
-Male', Republic of Maldives",99.0,198.0,Kudavillingili,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,88,Kudadoo Maldives Private island,Lhaviyani,Lh,Kudadhoo,Operating,Operating resort,"Champalars Holdings Pvt Ltd
-M. Champa Building, 4th Floor
-Kani Dhonmaniku Goalhi
-Male', Republic of Maldives","Champalars Holdings Pvt Ltd
-M. Champa Building, 4th Floor
-Kandi Dhonmaniku Goalhi
-Male', Republic of Maldives",17.0,34.0,Kudadhoo,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,89,Kudafushi Resort & Spa,Raa,R,Kudafushi,Operating,Operating resort,"Ali Zahir 
-H. Iruvelige
-Moonimaa Hingun
-Male', Republic of Maldives","Silver Drift Maldives Pvt Ltd
-H. Eggamuge Aage, 
-Karankaa Magu, 
-Male', Republic of Maldives",107.0,214.0,Kudafushi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,90,Kuredhivaru Resort and Spa,Noonu,N,Kuredhivaru,Operating,Operating resort,"Zen Resort Pvt. Ltd
-H. Dhoorihaa, 5th floor, 5B, 
-Kalaafaanu Hingun, 
-Male', Republic of Maldives","Zen Resort Pvt. Ltd 
-H. Dhoorihaa, 5th floor, 5B, 
-Kalaafaanu Hingun, 
-Male', Republic of Maldives",111.0,222.0,Kuredhivaru,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,91,Kuredu Island Resort,Lhaviyani,Lh,Kuredu,Operating,Operating resort,"Kuredhu Holdings (Pvt) Ltd. 
-M. Champa Building, 4th Floor, Kandidhonmaniku Goalhi, Male', Republic ofMaldives","Kuredhu Holdings (Pvt) Ltd. 
-M. Champa Building, 4th Floor, Kandidhonmaniku Goalhi, Male', Republic ofMaldives",389.0,778.0,Kuredu,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,92,Kurumba Maldives,Kaafu,K,Vihamanaafushi,Operating,Operating resort,"Mr. Mohamed Umar Manik  (A053530)
-M. Rukkara
-Male', Republic of Maldives","Vihamanaafushi Holdings Pvt Ltd (C-0448/2011)
-39, Orchid Magu
-Male'City, Republic of Maldives",181.0,362.0,Vihamanaafushi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,93,Le Méridien Maldives Resort and Spa,Lhaviyani,Lh,Thilamaafushi and Bodufinolhu,Operating,Operating resort,"CT At Thilamaafushi Pvt Ltd 
-H. Asters Building
-Ameer Ahmed Magu
-Male', Republic of Maldives","CT At Thilamaafushi Pvt Ltd 
-H. Asters Building
-Ameer Ahmed Magu
-Male', Republic of Maldives",157.0,314.0,Thilamaafushi|Bodufinolhu,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,94,Lily Beach Resort,Alifu Dhaalu,ADh,Huvahendhoo,Operating,Operating resort,"Lily Hotels Pvt. Ltd. 
-H. Fasmeeru Building, 2nd Floor,
-Boduthakurufaanu Magu,
-Male', Republic of Maldives","Lily Hotels Pvt. Ltd. 
-H. Fasmeeru Building, 2nd Floor,
-Boduthakurufaanu Magu,
-Male', Republic of Maldives",125.0,250.0,Huvahendhoo,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,95,"Lux* South Ari Atoll, Maldives",Alifu Dhaalu,ADh,Dhidhdhoofinolhu,Operating,Operating resort,"Ari Beach Co Pvt Ltd
-M.Kinbidhooge
-Izzudheen Magu
-Male', Republic of Maldives","White Sands Resort and Spa Pvt Ltd
-Jazeera Building, 5th Floor
-Boduthakurufaanu Magu
-Male', Republic of Maldives",193.0,386.0,Dhidhdhoofinolhu,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,96,Maayafushi Tourist Resort,Alifu Alifu,AA,Maayafushi,Operating,Operating resort,"I.R.T.S Private Limited
-M.Omadu Fanu Building, 2nd Floor
-Haveeree Hingun
-Male', Republic of Maldives","Maayafushi Resort Management Pvt Ltd 
-M. Omadu Fanu Building, 2nd Floor 
-Haveeree Hingun
-Male', Republic of Maldives",75.0,150.0,Maayafushi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,97,Mabinhura by Jawakara Islands Maldives,Lhaviyani,Lh,Maabinhuraa,Operating,Operating resort,"Kuredu Holdings Private Limited 
-M. Champa Building, 4th Floor
-Kandidhonmaniku Goalhi 
-Male', Republic of Maldives","Kuredu Holdings Private Limited 
-M. Champa Building, 4th Floor
-Kandidhonmaniku Goalhi 
-Male', Republic of Maldives",212.0,424.0,Maabinhuraa,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,98,"Machchafushi Island Resort & Spa Maldives, The Centara Collection",Alifu Dhaalu,ADh,Machchafushi,Operating,Operating resort,"Sioux Investment Pvt. Ltd.
-2nd Floor, Filla Building 
-Boduthakurufaanu Magu
-Male', Republic of Maldives","R.M.L Leisure Pvt. Ltd.
-c/o Shah, Hussain & Co.
-2nd Floor, (West Wing) H. Aage
-12, Boduthakurufaanu Magu
-Male', Republic of Maldives",112.0,224.0,Machchafushi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,99,Madifushi Private Island,Meemu,M,Madifushi,Operating,Operating resort,"Maldives Inflight Catering Pte Ltd
-Velana International Airport
-Hulhule' 22000, Republic of Maldives","Maldives Inflight Catering Pte Ltd
-Velana International Airport
-Hulhule' 22000, Republic of Maldives",88.0,174.0,Madifushi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,100,Makunudu Island,Kaafu,K,Makunudhoo,Operating,Operating resort,"Sunland Travels (Pvt) Ltd.
-H.Millenia
-Ameeru Ahmed Magu
-Male', Republic of Maldives
-sunland@dhivehinet.net.mv","Sunland Travel (Pvt) Ltd.
-G.Shafaq,7th Floor
-Rah Dhebai Magu
-Male', Republic of Maldives",36.0,72.0,Makunudhoo,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,101,Malahini Kuda Bandos,Kaafu,K,Kuda Bandos,Operating,Operating resort,"Malahini Holdings Pvt Ltd 
-H. Jazeera, 03rd Floor, No. 15
-Boduthakurufaanu Magu
-Male', Republic of Maldives","Malahini Holdings Pvt Ltd 
-H. Jazeera, 03rd Floor, No. 15
-Boduthakurufaanu Magu
-Male', Republic of Maldives",82.0,164.0,Kuda Bandos,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,102,Medhufushi Island Resort,Meemu,M,Medhufushi,Operating,Operating resort,"Medhufushi Investment Pvt Ltd 
-G. Neem, 
-Majeedhee Magu, 
-Male', Republic of Maldives","Medhufushi Investment Pvt Ltd 
-G. Neem, 
-Majeedhee Magu, 
-Male', Republic of Maldives",120.0,240.0,Medhufushi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,103,Meeru Maldives Resort Island,Kaafu,K,Meerufenfushi,Operating,Operating resort,"KASA Holdings Pvt. Ltd.
-M. Champa Building, 3rd Floor
-Kandi Dhonmaniku Goalhi
-Male', Republic of Maldives","KASA Holdings Pvt. Ltd.
-M. Champa Building, 3rd Floor
-Kandi Dhonmaniku Goalhi
-Male', Republic of Maldives",284.0,568.0,Meerufenfushi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,104,Melia Whale Lagoon Maldives,Alifu Dhaalu,ADh,Bodufinolhu,Operating,Operating resort,"ASB Hotel Properties Maldives Pvt Ltd 
-H. #02-01, Millennia Tower, #02-001
-Ameer Ahmed Magu
-Male', Republic of Maldives","ASB Hotel Properties Maldives Pvt Ltd 
-H. #02-01, Millennia Tower, #02-001
-Ameer Ahmed Magu
-Male', Republic of Maldives",100.0,200.0,Bodufinolhu,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,105,Meyyafushi Maldives,Lhaviyani,Lh,Meyyafushi,Operating,Operating resort,"Meyyafushi Investments Private Limited
-M. Loobiya , 5th Floor,
-Ameenee Magu, 
-Male', Republic of Maldives","Meyyafushi Investments Private Limited
-M. Loobiya , 5th Floor,
-Ameenee Magu, 
-Male', Republic of Maldives",88.0,176.0,Meyyafushi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,106,Milaidhoo Island Maldives,Baa,B,Milaidhoo,Operating,Operating resort,"Universal Enterprises Pvt Ltd 
-39, Orchid Magu
-K.Male', Republic of Maldives","Universal Enterprises Pvt Ltd 
-39, Orchid Magu
-Male', Republic of Maldives",50.0,100.0,Milaidhoo,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,107,Nala Maldives by Jawakara,Lhaviyani,Lh,Innahuraa,Operating,Operating resort,"Champalars Holdings Pvt Ltd 
-M. Champa Building, 4th Floor, 
-Male', Republic of Maldives","Champalars Holdings Pvt Ltd 
-M. Champa Building, 4th Floor, 
-Male', Republic of Maldives",42.0,84.0,Innahuraa,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,108,NH Collection Maldives Havodda Resort,Gaafu Dhaalu,GDh,Havodda,Operating,Operating resort,"Crystal Plaza Resorts Pvt Ltd 
-2nd Floor, MF Building
-Chaandhanee Magu
-Male', Republic of Maldives","Crystal Plaza Resorts Pvt Ltd 
-2nd Floor, MF Building
-Chaandhanee Magu
-Male', Republic of Maldives",120.0,240.0,Havodda,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,109,NH Collection Maldives Reethi Resort,Baa,B,Fonimagoodhoo,Operating,Operating resort,"Hanifaru Holdings Pvt Ltd 
-H. Orchidmaage, Level 2, 
-Ameer Ahmed Magu, 
-Male', Republic of Maldives","Hanifaru Holdings Pvt Ltd 
-H. Orchidmaage, Level 2, 
-Ameer Ahmed Magu, 
-Male', Republic of Maldives",109.0,218.0,Fonimagoodhoo,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,110,nH Maldives Kuda Rah Resort,Alifu Dhaalu,ADh,Kudarah,Operating,Operating resort,"Luxury Resort Pvt Ltd 
-G. Thoanee Asseyri, Ground Floor, 
-Male', Republic of Maldives","Luxury Resort Pvt Ltd 
-G. Thoanee Asseyri, Ground Floor, 
-Male', Republic of Maldives",51.0,102.0,Kudarah,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,111,Nika Island Resort and Spa,Alifu Alifu,AA,Kudafolhudhoo,Operating,Operating resort,"Nika Maldives Pvt.Ltd. 
-M. West House, Chambeylee Magu
-Male', Republic of Maldives
-nika_htl@dhivehinet.net.mv","Nika Maldives Pvt.Ltd. 
-G. Nafaa, Raadhafathi Hingun
-M. West House, Chambeylee Magu
-Male', Republic of Maldives",52.0,104.0,Kudafolhudhoo,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,112,Niva Dhigali Maldives,Raa,R,Dhigali,Operating,Operating resort,"Coral Edge Pvt Ltd
-M. Rukkara, Fulooniyaa Magu, 
-Male', Republic of Maldives","Coral Edge Pvt Ltd 
-M. Rukkara, Fulooniyaa Magu, 
-Male', Republic of Maldives",181.0,362.0,Dhigali,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,113,Niva Kuramathi Maldives,Alifu Alifu,AA,Kuramathi,Operating,Operating resort,"Universal Enterprises Pvt. Ltd. 
-H. 39, Orchid Magu
-Male', Republic of Maldives","Universal Enterprises Pvt. Ltd. 
-H. 39, Orchid Magu
-Male', Republic of Maldives",395.0,790.0,Kuramathi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,114,Niva Velassaru Maldives,Kaafu,K,Velassaru,Operating,Operating resort,"Universal Enterprises Ltd.
-39, Orchid Magu
-Male', Republic of Maldives
-sales@unient.com.mvv","Universal Enterprises Ltd.
-39, Orchid Magu
-Male', Republic of Maldives",129.0,258.0,Velassaru,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,115,Niyama Maldives,Dhaalu,Dh,Embudhufushi and Olhuveli,Operating,Operating resort,"O Plus E Holding Pvt. Ltd
-H. Meerubahuruge Aage, 1st Floor
-Ameeru Ahmed Magu
-Republic of Maldives","O Plus E Holding Pvt. Ltd
-H. Meerubahuruge Aage, 1st Floor
-Ameeru Ahmed Magu
-Republic of Maldives",139.0,278.0,Embudhufushi|Olhuveli,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,116,Noku Maldives Vignette Collection,Noonu,N,Kudafunafaru,Operating,Operating resort,"Roxy Maldives Resort & Spa Pvt Ltd 
-H. Millenia Tower, #02-01
-10 Ameer Ahmed Magu
-Male', Republic of Maldives","Roxy Maldives Resort & Spa Pvt Ltd 
-H. Millenia Tower, #02-01
-10 Ameer Ahmed Magu
-Male', Republic of Maldives",50.0,100.0,Kudafunafaru,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,117,Nooe Maldives Kunavashi,Vaavu,V,Kunaavashi,Operating,Operating resort,"Satin Seas Pvt Ltd 
-M. Honey Dew, 3rd Floor
-Izzuddheen Magu
-Male', Republic of Maldives","C.J.L Investments Pvt Ltd 
-M. Chandhaneege, 3rd Floor
-Alhivilaa Magu
-Male', Republic of Maldives",50.0,100.0,Kunaavashi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,118,Nova Maldives,Alifu Dhaalu,ADh,Vakarufalhi,Operating,Operating resort,"Athama Travels and Trade Pvt. Ltd. 
-G. Dhivehi Atha
-Majeedhee Magu
-Male', Republic of Maldives","Nova Resorts Pvt Ltd 
-4th Floor , M. Kaneeru Villa
-Orchid Magu
-Male', Republic of Maldives",57.0,114.0,Vakarufalhi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,119,Oaga Art Resort,Kaafu,K,Maaranfushi,Not Operating,Operating resort,"Radhun Resort and Investments Private Limited 
-H. Ranrinbudhoo
-Ameer Ahmed Magu
-Male’, Republic of Maldives","Radhun Resort and Investments Private Limited 
-H. Ranrinbudhoo
-Ameer Ahmed Magu
-Male’, Republic of Maldives",62.0,124.0,Maaranfushi,0,[],Not Operating,Operating,cross_checked,high,True
-operating_resorts_csv,120,Oblu By Atmosphere at Helengeli,Kaafu,K,Helengeli,Operating,Operating resort,"Helengeli Island Resort Pvt Ltd 
-H.Orchid Maage  
-Ameer Ahmed Magu
-Male', Rep. of Maldives","S.P.C Pvt Ltd 
-(East Wing) Aage, 2nd Floor
-12 Boduthakurufaanu Magu
-Male, Rep. of Maldives",176.0,352.0,Helengeli,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,121,Oblu Select by Atmosphere at Sangeli,Kaafu,K,Akirifushi,Operating,Operating resort,"Akirifushi Investments Pvt Ltd 
-Ma. Milano, 2nd Floor
-Rahdhebai Magu
-Male', Republic of Maldives","North East Pvt Ltd 
-H. Aage, 3rd Floor
-Boduthakurufaanu Magu
-Male', Republic of Maldives",114.0,288.0,Akirifushi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,122,"One & Only Reethi Rah, Maldives",Kaafu,K,Medhufinolhu,Operating,Operating resort,"Reethi Rah Resort Pvt. Ltd.
-1st Floor, Fasmeeru Building
-Boduthakurufaanu Magu
-Male', Republic of Maldives","Reethi Rah Resort Pvt. Ltd.
-1st Floor, Fasmeeru Building
-Boduthakurufaanu Magu
-Male', Republic of Maldives",134.0,268.0,Medhufinolhu,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,123,Outrigger Maldives Maafushivaru Resort,Alifu Dhaalu,ADh,Maafushivaru,Operating,Operating resort,"OM Maldives Pvt Ltd 
-#02-01 Millennia Tower
-Ameer Ahmed Magu
-Male', Republic of Maldives","OM Maldives Pvt Ltd 
-#02-01 Millennia Tower
-Ameer Ahmed Magu
-Male', Republic of Maldives",93.0,186.0,Maafushivaru,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,124,Ozen By Atmosphere At Maadhoo,Kaafu,K,Maadhoo,Operating,Operating resort,"M.T.R Holdings Pvt Ltd 
-Premier Chambers
-M. Lux Lodge, 02nd Floor
-Orchid Magu
-Male', Rep. of Maldives","D.P.C Private Limited 
-H.Aage, 3rd Floor
-12, Boduthakurufaanu Magu
-Male', Rep. of Maldives",107.0,214.0,Maadhoo,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,125,Park Hyatt Maldives Hadahaa,Gaafu Alifu,GA,Hadahaa,Operating,Operating resort,"Driftwood Maldives Pvt.Ltd.
-M. Vaarey Villa
-Izzudeen Magu
-Male', Republic of Maldives","Driftwood Maldives Pvt.Ltd.
-M. Vaarey Villa
-Izzudeen Magu
-Male', Republic of Maldives",56.0,112.0,Hadahaa,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,126,"Patina Maldives, Fari Islands",Kaafu,K,Fari Veli Huraa,Operating,Operating resort,"MESA RF Pvt Ltd 
-M. Faaroshige, Level 2
-Orchid Magu 
-Male', Republic of Maldives","Tomlinson Investment Pvt Ltd
-H. Millenia Tower, #02-01
-10 Ameer Ahmed Magu
-Male', Republic of Maldives",123.0,246.0,Fari Veli Huraa,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,127,Pullman Maldives Maamutaa Resort,Gaafu Alifu,GA,Maamutaa,Operating,Operating resort,"Pristine Islands Investment (Maldives) Pvt Ltd
-G. Alhifashuviaage, 3rd floor,
-Dharumavantha Magu,
-Male', Republic of Maldives","Pristine Islands Investment (Maldives)Pvt Ltd 
-G. Alhifashuviaage, 3rd floor, Dharumavantha Magu, 
-Male', Republic of Maldives",136.0,271.0,Maamutaa,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,128,Raaya by Atmosphere,Raa,R,Kudakurathu,Operating,Operating resort,"Kudakurathu Island Resort Pvt Ltd
-Ma. Dawn Shine
-Zamaanee Goalhi
-Male', Republic of Maldives","Kudakurathu Island Resort Pvt Ltd
-Ma. Dawn Shine
-Zamaanee Goalhi
-Male', Republic of Maldives",200.0,400.0,Kudakurathu,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,129,Radisson Blu Resort Maldives,Alifu Dhaalu,ADh,Huruelhi,Operating,Operating resort,"Huruelhi Investment Pvt Ltd 
-M. Faamudheyrige, 6A, 
-Orchid Magu, 
-Male', Republic of Maldives","Huruelhi Investment Pvt Ltd 
-M. Faamudheyrige, 6A, 
-Orchid Magu, 
-Male', Republic of Maldives",160.0,320.0,Huruelhi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,130,Rah Gili Maldives,Kaafu,K,Mahaana elhi Huraa,Operating,Operating resort,"Maahal Tours Pvt Ltd 
-Ma. Thandinoomaage, Ground Floor, 
-Badifasgandu Magu, 
-Male', Republic of Maldives","BeachX Pvt Ltd 
-H. Aage, 3rd Floor,
-Boduthakurufaanu Magu, 
-Male', Republic of Maldives",42.0,84.0,Mahaana elhi Huraa,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,131,Rahaa Resort,Laamu,L,Kudafares and Fares,Operating,Operating resort,"Heavy Load Maldives Pvt Ltd 
-M. Gulhazaaruge 
-Fareedhee Magu 
-Male', Republic of Maldives","MO Hotels and Resorts Pvt Ltd 
-M. Gulhazaaruge 
-Fareedhee Magu 
-Male', Republic of Maldives",81.0,162.0,Kudafares|Fares,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,132,Reethi Faru Resort,Raa,R,Filaidhoo,Operating,Operating resort,"Mahogany Pvt Ltd 
-H. Maadhooge, 1st Floor
-Karankaa Magu
-Male', Republic of Maldives","Mahogany Pvt Ltd 
-H. Maadhooge, 1st Floor
-Karankaa Magu
-Male', Republic of Maldives",164.0,328.0,Filaidhoo,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,133,Riu Atoll and Riu Palace Maldivas,Dhaalu,Dh,Maafushi and Kedhigandu,Operating,Operating resort,"Riu Atoll Pvt. Ltd. 
-Shah, Hussain & Co. Barristers and Attorneys 
-6th Floor, H. Aagé
-12 Boduthakurufaanu Magu, 
-Male', Republic of Maldives","Riu Atoll Pvt. Ltd. 
-Shah, Hussain & Co. Barristers and Attorneys 
-6th Floor, H. Aagé
-12 Boduthakurufaanu Magu, 
-Male', Republic of Maldives",440.0,880.0,Maafushi|Kedhigandu,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,134,Robinson Maldives,Gaafu Alifu,GA,Funamauddua,Operating,Operating resort,"Robinson Club Maldives Pvt Ltd 
-H. Maaram Building, 5th Floor, 
-Ameer Ahmed Magu, 
-Male', Republic of Maldives","Robinson Club Maldives Pvt Ltd 
-H. Maaram Building, 5th Floor, 
-Ameer Ahmed Magu, 
-Male', Republic of Maldives",124.0,248.0,Funamauddua,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,135,Robinson Noonu,Noonu,N,Orivaru,Operating,Operating resort,"Robinsion Club Maldives Pvt Ltd
-H. Maaram, 5th Floor
-Ameer Ahmed Magu
-Male', Republic of Maldives","Robinsion Club Maldives Pvt Ltd 
-H. Maaram, 5th Floor
-Ameer Ahmed Magu
-Male', Republic of Maldives",150.0,300.0,Orivaru,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,136,Royal Island Resort and Spa,Baa,B,Horubadhoo,Operating,Operating resort,"Island Travel and Trade Pvt. Ltd
-Villa Building
-Ibrahim Hassan Didi Magu
-Male', Republic of Maldives","Villa Shipping and Trading Company Pvt Ltd 
-Villa Building
-Ibrahim Hassan Didi Magu
-Male', Republic of Maldives",152.0,304.0,Horubadhoo,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,137,Saii Lagoon Maldives,Kaafu,K,Eh'mafushi,Operating,Operating resort,"Dream Islands Development 2 Pvt. Ltd. 
-H. #02-01, Millennia Tower, 10 Ameer Ahmed Magu, Male', Republic of Maldives","Dream Islands Development 2 Pvt. Ltd. 
-H. #02-01, Millennia Tower, 10 Ameer Ahmed Magu, Male', Republic of Maldives",170.0,340.0,Eh'mafushi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,138,Sandies Bathala,Alifu Alifu,AA,Bathala,Operating,Operating resort,"B Resorts Investment Pvt. Ltd. 
-G. Neem Building, 3rd Floor
-Majeedhee Magu
-Male’, Republic of Maldives","Away Hotels Maldives Pvt. Ltd. 
-M. Veeza 
-Dhambu Goalhi 20190
-Male’, Republic of Maldives",70.0,140.0,Bathala,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,139,Shangri-la Villingili Maldives,Seenu,S,Villingili,Operating,Operating resort,"Addu Investments Pvt Ltd 
-Ma. No. 379, 
-Male', Kaafu Atoll, 
-Republic of Maldives","Addu Investments Pvt Ltd 
-Ma. No. 379, 
-Male', Kaafu Atoll, 
-Republic of Maldives",11.0,22.0,Villingili,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,140,Sheraton Maldives Full Moon Resort & Spa,Kaafu,K,Furanafushi,Operating,Operating resort,"Manta Resort Holdings II Pvt. Ltd 
-H. #02-01, Millennia Tower
-10 Ameer Ahmed Magu 20026
-Male', Republic of Maldives","Manta Resort Holdings II Pvt. Ltd 
-H. #02-01, Millennia Tower
-10 Ameer Ahmed Magu 20026
-Male', Republic of Maldives",176.0,352.0,Furanafushi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,141,Sirru Fen Fushi,Shaviyani,Sh,Gaakoshibee,Operating,Operating resort,"GBH Maldives Resorts Pvt Ltd 
-#02-01, H.Millenia Tower
-10 Ameeru Ahmed Magu
-Male', Republic of Maldives","GBH Maldives Resorts Pvt Ltd 
-#02-01, H.Millenia Tower
-10 Ameeru Ahmed Magu
-Male', Republic of Maldives",149.0,298.0,Gaakoshibee,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,142,Six Senses Kanuhura,Lhaviyani,Lh,Kanuhuraa,Operating,Operating resort,"Leisure Oceans Pvt Ltd 
-H. Millenia Tower
- Ameer Ahmed Magu
- Male’, Republic of Maldives","Leisure Oceans Pvt Ltd 
-H. Millenia Tower
- Ameer Ahmed Magu
- Male’, Republic of Maldives",96.0,192.0,Kanuhuraa,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,143,Six Senses Laamu,Laamu,L,Olhuveli,Operating,Operating resort,"Leisure Frontiers Pvt. Ltd
- H.#02-01, Millenia Tower
- 10, Ameeru Ahmed Magu
- Male', Rep of Maldives"," Leisure Frontiers Pvt. Ltd
- H.#02-01, Millenia Tower
- 10, Ameeru Ahmed Magu
- Male', Rep of Maldives",99.0,198.0,Olhuveli,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,144,Siyam World Maldives,Noonu,N,Dhigurah,Operating,Operating resort,"Wego Pvt Ltd
-H. Sun Siyam Building 
-Boduthakurufaanu Magu 
-Male', Republic of Maldives","Wego Maldives Pvt Ltd 
-H. Sun Siyam Building 
-Boduthakurufaanu Magu 
-Male', Republic of Maldives",530.0,1060.0,Dhigurah,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,145,SO/ Maldives,Kaafu,K,"4° 7’ 24.562” N, 73° 28’ 52.015” E",Operating,Operating resort,"Dream Islands Development 2 Pvt Ltd
-H. Millenia Tower, #02-0110 
-Ameer Ahmed Magu
-Male', Republic of Maldives","Dream Islands Development 3 Pvt Ltd
-H. Millenia Tower, #02-0110 
-Ameer Ahmed Magu
-Male', Republic of Maldives",93.0,186.0,,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,146,Soneva Fushi Resort,Baa,B,Kunfunadhoo,Operating,Operating resort,"Bunny Holdings (BVI) Ltd.
-Jazeera Building, 4th Floor
-Boduthakurufaanu Magu
-Male', Republic of Maldives","Soneva Management (BVI) Limited
-Jazeera Building, 4th Floor
-Boduthakurufaanu Magu
-Male', Republic of Maldives",176.0,352.0,Kunfunadhoo,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,147,Soneva Jani,Noonu,N,Medhufaru,Operating,Operating resort,"Hillside Villa Pvt Ltd 
-H. Jazeera Building, 4th Floor
-Boduthakurufaanu Magu
-Male', Maldives","Hillside Villa Pvt Ltd 
-H. Jazeera Building, 4th Floor
-Boduthakurufaanu Magu
-Male', Maldives",98.0,196.0,Medhufaru,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,148,Soneva Secret,Haa Dhaalu,HDh,Dhipparufushi,Operating,Operating resort,"Secret Venture Pvt Ltd 
-H. Jazeera Building, 4th Floor
-Boduthakurufaanu Magu
-Male', Republic of Maldives","Secret Venture Pvt Ltd 
-H. Jazeera Building, 4th Floor
-Boduthakurufaanu Magu
-Male', Republic of Maldives",30.0,60.0,Dhipparufushi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,149,South Palm Resort Maldives,Seenu,S,Ismehelahera Kedevaahera,Operating,Operating resort,"South Palm Maldives Pvt Ltd 
-Keytha 
-Feydhoo, Seenu Atoll
-Republic of Maldives","South Palm Maldives Pvt Ltd 
-Keytha 
-Feydhoo, Seenu Atoll
-Republic of Maldives",130.0,260.0,Ismehelahera Kedevaahera,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,150,Summer Island Maldives,Kaafu,K,Ziyaaraiyfushi,Operating,Operating resort,"Ziyaraiy Maldives Pvt. Ltd. 
-M. Nooranee Aage 
-Ameer Ahmed Magu
-Male', Republic of Maldives","Kaimoo Travels and Hotel Services Pvt. Ltd.
-H. Maagala
-Meheli Goalhi
-Male', Republic of Maldives",157.0,314.0,Ziyaaraiyfushi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,151,Sun Siyam Iru Fushi Maldives,Noonu,N,Medhafushi,Operating,Operating resort,"Sun Travels & Tours Pvt Ltd
-H. Sun Siyam Building
-Boduthakurufaanu Magu
-Male', Republic of Maldives","Sun Travels & Tours Pvt Ltd
-H. Sun Siyam Building
-Boduthakurufaanu Magu
-Male', Republic of Maldives",224.0,448.0,Medhafushi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,152,Sun Siyam Iru Veli Maldives,Dhaalu,Dh,Aluvifushi,Operating,Operating resort,"Ocean Islands Pvt Ltd 
-H. Sun Siyam Building
-Boduthakurufaanu Magu
-Male', Republic of Maldivesmaldives.com.mv","Ocean Islands Pvt Ltd 
-H. Sun Siyam Building
-Boduthakurufaanu Magu
-Male', Republic of Maldives",127.0,254.0,Aluvifushi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,153,Sun Siyam Olhuveli Maldives,Kaafu,K,Olhuveli,Operating,Operating resort,"Hotels and Resorts Holding Pvt. Ltd. 
-H. Sun Siyam Building, 
-Boduthakurufaanu Magu,
-Male', Republic of Maldives","Emerald Resort Pvt. Ltd. 
-H. Sun Siyam Building, 
-Boduthakurufaanu Magu, 
-Male', Republic of Maldives",460.0,920.0,Olhuveli,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,154,Sun Siyam Vilu Reef Maldives,Dhaalu,Dh,Meedhuffushi,Operating,Operating resort,"Sun Investments Pvt. Ltd. 
-H. Sun Siyam Building
-Boduthakurufaanu Magu
-Male', Republic of Maldives","Sun Investments Pvt. Ltd. 
-H. Sun Siyam Building
-Boduthakurufaanu Magu
-Male', Republic of Maldives",104.0,208.0,Meedhuffushi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,155,Taj Coral Reef Resort and Spa,Kaafu,K,Hembadhu,Operating,Operating resort,"Tal Maldives Resorts Pvt. Ltd.
-(Taj Group of Hotels, India)
-G. Maajehige, 1st Floor
-Lily Magu
-Male', Republic of Maldives
-tajmale@dhivehinet.net.mv","Tal Maldives Resorts Pvt. Ltd.
-(Taj Group of Hotels, India)
-G. Maajehige, 1st Floor
-Lily Magu
-Male', Republic of Maldives
-",64.0,128.0,Hembadhu,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,156,Taj Exotica Resort & Spa Maldives,Kaafu,K,Embudhu Finolhu,Operating,Operating resort,"Hima Holdings Pvt Ltd
-2/44 Orchid Magu
-Male', Republic of Maldives","TAL Maldives Resorts Pvt. Ltd 
-H. Sifa, 4th Floor B
-Boduthakurufaanu Magu
-Male', Republic of Maldives",67.0,134.0,Embudhu Finolhu,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,157,The Halcyon Private Isles Maldives Autograph Collection,Gaafu Alifu,GA,Meradhoo,Operating,Operating resort,"CDLHT Oceanic Maldives Pvt Ltd 
-H. Millennia Tower, #02-01, 10 Ameer Ahmed Magu 20026, 
-Male', Republic of Maldives","CDL HBT Oceanic Maldives Pvt Ltd 
-H. Millennia Tower, #02-01, 10 Ameer Ahmed Magu 20026, 
-Male', Republic of Maldives",50.0,100.0,Meradhoo,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,158,The Nautilus Maldives,Baa,B,Thiladhoo,Operating,Operating resort,"Thiladhoo Resorts Pvt Ltd
-M. Sakkeyogasdhoshuge, 
-Fiyaathoshi Magu, 
-Male', Republic of Maldives","Thiladhoo Resorts Pvt Ltd
-M. Sakkeyogasdhoshuge, 
-Fiyaathoshi Magu, 
-Male', Republic of Maldives",31.0,62.0,Thiladhoo,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,159,The Residence Maldives,Gaafu Alifu,GA,Falhumaafushi,Operating,Operating resort,"Bonaventure (Maldives) Pvt. Ltd
-Ma. Malaaz
-Huvandhuma Goalhi 
-Male', Republic of Maldives","Bonaventure (Maldives) Pvt. Ltd
-Ma. Malaaz
-Huvandhuma Goalhi 
-Male', Republic of Maldives",100.0,200.0,Falhumaafushi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,160,The Residence Maldives At Dhigurah,Gaafu Alifu,GA,Dhigurah,Operating,Operating resort,"Bonavista (Maldives) Pvt Ltd 
-Ma. Malaaz, 
-Huvandhumaa Goalhi, 
-Male, Republic of Maldives","Bonavista (Maldives) Pvt Ltd 
-Ma. Malaaz, 
-Huvandhumaa Goalhi, 
-Male, Republic of Maldives",185.0,370.0,Dhigurah,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,161,The Ritz Carlton Maldives Fari Islands,Kaafu,K,Fari Kandu Huraa,Operating,Operating resort,"MESA RF Pvt Ltd 
-M. Faaroshige, Level 2
-Orchid Magu 
-Male', Republic of Maldives","CPRC (Maldives) Pvt Ltd 
-H. Millenia Tower, #02-01,
-10 Ameer Ahmed Magu,
-Male', Republic of Maldives",117.0,234.0,Fari Kandu Huraa,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,162,"The St. Regis Vommuli Resort, Maldives",Dhaalu,Dh,Vommuli,Operating,Operating resort,"SAS Capital Private Limited 
-6A, M. Faamdheyrige
-Orchid Magu, 
-Male', Republic of Maldives","SAS Capital Private Limited 
-6A, M. Faamdheyrige
-Orchid Magu
-Male', Republic of Maldives",95.0,190.0,Vommuli,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,163,The Standard Huruvalhi Maldives,Raa,R,Huruvalhi,Operating,Operating resort,"Snapper Blue Investments Pvt Ltd
-H. Millennia Tower, 10, #02-01, 
-Ameer Ahmed Magu, 
-Male', Republic of Maldives","Snapper Blue Investments Pvt Ltd
-H. Millennia Tower, 10, #02-01, 
-Ameer Ahmed Magu, 
-Male', Republic of Maldives",122.0,244.0,Huruvalhi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,164,The Westin Maldives Miriandhoo Resort,Baa,B,Miriandhoo,Operating,Operating resort,"Miriandhoo Maldives Resorts Pvt Ltd
-M. Whale Shark, 2nd Floor
-Aaburuzu Hingun
-Male', Republic of Maldives","Miriandhoo Maldives Resorts Pvt Ltd
-M. Whale Shark, 2nd Floor
-Aaburuzu Hingun
-Male', Republic of Maldives",73.0,146.0,Miriandhoo,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,165,Thulhagiri Island Resort & Spa,Kaafu,K,Thulhaagiri,Operating,Operating resort,"Thulhaagiri Development Pvt. Ltd.
-M. New Plot
-Ameenee Magu
-Male', Republic of Maldives","Angiri Resorts Management & Operations Pvt. Ltd.
-M. New Plot
-Ameenee Magu
-Male', Republic of Maldives",87.0,174.0,Thulhaagiri,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,166,V Villas Maldives at Mirihi-Mgallery Collection,Alifu Dhaalu,ADh,Mirihi,Operating,Operating resort,"Vie Maldives Pvt Ltd 
-M. Marina Building, Level 7, 
-Koliumaru Maniku Goalhi, 
-Male', Republic of Maldives","Vie Maldives Pvt Ltd 
-M. Marina Building, Level 7, 
-Koliumaru Maniku Goalhi, 
-Male', Republic of Maldives",38.0,76.0,Mirihi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,167,Vakkaru Maldives,Baa,B,Vakkaru,Operating,Operating resort,"Efzy Holdings Pvt Ltd
-H. Millennium
-Lansimoo Goalhi
-Male', Republic of Maldives","Efzy Holdings Pvt Ltd 
-H. Millennium
-Lansimoo Goalhi
-Male', Republic of Maldives",128.0,256.0,Vakkaru,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,168,Varu Island Resort,Kaafu,K,Madivaru,Operating,Operating resort,"Dhonkeyo Investments Pvt Ltd
-Ma. Seeraazeege 
-Seeraazee Goalhi
-Male', Republic of Maldives","Shuaz Investment Pvt Ltd 
-M. Shuaz 
-Orchid Magu 
-Male', Republic of Maldives",125.0,250.0,Madivaru,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,169,Velaa Private Island Maldives,Noonu,N,Fushivelaavaru,Operating,Operating resort,"Velaa Asset Management Pvt Ltd 
-M. Kaneeru Villa, 6th Floor
-Orchid Magu 2012, 
-Male', Republic of Maldives","Velaa Island Maldives Pvt Ltd 
-M. Uniya, 4th Floor
-Fareedhee Magu, 
-Male', Republic of Maldives",67.0,134.0,Fushivelaavaru,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,170,Veligandu Maldives Resort Island,Alifu Alifu,AA,Veligan'du,Operating,Operating resort,"Crown Company Pvt. Ltd. 
-Fasmeeru Building, 6th Floor
-Boduthakurufaanu Magu
-Male', Republic of Maldives","Crown Company Pvt. Ltd. 
-Fasmeeru Building, 6th Floor
-Boduthakurufaanu Magu
-Male', Republic of Maldives",100.0,200.0,Veligan'du,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,171,Vilamendhoo Island Resort,Alifu Dhaalu,ADh,Vilamendhoo,Operating,Operating resort,"Vilamendhoo Investments Pvt. Ltd.
-Champa Building, 3rd Floor
-Kandidhon Manik Goalhi
-Male', Republic of Maldives","Vilamendhoo Investments Pvt. Ltd.
-Champa Building, 3rd Floor
-Kandidhon Manik Goalhi
-Male', Republic of Maldives",184.0,368.0,Vilamendhoo,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,172,Villa Nautica Paradise Island,Kaafu,K,Lankanfinolhu,Operating,Operating resort,"Diza Travel & Trade Pvt. Ltd.
-Villa Building, Ibrahim Hassan Didi Magu
-Male', Republic of Maldives
-info@villa.com.mv","Villa Shipping & Trading Company Pvt.Ltd.
-(on behalf of Diza Trade & Travels Pvt. Ltd.)
-Villa Building, Ibrahim Hassan Didi Magu
-Male', Republic of Maldives",284.0,568.0,Lankanfinolhu,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,173,Villa Park Sun Island,Alifu Dhaalu,ADh,Nalaguraidhoo,Operating,Operating resort,"Villa Shipping & Trading Company Pvt Ltd 
-M. Villa Building, 
-Ibrahim Hassan Didi Magu, 
-Male', Republic of Maldives","Villa Shipping & Trading Company Pvt Ltd
-M. Villa Building, 
-Ibrahim Hassan Didi Magu, 
-Male', Republic of Maldives",466.0,932.0,Nalaguraidhoo,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,174,W Maldives,Alifu Alifu,AA,Fesdhoo,Operating,Operating resort,"Manta Resort Holdings I Pvt Ltd
-H. #02-01, Millennia Tower 10, 
-Ameer Ahmed Magu, 
-Male', Republic of Maldives","Manta Resort Holdings I Pvt Ltd
-H. #02-01, Millennia Tower 10, 
-Ameer Ahmed Magu, 
-Male', Republic of Maldives",79.0,158.0,Fesdhoo,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,175,Waldorf Astoria Maldives Ithaafushi,Kaafu,K,Ithaafushi,Operating,Operating resort,"Ithaafushi Investments Pvt. Ltd.
-H. Sea Side, Level One, 
-Boduthakurufaanu Magu
-Male', Republic of Maldives","Ithaafushi Investments Pvt. Ltd. 
-H. Sea Side, Level One, 
-Boduthakurufaanu Magu
-Male', Republic of Maldives",136.0,272.0,Ithaafushi,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,176,Yash Nature Resort,Dhaalu,Dh,Dhoores,Operating,Operating resort,"Yash Exotic Island Pvt Ltd 
-H. Millennia Tower
-Ameer Ahmed Magu
-Male', Republic of Maldives","Yash Exotic Island Pvt Ltd 
-H. Millennia Tower
-Ameer Ahmed Magu
-Male', Republic of Maldives",33.0,66.0,Dhoores,0,[],Operating,Operating,ministry_only,unverified,False
-operating_resorts_csv,177,You & Me Maldives,Raa,R,Uthurumaafaru,Operating,Operating resort,"Uthurumaafaru Holdings Pvt Ltd 
-H. Soanary, 
-Boduthakurufaanu Magu, 
-Male', Republic of Maldives","Uthurumaafaru Holdings Pvt Ltd 
-H. Soanary, 
-Boduthakurufaanu Magu, 
-Male', Republic of Maldives",109.0,218.0,Uthurumaafaru,0,[],Operating,Operating,ministry_only,unverified,False
-under_development_pdf,1,Berinmadhoo,Haa Alifu,HA,Berinmadhoo,Under development,Resort Development,Mr. Franchin Guiseppe,,,,Berinmadhoo,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,2,Velifinolhu,Haa Alifu,HA,Velifinolhu,Under development,Resort Development,Pearl Sands of Maldives Private Limited,,,,Velifinolhu,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,3,Plot of Land & Allocated Lagoon Area,Haa Alifu,HA,Plot of Land & Allocated Lagoon Area,Under development,Resort Hotel,Fedo Private Limited,,,,,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,4,Medhafushi,Haa Alifu,HA,Medhafushi,Under development,Resort Development,Samana IFN Holding Limited,,,,Medhafushi,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,5,Alidhuffarufinolhu,Haa Alifu,HA,Alidhuffarufinolhu,Under development,Resort Development,MMEPL-MMIPL Infrastructure Private Limited,,,,Alidhuffarufinolhu,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,6,"Nolhivaranfaru Training Resort and Training
-Facility",Haa Dhaalu,HDh,"Nolhivaranfaru Training Resort and Training
-Facility",Under development,"Trainning Facility
-Development",Nalaveli Maldives Pvt Ltd,,,,Nolhivaranfaru,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,7,Naagoashi,Haa Dhaalu,HDh,Naagoashi,Under development,Resort Development,MTDC,,,,Naagoashi,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,8,Vaikuramuraidhoo,Haa Dhaalu,HDh,Vaikuramuraidhoo,Under development,Resort Development,Glamour Investments Ltd,,,,Vaikuramuraidhoo,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,9,Hurasfaru,Shaviyani,Sh,Hurasfaru,Under development,Resort Development,Hurasfaru Holdings Private Limited,,,,Hurasfaru,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,10,Naainfaru,Shaviyani,Sh,Naainfaru,Under development,Resort Development,Naainfaru Holdings Private Limited,,,,Naainfaru,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,11,Dholhiyadhoo,Shaviyani,Sh,Dholhiyadhoo,Under development,Resort Development,Mohamed Latheef,,,,Dholhiyadhoo,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,12,Kanbaalifaru,Shaviyani,Sh,Kanbaalifaru,Under development,Resort Development,Kanbaalifaru Development Private Limited,,,,Kanbaalifaru,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,13,Huivani,Noonu,N,Huivani,Under development,Resort Development,"RHD Maldives Pvt Ltd,",,,,Huivani,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,14,Huvandhumaavattaru,Noonu,N,Huvandhumaavattaru,Under development,Resort Development,Noonu Hotels and Resorts Development Pvt Ltd,,,,Huvandhumaavattaru,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,15,Maavelaavaru,Noonu,N,Maavelaavaru,Under development,Resort Development,Athama Investments Pvt Ltd,,,,Maavelaavaru,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,16,Loafaru,Noonu,N,Loafaru,Under development,Resort Development,Amala Maldives Private Limited,,,,Loafaru,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,17,Raafushi,Noonu,N,Raafushi,Under development,Resort Development,Leisure Sands Private Limited,,,,Raafushi,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,18,Karinmavattaru,Noonu,N,Karinmavattaru,Under development,Resort Development,Portiaco SPV RSC Ltd.,,,,Karinmavattaru,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,19,Kunnamalei,Noonu,N,Kunnamalei,Under development,Resort Development,VANOA investments limited,,,,Kunnamalei,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,20,Kendhivaru,Noonu,N,Kendhivaru,Under development,Resort Development,Vita Heights Company Limited,,,,Kendhivaru,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,21,Ehdhuffarumairah,Noonu,N,Ehdhuffarumairah,Under development,Resort Development,"Green Tree Property Management Co., LLC",,,,Ehdhuffarumairah,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,22,Bandaidhidhdhoo,Noonu,N,Bandaidhidhdhoo,Under development,Resort Development,Indus Ressorts Private Limited,,,,Bandaidhidhdhoo,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,23,Dhigufaru Lagoon and Dhekenanfaru,Noonu,N,Dhigufaru Lagoon and Dhekenanfaru,Under development,Resort Development,Crystal Holdings Pvt Limited,,,,Dhigufaru|Dhekenanfaru,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,24,Maakurehdhoo,Noonu,N,Maakurehdhoo,Under development,Resort Development,I & T Management Private Limited,,,,Maakurehdhoo,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,25,Minaavaru,Noonu,N,Minaavaru,Under development,Resort Development,Arc 360 Investments Pvt Ltd,,,,Minaavaru,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,26,Fuggiri,Raa,R,Fuggiri,Under development,Resort Development,Aria Hotel Partners Pvt Ltd,,,,Fuggiri,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,27,Kan'doogan'du,Raa,R,Kan'doogan'du,Under development,Resort Development,K & V Holdings Pvt Ltd.,,,,Kan'doogan'du,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,28,Lundhufushi,Raa,R,Lundhufushi,Under development,Resort Development,Silver Tides Pvt Ltd,,,,Lundhufushi,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,29,Bodufarufinolhu,Raa,R,Bodufarufinolhu,Under development,Resort Development,Browns Raa Resort Pvt Ltd,,,,Bodufarufinolhu,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,30,Maanenfushi,Raa,R,Maanenfushi,Under development,Resort Development,Maanenfushi Pvt Ltd,,,,Maanenfushi,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,31,Gemana,Raa,R,Gemana,Under development,Resort Development,Amir Mansoor,,,,Gemana,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,32,Fenfushi,Raa,R,Fenfushi,Under development,Resort Development,Grand Leisure Ventures Private Limited,,,,Fenfushi,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,33,Kukulhudhuffaru,Raa,R,Kukulhudhuffaru,Under development,Resort Development,Naid Investments Pvt Ltd,,,,Kukulhudhuffaru,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,34,Dhoragali,Raa,R,Dhoragali,Under development,Resort Development,Ali Zahir,,,,Dhoragali,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,35,"5°25’54.164”N, 72°52’36.846”E
-(Maafaru Falhu)",Raa,R,"5°25’54.164”N, 72°52’36.846”E
-(Maafaru Falhu)",Under development,Resort Development,Premier Equity Pvt. Ltd.,,,,Maafaru Falhu,1,"[{""lat"": 5.431712222222223, ""lon"": 72.87690166666665, ""raw"": ""5°25'54.164\""N 72°52'36.846\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,36,Dhikkurehdheoo,Raa,R,Dhikkurehdheoo,Under development,Resort Development,Lycan Pvt Ltd,,,,Dhikkurehdheoo,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,37,Dhandhoo,Baa,B,Dhandhoo,Under development,Resort Development,Dhandhoo Holdings Pvt Ltd,,,,Dhandhoo,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,38,Dhigudhefaru,Baa,B,Dhigudhefaru,Under development,Resort Development,JD Dhigufaru Private Limited,,,,Dhigudhefaru,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,39,Muthaafushi,Baa,B,Muthaafushi,Under development,Resort Development,Muthaafushi Orient Investments Limited,,,,Muthaafushi,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,40,Funadhoo,Baa,B,Funadhoo,Under development,Resort Development,Ifuru Investment Pvt Ltd,,,,Funadhoo,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,41,Maamaduvvari,Baa,B,Maamaduvvari,Under development,Resort Development,Coastline Investment Pvt Ltd,,,,Maamaduvvari,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,42,Bodufinolhu,Baa,B,Bodufinolhu,Under development,Resort Development,Seal Maldives Private Limited,,,,Bodufinolhu,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,43,Hibalhidhoo,Baa,B,Hibalhidhoo,Under development,Resort Development,Yura Private Limited,,,,Hibalhidhoo,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,44,Hulhudhoo,Baa,B,Hulhudhoo,Under development,Resort Development,Millennium Capital Management Pvt Ltd,,,,Hulhudhoo,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,45,Plot of lagoon from Goidhoo Faru,Baa,B,Plot of lagoon from Goidhoo Faru,Under development,Resort Development,Leo Trading Pvt Ltd,,,,from Goidhoo Faru,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,46,Veyvah,Lhaviyani,Lh,Veyvah,Under development,Resort Development,R.S.Q private limited.,,,,Veyvah,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,47,Hudhufushi,Lhaviyani,Lh,Hudhufushi,Under development,Resort Development,Legal Heirs of Late Abdul Rauf,,,,Hudhufushi,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,48,Lhossalafushi,Lhaviyani,Lh,Lhossalafushi,Under development,Resort Development,Apex Realty Private Limited,,,,Lhossalafushi,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,49,Vihafarufinolhu,Lhaviyani,Lh,Vihafarufinolhu,Under development,Resort Development,SJ Trade Private Limited,,,,Vihafarufinolhu,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,50,"4°17'45.64""N 73°28'40.90""E",Kaafu,K,"4°17'45.64""N 73°28'40.90""E",Under development,Resort Development,Legal Heirs of Late Abdul Rauf,,,,,1,"[{""lat"": 4.296011111111111, ""lon"": 73.47802777777778, ""raw"": ""4°17'45.64\""N 73°28'40.90\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,51,"3 53'24.68""N 73 21'36.74""E",Kaafu,K,"3 53'24.68""N 73 21'36.74""E",Under development,Resort Development,VKL & AL Namal Group Pvt Ltd,,,,,1,"[{""lat"": 3.890188888888889, ""lon"": 73.36020555555555, ""raw"": ""3 53'24.68\""N 73 21'36.74\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,52,"4°0'24.28""N 73°25'20.14""E",Kaafu,K,"4°0'24.28""N 73°25'20.14""E",Under development,Resort Development,Monterock Investments Nedhafushi Maldives Pvt Ltd,,,,,1,"[{""lat"": 4.006744444444444, ""lon"": 73.42226111111111, ""raw"": ""4°0'24.28\""N 73°25'20.14\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,53,"Plot of Lagoon
-4°27'27.58""N 73°23'18.81""E",Kaafu,K,"Plot of Lagoon
-4°27'27.58""N 73°23'18.81""E",Under development,Resort Development,MRAC Private Limited,,,,,1,"[{""lat"": 4.457661111111111, ""lon"": 73.38855833333334, ""raw"": ""4°27'27.58\""N 73°23'18.81\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,54,Vaagali,Kaafu,K,Vaagali,Under development,Resort Development,Vaagali Investments pvt ltd,,,,Vaagali,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,55,Kohdhipparu Lagoon,Kaafu,K,Kohdhipparu Lagoon,Under development,Resort Development,Dhidhoofinolhu Holdings Pvt Ltd,,,,Kohdhipparu,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,56,Kohdhipparu Finolhu,Kaafu,K,Kohdhipparu Finolhu,Under development,Resort Development,Amingiri Investment pvt ltd,,,,Kohdhipparu Finolhu,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,57,Embudu Lagoon,Kaafu,K,Embudu Lagoon,Under development,Resort Development,Dream Islands Development Pvt Ltd,,,,Embudu,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,58,"Dholla faru
+dataset,title,atoll,site,status,source_status,mmprc_implicated,mmprc_context_only,mmprc_match_count,mmprc_match_names,match_candidates,coordinates
+operating,Aanugandu Island Resort,Kaafu,Aanugan'du Finolhu and Aanugan'du Huraa,Operating,Operating,False,False,0,,"[""Aanugan'du Finolhu"", ""Aanugan'du Huraa""]",[]
+operating,Adaaran Club Rannalhi,Kaafu,Rannalhi,Operating,Operating,False,False,0,,"[""Rannalhi""]",[]
+operating,Adaaran Prestige Vadoo,Kaafu,Vaadhoo,Operating,Operating,False,False,0,,"[""Vaadhoo""]",[]
+operating,Adaaran Select Hudhuranfushi,Kaafu,Lhohifushi,Operating,Operating,False,False,0,,"[""Lhohifushi""]",[]
+operating,Adaaran Select Meedhupparu,Raa,Meedhupparu,Operating,Operating,False,False,0,,"[""Meedhupparu""]",[]
+operating,Alila Kothaifaru Maldives,Raa,Kothaifaru and Kuroshigiri,Operating,Operating,True,False,1,Kothaifaru and Kuroshigili — Orient Landscape,"[""Kothaifaru"", ""Kuroshigiri""]",[]
+operating,Alimatha Aquatic Resort,Vaavu,Alimatha,Operating,Operating,False,False,0,,"[""Alimatha""]",[]
+operating,Ananea Madivaru Maldives,Alifu Alifu,Etheremadivaru,Operating,Operating,False,False,0,,"[""Etheremadivaru""]",[]
+operating,Anantara Kihavah Villas,Baa,Kihavah Huravalhi,Operating,Operating,False,False,0,,"[""Kihavah Huravalhi""]",[]
+operating,Anantara Resort and Spa Maldives,Kaafu,Dhigufinolhu,Operating,Operating,False,False,0,,"[""Dhigufinolhu""]",[]
+operating,Anantara Veli and Naladhu,Kaafu,Veligan'du Huraa,Operating,Operating,False,False,0,,"[""Veligan'du Huraa""]",[]
+operating,Angaga Island Resort and Spa,Alifu Dhaalu,Angaga,Operating,Operating,False,False,0,,"[""Angaga""]",[]
+operating,Angsana Resort & Spa Maldives - Velavaru,Dhaalu,Velavaru,Operating,Operating,False,False,0,,"[""Velavaru""]",[]
+operating,Atmosphere Kanifushi Maldives,Lhaviyani,Kanifushi,Operating,Operating,False,False,0,,"[""Kanifushi""]",[]
+operating,Avani + Fares Maldives,Baa,Fares,Operating,Operating,False,False,0,,"[""Fares""]",[]
+operating,Ayada Maldives,Gaafu Dhaalu,Magudhdhuvaa,Operating,Operating,False,False,0,,"[""Magudhdhuvaa""]",[]
+operating,Baglioni Resort Maldives,Dhaalu,Maagau,Operating,Operating,True,False,1,"Maagau — New Mood Resorts, Albertino Peruzzo (Baglioni Resort Maldives)","[""Maagau""]",[]
+operating,Bandos Maldives,Kaafu,Bandos,Operating,Operating,False,False,0,,"[""Bandos""]",[]
+operating,Banyan Tree Maldives Vabbinfaru,Kaafu,Vabbinfaru,Operating,Operating,False,False,0,,"[""Vabbinfaru""]",[]
+operating,Baros Maldives,Kaafu,Baros,Operating,Operating,False,False,0,,"[""Baros""]",[]
+operating,Bolifushi Island Resort,Kaafu,Bolifushi,Operating,Operating,False,False,0,,"[""Bolifushi""]",[]
+operating,Brennia Kottefaru,Raa,Kottefaru,Operating,Operating,False,False,0,,"[""Kottefaru""]",[]
+operating,Canareef Resort Maldives,Seenu,Herethere,Operating,Operating,False,False,0,,"[""Herethere""]",[]
+operating,Centara Mirage Lagoon Maldives & Centara Grand Lagoon Maldives,Kaafu,4°19’0.85”N73°20’43.59”E,Operating,Operating,False,False,0,,[],[]
+operating,Centara Ras Fushi Resort & Spa,Kaafu,Giraavaru,Operating,Operating,False,False,0,,"[""Giraavaru""]",[]
+operating,Cheval Blanc Randheli,Noonu,Randheli,Operating,Operating,False,False,0,,"[""Randheli""]",[]
+operating,Cinnamon Dhonveli Maldives,Kaafu,Kanuoiy Huraa,Operating,Operating,False,False,0,,"[""Kanuoiy Huraa""]",[]
+operating,Cinnamon Hakuraa Huraa Maldives,Meemu,Hakuraahuraa,Operating,Operating,False,False,0,,"[""Hakuraahuraa""]",[]
+operating,Cinnamon Velifushi Maldives,Vaavu,Aarah,Operating,Operating,True,False,1,"Aarah — Two G, Aarah Investment","[""Aarah""]",[]
+operating,Club Med Finolhu Villas,Kaafu,Gasfinolhu,Operating,Operating,False,False,0,,"[""Gasfinolhu""]",[]
+operating,Club Med Kanifinolhu,Kaafu,Kanifinolhu,Operating,Operating,False,False,0,,"[""Kanifinolhu""]",[]
+operating,Coco Bodu Hithi,Kaafu,Boduhithi,Operating,Operating,False,False,0,,"[""Boduhithi""]",[]
+operating,Coco Palm Dhunikolhu,Baa,Dhunikolhu,Operating,Operating,False,False,0,,"[""Dhunikolhu""]",[]
+operating,Cocoa Island,Kaafu,Makunufushi,Operating,Operating,False,False,0,,"[""Makunufushi""]",[]
+operating,Cocogiri Island Resort,Vaavu,Vashugiri,Operating,Operating,True,False,1,Vashugiri — Ismail Rasheed Umar and Family,"[""Vashugiri""]",[]
+operating,Cocoon Maldives,Lhaviyani,Ookolhu Finolhu,Operating,Operating,False,False,0,,"[""Ookolhu Finolhu""]",[]
+operating,Como Maalifushi,Thaa,Male'fushi,Operating,Operating,False,False,0,,"[""Male'fushi""]",[]
+operating,Conrad Maldives Rangali Island,Alifu Dhaalu,Rangalifinolhu,Operating,Operating,False,False,0,,"[""Rangalifinolhu""]",[]
+operating,Constance Halaveli Resort,Alifu Alifu,Halaveli,Operating,Operating,False,False,0,,"[""Halaveli""]",[]
+operating,Constance Moofushi Resort,Alifu Dhaalu,Moofushi,Operating,Operating,False,False,0,,"[""Moofushi""]",[]
+operating,Cora Cora Maldives,Raa,Maamigili,Operating,Operating,False,False,0,,"[""Maamigili""]",[]
+operating,Dhawa Ihuru,Kaafu,Ihuru,Operating,Operating,False,False,0,,"[""Ihuru""]",[]
+operating,Dheruhfinolhu by Jawakara Islands Maldives,Lhaviyani,Dheruhfinolhu,Operating,Operating,True,False,1,Dheruffinolhu — Crown & Champa Resorts,"[""Dheruhfinolhu""]",[]
+operating,Dhiggiri Tourist Resort,Vaavu,Dhiggiri,Operating,Operating,False,False,0,,"[""Dhiggiri""]",[]
+operating,Dhigufaru Island Resort,Baa,Dhigufaruvinagandu,Operating,Operating,False,False,0,,"[""Dhigufaruvinagandu""]",[]
+operating,Diamonds Athuruga Beach & Water Villas,Alifu Dhaalu,Athurugau,Operating,Operating,False,False,0,,"[""Athurugau""]",[]
+operating,Diamonds Thudufushi Beach and Water Villas,Alifu Dhaalu,Thundufushi,Operating,Operating,False,False,0,,"[""Thundufushi""]",[]
+operating,Dreamland - The Unique Sea & Lake Resort/Spa,Baa,Hirundhoo,Operating,Operating,False,False,0,,"[""Hirundhoo""]",[]
+operating,Drift Theluveliga Retreat,Alifu Dhaalu,Theluveliga,Operating,Operating,False,False,0,,"[""Theluveliga""]",[]
+operating,Dusit Thani Maldives,Baa,Mudhdhoo,Operating,Operating,False,False,0,,"[""Mudhdhoo""]",[]
+operating,dusitD2,Kaafu,Feydhoo Finolhu,Operating,Operating,False,False,0,,"[""Feydhoo Finolhu""]",[]
+operating,Ellaidhoo Maldives By Cinnamon,Alifu Alifu,Ellaidhoo,Operating,Operating,False,False,0,,"[""Ellaidhoo""]",[]
+operating,Embudhu Village,Kaafu,Embudhu,Operating,Operating,False,False,0,,"[""Embudhu""]",[]
+operating,Emerald Faarufushi Resort & Spa,Raa,Faarufushi,Operating,Operating,True,False,1,Faarufushi — Universal Enterprises (Faarufushi Maldives Resort),"[""Faarufushi""]",[]
+operating,Emerald Maldives Resort & Spa Fasmendho,Raa,Fasmendhoo,Operating,Operating,False,False,0,,"[""Fasmendhoo""]",[]
+operating,Eri Maldives,Kaafu,Eriyadhu,Operating,Operating,False,False,0,,"[""Eriyadhu""]",[]
+operating,Fihaalhohi Maldives,Kaafu,Fihaalhohi,Operating,Operating,False,False,0,,"[""Fihaalhohi""]",[]
+operating,Filitheyo Island Resort,Faafu,Filitheyo,Operating,Operating,False,False,0,,"[""Filitheyo""]",[]
+operating,Finolhu Baa Atoll Maldives,Baa,Kanufushi,Operating,Operating,False,False,0,,"[""Kanufushi""]",[]
+operating,Four Seasons Private Island Maldives at Voavah,Baa,Voavah,Operating,Operating,False,True,1,Voavah — Hotel Properties Limited (Four Seasons Maldives Private Island at Voavah),"[""Voavah""]",[]
+operating,Four Seasons Resort Maldives at Kuda Huraa,Kaafu,Kuda Huraa,Operating,Operating,False,False,0,,"[""Kuda Huraa""]",[]
+operating,Four Seasons Resort Maldives at Landaa Giraavaru,Baa,Landaa Giraavaru,Operating,Operating,False,False,0,,"[""Landaa Giraavaru""]",[]
+operating,Furaveri Maldives,Raa,Furaveri,Operating,Operating,False,False,0,,"[""Furaveri""]",[]
+operating,Fushifaru Maldives,Lhaviyani,Fushifaru,Operating,Operating,False,False,0,,"[""Fushifaru""]",[]
+operating,Gangehi Island Resort,Alifu Alifu,Gangehi,Operating,Operating,False,False,0,,"[""Gangehi""]",[]
+operating,Gili Lankanfushi,Kaafu,Lankanfushi,Operating,Operating,False,False,0,,"[""Lankanfushi""]",[]
+operating,Grand Park Kodhipparu Maldives,Kaafu,Kodhipparu,Operating,Operating,False,False,0,,"[""Kodhipparu""]",[]
+operating,Hard Rock Hotel Maldives,Kaafu,Akasdhoo,Operating,Operating,False,False,0,,"[""Akasdhoo""]",[]
+operating,Heritance Aarah,Raa,Aarah,Operating,Operating,True,False,1,Aarah — Aitken Spence (Heritance Aarah Resort),"[""Aarah""]",[]
+operating,Hilton Maldives Amingiri Resort & Spa,Kaafu,Kohdhipparu Lagoon,Operating,Operating,False,False,0,,"[""Kohdhipparu""]",[]
+operating,Holiday Inn Resort Kandooma Maldives,Kaafu,Kandoomafushi,Operating,Operating,False,False,0,,"[""Kandoomafushi""]",[]
+operating,Hondaafushi Island Resort,Haa Dhaalu,Hondaafushi,Operating,Operating,False,False,0,,"[""Hondaafushi""]",[]
+operating,Hurawalhi Island Resort,Lhaviyani,Huravalhi,Operating,Operating,True,False,1,Huravalhi — Crown & Champa Resorts (Hurawalhi Island Resort),"[""Huravalhi""]",[]
+operating,Huvafenfushi Maldives,Kaafu,Nakatchafushi,Operating,Operating,False,False,0,,"[""Nakatchafushi""]",[]
+operating,Inter Continental Maldives Maamunagau,Raa,Maamunagau,Operating,Operating,False,True,1,Maamunagau — Hotel Properties Limited (InterContinental Maldives Maamunagau Resort),"[""Maamunagau""]",[]
+operating,JA Manafaru,Haa Alifu,Manafaru,Operating,Operating,False,False,0,,"[""Manafaru""]",[]
+operating,Joali Being Bodufushi,Raa,Bodufushi,Operating,Operating,True,False,1,Bodufushi — Gürallar Group (Ali Bey Hotels & Resorts),"[""Bodufushi""]",[]
+operating,Joali Muravandhoo,Raa,Muravandhoo,Operating,Operating,False,False,0,,"[""Muravandhoo""]",[]
+operating,Joy Island,Kaafu,Island 1 Plot of Lagoon,Operating,Operating,False,False,0,,[],[]
+operating,Jumeirah Maldives Olhahali Island,Kaafu,Olhahali,Operating,Operating,False,False,0,,"[""Olhahali""]",[]
+operating,JW Marriott Kaafu Atoll Island Resort,Kaafu,Hathaafinolhu,Operating,Operating,False,False,0,,"[""Hathaafinolhu""]",[]
+operating,JW Marriott Maldives Resort & Spa,Shaviyani,Vagaru,Operating,Operating,False,False,0,,"[""Vagaru""]",[]
+operating,Kagi Maldives Resort and Spa,Kaafu,Kagi,Operating,Operating,False,False,0,,"[""Kagi""]",[]
+operating,Kandima Maldives,Dhaalu,Kadinma,Operating,Operating,False,False,0,,"[""Kadinma""]",[]
+operating,Kandolhu Maldives,Alifu Alifu,Kandholhudhoo,Operating,Operating,False,False,0,,"[""Kandholhudhoo""]",[]
+operating,Komandoo Island Resort,Lhaviyani,Komandoo,Operating,Operating,False,False,0,,"[""Komandoo""]",[]
+operating,Kuda Villingili Resort Maldives,Kaafu,Kudavillingili,Operating,Operating,False,False,0,,"[""Kudavillingili""]",[]
+operating,Kudadoo Maldives Private island,Lhaviyani,Kudadhoo,Operating,Operating,True,False,1,Kudadhoo — Crown & Champa Resorts (Kudadoo Maldives Private Island),"[""Kudadhoo""]",[]
+operating,Kudafushi Resort & Spa,Raa,Kudafushi,Operating,Operating,False,False,0,,"[""Kudafushi""]",[]
+operating,Kuredhivaru Resort and Spa,Noonu,Kuredhivaru,Operating,Operating,False,False,0,,"[""Kuredhivaru""]",[]
+operating,Kuredu Island Resort,Lhaviyani,Kuredu,Operating,Operating,False,False,0,,"[""Kuredu""]",[]
+operating,Kurumba Maldives,Kaafu,Vihamanaafushi,Operating,Operating,False,False,0,,"[""Vihamanaafushi""]",[]
+operating,Le Méridien Maldives Resort and Spa,Lhaviyani,Thilamaafushi and Bodufinolhu,Operating,Operating,False,False,0,,"[""Thilamaafushi"", ""Bodufinolhu""]",[]
+operating,Lily Beach Resort,Alifu Dhaalu,Huvahendhoo,Operating,Operating,False,False,0,,"[""Huvahendhoo""]",[]
+operating,"Lux* South Ari Atoll, Maldives",Alifu Dhaalu,Dhidhdhoofinolhu,Operating,Operating,False,False,0,,"[""Dhidhdhoofinolhu""]",[]
+operating,Maayafushi Tourist Resort,Alifu Alifu,Maayafushi,Operating,Operating,False,False,0,,"[""Maayafushi""]",[]
+operating,Mabinhura by Jawakara Islands Maldives,Lhaviyani,Maabinhuraa,Operating,Operating,True,False,1,Maabinhuraa — Crown & Champa Resorts,"[""Maabinhuraa""]",[]
+operating,"Machchafushi Island Resort & Spa Maldives, The Centara Collection",Alifu Dhaalu,Machchafushi,Operating,Operating,False,False,0,,"[""Machchafushi""]",[]
+operating,Madifushi Private Island,Meemu,Madifushi,Operating,Operating,False,False,0,,"[""Madifushi""]",[]
+operating,Makunudu Island,Kaafu,Makunudhoo,Operating,Operating,False,False,0,,"[""Makunudhoo""]",[]
+operating,Malahini Kuda Bandos,Kaafu,Kuda Bandos,Operating,Operating,False,False,0,,"[""Kuda Bandos""]",[]
+operating,Medhufushi Island Resort,Meemu,Medhufushi,Operating,Operating,False,False,0,,"[""Medhufushi""]",[]
+operating,Meeru Maldives Resort Island,Kaafu,Meerufenfushi,Operating,Operating,False,False,0,,"[""Meerufenfushi""]",[]
+operating,Melia Whale Lagoon Maldives,Alifu Dhaalu,Bodufinolhu,Operating,Operating,True,False,1,Bodufinolhu — Lanka Orix Leasing Company (Bodufaru Beach Resort),"[""Bodufinolhu""]",[]
+operating,Meyyafushi Maldives,Lhaviyani,Meyyafushi,Operating,Operating,False,False,0,,"[""Meyyafushi""]",[]
+operating,Milaidhoo Island Maldives,Baa,Milaidhoo,Operating,Operating,True,False,1,Milaidhoo — Universal Enterprises (Milaidhoo Island Maldives Resort),"[""Milaidhoo""]",[]
+operating,Nala Maldives by Jawakara,Lhaviyani,Innahuraa,Operating,Operating,True,False,1,Innahuraa — Crown & Champa Resorts (Innahuraa Maldivian Resort),"[""Innahuraa""]",[]
+operating,NH Collection Maldives Havodda Resort,Gaafu Dhaalu,Havodda,Operating,Operating,False,False,0,,"[""Havodda""]",[]
+operating,NH Collection Maldives Reethi Resort,Baa,Fonimagoodhoo,Operating,Operating,False,False,0,,"[""Fonimagoodhoo""]",[]
+operating,nH Maldives Kuda Rah Resort,Alifu Dhaalu,Kudarah,Operating,Operating,False,False,0,,"[""Kudarah""]",[]
+operating,Nika Island Resort and Spa,Alifu Alifu,Kudafolhudhoo,Operating,Operating,False,False,0,,"[""Kudafolhudhoo""]",[]
+operating,Niva Dhigali Maldives,Raa,Dhigali,Operating,Operating,False,False,0,,"[""Dhigali""]",[]
+operating,Niva Kuramathi Maldives,Alifu Alifu,Kuramathi,Operating,Operating,False,False,0,,"[""Kuramathi""]",[]
+operating,Niva Velassaru Maldives,Kaafu,Velassaru,Operating,Operating,False,False,0,,"[""Velassaru""]",[]
+operating,Niyama Maldives,Dhaalu,Embudhufushi and Olhuveli,Operating,Operating,False,False,0,,"[""Embudhufushi"", ""Olhuveli""]",[]
+operating,Noku Maldives Vignette Collection,Noonu,Kudafunafaru,Operating,Operating,False,False,0,,"[""Kudafunafaru""]",[]
+operating,Nooe Maldives Kunavashi,Vaavu,Kunaavashi,Operating,Operating,False,False,0,,"[""Kunaavashi""]",[]
+operating,Nova Maldives,Alifu Dhaalu,Vakarufalhi,Operating,Operating,False,False,0,,"[""Vakarufalhi""]",[]
+operating,Oaga Art Resort,Kaafu,Maaranfushi,Operating,Not Operating,False,False,0,,"[""Maaranfushi""]",[]
+operating,Oblu By Atmosphere at Helengeli,Kaafu,Helengeli,Operating,Operating,False,False,0,,"[""Helengeli""]",[]
+operating,Oblu Select by Atmosphere at Sangeli,Kaafu,Akirifushi,Operating,Operating,False,False,0,,"[""Akirifushi""]",[]
+operating,"One & Only Reethi Rah, Maldives",Kaafu,Medhufinolhu,Operating,Operating,False,False,0,,"[""Medhufinolhu""]",[]
+operating,Outrigger Maldives Maafushivaru Resort,Alifu Dhaalu,Maafushivaru,Operating,Operating,False,False,0,,"[""Maafushivaru""]",[]
+operating,Ozen By Atmosphere At Maadhoo,Kaafu,Maadhoo,Operating,Operating,False,False,0,,"[""Maadhoo""]",[]
+operating,Park Hyatt Maldives Hadahaa,Gaafu Alifu,Hadahaa,Operating,Operating,False,False,0,,"[""Hadahaa""]",[]
+operating,"Patina Maldives, Fari Islands",Kaafu,Fari Veli Huraa,Operating,Operating,False,False,0,,"[""Fari Veli Huraa""]",[]
+operating,Pullman Maldives Maamutaa Resort,Gaafu Alifu,Maamutaa,Operating,Operating,False,False,0,,"[""Maamutaa""]",[]
+operating,Raaya by Atmosphere,Raa,Kudakurathu,Operating,Operating,False,False,0,,"[""Kudakurathu""]",[]
+operating,Radisson Blu Resort Maldives,Alifu Dhaalu,Huruelhi,Operating,Operating,False,False,0,,"[""Huruelhi""]",[]
+operating,Rah Gili Maldives,Kaafu,Mahaana elhi Huraa,Operating,Operating,False,False,0,,"[""Mahaana elhi Huraa""]",[]
+operating,Rahaa Resort,Laamu,Kudafares and Fares,Operating,Operating,False,False,0,,"[""Kudafares"", ""Fares""]",[]
+operating,Reethi Faru Resort,Raa,Filaidhoo,Operating,Operating,False,False,0,,"[""Filaidhoo""]",[]
+operating,Riu Atoll and Riu Palace Maldivas,Dhaalu,Maafushi and Kedhigandu,Operating,Operating,False,False,0,,"[""Maafushi"", ""Kedhigandu""]",[]
+operating,Robinson Maldives,Gaafu Alifu,Funamauddua,Operating,Operating,False,False,0,,"[""Funamauddua""]",[]
+operating,Robinson Noonu,Noonu,Orivaru,Operating,Operating,True,False,1,Orivaru — Robinson (Robinson Club Maldives),"[""Orivaru""]",[]
+operating,Royal Island Resort and Spa,Baa,Horubadhoo,Operating,Operating,False,False,0,,"[""Horubadhoo""]",[]
+operating,Saii Lagoon Maldives,Kaafu,Eh'mafushi,Operating,Operating,False,False,0,,"[""Eh'mafushi""]",[]
+operating,Sandies Bathala,Alifu Alifu,Bathala,Operating,Operating,False,False,0,,"[""Bathala""]",[]
+operating,Shangri-la Villingili Maldives,Seenu,Villingili,Operating,Operating,False,False,0,,"[""Villingili""]",[]
+operating,Sheraton Maldives Full Moon Resort & Spa,Kaafu,Furanafushi,Operating,Operating,False,False,0,,"[""Furanafushi""]",[]
+operating,Sirru Fen Fushi,Shaviyani,Gaakoshibee,Operating,Operating,False,False,0,,"[""Gaakoshibee""]",[]
+operating,Six Senses Kanuhura,Lhaviyani,Kanuhuraa,Operating,Operating,False,False,0,,"[""Kanuhuraa""]",[]
+operating,Six Senses Laamu,Laamu,Olhuveli,Operating,Operating,False,False,0,,"[""Olhuveli""]",[]
+operating,Siyam World Maldives,Noonu,Dhigurah,Operating,Operating,False,False,0,,"[""Dhigurah""]",[]
+operating,SO/ Maldives,Kaafu,"4° 7’ 24.562” N, 73° 28’ 52.015” E",Operating,Operating,False,False,0,,[],[]
+operating,Soneva Fushi Resort,Baa,Kunfunadhoo,Operating,Operating,False,False,0,,"[""Kunfunadhoo""]",[]
+operating,Soneva Jani,Noonu,Medhufaru,Operating,Operating,True,False,1,Medhufaru and Surrounds — Soneva (Soneva Jani Resort),"[""Medhufaru""]",[]
+operating,Soneva Secret,Haa Dhaalu,Dhipparufushi,Operating,Operating,False,False,0,,"[""Dhipparufushi""]",[]
+operating,South Palm Resort Maldives,Seenu,Ismehelahera Kedevaahera,Operating,Operating,False,False,0,,"[""Ismehelahera Kedevaahera""]",[]
+operating,Summer Island Maldives,Kaafu,Ziyaaraiyfushi,Operating,Operating,False,False,0,,"[""Ziyaaraiyfushi""]",[]
+operating,Sun Siyam Iru Fushi Maldives,Noonu,Medhafushi,Operating,Operating,False,False,0,,"[""Medhafushi""]",[]
+operating,Sun Siyam Iru Veli Maldives,Dhaalu,Aluvifushi,Operating,Operating,True,False,1,Aluvifushi — Sun Siyam (Sun Aqua Iru Veli),"[""Aluvifushi""]",[]
+operating,Sun Siyam Olhuveli Maldives,Kaafu,Olhuveli,Operating,Operating,False,False,0,,"[""Olhuveli""]",[]
+operating,Sun Siyam Vilu Reef Maldives,Dhaalu,Meedhuffushi,Operating,Operating,False,False,0,,"[""Meedhuffushi""]",[]
+operating,Taj Coral Reef Resort and Spa,Kaafu,Hembadhu,Operating,Operating,False,False,0,,"[""Hembadhu""]",[]
+operating,Taj Exotica Resort & Spa Maldives,Kaafu,Embudhu Finolhu,Operating,Operating,False,False,0,,"[""Embudhu Finolhu""]",[]
+operating,The Halcyon Private Isles Maldives Autograph Collection,Gaafu Alifu,Meradhoo,Operating,Operating,False,False,0,,"[""Meradhoo""]",[]
+operating,The Nautilus Maldives,Baa,Thiladhoo,Operating,Operating,False,False,0,,"[""Thiladhoo""]",[]
+operating,The Residence Maldives,Gaafu Alifu,Falhumaafushi,Operating,Operating,False,False,0,,"[""Falhumaafushi""]",[]
+operating,The Residence Maldives At Dhigurah,Gaafu Alifu,Dhigurah,Operating,Operating,False,False,0,,"[""Dhigurah""]",[]
+operating,The Ritz Carlton Maldives Fari Islands,Kaafu,Fari Kandu Huraa,Operating,Operating,False,False,0,,"[""Fari Kandu Huraa""]",[]
+operating,"The St. Regis Vommuli Resort, Maldives",Dhaalu,Vommuli,Operating,Operating,False,False,0,,"[""Vommuli""]",[]
+operating,The Standard Huruvalhi Maldives,Raa,Huruvalhi,Operating,Operating,True,False,1,Huruvalhi — Amir Mansoor (Carpe Diem Beach Resort & Spa),"[""Huruvalhi""]",[]
+operating,The Westin Maldives Miriandhoo Resort,Baa,Miriandhoo,Operating,Operating,True,False,1,"Miriandhoo — Asia Capital, Belluna (The Westin Miriandhoo Maldives Resort)","[""Miriandhoo""]",[]
+operating,Thulhagiri Island Resort & Spa,Kaafu,Thulhaagiri,Operating,Operating,False,False,0,,"[""Thulhaagiri""]",[]
+operating,V Villas Maldives at Mirihi-Mgallery Collection,Alifu Dhaalu,Mirihi,Operating,Operating,False,False,0,,"[""Mirihi""]",[]
+operating,Vakkaru Maldives,Baa,Vakkaru,Operating,Operating,False,False,0,,"[""Vakkaru""]",[]
+operating,Varu Island Resort,Kaafu,Madivaru,Operating,Operating,False,False,0,,"[""Madivaru""]",[]
+operating,Velaa Private Island Maldives,Noonu,Fushivelaavaru,Operating,Operating,False,False,0,,"[""Fushivelaavaru""]",[]
+operating,Veligandu Maldives Resort Island,Alifu Alifu,Veligan'du,Operating,Operating,False,False,0,,"[""Veligan'du""]",[]
+operating,Vilamendhoo Island Resort,Alifu Dhaalu,Vilamendhoo,Operating,Operating,False,False,0,,"[""Vilamendhoo""]",[]
+operating,Villa Nautica Paradise Island,Kaafu,Lankanfinolhu,Operating,Operating,False,False,0,,"[""Lankanfinolhu""]",[]
+operating,Villa Park Sun Island,Alifu Dhaalu,Nalaguraidhoo,Operating,Operating,False,False,0,,"[""Nalaguraidhoo""]",[]
+operating,W Maldives,Alifu Alifu,Fesdhoo,Operating,Operating,False,False,0,,"[""Fesdhoo""]",[]
+operating,Waldorf Astoria Maldives Ithaafushi,Kaafu,Ithaafushi,Operating,Operating,True,False,1,Ithaafushi — ASSETS Real Estate Development (Waldorf Astoria Maldives Ithaafushi),"[""Ithaafushi""]",[]
+operating,Yash Nature Resort,Dhaalu,Dhoores,Operating,Operating,False,False,0,,"[""Dhoores""]",[]
+operating,You & Me Maldives,Raa,Uthurumaafaru,Operating,Operating,True,False,1,"Uthurumaafaru — Sun Front, Azemar (You and Me by Cocoon Maldives Resort)","[""Uthurumaafaru""]",[]
+development,Berinmadhoo,Haa Alifu,Berinmadhoo,Under development,Under development,False,False,0,,"[""Berinmadhoo""]",[]
+development,Velifinolhu,Haa Alifu,Velifinolhu,Under development,Under development,False,False,0,,"[""Velifinolhu""]",[]
+development,Plot of Land & Allocated Lagoon Area,Haa Alifu,Plot of Land & Allocated Lagoon Area,Under development,Under development,False,False,0,,[],[]
+development,Medhafushi,Haa Alifu,Medhafushi,Under development,Under development,False,False,0,,"[""Medhafushi""]",[]
+development,Alidhuffarufinolhu,Haa Alifu,Alidhuffarufinolhu,Under development,Under development,False,False,0,,"[""Alidhuffarufinolhu""]",[]
+development,"Nolhivaranfaru Training Resort and Training
+Facility",Haa Dhaalu,"Nolhivaranfaru Training Resort and Training
+Facility",Under development,Under development,False,False,0,,"[""Nolhivaranfaru""]",[]
+development,Naagoashi,Haa Dhaalu,Naagoashi,Under development,Under development,False,False,0,,"[""Naagoashi""]",[]
+development,Vaikuramuraidhoo,Haa Dhaalu,Vaikuramuraidhoo,Under development,Under development,False,False,0,,"[""Vaikuramuraidhoo""]",[]
+development,Hurasfaru,Shaviyani,Hurasfaru,Under development,Under development,False,False,0,,"[""Hurasfaru""]",[]
+development,Naainfaru,Shaviyani,Naainfaru,Under development,Under development,False,False,0,,"[""Naainfaru""]",[]
+development,Dholhiyadhoo,Shaviyani,Dholhiyadhoo,Under development,Under development,False,False,0,,"[""Dholhiyadhoo""]",[]
+development,Kanbaalifaru,Shaviyani,Kanbaalifaru,Under development,Under development,False,False,0,,"[""Kanbaalifaru""]",[]
+development,Huivani,Noonu,Huivani,Under development,Under development,False,False,0,,"[""Huivani""]",[]
+development,Huvandhumaavattaru,Noonu,Huvandhumaavattaru,Under development,Under development,False,False,0,,"[""Huvandhumaavattaru""]",[]
+development,Maavelaavaru,Noonu,Maavelaavaru,Under development,Under development,False,False,0,,"[""Maavelaavaru""]",[]
+development,Loafaru,Noonu,Loafaru,Under development,Under development,False,False,0,,"[""Loafaru""]",[]
+development,Raafushi,Noonu,Raafushi,Under development,Under development,True,False,1,Raafushi — Aitken Spence,"[""Raafushi""]",[]
+development,Karinmavattaru,Noonu,Karinmavattaru,Under development,Under development,False,False,0,,"[""Karinmavattaru""]",[]
+development,Kunnamalei,Noonu,Kunnamalei,Under development,Under development,False,False,0,,"[""Kunnamalei""]",[]
+development,Kendhivaru,Noonu,Kendhivaru,Under development,Under development,False,False,0,,"[""Kendhivaru""]",[]
+development,Ehdhuffarumairah,Noonu,Ehdhuffarumairah,Under development,Under development,False,False,0,,"[""Ehdhuffarumairah""]",[]
+development,Bandaidhidhdhoo,Noonu,Bandaidhidhdhoo,Under development,Under development,False,False,0,,"[""Bandaidhidhdhoo""]",[]
+development,Dhigufaru Lagoon and Dhekenanfaru,Noonu,Dhigufaru Lagoon and Dhekenanfaru,Under development,Under development,False,False,0,,"[""Dhigufaru"", ""Dhekenanfaru""]",[]
+development,Maakurehdhoo,Noonu,Maakurehdhoo,Under development,Under development,False,False,0,,"[""Maakurehdhoo""]",[]
+development,Minaavaru,Noonu,Minaavaru,Under development,Under development,False,False,0,,"[""Minaavaru""]",[]
+development,Fuggiri,Raa,Fuggiri,Under development,Under development,True,False,1,Fuggiri — Classic Citi Island Holdings,"[""Fuggiri""]",[]
+development,Kan'doogan'du,Raa,Kan'doogan'du,Under development,Under development,True,False,1,Kan'doogan'du and Veyvah — Mohamed Hussain Fulhu,"[""Kan'doogan'du""]",[]
+development,Lundhufushi,Raa,Lundhufushi,Under development,Under development,False,False,0,,"[""Lundhufushi""]",[]
+development,Bodufarufinolhu,Raa,Bodufarufinolhu,Under development,Under development,True,False,1,Bodufaru Finolhu — Lanka Orix Leasing Company,"[""Bodufarufinolhu""]",[]
+development,Maanenfushi,Raa,Maanenfushi,Under development,Under development,False,False,0,,"[""Maanenfushi""]",[]
+development,Gemana,Raa,Gemana,Under development,Under development,False,False,0,,"[""Gemana""]",[]
+development,Fenfushi,Raa,Fenfushi,Under development,Under development,False,False,0,,"[""Fenfushi""]",[]
+development,Kukulhudhuffaru,Raa,Kukulhudhuffaru,Under development,Under development,False,False,0,,"[""Kukulhudhuffaru""]",[]
+development,Dhoragali,Raa,Dhoragali,Under development,Under development,False,False,0,,"[""Dhoragali""]",[]
+development,"5°25’54.164”N, 72°52’36.846”E
+(Maafaru Falhu)",Raa,"5°25’54.164”N, 72°52’36.846”E
+(Maafaru Falhu)",Under development,Under development,False,False,0,,"[""Maafaru Falhu""]","[{""lat"": 5.431712222222223, ""lon"": 72.87690166666665, ""raw"": ""5°25'54.164\""N 72°52'36.846\""E""}]"
+development,Dhikkurehdheoo,Raa,Dhikkurehdheoo,Under development,Under development,False,False,0,,"[""Dhikkurehdheoo""]",[]
+development,Dhandhoo,Baa,Dhandhoo,Under development,Under development,True,False,1,Dhandhoo — Samed Resorts,"[""Dhandhoo""]",[]
+development,Dhigudhefaru,Baa,Dhigudhefaru,Under development,Under development,True,False,1,"Dhigudefaru — Dhigudhefaru Investment, Ahmed Iqbal","[""Dhigudhefaru""]",[]
+development,Muthaafushi,Baa,Muthaafushi,Under development,Under development,True,False,1,Muthaafushi — Well Land Investment (Forthcoming Centara-branded Resort),"[""Muthaafushi""]",[]
+development,Funadhoo,Baa,Funadhoo,Under development,Under development,False,False,0,,"[""Funadhoo""]",[]
+development,Maamaduvvari,Baa,Maamaduvvari,Under development,Under development,True,False,1,"Maamaduvvari — Coastline Group, Universal Enterprises","[""Maamaduvvari""]",[]
+development,Bodufinolhu,Baa,Bodufinolhu,Under development,Under development,False,False,0,,"[""Bodufinolhu""]",[]
+development,Hibalhidhoo,Baa,Hibalhidhoo,Under development,Under development,True,False,1,Hibalhidhoo — Biznas Maldives,"[""Hibalhidhoo""]",[]
+development,Hulhudhoo,Baa,Hulhudhoo,Under development,Under development,False,False,0,,"[""Hulhudhoo""]",[]
+development,Plot of lagoon from Goidhoo Faru,Baa,Plot of lagoon from Goidhoo Faru,Under development,Under development,False,False,0,,"[""from Goidhoo Faru""]",[]
+development,Veyvah,Lhaviyani,Veyvah,Under development,Under development,False,False,0,,"[""Veyvah""]",[]
+development,Hudhufushi,Lhaviyani,Hudhufushi,Under development,Under development,False,False,0,,"[""Hudhufushi""]",[]
+development,Lhossalafushi,Lhaviyani,Lhossalafushi,Under development,Under development,False,False,0,,"[""Lhossalafushi""]",[]
+development,Vihafarufinolhu,Lhaviyani,Vihafarufinolhu,Under development,Under development,False,False,0,,"[""Vihafarufinolhu""]",[]
+development,"4°17'45.64""N 73°28'40.90""E",Kaafu,"4°17'45.64""N 73°28'40.90""E",Under development,Under development,False,False,0,,[],"[{""lat"": 4.296011111111111, ""lon"": 73.47802777777778, ""raw"": ""4°17'45.64\""N 73°28'40.90\""E""}]"
+development,"3 53'24.68""N 73 21'36.74""E",Kaafu,"3 53'24.68""N 73 21'36.74""E",Under development,Under development,False,False,0,,[],"[{""lat"": 3.890188888888889, ""lon"": 73.36020555555555, ""raw"": ""3 53'24.68\""N 73 21'36.74\""E""}]"
+development,"4°0'24.28""N 73°25'20.14""E",Kaafu,"4°0'24.28""N 73°25'20.14""E",Under development,Under development,False,False,0,,[],"[{""lat"": 4.006744444444444, ""lon"": 73.42226111111111, ""raw"": ""4°0'24.28\""N 73°25'20.14\""E""}]"
+development,"Plot of Lagoon
+4°27'27.58""N 73°23'18.81""E",Kaafu,"Plot of Lagoon
+4°27'27.58""N 73°23'18.81""E",Under development,Under development,False,False,0,,[],"[{""lat"": 4.457661111111111, ""lon"": 73.38855833333334, ""raw"": ""4°27'27.58\""N 73°23'18.81\""E""}]"
+development,Vaagali,Kaafu,Vaagali,Under development,Under development,False,False,0,,"[""Vaagali""]",[]
+development,Kohdhipparu Lagoon,Kaafu,Kohdhipparu Lagoon,Under development,Under development,False,False,0,,"[""Kohdhipparu""]",[]
+development,Kohdhipparu Finolhu,Kaafu,Kohdhipparu Finolhu,Under development,Under development,False,False,0,,"[""Kohdhipparu Finolhu""]",[]
+development,Embudu Lagoon,Kaafu,Embudu Lagoon,Under development,Under development,False,False,0,,"[""Embudu""]",[]
+development,"Dholla faru
 Plot of Lagoon
-4°34'2.13""N 73°36'29.49""E",Kaafu,K,"Dholla faru
+4°34'2.13""N 73°36'29.49""E",Kaafu,"Dholla faru
 Plot of Lagoon
-4°34'2.13""N 73°36'29.49""E",Under development,Resort Development,Villa Holidays Private Limited,,,,Dholla faru,1,"[{""lat"": 4.567258333333333, ""lon"": 73.60819166666666, ""raw"": ""4°34'2.13\""N 73°36'29.49\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,59,"Lagoon 19
-4°16'36.46""N 73°27'35.98""E",Kaafu,K,"Lagoon 19
-4°16'36.46""N 73°27'35.98""E",Under development,Integrated Tourist Resort,Maarah Pvt Ltd,,,,,1,"[{""lat"": 4.276794444444445, ""lon"": 73.45999444444445, ""raw"": ""4°16'36.46\""N 73°27'35.98\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,60,"Lagoon 2
-4°36'58.36""N / 73°30'38.96""E",Kaafu,K,"Lagoon 2
-4°36'58.36""N / 73°30'38.96""E",Under development,Resort Development,Dutch Docklands Maldives Pvt Ltd,,,,,1,"[{""lat"": 4.61621111111111, ""lon"": 73.51082222222222, ""raw"": ""4°36'58.36\""N 73°30'38.96\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,61,"Lagoon 9
-4°15'6.27""N, 73°26'30.91""E",Kaafu,K,"Lagoon 9
-4°15'6.27""N, 73°26'30.91""E",Under development,Resort Development,Dutch Docklands Maldives Private Limited,,,,,1,"[{""lat"": 4.251741666666667, ""lon"": 73.44191944444445, ""raw"": ""4°15'6.27\""N 73°26'30.91\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,62,"Tholhimaraahuraa Lagoon 3°50'25.20""N,
-73°22'36.33""E",Kaafu,K,"Tholhimaraahuraa Lagoon 3°50'25.20""N,
-73°22'36.33""E",Under development,Resort Development,Prime Atoll Maldives Pvt Ltd,,,,Tholhimaraahuraa,1,"[{""lat"": 3.8403333333333336, ""lon"": 73.37675833333333, ""raw"": ""3°50'25.20\""N 73°22'36.33\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,63,"Lagoon (Bolidhuhfaru)
-4°05’12.6”N 73°23’18.4”E,",Kaafu,K,"Lagoon (Bolidhuhfaru)
-4°05’12.6”N 73°23’18.4”E,",Under development,Resort Development,Vita Heights Company Limited,,,,Bolidhuhfaru,1,"[{""lat"": 4.086833333333333, ""lon"": 73.38844444444445, ""raw"": ""4°05'12.6\""N 73°23'18.4\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,64,"Lagoon (Vaaredhoo Faru)
-4°02’09.9”N 73°22’19.5”E",Kaafu,K,"Lagoon (Vaaredhoo Faru)
-4°02’09.9”N 73°22’19.5”E",Under development,Resort Development,The Palace LXR Hotels & Resorts WLL,,,,Vaaredhoo Faru,1,"[{""lat"": 4.036083333333333, ""lon"": 73.37208333333332, ""raw"": ""4°02'09.9\""N 73°22'19.5\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,65,"Lagoon (Maadhihgaru Falhu)
-3°59’01.1”N 73°21’37.6”E",Kaafu,K,"Lagoon (Maadhihgaru Falhu)
-3°59’01.1”N 73°21’37.6”E",Under development,Resort Development,Vita Heights Company Limited,,,,Maadhihgaru Falhu,1,"[{""lat"": 3.9836388888888887, ""lon"": 73.36044444444444, ""raw"": ""3°59'01.1\""N 73°21'37.6\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,66,"Plot of Lagoon (Emerald Lagoon)
-3°49'30.32""N, 73°26'19.37""E",Kaafu,K,"Plot of Lagoon (Emerald Lagoon)
-3°49'30.32""N, 73°26'19.37""E",Under development,Resort Development,Emerald Resort Private Limited,,,,Emerald,1,"[{""lat"": 3.8250888888888888, ""lon"": 73.4387138888889, ""raw"": ""3°49'30.32\""N 73°26'19.37\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,67,"Lagoon (Maniyafaru)
-4°03’25.1”N 73°23’16.2”E",Kaafu,K,"Lagoon (Maniyafaru)
-4°03’25.1”N 73°23’16.2”E",Under development,Resort Development,Ebony Private Limited,,,,Maniyafaru,1,"[{""lat"": 4.056972222222222, ""lon"": 73.38783333333333, ""raw"": ""4°03'25.1\""N 73°23'16.2\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,68,"Dhonfushi - 4 36'32""N, 73 24'28""E",Kaafu,K,"Dhonfushi - 4 36'32""N, 73 24'28""E",Under development,Resort Development,Radhun Resorts and Investmetns Pvt Ltd,,,,Dhonfushi,1,"[{""lat"": 4.608888888888888, ""lon"": 73.40777777777778, ""raw"": ""4 36'32\""N 73 24'28\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,68,"Kanbaashaa - 4 37'18""N, 73 23'42""E",Kaafu,K,"Kanbaashaa - 4 37'18""N, 73 23'42""E",Under development,Resort Development,Radhun Resorts and Investmetns Pvt Ltd,,,,Kanbaashaa,1,"[{""lat"": 4.621666666666667, ""lon"": 73.39500000000001, ""raw"": ""4 37'18\""N 73 23'42\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,68,"Nashvilu - 4 37'29""N. 73 24'23""E",Kaafu,K,"Nashvilu - 4 37'29""N. 73 24'23""E",Under development,Resort Development,Radhun Resorts and Investmetns Pvt Ltd,,,,Nashvilu - .,1,"[{""lat"": 4.624722222222223, ""lon"": 73.4063888888889, ""raw"": ""4 37'29\""N 73 24'23\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,68,"Hastheem - 4 37'23""N, 73 24'41""E",Kaafu,K,"Hastheem - 4 37'23""N, 73 24'41""E",Under development,Resort Development,Radhun Resorts and Investmetns Pvt Ltd,,,,Hastheem,1,"[{""lat"": 4.623055555555556, ""lon"": 73.4113888888889, ""raw"": ""4 37'23\""N 73 24'41\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,69,"Dhiffushifaru
-4°24'11.41""N, 73°41'16.85""E",Kaafu,K,"Dhiffushifaru
-4°24'11.41""N, 73°41'16.85""E",Under development,Resort Development,Marina Development Pvt Ltd,,,,Dhiffushifaru,1,"[{""lat"": 4.403169444444445, ""lon"": 73.68801388888889, ""raw"": ""4°24'11.41\""N 73°41'16.85\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,70,"Plot of Lagoon
-3°55'33.81"" N 73°21'18.50""E",Kaafu,K,"Plot of Lagoon
-3°55'33.81"" N 73°21'18.50""E",Under development,Resort Development,Royal Resorts WLL,,,,,1,"[{""lat"": 3.926058333333333, ""lon"": 73.35513888888889, ""raw"": ""3°55'33.81\"" N 73°21'18.50\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,71,"Plot of Lagoon
-3°53’34.89”N, 73°24’27.66”E",Kaafu,K,"Plot of Lagoon
-3°53’34.89”N, 73°24’27.66”E",Under development,Resort Development,Moonlight Holdings Pvt Ltd,,,,,1,"[{""lat"": 3.893025, ""lon"": 73.40768333333334, ""raw"": ""3°53'34.89\""N 73°24'27.66\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,72,"Plot of Lagoon (Dhonmaaga)
-3°57'54.9972""N 73°26'47.8507""E",Kaafu,K,"Plot of Lagoon (Dhonmaaga)
-3°57'54.9972""N 73°26'47.8507""E",Under development,Resort Development,Sea House Resorts Pvt Ltd,,,,Dhonmaaga,1,"[{""lat"": 3.9652770000000004, ""lon"": 73.44662519444445, ""raw"": ""3°57'54.9972\""N 73°26'47.8507\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,73,"Plot of Lagoon
-4°40’49.9”N, 73°31’34.2”E",Kaafu,K,"Plot of Lagoon
-4°40’49.9”N, 73°31’34.2”E",Under development,Resort Development,Lightblue Maldives Private Limited,,,,,1,"[{""lat"": 4.680527777777778, ""lon"": 73.52616666666667, ""raw"": ""4°40'49.9\""N 73°31'34.2\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,74,"Plot of lagoon: Embudhu Finolhu
-4°5'23.36""N, 73°31'23.00""E",Kaafu,K,"Plot of lagoon: Embudhu Finolhu
-4°5'23.36""N, 73°31'23.00""E",Under development,Resort Development,Bayswater Maldives Private Limited,,,,Embudhu Finolhu,1,"[{""lat"": 4.089822222222222, ""lon"": 73.52305555555556, ""raw"": ""4°5'23.36\""N 73°31'23.00\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,75,"Plot of Lagoon
-4°15'58.82""N 73°25'18.90""E",Kaafu,K,"Plot of Lagoon
-4°15'58.82""N 73°25'18.90""E",Under development,Resort Development,Coral Tree Pvt Ltd,,,,,1,"[{""lat"": 4.266338888888889, ""lon"": 73.42191666666668, ""raw"": ""4°15'58.82\""N 73°25'18.90\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,76,"Plot of Lagoon 4°16'40.06"" N 73°21'7.27""E",Kaafu,K,"Plot of Lagoon 4°16'40.06"" N 73°21'7.27""E",Under development,Resort Development,Gulf Craft Service Centre Maldives Pvt Ltd,,,,,1,"[{""lat"": 4.277794444444444, ""lon"": 73.35201944444444, ""raw"": ""4°16'40.06\"" N 73°21'7.27\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,77,"Plot of Lagoon
-4°30'56.11""N 73°38'22.41""E",Kaafu,K,"Plot of Lagoon
-4°30'56.11""N 73°38'22.41""E",Under development,Resort Development,Mazzo Pvt Ltd,,,,,1,"[{""lat"": 4.515586111111111, ""lon"": 73.63955833333334, ""raw"": ""4°30'56.11\""N 73°38'22.41\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,78,"Plot of Lagoon 4°31'9.68""N
-73°39'9.44""E",Kaafu,K,"Plot of Lagoon 4°31'9.68""N
-73°39'9.44""E",Under development,Resort Development,Middle Lagoon Pvt Ltd,,,,,1,"[{""lat"": 4.519355555555555, ""lon"": 73.65262222222223, ""raw"": ""4°31'9.68\""N 73°39'9.44\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,79,"Plot of Lagoons
+4°34'2.13""N 73°36'29.49""E",Under development,Under development,False,False,0,,"[""Dholla faru""]","[{""lat"": 4.567258333333333, ""lon"": 73.60819166666666, ""raw"": ""4°34'2.13\""N 73°36'29.49\""E""}]"
+development,"Lagoon 19
+4°16'36.46""N 73°27'35.98""E",Kaafu,"Lagoon 19
+4°16'36.46""N 73°27'35.98""E",Under development,Under development,False,False,0,,[],"[{""lat"": 4.276794444444445, ""lon"": 73.45999444444445, ""raw"": ""4°16'36.46\""N 73°27'35.98\""E""}]"
+development,"Lagoon 2
+4°36'58.36""N / 73°30'38.96""E",Kaafu,"Lagoon 2
+4°36'58.36""N / 73°30'38.96""E",Under development,Under development,False,False,0,,[],"[{""lat"": 4.61621111111111, ""lon"": 73.51082222222222, ""raw"": ""4°36'58.36\""N 73°30'38.96\""E""}]"
+development,"Lagoon 9
+4°15'6.27""N, 73°26'30.91""E",Kaafu,"Lagoon 9
+4°15'6.27""N, 73°26'30.91""E",Under development,Under development,False,False,0,,[],"[{""lat"": 4.251741666666667, ""lon"": 73.44191944444445, ""raw"": ""4°15'6.27\""N 73°26'30.91\""E""}]"
+development,"Tholhimaraahuraa Lagoon 3°50'25.20""N,
+73°22'36.33""E",Kaafu,"Tholhimaraahuraa Lagoon 3°50'25.20""N,
+73°22'36.33""E",Under development,Under development,False,False,0,,"[""Tholhimaraahuraa""]","[{""lat"": 3.8403333333333336, ""lon"": 73.37675833333333, ""raw"": ""3°50'25.20\""N 73°22'36.33\""E""}]"
+development,"Lagoon (Bolidhuhfaru)
+4°05’12.6”N 73°23’18.4”E,",Kaafu,"Lagoon (Bolidhuhfaru)
+4°05’12.6”N 73°23’18.4”E,",Under development,Under development,False,False,0,,"[""Bolidhuhfaru""]","[{""lat"": 4.086833333333333, ""lon"": 73.38844444444445, ""raw"": ""4°05'12.6\""N 73°23'18.4\""E""}]"
+development,"Lagoon (Vaaredhoo Faru)
+4°02’09.9”N 73°22’19.5”E",Kaafu,"Lagoon (Vaaredhoo Faru)
+4°02’09.9”N 73°22’19.5”E",Under development,Under development,False,False,0,,"[""Vaaredhoo Faru""]","[{""lat"": 4.036083333333333, ""lon"": 73.37208333333332, ""raw"": ""4°02'09.9\""N 73°22'19.5\""E""}]"
+development,"Lagoon (Maadhihgaru Falhu)
+3°59’01.1”N 73°21’37.6”E",Kaafu,"Lagoon (Maadhihgaru Falhu)
+3°59’01.1”N 73°21’37.6”E",Under development,Under development,False,False,0,,"[""Maadhihgaru Falhu""]","[{""lat"": 3.9836388888888887, ""lon"": 73.36044444444444, ""raw"": ""3°59'01.1\""N 73°21'37.6\""E""}]"
+development,"Plot of Lagoon (Emerald Lagoon)
+3°49'30.32""N, 73°26'19.37""E",Kaafu,"Plot of Lagoon (Emerald Lagoon)
+3°49'30.32""N, 73°26'19.37""E",Under development,Under development,True,False,1,Lagoon between Olhuveli and Rihiveli — Sun Siyam,"[""Emerald""]","[{""lat"": 3.8250888888888888, ""lon"": 73.4387138888889, ""raw"": ""3°49'30.32\""N 73°26'19.37\""E""}]"
+development,"Lagoon (Maniyafaru)
+4°03’25.1”N 73°23’16.2”E",Kaafu,"Lagoon (Maniyafaru)
+4°03’25.1”N 73°23’16.2”E",Under development,Under development,True,False,1,Maniyafaru Lagoon — Ebony Pvt Ltd (Ownership Tied to Reethi Beach and Reethi Faru Resorts),"[""Maniyafaru""]","[{""lat"": 4.056972222222222, ""lon"": 73.38783333333333, ""raw"": ""4°03'25.1\""N 73°23'16.2\""E""}]"
+development,"Dhonfushi - 4 36'32""N, 73 24'28""E",Kaafu,"Dhonfushi - 4 36'32""N, 73 24'28""E",Under development,Under development,True,False,1,"Lagoon — Radhun Resorts and Investments, linked to Ahmed Nashid","[""Dhonfushi""]","[{""lat"": 4.608888888888888, ""lon"": 73.40777777777778, ""raw"": ""4 36'32\""N 73 24'28\""E""}]"
+development,"Kanbaashaa - 4 37'18""N, 73 23'42""E",Kaafu,"Kanbaashaa - 4 37'18""N, 73 23'42""E",Under development,Under development,False,False,0,,"[""Kanbaashaa""]","[{""lat"": 4.621666666666667, ""lon"": 73.39500000000001, ""raw"": ""4 37'18\""N 73 23'42\""E""}]"
+development,"Nashvilu - 4 37'29""N. 73 24'23""E",Kaafu,"Nashvilu - 4 37'29""N. 73 24'23""E",Under development,Under development,False,False,0,,"[""Nashvilu - .""]","[{""lat"": 4.624722222222223, ""lon"": 73.4063888888889, ""raw"": ""4 37'29\""N 73 24'23\""E""}]"
+development,"Hastheem - 4 37'23""N, 73 24'41""E",Kaafu,"Hastheem - 4 37'23""N, 73 24'41""E",Under development,Under development,False,False,0,,"[""Hastheem""]","[{""lat"": 4.623055555555556, ""lon"": 73.4113888888889, ""raw"": ""4 37'23\""N 73 24'41\""E""}]"
+development,"Dhiffushifaru
+4°24'11.41""N, 73°41'16.85""E",Kaafu,"Dhiffushifaru
+4°24'11.41""N, 73°41'16.85""E",Under development,Under development,False,False,0,,"[""Dhiffushifaru""]","[{""lat"": 4.403169444444445, ""lon"": 73.68801388888889, ""raw"": ""4°24'11.41\""N 73°41'16.85\""E""}]"
+development,"Plot of Lagoon
+3°55'33.81"" N 73°21'18.50""E",Kaafu,"Plot of Lagoon
+3°55'33.81"" N 73°21'18.50""E",Under development,Under development,True,False,1,"Lagoon — Depezar Services Fettah Tamince, Tufan Aytekin Gultekin (Linked to Rixos Hotels)",[],"[{""lat"": 3.926058333333333, ""lon"": 73.35513888888889, ""raw"": ""3°55'33.81\"" N 73°21'18.50\""E""}]"
+development,"Plot of Lagoon
+3°53’34.89”N, 73°24’27.66”E",Kaafu,"Plot of Lagoon
+3°53’34.89”N, 73°24’27.66”E",Under development,Under development,True,False,1,Lagoon — Sunny Holdings,[],"[{""lat"": 3.893025, ""lon"": 73.40768333333334, ""raw"": ""3°53'34.89\""N 73°24'27.66\""E""}]"
+development,"Plot of Lagoon (Dhonmaaga)
+3°57'54.9972""N 73°26'47.8507""E",Kaafu,"Plot of Lagoon (Dhonmaaga)
+3°57'54.9972""N 73°26'47.8507""E",Under development,Under development,True,False,1,Lagoon — Sea House Resorts,"[""Dhonmaaga""]","[{""lat"": 3.9652770000000004, ""lon"": 73.44662519444445, ""raw"": ""3°57'54.9972\""N 73°26'47.8507\""E""}]"
+development,"Plot of Lagoon
+4°40’49.9”N, 73°31’34.2”E",Kaafu,"Plot of Lagoon
+4°40’49.9”N, 73°31’34.2”E",Under development,Under development,True,False,2,Lagoon — Mohamed Wafir | Lagoons — Lanka Orix Leasing Company,[],"[{""lat"": 4.680527777777778, ""lon"": 73.52616666666667, ""raw"": ""4°40'49.9\""N 73°31'34.2\""E""}]"
+development,"Plot of lagoon: Embudhu Finolhu
+4°5'23.36""N, 73°31'23.00""E",Kaafu,"Plot of lagoon: Embudhu Finolhu
+4°5'23.36""N, 73°31'23.00""E",Under development,Under development,False,False,0,,"[""Embudhu Finolhu""]","[{""lat"": 4.089822222222222, ""lon"": 73.52305555555556, ""raw"": ""4°5'23.36\""N 73°31'23.00\""E""}]"
+development,"Plot of Lagoon
+4°15'58.82""N 73°25'18.90""E",Kaafu,"Plot of Lagoon
+4°15'58.82""N 73°25'18.90""E",Under development,Under development,True,False,1,"Lagoon — Coral Tree, Ali Zahir Hilmy",[],"[{""lat"": 4.266338888888889, ""lon"": 73.42191666666668, ""raw"": ""4°15'58.82\""N 73°25'18.90\""E""}]"
+development,"Plot of Lagoon 4°16'40.06"" N 73°21'7.27""E",Kaafu,"Plot of Lagoon 4°16'40.06"" N 73°21'7.27""E",Under development,Under development,True,False,1,Lagoon — Gulf Craft,[],"[{""lat"": 4.277794444444444, ""lon"": 73.35201944444444, ""raw"": ""4°16'40.06\"" N 73°21'7.27\""E""}]"
+development,"Plot of Lagoon
+4°30'56.11""N 73°38'22.41""E",Kaafu,"Plot of Lagoon
+4°30'56.11""N 73°38'22.41""E",Under development,Under development,False,False,0,,[],"[{""lat"": 4.515586111111111, ""lon"": 73.63955833333334, ""raw"": ""4°30'56.11\""N 73°38'22.41\""E""}]"
+development,"Plot of Lagoon 4°31'9.68""N
+73°39'9.44""E",Kaafu,"Plot of Lagoon 4°31'9.68""N
+73°39'9.44""E",Under development,Under development,False,False,0,,[],"[{""lat"": 4.519355555555555, ""lon"": 73.65262222222223, ""raw"": ""4°31'9.68\""N 73°39'9.44\""E""}]"
+development,"Plot of Lagoons
 4°40’28.8”N, 73°32’02.2”E
-4°40’18.4”N, 73°32’24.6”E",Kaafu,K,"Plot of Lagoons
+4°40’18.4”N, 73°32’24.6”E",Kaafu,"Plot of Lagoons
 4°40’28.8”N, 73°32’02.2”E
-4°40’18.4”N, 73°32’24.6”E",Under development,Resort Development,Bodufaru Beach Resort Pvt Ltd,,,,,2,"[{""lat"": 4.674666666666667, ""lon"": 73.53394444444444, ""raw"": ""4°40'28.8\""N 73°32'02.2\""E""}, {""lat"": 4.671777777777778, ""lon"": 73.54016666666666, ""raw"": ""4°40'18.4\""N 73°32'24.6\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,80,"4°17'19""N, 73°24'11""E",Kaafu,K,"4°17'19""N, 73°24'11""E",Under development,Resort Development,Samarafushi Pvt Ltd,,,,,1,"[{""lat"": 4.288611111111111, ""lon"": 73.40305555555557, ""raw"": ""4°17'19\""N 73°24'11\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,81,Nakacha Huraa,Kaafu,K,Nakacha Huraa,Under development,Resort Development,Nakacha Huraa Developments Pvt Ltd,,,,Nakacha Huraa,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,82,"Plot of Lagoon 3°54'43""N,
-73°24'03""E",Kaafu,K,"Plot of Lagoon 3°54'43""N,
-73°24'03""E",Under development,Resort Development,Dream Ocean Holidays Private Limited,,,,,1,"[{""lat"": 3.9119444444444444, ""lon"": 73.40083333333334, ""raw"": ""3°54'43\""N 73°24'03\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,83,"Plot of Lagoon
-4°19'32.54""N, 73°23'59.64""E",Kaafu,K,"Plot of Lagoon
-4°19'32.54""N, 73°23'59.64""E",Under development,Resort Development,Darglobal Development Maldives Private Limited,,,,,1,"[{""lat"": 4.3257055555555555, ""lon"": 73.3999, ""raw"": ""4°19'32.54\""N 73°23'59.64\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,84,"Plot of Lagoon
-4°01'33.2""N, 73°25'30.3""E",Kaafu,K,"Plot of Lagoon
-4°01'33.2""N, 73°25'30.3""E",Under development,Resort Development,D'Mal Island Private Limited,,,,,1,"[{""lat"": 4.025888888888889, ""lon"": 73.42508333333333, ""raw"": ""4°01'33.2\""N 73°25'30.3\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,85,"Plot of Lagoon
-4°38'48""N, 73°33'09""E",Kaafu,K,"Plot of Lagoon
-4°38'48""N, 73°33'09""E",Under development,Resort Development,Everest Maldives Private Limited,,,,,1,"[{""lat"": 4.6466666666666665, ""lon"": 73.5525, ""raw"": ""4°38'48\""N 73°33'09\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,86,"Plot of Lagoon
-3°55'42.23""N, 73°27'28.02""E",Kaafu,K,"Plot of Lagoon
-3°55'42.23""N, 73°27'28.02""E",Under development,Resort Development,Coolshades Investment Private Limited,,,,,1,"[{""lat"": 3.928397222222222, ""lon"": 73.45778333333334, ""raw"": ""3°55'42.23\""N 73°27'28.02\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,87,"Plot of Lagoon (Dhiya Adi Faru)
-4°32'6.907""N, 73°37'59.193""E",Kaafu,K,"Plot of Lagoon (Dhiya Adi Faru)
-4°32'6.907""N, 73°37'59.193""E",Under development,Resort Development,Premier Equity Pvt. Ltd,,,,Dhiya Adi Faru,1,"[{""lat"": 4.535251944444444, ""lon"": 73.63310916666666, ""raw"": ""4°32'6.907\""N 73°37'59.193\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,88,Velassaru Faru,Kaafu,K,Velassaru Faru,Under development,Resort Development,Millenium Capital Management PVT LTD,,,,Velassaru Faru,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,89,"4°2’32.263”N, 73°25’10.367"" E",Kaafu,K,"4°2’32.263”N, 73°25’10.367"" E",Under development,Resort Development,Samana Ocean Investment Private Limited,,,,,1,"[{""lat"": 4.042295277777778, ""lon"": 73.41954638888889, ""raw"": ""4°2'32.263\""N 73°25'10.367\"" E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,90,"4.3717, 73.34417, 4.36537, 73.34709,
-4.36648, 73.35554",Kaafu,K,"4.3717, 73.34417, 4.36537, 73.34709,
-4.36648, 73.35554",Under development,Resort Development,Alibey Maldives Private Limited,,,,,3,"[{""lat"": 4.3717, ""lon"": 73.34417, ""raw"": ""4.3717, 73.34417""}, {""lat"": 4.36537, ""lon"": 73.34709, ""raw"": ""4.36537, 73.34709""}, {""lat"": 4.36648, ""lon"": 73.35554, ""raw"": ""4.36648, 73.35554""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,91,"4°4’27.763”N, 73°24’46.269"" E",Kaafu,K,"4°4’27.763”N, 73°24’46.269"" E",Under development,Resort Development,Maadhoala Private Limited,,,,,1,"[{""lat"": 4.07437861111111, ""lon"": 73.4128525, ""raw"": ""4°4'27.763\""N 73°24'46.269\"" E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,92,"Gaafaru Falhu (4°46’54 N, 73 25' 29"" E and
-4°43’34”N,73°23’18 ""E)",Kaafu,K,"Gaafaru Falhu (4°46’54 N, 73 25' 29"" E and
-4°43’34”N,73°23’18 ""E)",Under development,Resort Development,Maldives Fund Management Corporation Limited,,,,Gaafaru Falhu (,2,"[{""lat"": 4.781666666666666, ""lon"": 73.42472222222223, ""raw"": ""4°46'54 N 73 25' 29\"" E""}, {""lat"": 4.726111111111111, ""lon"": 73.38833333333334, ""raw"": ""4°43'34\""N 73°23'18 \""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,93,"4°22’59.665”N, 73°23’28.883"" E",Kaafu,K,"4°22’59.665”N, 73°23’28.883"" E",Under development,Resort Development,Keiretsu Private Limited,,,,,1,"[{""lat"": 4.3832402777777775, ""lon"": 73.3913563888889, ""raw"": ""4°22'59.665\""N 73°23'28.883\"" E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,94,Emboodhoo (Island 1),Kaafu,K,Emboodhoo (Island 1),Under development,Resort Development,Dream Islands Development Pvt Ltd,,,,Emboodhoo,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,95,"3°55’21.076”N, 73°26’31.761",Kaafu,K,"3°55’21.076”N, 73°26’31.761",Under development,Resort Development,Arena Private Limited,,,,°26'31.761,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,96,Fusfaru,Kaafu,K,Fusfaru,Under development,Resort Development,Fusfaru Maldives Private Limited,,,,Fusfaru,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,97,"Erruhhuraa, Olhigan'dufinolhu and small
-island with the feature code LD1727",Kaafu,K,"Erruhhuraa, Olhigan'dufinolhu and small
-island with the feature code LD1727",Under development,Resort Development,OGN Private Limited,,,,Erruhhuraa|Olhigan'dufinolhu|small with the feature code LD1727,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,98,"Plot of Lagoon 4°17’45.500”N, 73°26’44.553""
-E",Kaafu,K,"Plot of Lagoon 4°17’45.500”N, 73°26’44.553""
-E",Under development,Resort Development,Luxuria Dubai Private Limited,,,,,1,"[{""lat"": 4.295972222222222, ""lon"": 73.44570916666667, ""raw"": ""4°17'45.500\""N 73°26'44.553\""\nE""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,99,Maagaa,Alifu Alifu,AA,Maagaa,Under development,Resort Development,Abdulla Jabir,,,,Maagaa,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,100,Madoogali,Alifu Alifu,AA,Madoogali,Under development,Resort Development,Noovilu Resort Pvt Ltd,,,,Madoogali,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,101,"Plot of Lagoon
-3°56'55.08""N, 72°56'44.1""E",Alifu Alifu,AA,"Plot of Lagoon
-3°56'55.08""N, 72°56'44.1""E",Under development,Resort Development,Legal Heirs of Late Abdul Rauf,,,,,1,"[{""lat"": 3.9486333333333334, ""lon"": 72.94558333333333, ""raw"": ""3°56'55.08\""N 72°56'44.1\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,102,Medhafushi,Alifu Alifu,AA,Medhafushi,Under development,Resort Development,Samana IFN Holding Limited,,,,Medhafushi,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,103,"Plot of Lagoon 4°5′31.29""N, 72°54′19.76""E
-(Bodugaafalhu)",Alifu Alifu,AA,"Plot of Lagoon 4°5′31.29""N, 72°54′19.76""E
-(Bodugaafalhu)",Under development,Resort Development,Big Fish Maldives Pvt Ltd,,,,Bodugaafalhu,1,"[{""lat"": 4.092025, ""lon"": 72.9054888888889, ""raw"": ""4°5'31.29\""N 72°54'19.76\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,104,Innafushi,Alifu Dhaalu,ADh,Innafushi,Under development,Resort Development,Seagull Group Private Limited,,,,Innafushi,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,105,"Plot of Lagoon: Hithifalhu
+4°40’18.4”N, 73°32’24.6”E",Under development,Under development,False,False,0,,[],"[{""lat"": 4.674666666666667, ""lon"": 73.53394444444444, ""raw"": ""4°40'28.8\""N 73°32'02.2\""E""}, {""lat"": 4.671777777777778, ""lon"": 73.54016666666666, ""raw"": ""4°40'18.4\""N 73°32'24.6\""E""}]"
+development,"4°17'19""N, 73°24'11""E",Kaafu,"4°17'19""N, 73°24'11""E",Under development,Under development,False,False,0,,[],"[{""lat"": 4.288611111111111, ""lon"": 73.40305555555557, ""raw"": ""4°17'19\""N 73°24'11\""E""}]"
+development,Nakacha Huraa,Kaafu,Nakacha Huraa,Under development,Under development,False,False,0,,"[""Nakacha Huraa""]",[]
+development,"Plot of Lagoon 3°54'43""N,
+73°24'03""E",Kaafu,"Plot of Lagoon 3°54'43""N,
+73°24'03""E",Under development,Under development,False,False,0,,[],"[{""lat"": 3.9119444444444444, ""lon"": 73.40083333333334, ""raw"": ""3°54'43\""N 73°24'03\""E""}]"
+development,"Plot of Lagoon
+4°19'32.54""N, 73°23'59.64""E",Kaafu,"Plot of Lagoon
+4°19'32.54""N, 73°23'59.64""E",Under development,Under development,False,False,0,,[],"[{""lat"": 4.3257055555555555, ""lon"": 73.3999, ""raw"": ""4°19'32.54\""N 73°23'59.64\""E""}]"
+development,"Plot of Lagoon
+4°01'33.2""N, 73°25'30.3""E",Kaafu,"Plot of Lagoon
+4°01'33.2""N, 73°25'30.3""E",Under development,Under development,False,False,0,,[],"[{""lat"": 4.025888888888889, ""lon"": 73.42508333333333, ""raw"": ""4°01'33.2\""N 73°25'30.3\""E""}]"
+development,"Plot of Lagoon
+4°38'48""N, 73°33'09""E",Kaafu,"Plot of Lagoon
+4°38'48""N, 73°33'09""E",Under development,Under development,False,False,0,,[],"[{""lat"": 4.6466666666666665, ""lon"": 73.5525, ""raw"": ""4°38'48\""N 73°33'09\""E""}]"
+development,"Plot of Lagoon
+3°55'42.23""N, 73°27'28.02""E",Kaafu,"Plot of Lagoon
+3°55'42.23""N, 73°27'28.02""E",Under development,Under development,False,False,0,,[],"[{""lat"": 3.928397222222222, ""lon"": 73.45778333333334, ""raw"": ""3°55'42.23\""N 73°27'28.02\""E""}]"
+development,"Plot of Lagoon (Dhiya Adi Faru)
+4°32'6.907""N, 73°37'59.193""E",Kaafu,"Plot of Lagoon (Dhiya Adi Faru)
+4°32'6.907""N, 73°37'59.193""E",Under development,Under development,False,False,0,,"[""Dhiya Adi Faru""]","[{""lat"": 4.535251944444444, ""lon"": 73.63310916666666, ""raw"": ""4°32'6.907\""N 73°37'59.193\""E""}]"
+development,Velassaru Faru,Kaafu,Velassaru Faru,Under development,Under development,False,False,0,,"[""Velassaru Faru""]",[]
+development,"4°2’32.263”N, 73°25’10.367"" E",Kaafu,"4°2’32.263”N, 73°25’10.367"" E",Under development,Under development,False,False,0,,[],"[{""lat"": 4.042295277777778, ""lon"": 73.41954638888889, ""raw"": ""4°2'32.263\""N 73°25'10.367\"" E""}]"
+development,"4.3717, 73.34417, 4.36537, 73.34709,
+4.36648, 73.35554",Kaafu,"4.3717, 73.34417, 4.36537, 73.34709,
+4.36648, 73.35554",Under development,Under development,False,False,0,,[],"[{""lat"": 4.3717, ""lon"": 73.34417, ""raw"": ""4.3717, 73.34417""}, {""lat"": 4.36537, ""lon"": 73.34709, ""raw"": ""4.36537, 73.34709""}, {""lat"": 4.36648, ""lon"": 73.35554, ""raw"": ""4.36648, 73.35554""}]"
+development,"4°4’27.763”N, 73°24’46.269"" E",Kaafu,"4°4’27.763”N, 73°24’46.269"" E",Under development,Under development,False,False,0,,[],"[{""lat"": 4.07437861111111, ""lon"": 73.4128525, ""raw"": ""4°4'27.763\""N 73°24'46.269\"" E""}]"
+development,"Gaafaru Falhu (4°46’54 N, 73 25' 29"" E and
+4°43’34”N,73°23’18 ""E)",Kaafu,"Gaafaru Falhu (4°46’54 N, 73 25' 29"" E and
+4°43’34”N,73°23’18 ""E)",Under development,Under development,False,False,0,,"[""Gaafaru Falhu (""]","[{""lat"": 4.781666666666666, ""lon"": 73.42472222222223, ""raw"": ""4°46'54 N 73 25' 29\"" E""}, {""lat"": 4.726111111111111, ""lon"": 73.38833333333334, ""raw"": ""4°43'34\""N 73°23'18 \""E""}]"
+development,"4°22’59.665”N, 73°23’28.883"" E",Kaafu,"4°22’59.665”N, 73°23’28.883"" E",Under development,Under development,False,False,0,,[],"[{""lat"": 4.3832402777777775, ""lon"": 73.3913563888889, ""raw"": ""4°22'59.665\""N 73°23'28.883\"" E""}]"
+development,Emboodhoo (Island 1),Kaafu,Emboodhoo (Island 1),Under development,Under development,False,False,0,,"[""Emboodhoo""]",[]
+development,"3°55’21.076”N, 73°26’31.761",Kaafu,"3°55’21.076”N, 73°26’31.761",Under development,Under development,False,False,0,,"[""°26'31.761""]",[]
+development,Fusfaru,Kaafu,Fusfaru,Under development,Under development,False,False,0,,"[""Fusfaru""]",[]
+development,"Erruhhuraa, Olhigan'dufinolhu and small
+island with the feature code LD1727",Kaafu,"Erruhhuraa, Olhigan'dufinolhu and small
+island with the feature code LD1727",Under development,Under development,False,False,0,,"[""Erruhhuraa"", ""Olhigan'dufinolhu"", ""small with the feature code LD1727""]",[]
+development,"Plot of Lagoon 4°17’45.500”N, 73°26’44.553""
+E",Kaafu,"Plot of Lagoon 4°17’45.500”N, 73°26’44.553""
+E",Under development,Under development,False,False,0,,[],"[{""lat"": 4.295972222222222, ""lon"": 73.44570916666667, ""raw"": ""4°17'45.500\""N 73°26'44.553\""\nE""}]"
+development,Maagaa,Alifu Alifu,Maagaa,Under development,Under development,False,False,0,,"[""Maagaa""]",[]
+development,Madoogali,Alifu Alifu,Madoogali,Under development,Under development,False,False,0,,"[""Madoogali""]",[]
+development,"Plot of Lagoon
+3°56'55.08""N, 72°56'44.1""E",Alifu Alifu,"Plot of Lagoon
+3°56'55.08""N, 72°56'44.1""E",Under development,Under development,False,False,0,,[],"[{""lat"": 3.9486333333333334, ""lon"": 72.94558333333333, ""raw"": ""3°56'55.08\""N 72°56'44.1\""E""}]"
+development,Medhafushi,Alifu Alifu,Medhafushi,Under development,Under development,False,False,0,,"[""Medhafushi""]",[]
+development,"Plot of Lagoon 4°5′31.29""N, 72°54′19.76""E
+(Bodugaafalhu)",Alifu Alifu,"Plot of Lagoon 4°5′31.29""N, 72°54′19.76""E
+(Bodugaafalhu)",Under development,Under development,False,False,0,,"[""Bodugaafalhu""]","[{""lat"": 4.092025, ""lon"": 72.9054888888889, ""raw"": ""4°5'31.29\""N 72°54'19.76\""E""}]"
+development,Innafushi,Alifu Dhaalu,Innafushi,Under development,Under development,True,False,1,Innafushi — Seagull Group,"[""Innafushi""]",[]
+development,"Plot of Lagoon: Hithifalhu
 1 - 3°40'7.65"" N 72°58'19.00""E &
-2 - 3°39'45.78"" N 72°57'9.98""E",Alifu Dhaalu,ADh,"Plot of Lagoon: Hithifalhu
+2 - 3°39'45.78"" N 72°57'9.98""E",Alifu Dhaalu,"Plot of Lagoon: Hithifalhu
 1 - 3°40'7.65"" N 72°58'19.00""E &
-2 - 3°39'45.78"" N 72°57'9.98""E",Under development,Resort Development,Villa Air Private Limited,,,,Hithifalhu 1,2,"[{""lat"": 3.6687916666666665, ""lon"": 72.97194444444445, ""raw"": ""3°40'7.65\"" N 72°58'19.00\""E""}, {""lat"": 3.6627166666666664, ""lon"": 72.95277222222222, ""raw"": ""3°39'45.78\"" N 72°57'9.98\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,106,"Plot of lagoon: Bodufinolhu Lagoon
-3°30'42.95"" N 72°43'45.58""E",Alifu Dhaalu,ADh,"Plot of lagoon: Bodufinolhu Lagoon
-3°30'42.95"" N 72°43'45.58""E",Under development,Resort Development,Villa Shipping & Trading Company Private Limited,,,,Bodufinolhu,1,"[{""lat"": 3.5119305555555558, ""lon"": 72.72932777777778, ""raw"": ""3°30'42.95\"" N 72°43'45.58\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,107,Heenfaru,Alifu Dhaalu,ADh,Heenfaru,Under development,Resort Development,"Nuemark Pvt Ltd,",,,,Heenfaru,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,108,Fushidhigga,Alifu Dhaalu,ADh,Fushidhigga,Under development,Resort Development,Maldiviana Group Private Limited,,,,Fushidhigga,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,109,Oshagali,Alifu Dhaalu,ADh,Oshagali,Under development,Resort Development,Oshagali Investments Private Limited,,,,Oshagali,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,110,Bodukaashihuraa,Alifu Dhaalu,ADh,Bodukaashihuraa,Under development,Resort Development,H.M.H.I Company Pvt Ltd,,,,Bodukaashihuraa,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,111,"Plot of Lagoon 3°53′28.62″N, 72°57′5.74“E
-(Genburugaa Falhu)",Alifu Dhaalu,ADh,"Plot of Lagoon 3°53′28.62″N, 72°57′5.74“E
-(Genburugaa Falhu)",Under development,Resort Development,KSR Marine Services (Maldives) Pvt Ltd,,,,Genburugaa Falhu,1,"[{""lat"": 3.8912833333333334, ""lon"": 72.95159444444445, ""raw"": ""3°53'28.62\""N 72°57'5.74\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,112,"Foththeyobodufushi
-3°23'40.272""N, 73°39'52.677""E",Vaavu,V,"Foththeyobodufushi
-3°23'40.272""N, 73°39'52.677""E",Under development,Resort Development,Amrock Investment (Maldives) pvt ltd,,,,Foththeyobodufushi,1,"[{""lat"": 3.39452, ""lon"": 73.66463250000001, ""raw"": ""3°23'40.272\""N 73°39'52.677\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,113,Ambara,Vaavu,V,Ambara,Under development,Resort Development,Handhuvaru Ocean Pvt Ltd,,,,Ambara,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,114,Bodumohoraa,Vaavu,V,Bodumohoraa,Under development,Resort Development,Bodumohoraa Investment Private Limited,,,,Bodumohoraa,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,115,Lagoon in Vaavu Atoll,Vaavu,V,Lagoon in Vaavu Atoll,Under development,Resort Development,Global Ace Maldives Private Limited,,,,in Vaavu Atoll,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,116,Kudadhiggaru Falhu,Vaavu,V,Kudadhiggaru Falhu,Under development,Resort Development,Millennium Capital Management Pvt Ltd,,,,Kudadhiggaru Falhu,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,117,"3°32’43.397”N, 73°30’15.829"" E",Vaavu,V,"3°32’43.397”N, 73°30’15.829"" E",Under development,Resort Development,Veriri Private Limited,,,,,1,"[{""lat"": 3.5453880555555553, ""lon"": 73.50439694444445, ""raw"": ""3°32'43.397\""N 73°30'15.829\"" E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,118,"3°37'24.561""N, 73°30'5.784""E",Vaavu,V,"3°37'24.561""N, 73°30'5.784""E",Under development,Resort Development,Kaani Hotels and Resorts Private Limited,,,,,1,"[{""lat"": 3.623489166666667, ""lon"": 73.50160666666666, ""raw"": ""3°37'24.561\""N 73°30'5.784\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,119,"Plot of Lagoon
+2 - 3°39'45.78"" N 72°57'9.98""E",Under development,Under development,False,False,0,,"[""Hithifalhu 1""]","[{""lat"": 3.6687916666666665, ""lon"": 72.97194444444445, ""raw"": ""3°40'7.65\"" N 72°58'19.00\""E""}, {""lat"": 3.6627166666666664, ""lon"": 72.95277222222222, ""raw"": ""3°39'45.78\"" N 72°57'9.98\""E""}]"
+development,"Plot of lagoon: Bodufinolhu Lagoon
+3°30'42.95"" N 72°43'45.58""E",Alifu Dhaalu,"Plot of lagoon: Bodufinolhu Lagoon
+3°30'42.95"" N 72°43'45.58""E",Under development,Under development,True,False,1,Bodufinolhu — Lanka Orix Leasing Company (Bodufaru Beach Resort),"[""Bodufinolhu""]","[{""lat"": 3.5119305555555558, ""lon"": 72.72932777777778, ""raw"": ""3°30'42.95\"" N 72°43'45.58\""E""}]"
+development,Heenfaru,Alifu Dhaalu,Heenfaru,Under development,Under development,True,False,1,Heenfaru — Hussain Sharih,"[""Heenfaru""]",[]
+development,Fushidhigga,Alifu Dhaalu,Fushidhigga,Under development,Under development,True,False,1,Fushidhigga,"[""Fushidhigga""]",[]
+development,Oshagali,Alifu Dhaalu,Oshagali,Under development,Under development,False,False,0,,"[""Oshagali""]",[]
+development,Bodukaashihuraa,Alifu Dhaalu,Bodukaashihuraa,Under development,Under development,True,False,1,Bodukaashi Huraa — Millennium Capital Management,"[""Bodukaashihuraa""]",[]
+development,"Plot of Lagoon 3°53′28.62″N, 72°57′5.74“E
+(Genburugaa Falhu)",Alifu Dhaalu,"Plot of Lagoon 3°53′28.62″N, 72°57′5.74“E
+(Genburugaa Falhu)",Under development,Under development,False,False,0,,"[""Genburugaa Falhu""]","[{""lat"": 3.8912833333333334, ""lon"": 72.95159444444445, ""raw"": ""3°53'28.62\""N 72°57'5.74\""E""}]"
+development,"Foththeyobodufushi
+3°23'40.272""N, 73°39'52.677""E",Vaavu,"Foththeyobodufushi
+3°23'40.272""N, 73°39'52.677""E",Under development,Under development,True,False,1,Fohtheyo Bodufushi — Hotel Properties Limited,"[""Foththeyobodufushi""]","[{""lat"": 3.39452, ""lon"": 73.66463250000001, ""raw"": ""3°23'40.272\""N 73°39'52.677\""E""}]"
+development,Ambara,Vaavu,Ambara,Under development,Under development,False,False,0,,"[""Ambara""]",[]
+development,Bodumohoraa,Vaavu,Bodumohoraa,Under development,Under development,False,False,0,,"[""Bodumohoraa""]",[]
+development,Lagoon in Vaavu Atoll,Vaavu,Lagoon in Vaavu Atoll,Under development,Under development,False,False,0,,"[""in Vaavu Atoll""]",[]
+development,Kudadhiggaru Falhu,Vaavu,Kudadhiggaru Falhu,Under development,Under development,False,False,0,,"[""Kudadhiggaru Falhu""]",[]
+development,"3°32’43.397”N, 73°30’15.829"" E",Vaavu,"3°32’43.397”N, 73°30’15.829"" E",Under development,Under development,False,False,0,,[],"[{""lat"": 3.5453880555555553, ""lon"": 73.50439694444445, ""raw"": ""3°32'43.397\""N 73°30'15.829\"" E""}]"
+development,"3°37'24.561""N, 73°30'5.784""E",Vaavu,"3°37'24.561""N, 73°30'5.784""E",Under development,Under development,False,False,0,,[],"[{""lat"": 3.623489166666667, ""lon"": 73.50160666666666, ""raw"": ""3°37'24.561\""N 73°30'5.784\""E""}]"
+development,"Plot of Lagoon
 3°24'18.00""N, 73°45'16.00""E and
-3°22'40.00""N, 73°43'58.00""E",Vaavu,V,"Plot of Lagoon
+3°22'40.00""N, 73°43'58.00""E",Vaavu,"Plot of Lagoon
 3°24'18.00""N, 73°45'16.00""E and
-3°22'40.00""N, 73°43'58.00""E",Under development,Resort Development,Constellation Lagoon PVT LTD,,,,,2,"[{""lat"": 3.405, ""lon"": 73.75444444444445, ""raw"": ""3°24'18.00\""N 73°45'16.00\""E""}, {""lat"": 3.3777777777777778, ""lon"": 73.73277777777778, ""raw"": ""3°22'40.00\""N 73°43'58.00\""E""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,120,"Seedheehuraa and Seedheehuraa
-Veligan'du",Meemu,M,"Seedheehuraa and Seedheehuraa
-Veligan'du",Under development,Resort Development,Marketech Maldives Private Limited,,,,Seedheehuraa|Seedheehuraa Veligan'du,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,121,"Dhekunu Boduveli, Gasveli, Kudausfushi",Meemu,M,"Dhekunu Boduveli, Gasveli, Kudausfushi",Under development,Resort Development,Mr. Mohamed Manik (A023542),,,,Dhekunu Boduveli|Gasveli|Kudausfushi,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,122,"Uthuruboduveli, Hurasveli and Uthurugasveli",Meemu,M,"Uthuruboduveli, Hurasveli and Uthurugasveli",Under development,Resort Development,Island Channels Pvt Ltd,,,,Uthuruboduveli|Hurasveli|Uthurugasveli,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,123,Thuvaru,Meemu,M,Thuvaru,Under development,Resort Development,Coral Reserve Pvt Ltd,,,,Thuvaru,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,124,En'bulufushi,Faafu,F,En'bulufushi,Under development,Resort Development,Naid Trading Private Limited,,,,En'bulufushi,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,125,Jinnathugau,Faafu,F,Jinnathugau,Under development,Resort Development,Akiri Holdings Pvt Ltd,,,,Jinnathugau,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,126,Himithi,Faafu,F,Himithi,Under development,Resort Development,"Maldives Overseas Investment Pvt Ltd,",,,,Himithi,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,127,Maafushi,Faafu,F,Maafushi,Under development,Resort Development,Rania Investment Pvt Ltd,,,,Maafushi,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,128,Adhangau,Faafu,F,Adhangau,Under development,Resort Development,D'Ares Island Private Limited,,,,Adhangau,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,129,Hiriyaafushi,Dhaalu,Dh,Hiriyaafushi,Under development,Resort Development,Hiriyafushi Holdings Pvt Ltd,,,,Hiriyaafushi,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,130,Hulhuvahi,Dhaalu,Dh,Hulhuvahi,Under development,Resort Development,OGN Private Limited,,,,Hulhuvahi,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,131,Kiraidhoo and Dhebaidhoo,Dhaalu,Dh,Kiraidhoo and Dhebaidhoo,Under development,Resort Development,Dhaalu Airport Holding Private Limited,,,,Kiraidhoo|Dhebaidhoo,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,132,"72°52’35.301”E, 2°58’33.237"" N,
+3°22'40.00""N, 73°43'58.00""E",Under development,Under development,False,False,0,,[],"[{""lat"": 3.405, ""lon"": 73.75444444444445, ""raw"": ""3°24'18.00\""N 73°45'16.00\""E""}, {""lat"": 3.3777777777777778, ""lon"": 73.73277777777778, ""raw"": ""3°22'40.00\""N 73°43'58.00\""E""}]"
+development,"Seedheehuraa and Seedheehuraa
+Veligan'du",Meemu,"Seedheehuraa and Seedheehuraa
+Veligan'du",Under development,Under development,False,False,0,,"[""Seedheehuraa"", ""Seedheehuraa Veligan'du""]",[]
+development,"Dhekunu Boduveli, Gasveli, Kudausfushi",Meemu,"Dhekunu Boduveli, Gasveli, Kudausfushi",Under development,Under development,False,False,0,,"[""Dhekunu Boduveli"", ""Gasveli"", ""Kudausfushi""]",[]
+development,"Uthuruboduveli, Hurasveli and Uthurugasveli",Meemu,"Uthuruboduveli, Hurasveli and Uthurugasveli",Under development,Under development,True,False,1,"Uthuruboduveli, Uthurugasveli, and Hurasveli — Island Channels","[""Uthuruboduveli"", ""Hurasveli"", ""Uthurugasveli""]",[]
+development,Thuvaru,Meemu,Thuvaru,Under development,Under development,False,False,0,,"[""Thuvaru""]",[]
+development,En'bulufushi,Faafu,En'bulufushi,Under development,Under development,False,False,0,,"[""En'bulufushi""]",[]
+development,Jinnathugau,Faafu,Jinnathugau,Under development,Under development,False,False,0,,"[""Jinnathugau""]",[]
+development,Himithi,Faafu,Himithi,Under development,Under development,True,False,1,Himithi — Saudi Royals,"[""Himithi""]",[]
+development,Maafushi,Faafu,Maafushi,Under development,Under development,False,False,0,,"[""Maafushi""]",[]
+development,Adhangau,Faafu,Adhangau,Under development,Under development,False,False,0,,"[""Adhangau""]",[]
+development,Hiriyaafushi,Dhaalu,Hiriyaafushi,Under development,Under development,False,False,0,,"[""Hiriyaafushi""]",[]
+development,Hulhuvahi,Dhaalu,Hulhuvahi,Under development,Under development,False,False,0,,"[""Hulhuvahi""]",[]
+development,Kiraidhoo and Dhebaidhoo,Dhaalu,Kiraidhoo and Dhebaidhoo,Under development,Under development,False,False,0,,"[""Kiraidhoo"", ""Dhebaidhoo""]",[]
+development,"72°52’35.301”E, 2°58’33.237"" N,
 72°52’57.999”E, 2°58’51.603"" N,
 72°53’4.765”E, 2°58’43.151"" N,
 72°52’42.067”E, 2°58’24.785"" N,
-(Plot 1)",Dhaalu,Dh,"72°52’35.301”E, 2°58’33.237"" N,
+(Plot 1)",Dhaalu,"72°52’35.301”E, 2°58’33.237"" N,
 72°52’57.999”E, 2°58’51.603"" N,
 72°53’4.765”E, 2°58’43.151"" N,
 72°52’42.067”E, 2°58’24.785"" N,
-(Plot 1)",Under development,Integrated Tourist Resort,Yash Exotic Island Private Limited,,,,,4,"[{""lat"": 2.9758991666666668, ""lon"": 72.87647249999999, ""raw"": ""72°52'35.301\""E 2°58'33.237\"" N""}, {""lat"": 2.9810008333333333, ""lon"": 72.88277749999999, ""raw"": ""72°52'57.999\""E 2°58'51.603\"" N""}, {""lat"": 2.9786530555555557, ""lon"": 72.88465694444444, ""raw"": ""72°53'4.765\""E 2°58'43.151\"" N""}, {""lat"": 2.973551388888889, ""lon"": 72.87835194444443, ""raw"": ""72°52'42.067\""E 2°58'24.785\"" N""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,132,"72°53’24.316”E, 2°59’10.779"" N,
+(Plot 1)",Under development,Under development,False,False,0,,[],"[{""lat"": 2.9758991666666668, ""lon"": 72.87647249999999, ""raw"": ""72°52'35.301\""E 2°58'33.237\"" N""}, {""lat"": 2.9810008333333333, ""lon"": 72.88277749999999, ""raw"": ""72°52'57.999\""E 2°58'51.603\"" N""}, {""lat"": 2.9786530555555557, ""lon"": 72.88465694444444, ""raw"": ""72°53'4.765\""E 2°58'43.151\"" N""}, {""lat"": 2.973551388888889, ""lon"": 72.87835194444443, ""raw"": ""72°52'42.067\""E 2°58'24.785\"" N""}]"
+development,"72°53’24.316”E, 2°59’10.779"" N,
 72°53’49.341”E, 2°59’25.783"" N ,
 72°53’54.863”E, 2°59’16.465"" N,
 72°53’29.844”E, 2°59’1.461"" N
-(Plot 2)",Dhaalu,Dh,"72°53’24.316”E, 2°59’10.779"" N,
+(Plot 2)",Dhaalu,"72°53’24.316”E, 2°59’10.779"" N,
 72°53’49.341”E, 2°59’25.783"" N ,
 72°53’54.863”E, 2°59’16.465"" N,
 72°53’29.844”E, 2°59’1.461"" N
-(Plot 2)",Under development,Integrated Tourist Resort,Yash Exotic Island Private Limited,,,,,4,"[{""lat"": 2.9863275000000002, ""lon"": 72.89008777777778, ""raw"": ""72°53'24.316\""E 2°59'10.779\"" N""}, {""lat"": 2.990495277777778, ""lon"": 72.89703916666667, ""raw"": ""72°53'49.341\""E 2°59'25.783\"" N""}, {""lat"": 2.9879069444444446, ""lon"": 72.89857305555556, ""raw"": ""72°53'54.863\""E 2°59'16.465\"" N""}, {""lat"": 2.9837391666666666, ""lon"": 72.89162333333334, ""raw"": ""72°53'29.844\""E 2°59'1.461\"" N""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,132,"72°54’22.040”E, 2°59’36.416"" N,
+(Plot 2)",Under development,Under development,False,False,0,,[],"[{""lat"": 2.9863275000000002, ""lon"": 72.89008777777778, ""raw"": ""72°53'24.316\""E 2°59'10.779\"" N""}, {""lat"": 2.990495277777778, ""lon"": 72.89703916666667, ""raw"": ""72°53'49.341\""E 2°59'25.783\"" N""}, {""lat"": 2.9879069444444446, ""lon"": 72.89857305555556, ""raw"": ""72°53'54.863\""E 2°59'16.465\"" N""}, {""lat"": 2.9837391666666666, ""lon"": 72.89162333333334, ""raw"": ""72°53'29.844\""E 2°59'1.461\"" N""}]"
+development,"72°54’22.040”E, 2°59’36.416"" N,
 72°55’9.437”E, 2°59’47.530"" N,
 72°55’11.767”E, 2°59’37.136"" N,
 72°54’24.572”E, 2°59’25.717"" N
-(Plot 3)",Dhaalu,Dh,"72°54’22.040”E, 2°59’36.416"" N,
+(Plot 3)",Dhaalu,"72°54’22.040”E, 2°59’36.416"" N,
 72°55’9.437”E, 2°59’47.530"" N,
 72°55’11.767”E, 2°59’37.136"" N,
 72°54’24.572”E, 2°59’25.717"" N
-(Plot 3)",Under development,Integrated Tourist Resort,Yash Exotic Island Private Limited,,,,,4,"[{""lat"": 2.993448888888889, ""lon"": 72.90612222222222, ""raw"": ""72°54'22.040\""E 2°59'36.416\"" N""}, {""lat"": 2.9965361111111113, ""lon"": 72.91928805555555, ""raw"": ""72°55'9.437\""E 2°59'47.530\"" N""}, {""lat"": 2.993648888888889, ""lon"": 72.91993527777778, ""raw"": ""72°55'11.767\""E 2°59'37.136\"" N""}, {""lat"": 2.9904769444444446, ""lon"": 72.90682555555556, ""raw"": ""72°54'24.572\""E 2°59'25.717\"" N""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,132,"72°53’39.121”E, 2°58’45.767"" N ,
+(Plot 3)",Under development,Under development,False,False,0,,[],"[{""lat"": 2.993448888888889, ""lon"": 72.90612222222222, ""raw"": ""72°54'22.040\""E 2°59'36.416\"" N""}, {""lat"": 2.9965361111111113, ""lon"": 72.91928805555555, ""raw"": ""72°55'9.437\""E 2°59'47.530\"" N""}, {""lat"": 2.993648888888889, ""lon"": 72.91993527777778, ""raw"": ""72°55'11.767\""E 2°59'37.136\"" N""}, {""lat"": 2.9904769444444446, ""lon"": 72.90682555555556, ""raw"": ""72°54'24.572\""E 2°59'25.717\"" N""}]"
+development,"72°53’39.121”E, 2°58’45.767"" N ,
 72°54’3.913”E, 2°59’0.282"" N,
 72°54’5.696”E, 2°58’57.229"" N,
 72°53’41.003”E, 2°58’42.628"" N
-(Plot 4)",Dhaalu,Dh,"72°53’39.121”E, 2°58’45.767"" N ,
+(Plot 4)",Dhaalu,"72°53’39.121”E, 2°58’45.767"" N ,
 72°54’3.913”E, 2°59’0.282"" N,
 72°54’5.696”E, 2°58’57.229"" N,
 72°53’41.003”E, 2°58’42.628"" N
-(Plot 4)",Under development,Integrated Tourist Resort,Yash Exotic Island Private Limited,,,,,4,"[{""lat"": 2.9793797222222222, ""lon"": 72.89420027777778, ""raw"": ""72°53'39.121\""E 2°58'45.767\"" N""}, {""lat"": 2.9834116666666666, ""lon"": 72.90108694444444, ""raw"": ""72°54'3.913\""E 2°59'0.282\"" N""}, {""lat"": 2.9825636111111113, ""lon"": 72.90158222222223, ""raw"": ""72°54'5.696\""E 2°58'57.229\"" N""}, {""lat"": 2.9785077777777778, ""lon"": 72.89472305555556, ""raw"": ""72°53'41.003\""E 2°58'42.628\"" N""}]",Under development,Under development,ministry_only,unverified,False
-under_development_pdf,133,Maahdeli,Dhaalu,Dh,Maahdeli,Under development,Resort Development,SAS Capital Private Limited,,,,Maahdeli,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,134,Ekuruffushifinolhu,Thaa,Th,Ekuruffushifinolhu,Under development,Resort Development,Sea Wall Enterpries Pvt Ltd,,,,Ekuruffushifinolhu,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,135,Kalhudhiyafushi,Thaa,Th,Kalhudhiyafushi,Under development,Resort Development,"Huravee International Pvt Ltd,",,,,Kalhudhiyafushi,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,136,Olhugiri,Thaa,Th,Olhugiri,Under development,Resort Development,"Popular Maldives Private Limiited,",,,,Olhugiri,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,137,Dhiffushi,Thaa,Th,Dhiffushi,Under development,Resort Development,Angiri Resorts Management & Operation Pvt Ltd,,,,Dhiffushi,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,138,Olhufushi and Olhufushifinolhu,Thaa,Th,Olhufushi and Olhufushifinolhu,Under development,Resort Development,Subsolar Investments Private Limited,,,,Olhufushi|Olhufushifinolhu,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,139,Maagulhi,Thaa,Th,Maagulhi,Under development,Resort Development,Accord Insurance Brokers Maldives Pvt Ltd,,,,Maagulhi,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,140,Kurandhuvaru,Thaa,Th,Kurandhuvaru,Under development,Resort Development,Accord Insurance Brokers Maldives Pvt Ltd,,,,Kurandhuvaru,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,141,Fenmeerufushi and Olhudhiyafushi,Thaa,Th,Fenmeerufushi and Olhudhiyafushi,Under development,Resort Development,M.G.H Investment Pvt Ltd,,,,Fenmeerufushi|Olhudhiyafushi,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,142,Baresdhoo,Laamu,L,Baresdhoo,Under development,Resort Development,"Maldives Marketing and Public Relations Corporation
-Limited",,,,Baresdhoo,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,143,Gan Medical Resort,Laamu,L,Gan Medical Resort,Under development,Resort Development,Island Development Company Pvt. Ltd,,,,Gan Medical Resort,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,144,Guraidhoo,Laamu,L,Guraidhoo,Under development,Resort Development,"AUR OVERSEAS HOLDINGS LIMITED
-(MAURITIUS)",,,,Guraidhoo,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,145,Hanhushi,Laamu,L,Hanhushi,Under development,Resort Development,FAM Holdings Pvt Ltd,,,,Hanhushi,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,146,Boduhura,Laamu,L,Boduhura,Under development,Resort Development,Heavy Load Maldives Private Limited,,,,Boduhura,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,147,Bodumugnafushi,Laamu,L,Bodumugnafushi,Under development,Resort Development,Emirates Hospitality Private Limited,,,,Bodumugnafushi,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,148,Gasgan'dufinolhu,Laamu,L,Gasgan'dufinolhu,Under development,Resort Development,Bison Maldives Pvt Ltd,,,,Gasgan'dufinolhu,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,149,Dhevvamaagala,Gaafu Alifu,GA,Dhevvamaagala,Under development,Resort Development,Nalaveli Maldives Pvt Ltd,,,,Dhevvamaagala,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,150,Keredhdhoo,Gaafu Alifu,GA,Keredhdhoo,Under development,Resort Development,Keredhoo Investment Private Limited,,,,Keredhdhoo,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,150,Hirihuttaa (swap of R. Ehthigili),Gaafu Alifu,GA,Hirihuttaa (swap of R. Ehthigili),Under development,Integrated Tourist Resort,"Amin Constructions Pvt Ltd
-52 Bodhuthakurufaanu Magu,",,,,R. Ehthigili|Hirihuttaa ( R. Ehthigili),0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,150,Hinaamaagalaa (swap of R. Ehthigili),Gaafu Alifu,GA,Hinaamaagalaa (swap of R. Ehthigili),Under development,Resort Development,Keredhoo Investment Private Limited,,,,R. Ehthigili|Hinaamaagalaa ( R. Ehthigili),0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,151,Bakeththa (swap of R. Ehthigili),Gaafu Alifu,GA,Bakeththa (swap of R. Ehthigili),Under development,Resort Development,,,,,R. Ehthigili|Bakeththa ( R. Ehthigili),0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,152,Mahadhdhoo,Gaafu Alifu,GA,Mahadhdhoo,Under development,Resort Development,Travista Resorts Pvt Ltd,,,,Mahadhdhoo,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,153,Maarandhoo,Gaafu Alifu,GA,Maarandhoo,Under development,Resort Development,Maarandhoo Investments Pvt Ltd,,,,Maarandhoo,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,154,Vodamulaa,Gaafu Alifu,GA,Vodamulaa,Under development,Resort Development,United International Hotel Group Co. W.L.L,,,,Vodamulaa,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,155,Kondeymatheelaabadhoo,Gaafu Alifu,GA,Kondeymatheelaabadhoo,Under development,Resort Development,Laabadhoo Private Limited,,,,Kondeymatheelaabadhoo,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,156,Faruhulhedhoo,Gaafu Alifu,GA,Faruhulhedhoo,Under development,Resort Development,Millennium Capital Management Pvt Ltd,,,,Faruhulhedhoo,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,157,Beyrumauddoo,Gaafu Alifu,GA,Beyrumauddoo,Under development,Resort Development,Mauddua Holdings Private Limited,,,,Beyrumauddoo,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,158,Lonudhuahuttaa,Gaafu Dhaalu,GDh,Lonudhuahuttaa,Under development,Resort Development,One and Half Degree Maldives Pvt. Ltd,,,,Lonudhuahuttaa,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,159,Kaishidhoo,Gaafu Dhaalu,GDh,Kaishidhoo,Under development,Resort Development,Kaishidhoo Resort Pvt Ltd,,,,Kaishidhoo,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,160,Vatavarrehaa,Gaafu Dhaalu,GDh,Vatavarrehaa,Under development,Resort Development,Yacht Tours Maldives Pvt Ltd .,,,,Vatavarrehaa,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,161,Gazeera,Gaafu Dhaalu,GDh,Gazeera,Under development,Resort Development,Gazeera Private Limited,,,,Gazeera,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,162,Kan'dahalagalaa,Gaafu Dhaalu,GDh,Kan'dahalagalaa,Under development,Resort Development,Pioneer Maldives Private Limited,,,,Kan'dahalagalaa,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,163,Kodegalaa,Gaafu Dhaalu,GDh,Kodegalaa,Under development,Resort Development,ITACA home maldives private limited,,,,Kodegalaa,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,164,Raaverinkolhuhuttaa,Gaafu Dhaalu,GDh,Raaverinkolhuhuttaa,Under development,Resort Development,Real Asset Investment Company LLC,,,,Raaverinkolhuhuttaa,0,[],Under development,Under development,ministry_only,unverified,False
-under_development_pdf,165,Dhoogas,Seenu,S,Dhoogas,Under development,Resort Development,Maldives Ports Limited,,,,Dhoogas,0,[],Under development,Under development,ministry_only,unverified,False
+(Plot 4)",Under development,Under development,False,False,0,,[],"[{""lat"": 2.9793797222222222, ""lon"": 72.89420027777778, ""raw"": ""72°53'39.121\""E 2°58'45.767\"" N""}, {""lat"": 2.9834116666666666, ""lon"": 72.90108694444444, ""raw"": ""72°54'3.913\""E 2°59'0.282\"" N""}, {""lat"": 2.9825636111111113, ""lon"": 72.90158222222223, ""raw"": ""72°54'5.696\""E 2°58'57.229\"" N""}, {""lat"": 2.9785077777777778, ""lon"": 72.89472305555556, ""raw"": ""72°53'41.003\""E 2°58'42.628\"" N""}]"
+development,Maahdeli,Dhaalu,Maahdeli,Under development,Under development,False,False,0,,"[""Maahdeli""]",[]
+development,Ekuruffushifinolhu,Thaa,Ekuruffushifinolhu,Under development,Under development,False,False,0,,"[""Ekuruffushifinolhu""]",[]
+development,Kalhudhiyafushi,Thaa,Kalhudhiyafushi,Under development,Under development,True,False,1,Kalhudiyafushi — Huravee International (Gran Meliá Maldives),"[""Kalhudhiyafushi""]",[]
+development,Olhugiri,Thaa,Olhugiri,Under development,Under development,True,False,1,Olhugiri — Family of Riyaz Rasheed,"[""Olhugiri""]",[]
+development,Dhiffushi,Thaa,Dhiffushi,Under development,Under development,False,False,0,,"[""Dhiffushi""]",[]
+development,Olhufushi and Olhufushifinolhu,Thaa,Olhufushi and Olhufushifinolhu,Under development,Under development,False,False,0,,"[""Olhufushi"", ""Olhufushifinolhu""]",[]
+development,Maagulhi,Thaa,Maagulhi,Under development,Under development,False,False,0,,"[""Maagulhi""]",[]
+development,Kurandhuvaru,Thaa,Kurandhuvaru,Under development,Under development,False,False,0,,"[""Kurandhuvaru""]",[]
+development,Fenmeerufushi and Olhudhiyafushi,Thaa,Fenmeerufushi and Olhudhiyafushi,Under development,Under development,False,False,0,,"[""Fenmeerufushi"", ""Olhudhiyafushi""]",[]
+development,Baresdhoo,Laamu,Baresdhoo,Under development,Under development,False,False,0,,"[""Baresdhoo""]",[]
+development,Gan Medical Resort,Laamu,Gan Medical Resort,Under development,Under development,False,False,0,,"[""Gan Medical Resort""]",[]
+development,Guraidhoo,Laamu,Guraidhoo,Under development,Under development,False,False,0,,"[""Guraidhoo""]",[]
+development,Hanhushi,Laamu,Hanhushi,Under development,Under development,False,False,0,,"[""Hanhushi""]",[]
+development,Boduhura,Laamu,Boduhura,Under development,Under development,False,False,0,,"[""Boduhura""]",[]
+development,Bodumugnafushi,Laamu,Bodumugnafushi,Under development,Under development,False,False,0,,"[""Bodumugnafushi""]",[]
+development,Gasgan'dufinolhu,Laamu,Gasgan'dufinolhu,Under development,Under development,False,False,0,,"[""Gasgan'dufinolhu""]",[]
+development,Dhevvamaagala,Gaafu Alifu,Dhevvamaagala,Under development,Under development,False,False,0,,"[""Dhevvamaagala""]",[]
+development,Keredhdhoo,Gaafu Alifu,Keredhdhoo,Under development,Under development,False,False,0,,"[""Keredhdhoo""]",[]
+development,Hirihuttaa (swap of R. Ehthigili),Gaafu Alifu,Hirihuttaa (swap of R. Ehthigili),Under development,Under development,False,False,0,,"[""R. Ehthigili"", ""Hirihuttaa ( R. Ehthigili)""]",[]
+development,Hinaamaagalaa (swap of R. Ehthigili),Gaafu Alifu,Hinaamaagalaa (swap of R. Ehthigili),Under development,Under development,False,False,0,,"[""R. Ehthigili"", ""Hinaamaagalaa ( R. Ehthigili)""]",[]
+development,Bakeththa (swap of R. Ehthigili),Gaafu Alifu,Bakeththa (swap of R. Ehthigili),Under development,Under development,False,False,0,,"[""R. Ehthigili"", ""Bakeththa ( R. Ehthigili)""]",[]
+development,Mahadhdhoo,Gaafu Alifu,Mahadhdhoo,Under development,Under development,False,False,0,,"[""Mahadhdhoo""]",[]
+development,Maarandhoo,Gaafu Alifu,Maarandhoo,Under development,Under development,False,False,0,,"[""Maarandhoo""]",[]
+development,Vodamulaa,Gaafu Alifu,Vodamulaa,Under development,Under development,True,False,1,Vodamulaa — International Trade Holding Company K.S.C.,"[""Vodamulaa""]",[]
+development,Kondeymatheelaabadhoo,Gaafu Alifu,Kondeymatheelaabadhoo,Under development,Under development,False,False,0,,"[""Kondeymatheelaabadhoo""]",[]
+development,Faruhulhedhoo,Gaafu Alifu,Faruhulhedhoo,Under development,Under development,False,False,0,,"[""Faruhulhedhoo""]",[]
+development,Beyrumauddoo,Gaafu Alifu,Beyrumauddoo,Under development,Under development,False,False,0,,"[""Beyrumauddoo""]",[]
+development,Lonudhuahuttaa,Gaafu Dhaalu,Lonudhuahuttaa,Under development,Under development,False,False,0,,"[""Lonudhuahuttaa""]",[]
+development,Kaishidhoo,Gaafu Dhaalu,Kaishidhoo,Under development,Under development,False,False,0,,"[""Kaishidhoo""]",[]
+development,Vatavarrehaa,Gaafu Dhaalu,Vatavarrehaa,Under development,Under development,False,False,0,,"[""Vatavarrehaa""]",[]
+development,Gazeera,Gaafu Dhaalu,Gazeera,Under development,Under development,False,False,0,,"[""Gazeera""]",[]
+development,Kan'dahalagalaa,Gaafu Dhaalu,Kan'dahalagalaa,Under development,Under development,False,False,0,,"[""Kan'dahalagalaa""]",[]
+development,Kodegalaa,Gaafu Dhaalu,Kodegalaa,Under development,Under development,False,False,0,,"[""Kodegalaa""]",[]
+development,Raaverinkolhuhuttaa,Gaafu Dhaalu,Raaverinkolhuhuttaa,Under development,Under development,False,False,0,,"[""Raaverinkolhuhuttaa""]",[]
+development,Dhoogas,Seenu,Dhoogas,Under development,Under development,False,False,0,,"[""Dhoogas""]",[]

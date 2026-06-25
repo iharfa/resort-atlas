@@ -51,3 +51,21 @@ Use at least two independent sources for corrections where possible. Preferred o
 3. Agoda listing with live reviews or availability context
 4. Recent trade news or press release
 5. Resort social channels as supporting evidence only
+
+
+## MMPRC / Paradise Leased layer
+
+This build adds a cross-match against `Paradise-Leased-Island-Lease-Spreadsheet.xlsx`.
+
+New files:
+
+- `data/mmprc_paradise_leased_islands.json`
+- `data/mmprc_paradise_leased_islands.csv`
+- `data/mmprc_cross_match.csv`
+
+The app adds:
+
+- A `MMPRC implicated only` filter.
+- A `Paradise Leased context only` filter for rows in the spreadsheet where the comments say there is no suggestion of wrongdoing or the lease predates the MMPRC scheme.
+- Permanent map labels for matched records when `MMPRC labels` is enabled.
+- Popup details showing the source spreadsheet row, acquisition cost, lease holder, and match method.

@@ -22,6 +22,7 @@
       --reef: #1f8a4c;
       --red: #ba1a1a;
       --purple: #7b2fbe;
+      --hotpink: #ff2d55;
       --white: #ffffff;
     }
     * { box-sizing: border-box; border-radius: 0 !important; }
@@ -301,6 +302,7 @@
       color: var(--ink);
     }
     .leaflet-popup-content { width: 320px !important; margin: 13px; }
+    .mmprc-label { background: var(--navy); color: #ffffff; border: 1px solid var(--hotpink); padding: 3px 5px; font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 10px; letter-spacing: 0.06em; text-transform: uppercase; box-shadow: 0 4px 14px rgba(0,18,32,0.35); }
     .popup h3 { margin: 0 0 6px; font-size: 16px; line-height: 1.2; }
     .popup p { margin: 4px 0; font-size: 12px; line-height: 1.35; }
     .popup .rec { border-top: 1px solid var(--outline); padding-top: 7px; margin-top: 7px; }
@@ -379,6 +381,7 @@
           <div class="metric"><div class="metric-value" id="kpiMatched">0</div><div class="metric-label">Matched to OneMap</div></div>
           <div class="metric"><div class="metric-value" id="kpiUnmatched">0</div><div class="metric-label">Need manual review</div></div>
           <div class="metric"><div class="metric-value" id="kpiCorrections">0</div><div class="metric-label">Verified status corrections</div></div>
+          <div class="metric"><div class="metric-value" id="kpiMMPRC">0</div><div class="metric-label">MMPRC implicated matches</div></div>
         </div>
       </section>
 
@@ -391,12 +394,14 @@
         <h2 class="section-title">Filters</h2>
         <div class="controls">
           <select id="atollFilter"><option value="">All atolls</option></select>
+          <select id="mmprcFilter"><option value="">All records</option><option value="implicated">MMPRC implicated only</option><option value="context">Paradise Leased context only</option><option value="none">Not on Paradise Leased list</option></select>
           <div class="toggle-grid">
             <label class="toggle"><input type="checkbox" id="showOperating" checked> Operating</label>
             <label class="toggle"><input type="checkbox" id="showDevelopment" checked> Development</label>
             <label class="toggle"><input type="checkbox" id="showCoordinates" checked> PDF coordinates</label>
             <label class="toggle"><input type="checkbox" id="showOneMap" checked> OneMap outlines</label>
             <label class="toggle"><input type="checkbox" id="showCorrections" checked> Status corrections</label>
+            <label class="toggle"><input type="checkbox" id="showMMPRCLabels" checked> MMPRC labels</label>
           </div>
         </div>
       </section>
@@ -420,6 +425,7 @@
           <div class="legend-item"><span class="swatch" style="background:var(--cyan)"></span> Coordinate site from PDF</div>
           <div class="legend-item"><span class="swatch" style="background:var(--cyan-bright)"></span> Verified status correction</div>
           <div class="legend-item"><span class="swatch" style="background:var(--red)"></span> Verified not operating</div>
+          <div class="legend-item"><span class="swatch" style="background:var(--hotpink)"></span> MMPRC implicated island</div>
           <div class="legend-item"><span class="swatch" style="background:var(--outline)"></span> Fuzzy match</div>
         </div>
       </div>
@@ -429,6 +435,8 @@
         <a href="data/under_development_resorts_clean.csv" download>Download development CSV</a>
         <a href="data/under_development_explicit_coordinates.geojson" download>Download coordinate GeoJSON</a>
         <a href="data/status_verification.csv" download>Download status verification CSV</a>
+        <a href="data/mmprc_cross_match.csv" download>Download MMPRC cross-match CSV</a>
+        <a href="data/mmprc_paradise_leased_islands.csv" download>Download Paradise Leased source CSV</a>
       </div>
     </main>
   </div>
@@ -448,6 +456,7 @@
           <li>Explicit coordinate sites extracted from the PDF.</li>
           <li>OneMap island outlines fetched live from the public ArcGIS layer.</li>
           <li>A satellite basemap for visual checking against resort islands and lagoons.</li>
+          <li>MMPRC corruption implicated islands cross-matched from the Paradise Leased spreadsheet.</li>
         </ul>
         <h3>Status validation</h3>
         <ul>
@@ -502,7 +511,8 @@ const state = {
   unmatched: [],
   allMatchResults: [],
   layers: {},
-  map: null
+  map: null,
+  mmprc: []
 };
 
 function norm(s) {
@@ -542,6 +552,8 @@ function hasStatusCorrection(record) {
 function recordSearchText(record) {
   return [
     recordTitle(record), recordSite(record), record.atoll, record.status, record.verified_status, record.ministry_status, record.status_verification,
+    record.mmprc_implicated ? 'MMPRC corruption implicated island Paradise Leased' : '', record.mmprc_context_only ? 'Paradise Leased context only' : '',
+    ...(record.mmprc_matches || []).map(m => [m.name, m.lease_awarded_to, m.resort_name, m.hotel_brand].filter(Boolean).join(' ')),
     record.operator, record.owner_lessee, record.lessee_holder, record.type_of_project,
     ...(record.join_candidates || [])
   ].filter(Boolean).join(' ').toLowerCase();
@@ -695,6 +707,7 @@ function buildPopupForIsland(feature, records) {
       <p>Source status: ${escapeHtml(originalStatus || 'n/a')}${correction ? ' · Status corrected' : ''}</p>
       <p>${escapeHtml(owner)}</p>
       ${buildEvidenceLinks(r)}
+      ${buildMMPRCBlock(r)}
       <p>Match: ${escapeHtml(m.matchType)}${m.candidate ? ' · ' + escapeHtml(m.candidate) : ''}${m.matchType === 'fuzzy' ? ' · ' + Math.round(m.score * 100) + '%' : ''}</p>
     </div>`;
   }).join('');
@@ -716,6 +729,19 @@ function buildPopupForCoordinate(record) {
   </div>`;
 }
 
+function buildMMPRCBlock(record) {
+  const matches = record.mmprc_matches || [];
+  if (!matches.length) return '';
+  const label = record.mmprc_implicated ? 'MMPRC corruption implicated island' : 'Paradise Leased context only';
+  const rows = matches.map(m => {
+    const cost = m.acquisition_cost ? ` · acquisition cost: ${escapeHtml(m.acquisition_cost)}` : '';
+    const holder = m.lease_awarded_to ? ` · leased to ${escapeHtml(m.lease_awarded_to)}` : '';
+    const method = m.match_method ? ` · ${escapeHtml(m.match_method)}` : '';
+    return `<p><strong>${escapeHtml(label)}</strong></p><p>${escapeHtml(m.name)}${holder}${cost}${method}</p>`;
+  }).join('');
+  return `<div class="rec">${rows}</div>`;
+}
+
 function buildEvidenceLinks(record) {
   const sources = record.verification_sources || [];
   if (!sources.length) return '';
@@ -730,11 +756,15 @@ function escapeHtml(s) {
 }
 
 function colorForRecords(records) {
+  const hasMMPRC = records.some(m => m.record.mmprc_implicated);
+  const hasContext = records.some(m => m.record.mmprc_context_only);
   const hasCorrection = records.some(m => hasStatusCorrection(m.record));
   const hasOp = records.some(m => m.record.dataset === 'operating' && norm(effectiveStatus(m.record)) === norm('Operating'));
   const hasNot = records.some(m => m.record.dataset === 'operating' && norm(effectiveStatus(m.record)) === norm('Not Operating'));
   const hasDev = records.some(m => m.record.dataset === 'development');
   const hasFuzzy = records.some(m => m.matchType === 'fuzzy');
+  if (hasMMPRC) return '#ff2d55';
+  if (hasContext) return '#001220';
   if (hasCorrection) return '#50d9fe';
   if (hasOp && hasDev) return '#7b2fbe';
   if (hasNot) return '#ba1a1a';
@@ -749,10 +779,14 @@ function passesFilters(record) {
   const showOp = document.getElementById('showOperating').checked;
   const showDev = document.getElementById('showDevelopment').checked;
   const showCorrections = document.getElementById('showCorrections').checked;
+  const mmprcFilter = document.getElementById('mmprcFilter').value;
 
   if (record.dataset === 'operating' && !showOp) return false;
   if (record.dataset === 'development' && !showDev) return false;
   if (hasStatusCorrection(record) && !showCorrections) return false;
+  if (mmprcFilter === 'implicated' && !record.mmprc_implicated) return false;
+  if (mmprcFilter === 'context' && !record.mmprc_context_only) return false;
+  if (mmprcFilter === 'none' && (record.mmprc_implicated || record.mmprc_context_only)) return false;
   if (atoll && normAtoll(record.atoll) !== atoll) return false;
   if (q && !recordSearchText(record).includes(q)) return false;
   return true;
@@ -784,9 +818,13 @@ function renderLayers() {
 
   for (const { feature, records } of grouped.values()) {
     const color = colorForRecords(records);
-    L.geoJSON(feature, {
-      style: { color, weight: 2.5, fillOpacity: 0.32, fillColor: color }
+    const islandLayer = L.geoJSON(feature, {
+      style: { color, weight: records.some(m => m.record.mmprc_implicated) ? 4 : 2.5, fillOpacity: records.some(m => m.record.mmprc_implicated) ? 0.42 : 0.32, fillColor: color }
     }).bindPopup(buildPopupForIsland(feature, records)).addTo(state.layers.matched);
+    if (document.getElementById('showMMPRCLabels').checked && records.some(m => m.record.mmprc_implicated || m.record.mmprc_context_only)) {
+      const labelText = records.some(m => m.record.mmprc_implicated) ? 'MMPRC implicated' : 'Paradise context';
+      islandLayer.bindTooltip(labelText, { permanent: true, direction: 'center', className: 'mmprc-label' });
+    }
   }
 
   if (showCoords) {
@@ -796,13 +834,16 @@ function renderLayers() {
       if (!latlngs.length) continue;
       let layer;
       if (latlngs.length === 1) {
-        layer = L.circleMarker(latlngs[0], { radius: 6, color: '#00677d', weight: 2, fillOpacity: 0.78, fillColor: '#50d9fe' });
+        layer = L.circleMarker(latlngs[0], { radius: record.mmprc_implicated ? 8 : 6, color: record.mmprc_implicated ? '#ff2d55' : '#00677d', weight: record.mmprc_implicated ? 3 : 2, fillOpacity: 0.78, fillColor: record.mmprc_implicated ? '#ff2d55' : '#50d9fe' });
       } else if (latlngs.length >= 3) {
-        layer = L.polygon(latlngs, { color: '#00677d', weight: 2, fillOpacity: 0.14, fillColor: '#50d9fe' });
+        layer = L.polygon(latlngs, { color: record.mmprc_implicated ? '#ff2d55' : '#00677d', weight: record.mmprc_implicated ? 3 : 2, fillOpacity: record.mmprc_implicated ? 0.24 : 0.14, fillColor: record.mmprc_implicated ? '#ff2d55' : '#50d9fe' });
       } else {
-        layer = L.polyline(latlngs, { color: '#00677d', weight: 2 });
+        layer = L.polyline(latlngs, { color: record.mmprc_implicated ? '#ff2d55' : '#00677d', weight: record.mmprc_implicated ? 3 : 2 });
       }
       layer.bindPopup(buildPopupForCoordinate(record)).addTo(state.layers.coords);
+      if (document.getElementById('showMMPRCLabels').checked && (record.mmprc_implicated || record.mmprc_context_only)) {
+        layer.bindTooltip(record.mmprc_implicated ? 'MMPRC implicated' : 'Paradise context', { permanent: true, direction: 'top', className: 'mmprc-label' });
+      }
     }
   }
 
@@ -835,7 +876,7 @@ function renderUnmatchedList() {
     return `<div class="item">
       <div class="item-title">${escapeHtml(recordTitle(r))}</div>
       <div class="item-meta">${escapeHtml(r.atoll || '')} · ${escapeHtml(recordSite(r) || '')}</div>
-      <div class="pill-row"><span class="pill mono">${escapeHtml(r.dataset === 'operating' ? 'CSV' : 'PDF')}</span><span class="pill mono">${escapeHtml(r.status || 'review')}</span></div>
+      <div class="pill-row"><span class="pill mono">${escapeHtml(r.dataset === 'operating' ? 'CSV' : 'PDF')}</span><span class="pill mono">${escapeHtml(r.status || 'review')}</span>${r.mmprc_implicated ? '<span class="pill mono">MMPRC</span>' : ''}${r.mmprc_context_only ? '<span class="pill mono">CONTEXT</span>' : ''}</div>
     </div>`;
   }).join('');
 }
@@ -893,12 +934,14 @@ function refreshStats() {
   const unmatched = state.unmatched.length;
   const coords = state.coordinateRecords.length;
   const corrections = [...state.operating, ...state.development].filter(r => hasStatusCorrection(r)).length;
+  const mmprcMatches = [...state.operating, ...state.development].filter(r => r.mmprc_implicated).length;
   document.getElementById('kpiOperating').textContent = op.toLocaleString();
   document.getElementById('kpiDevelopment').textContent = dev.toLocaleString();
   document.getElementById('kpiMatched').textContent = matched.toLocaleString();
   document.getElementById('kpiUnmatched').textContent = unmatched.toLocaleString();
   document.getElementById('kpiCorrections').textContent = corrections.toLocaleString();
-  document.getElementById('topMeta').textContent = `${op.toLocaleString()} operating · ${dev.toLocaleString()} development · ${coords.toLocaleString()} coordinate records · ${corrections.toLocaleString()} status correction`;
+  document.getElementById('kpiMMPRC').textContent = mmprcMatches.toLocaleString();
+  document.getElementById('topMeta').textContent = `${op.toLocaleString()} operating · ${dev.toLocaleString()} development · ${coords.toLocaleString()} coordinate records · ${mmprcMatches.toLocaleString()} MMPRC matches`;
 }
 
 function initMap() {
@@ -920,13 +963,15 @@ function closeAbout() { document.getElementById('aboutModal').classList.remove('
 async function init() {
   initMap();
   try {
-    const [operating, development] = await Promise.all([
+    const [operating, development, mmprc] = await Promise.all([
       fetchJson('data/operating_resorts.json'),
-      fetchJson('data/under_development_resorts.json')
+      fetchJson('data/under_development_resorts.json'),
+      fetchJson('data/mmprc_paradise_leased_islands.json')
     ]);
 
     state.operating = operating.map(x => ({ ...x, dataset: 'operating' }));
     state.development = development.map(x => ({ ...x, dataset: 'development' }));
+    state.mmprc = mmprc;
     populateAtollFilter([...state.operating, ...state.development]);
     refreshStats();
     document.getElementById('status').textContent = 'Loading OneMap island polygons.';
@@ -941,7 +986,7 @@ async function init() {
     state.unmatched = state.allMatchResults.filter(m => m.matchType === 'unmatched');
 
     refreshStats();
-    document.getElementById('status').textContent = `Loaded ${state.islands.features.length.toLocaleString()} OneMap island polygons on satellite basemap. Review unmatched records and status corrections before publishing final coordinates.`;
+    document.getElementById('status').textContent = `Loaded ${state.islands.features.length.toLocaleString()} OneMap island polygons on satellite basemap. Review unmatched records, status corrections, and Paradise Leased cross-matches before publishing final coordinates.`;
     document.getElementById('mapLoading').style.display = 'none';
     renderLayers();
   } catch (err) {
@@ -951,7 +996,7 @@ async function init() {
   }
 }
 
-['search','atollFilter','showOperating','showDevelopment','showCoordinates','showOneMap','showCorrections'].forEach(id => {
+['search','atollFilter','mmprcFilter','showOperating','showDevelopment','showCoordinates','showOneMap','showCorrections','showMMPRCLabels'].forEach(id => {
   document.addEventListener('input', e => { if (e.target && e.target.id === id) renderLayers(); });
   document.addEventListener('change', e => { if (e.target && e.target.id === id) renderLayers(); });
 });

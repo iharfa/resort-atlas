@@ -1,0 +1,1720 @@
+[
+  {
+    "mmprc_id": 1,
+    "source_row": 3,
+    "name": "Fohtheyo Bodufushi — Hotel Properties Limited",
+    "atoll": "Vaavu",
+    "atoll_code": "V",
+    "coordinates_raw": "3.454556, 73.758722",
+    "coordinates": [
+      {
+        "lat": 3.454556,
+        "lon": 73.758722
+      }
+    ],
+    "lease_date": "2014-08-20",
+    "acquisition_cost": 5000000,
+    "comments": "",
+    "lease_awarded_to": "Leisure Beach Pvt Ltd",
+    "hotel_brand": "",
+    "resort_name": "",
+    "join_candidates": [
+      "Fohtheyo Bodufushi",
+      "Leisure Beach Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 2,
+    "source_row": 4,
+    "name": "Huruvalhi — Amir Mansoor (Carpe Diem Beach Resort & Spa)",
+    "atoll": "Raa",
+    "atoll_code": "R",
+    "coordinates_raw": "5.392222, 72.978861",
+    "coordinates": [
+      {
+        "lat": 5.392222,
+        "lon": 72.978861
+      }
+    ],
+    "lease_date": "2015-01-22",
+    "acquisition_cost": 3500000,
+    "comments": "",
+    "lease_awarded_to": "Amir Mansoor",
+    "hotel_brand": "Carpe Diem",
+    "resort_name": "Carpe Diem Beach Resort & Spa",
+    "join_candidates": [
+      "Huruvalhi",
+      "Carpe Diem Beach Resort & Spa",
+      "Amir Mansoor"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 3,
+    "source_row": 5,
+    "name": "Miriandhoo — Asia Capital, Belluna (The Westin Miriandhoo Maldives Resort)",
+    "atoll": "Baa",
+    "atoll_code": "B",
+    "coordinates_raw": "5.063139, 73.031306",
+    "coordinates": [
+      {
+        "lat": 5.063139,
+        "lon": 73.031306
+      }
+    ],
+    "lease_date": "2015-05-20",
+    "acquisition_cost": 1000000,
+    "comments": "",
+    "lease_awarded_to": "Miriandhoo Maldives Resorts Pvt Ltd",
+    "hotel_brand": "Westin Hotels & Resorts",
+    "resort_name": "The Westin Miriandhoo Maldives Resort",
+    "join_candidates": [
+      "Miriandhoo",
+      "The Westin Miriandhoo Maldives Resort",
+      "Miriandhoo Maldives Resorts Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 4,
+    "source_row": 6,
+    "name": "Lavadhoo — Hotel Properties Limited",
+    "atoll": "Thaa",
+    "atoll_code": "Th",
+    "coordinates_raw": "2.305556, 73.291111",
+    "coordinates": [
+      {
+        "lat": 2.305556,
+        "lon": 73.291111
+      }
+    ],
+    "lease_date": "2014-08-14",
+    "acquisition_cost": "Free",
+    "comments": "",
+    "lease_awarded_to": "Hotel Properties Limited",
+    "hotel_brand": "COMO Hotels and Resorts",
+    "resort_name": "Private Sister Island to COMO Maalifushi",
+    "join_candidates": [
+      "Lavadhoo",
+      "Private Sister Island to COMO Maalifushi",
+      "Hotel Properties Limited"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": false,
+    "match_count": 0
+  },
+  {
+    "mmprc_id": 5,
+    "source_row": 7,
+    "name": "Raafushi — Aitken Spence",
+    "atoll": "Noonu",
+    "atoll_code": "N",
+    "coordinates_raw": "5.647778, 73.298611",
+    "coordinates": [
+      {
+        "lat": 5.647778,
+        "lon": 73.298611
+      }
+    ],
+    "lease_date": "2015-04-09",
+    "acquisition_cost": 5000000,
+    "comments": "",
+    "lease_awarded_to": "Ace Resorts Pvt Ltd",
+    "hotel_brand": "",
+    "resort_name": "",
+    "join_candidates": [
+      "Raafushi",
+      "Ace Resorts Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 6,
+    "source_row": 8,
+    "name": "Faarufushi — Universal Enterprises (Faarufushi Maldives Resort)",
+    "atoll": "Raa",
+    "atoll_code": "R",
+    "coordinates_raw": "5.767778, 72.965000",
+    "coordinates": [
+      {
+        "lat": 5.767778,
+        "lon": 72.965
+      }
+    ],
+    "lease_date": "2014-11-18",
+    "acquisition_cost": 2500000,
+    "comments": "",
+    "lease_awarded_to": "Mohamed Umar Maniku",
+    "hotel_brand": "",
+    "resort_name": "Faarufushi Maldives",
+    "join_candidates": [
+      "Faarufushi",
+      "Faarufushi Maldives",
+      "Mohamed Umar Maniku"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 7,
+    "source_row": 9,
+    "name": "Aarah — Aitken Spence (Heritance Aarah Resort)",
+    "atoll": "Raa",
+    "atoll_code": "R",
+    "coordinates_raw": "5.446944, 72.941111",
+    "coordinates": [
+      {
+        "lat": 5.446944,
+        "lon": 72.941111
+      }
+    ],
+    "lease_date": "2014-09-03",
+    "acquisition_cost": 3000000,
+    "comments": "",
+    "lease_awarded_to": "Cowrie Investment Pvt Ltd",
+    "hotel_brand": "Heritance (Aitken Spence)",
+    "resort_name": "Heritance Aarah",
+    "join_candidates": [
+      "Aarah",
+      "Heritance Aarah",
+      "Cowrie Investment Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 8,
+    "source_row": 10,
+    "name": "Orivaru — Robinson (Robinson Club Maldives)",
+    "atoll": "Noonu",
+    "atoll_code": "N",
+    "coordinates_raw": "5.801944, 73.297500",
+    "coordinates": [
+      {
+        "lat": 5.801944,
+        "lon": 73.2975
+      }
+    ],
+    "lease_date": "2015-02-24",
+    "acquisition_cost": 4000000,
+    "comments": "",
+    "lease_awarded_to": "Robinson Club Maldives Pvt Ltd",
+    "hotel_brand": "Robinson",
+    "resort_name": "Robinson Club Maldives",
+    "join_candidates": [
+      "Orivaru",
+      "Robinson Club Maldives",
+      "Robinson Club Maldives Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 9,
+    "source_row": 11,
+    "name": "Maagau — New Mood Resorts, Albertino Peruzzo (Baglioni Resort Maldives)",
+    "atoll": "Dhaalu",
+    "atoll_code": "Dh",
+    "coordinates_raw": "2.947778, 72.914167",
+    "coordinates": [
+      {
+        "lat": 2.947778,
+        "lon": 72.914167
+      }
+    ],
+    "lease_date": "2014-10-09",
+    "acquisition_cost": 4500000,
+    "comments": "",
+    "lease_awarded_to": "New Mood Resorts Pvt Ltd, Albertino Peruzzo",
+    "hotel_brand": "Baglioni Hotels",
+    "resort_name": "Baglioni Resort Maldives",
+    "join_candidates": [
+      "Maagau",
+      "Baglioni Resort Maldives",
+      "New Mood Resorts Pvt Ltd, Albertino Peruzzo"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 10,
+    "source_row": 12,
+    "name": "Mathiveri Finolhu — International Travel Consultant",
+    "atoll": "Alifu Alifu",
+    "atoll_code": "AA",
+    "coordinates_raw": "4.186186, 72.749859",
+    "coordinates": [
+      {
+        "lat": 4.186186,
+        "lon": 72.749859
+      }
+    ],
+    "lease_date": "2014-07-24",
+    "acquisition_cost": 1300000,
+    "comments": "Discussed by Yameen in text messages with Adeeb on June 30, 2014. President's Office letter on July 1, 2014 instructed island to be leased via MMPRC.",
+    "lease_awarded_to": "International Travel Consultant Pvt Ltd",
+    "hotel_brand": "",
+    "resort_name": "",
+    "join_candidates": [
+      "Mathiveri Finolhu",
+      "International Travel Consultant Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": false,
+    "match_count": 0
+  },
+  {
+    "mmprc_id": 11,
+    "source_row": 13,
+    "name": "Hibalhidhoo — Biznas Maldives",
+    "atoll": "Baa",
+    "atoll_code": "B",
+    "coordinates_raw": "5.141209, 73.114931",
+    "coordinates": [
+      {
+        "lat": 5.141209,
+        "lon": 73.114931
+      }
+    ],
+    "lease_date": "2014-08-10",
+    "acquisition_cost": 3000000,
+    "comments": "",
+    "lease_awarded_to": "Biznas Maldives Pvt Ltd",
+    "hotel_brand": "",
+    "resort_name": "",
+    "join_candidates": [
+      "Hibalhidhoo",
+      "Biznas Maldives Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 12,
+    "source_row": 14,
+    "name": "Aluvifushi — Sun Siyam (Sun Aqua Iru Veli)",
+    "atoll": "Dhaalu",
+    "atoll_code": "Dh",
+    "coordinates_raw": "2.932778, 72.960556",
+    "coordinates": [
+      {
+        "lat": 2.932778,
+        "lon": 72.960556
+      }
+    ],
+    "lease_date": "2014-12-31",
+    "acquisition_cost": 300000,
+    "comments": "",
+    "lease_awarded_to": "Ocean Islands Pvt Ltd",
+    "hotel_brand": "Sun Siyam",
+    "resort_name": "Sun Aqua Iru Veli",
+    "join_candidates": [
+      "Aluvifushi",
+      "Sun Aqua Iru Veli",
+      "Ocean Islands Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 13,
+    "source_row": 15,
+    "name": "Medhufaru and Surrounds — Soneva (Soneva Jani Resort)",
+    "atoll": "Noonu",
+    "atoll_code": "N",
+    "coordinates_raw": "5.713333, 73.414722",
+    "coordinates": [
+      {
+        "lat": 5.713333,
+        "lon": 73.414722
+      }
+    ],
+    "lease_date": "2014-12-18",
+    "acquisition_cost": 3000000,
+    "comments": "",
+    "lease_awarded_to": "Hillside Villa Pvt Ltd",
+    "hotel_brand": "Soneva",
+    "resort_name": "Soneva Jani Resort",
+    "join_candidates": [
+      "Medhufaru and Surrounds",
+      "Medhufaru",
+      "Surrounds",
+      "Soneva Jani Resort",
+      "Hillside Villa Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 14,
+    "source_row": 16,
+    "name": "Maamaduvvari — Coastline Group, Universal Enterprises",
+    "atoll": "Baa",
+    "atoll_code": "B",
+    "coordinates_raw": "5.008889, 72.941667",
+    "coordinates": [
+      {
+        "lat": 5.008889,
+        "lon": 72.941667
+      }
+    ],
+    "lease_date": "2015-02-08",
+    "acquisition_cost": 3000000,
+    "comments": "",
+    "lease_awarded_to": "Coastline Investments Pvt Ltd",
+    "hotel_brand": "",
+    "resort_name": "",
+    "join_candidates": [
+      "Maamaduvvari",
+      "Coastline Investments Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 15,
+    "source_row": 17,
+    "name": "Olhugiri — Family of Riyaz Rasheed",
+    "atoll": "Thaa",
+    "atoll_code": "Th",
+    "coordinates_raw": "2.505833, 73.256111",
+    "coordinates": [
+      {
+        "lat": 2.505833,
+        "lon": 73.256111
+      }
+    ],
+    "lease_date": "2015-06-10",
+    "acquisition_cost": 1000000,
+    "comments": "",
+    "lease_awarded_to": "Popular Maldives Pvt Ltd",
+    "hotel_brand": "",
+    "resort_name": "",
+    "join_candidates": [
+      "Olhugiri",
+      "Popular Maldives Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 16,
+    "source_row": 18,
+    "name": "Lagoon — Sea House Resorts",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "coordinates_raw": "3.965277, 73.446625",
+    "coordinates": [
+      {
+        "lat": 3.965277,
+        "lon": 73.446625
+      }
+    ],
+    "lease_date": "2015-07-21",
+    "acquisition_cost": 1500000,
+    "comments": "",
+    "lease_awarded_to": "Sea House Resorts Pvt Ltd",
+    "hotel_brand": "Sea House Resorts",
+    "resort_name": "",
+    "join_candidates": [
+      "Sea House Resorts Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 17,
+    "source_row": 19,
+    "name": "Vashugiri — Ismail Rasheed Umar and Family",
+    "atoll": "Vaavu",
+    "atoll_code": "V",
+    "coordinates_raw": "3.630278, 73.377500",
+    "coordinates": [
+      {
+        "lat": 3.630278,
+        "lon": 73.3775
+      }
+    ],
+    "lease_date": "2015-09-19",
+    "acquisition_cost": 300000,
+    "comments": "",
+    "lease_awarded_to": "Vashugiri Island Pvt Ltd",
+    "hotel_brand": "",
+    "resort_name": "",
+    "join_candidates": [
+      "Vashugiri",
+      "Vashugiri Island Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 18,
+    "source_row": 20,
+    "name": "Kan'doogan'du and Veyvah — Mohamed Hussain Fulhu",
+    "atoll": "Raa",
+    "atoll_code": "R",
+    "coordinates_raw": "*5.780901, 72.875992 *5.766549, 72.893508",
+    "coordinates": [
+      {
+        "lat": 5.780901,
+        "lon": 72.875992
+      },
+      {
+        "lat": 5.766549,
+        "lon": 72.893508
+      }
+    ],
+    "lease_date": "2015-08-24",
+    "acquisition_cost": 500000,
+    "comments": "",
+    "lease_awarded_to": "Mohamed Hussain Fulhu",
+    "hotel_brand": "",
+    "resort_name": "",
+    "join_candidates": [
+      "Kan'doogan'du and Veyvah",
+      "Kan'doogan'du",
+      "Veyvah",
+      "Mohamed Hussain Fulhu"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 19,
+    "source_row": 21,
+    "name": "Kalhudiyafushi — Huravee International (Gran Meliá Maldives)",
+    "atoll": "Thaa",
+    "atoll_code": "Th",
+    "coordinates_raw": "2.294444, 73.276667",
+    "coordinates": [
+      {
+        "lat": 2.294444,
+        "lon": 73.276667
+      }
+    ],
+    "lease_date": "2015-08-24",
+    "acquisition_cost": 150000,
+    "comments": "",
+    "lease_awarded_to": "Huravee International Pvt Ltd",
+    "hotel_brand": "Meliá Hotels International",
+    "resort_name": "Gran Meliá Maldives",
+    "join_candidates": [
+      "Kalhudiyafushi",
+      "Gran Meliá Maldives",
+      "Huravee International Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 20,
+    "source_row": 22,
+    "name": "Fuggiri — Classic Citi Island Holdings",
+    "atoll": "Raa",
+    "atoll_code": "R",
+    "coordinates_raw": "5.724667, 72.854722",
+    "coordinates": [
+      {
+        "lat": 5.724667,
+        "lon": 72.854722
+      }
+    ],
+    "lease_date": "2015-09-09",
+    "acquisition_cost": 1550000,
+    "comments": "",
+    "lease_awarded_to": "Classic Citi Island Holdings Ltd",
+    "hotel_brand": "",
+    "resort_name": "",
+    "join_candidates": [
+      "Fuggiri",
+      "Classic Citi Island Holdings Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 21,
+    "source_row": 23,
+    "name": "Aarah — Two G, Aarah Investment",
+    "atoll": "Vaavu",
+    "atoll_code": "V",
+    "coordinates_raw": "3.499500, 73.529056",
+    "coordinates": [
+      {
+        "lat": 3.4995,
+        "lon": 73.529056
+      }
+    ],
+    "lease_date": "2015-09-09",
+    "acquisition_cost": 2000000,
+    "comments": "",
+    "lease_awarded_to": "Two G Pvt Ltd, Aarah Investment Pvt Ltd",
+    "hotel_brand": "",
+    "resort_name": "",
+    "join_candidates": [
+      "Aarah",
+      "Two G Pvt Ltd, Aarah Investment Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 22,
+    "source_row": 24,
+    "name": "Lagoon — Mohamed Wafir",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "coordinates_raw": "4.680528, 73.526167",
+    "coordinates": [
+      {
+        "lat": 4.680528,
+        "lon": 73.526167
+      }
+    ],
+    "lease_date": "2015-09-13",
+    "acquisition_cost": 1400000,
+    "comments": "",
+    "lease_awarded_to": "Mohamed Wafir",
+    "hotel_brand": "",
+    "resort_name": "",
+    "join_candidates": [
+      "Mohamed Wafir"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 23,
+    "source_row": 25,
+    "name": "Vodamulaa — International Trade Holding Company K.S.C.",
+    "atoll": "Gaafu Alifu",
+    "atoll_code": "GA",
+    "coordinates_raw": "0.603722, 73.486639",
+    "coordinates": [
+      {
+        "lat": 0.603722,
+        "lon": 73.486639
+      }
+    ],
+    "lease_date": "2015-10-08",
+    "acquisition_cost": 1000000,
+    "comments": "",
+    "lease_awarded_to": "United International Hotel Group Co. W.L.L.",
+    "hotel_brand": "",
+    "resort_name": "",
+    "join_candidates": [
+      "Vodamulaa",
+      "United International Hotel Group Co. W.L.L."
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 24,
+    "source_row": 26,
+    "name": "Heenfaru — Hussain Sharih",
+    "atoll": "Alifu Dhaalu",
+    "atoll_code": "ADh",
+    "coordinates_raw": "3.819444, 72.828611",
+    "coordinates": [
+      {
+        "lat": 3.819444,
+        "lon": 72.828611
+      }
+    ],
+    "lease_date": "2015-10-08",
+    "acquisition_cost": 150000,
+    "comments": "",
+    "lease_awarded_to": "T.H.S. Pvt Ltd",
+    "hotel_brand": "",
+    "resort_name": "",
+    "join_candidates": [
+      "Heenfaru",
+      "T.H.S. Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 25,
+    "source_row": 27,
+    "name": "Lagoon — Abdul Latheef Aboobakur",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "coordinates_raw": "3.887944, 73.453750",
+    "coordinates": [
+      {
+        "lat": 3.887944,
+        "lon": 73.45375
+      }
+    ],
+    "lease_date": "2015-10-08",
+    "acquisition_cost": 1000000,
+    "comments": "",
+    "lease_awarded_to": "Lagoon World Pvt Ltd",
+    "hotel_brand": "",
+    "resort_name": "",
+    "join_candidates": [
+      "Lagoon World Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": false,
+    "match_count": 0
+  },
+  {
+    "mmprc_id": 26,
+    "source_row": 28,
+    "name": "Bodukaashi Huraa — Millennium Capital Management",
+    "atoll": "Alifu Dhaalu",
+    "atoll_code": "ADh",
+    "coordinates_raw": "3.875833, 72.954722",
+    "coordinates": [
+      {
+        "lat": 3.875833,
+        "lon": 72.954722
+      }
+    ],
+    "lease_date": "2014-10-20",
+    "acquisition_cost": 2000000,
+    "comments": "",
+    "lease_awarded_to": "Millennium Capital Management Pvt Ltd",
+    "hotel_brand": "",
+    "resort_name": "",
+    "join_candidates": [
+      "Bodukaashi Huraa",
+      "Millennium Capital Management Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 27,
+    "source_row": 29,
+    "name": "Fushidhigga",
+    "atoll": "Alifu Dhaalu",
+    "atoll_code": "ADh",
+    "coordinates_raw": "3.757500, 72.770556",
+    "coordinates": [
+      {
+        "lat": 3.7575,
+        "lon": 72.770556
+      }
+    ],
+    "lease_date": "2015-01-20",
+    "acquisition_cost": 3600000,
+    "comments": "",
+    "lease_awarded_to": "Maldiviana Group Pvt Ltd, M.H.M.I Pvt Ltd",
+    "hotel_brand": "",
+    "resort_name": "",
+    "join_candidates": [
+      "Fushidhigga",
+      "Maldiviana Group Pvt Ltd, M.H.M.I Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 28,
+    "source_row": 30,
+    "name": "Muthaafushi — Well Land Investment (Forthcoming Centara-branded Resort)",
+    "atoll": "Baa",
+    "atoll_code": "B",
+    "coordinates_raw": "5.078667, 72.878444",
+    "coordinates": [
+      {
+        "lat": 5.078667,
+        "lon": 72.878444
+      }
+    ],
+    "lease_date": "2015-04-21",
+    "acquisition_cost": 1000000,
+    "comments": "",
+    "lease_awarded_to": "Well Land Pvt Ltd",
+    "hotel_brand": "Centara Hotels & Resorts",
+    "resort_name": "",
+    "join_candidates": [
+      "Muthaafushi",
+      "Well Land Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 29,
+    "source_row": 31,
+    "name": "Dhandhoo — Samed Resorts",
+    "atoll": "Baa",
+    "atoll_code": "B",
+    "coordinates_raw": "5.235556, 73.168333",
+    "coordinates": [
+      {
+        "lat": 5.235556,
+        "lon": 73.168333
+      }
+    ],
+    "lease_date": "2015-03-30",
+    "acquisition_cost": 800000,
+    "comments": "",
+    "lease_awarded_to": "Dhandhoo Holdings Pvt Ltd",
+    "hotel_brand": "Samed Resorts",
+    "resort_name": "Paradee Maldives",
+    "join_candidates": [
+      "Dhandhoo",
+      "Paradee Maldives",
+      "Dhandhoo Holdings Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 30,
+    "source_row": 32,
+    "name": "Ithaafushi — ASSETS Real Estate Development (Waldorf Astoria Maldives Ithaafushi)",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "coordinates_raw": "4.013228, 73.382739",
+    "coordinates": [
+      {
+        "lat": 4.013228,
+        "lon": 73.382739
+      }
+    ],
+    "lease_date": "2015-05-27",
+    "acquisition_cost": 1500000,
+    "comments": "",
+    "lease_awarded_to": "Sumaia Holdings (Maldives) Pvt Ltd, Ithaafushi Investments Pvt Ltd",
+    "hotel_brand": "Waldorf Astoria Hotels & Resorts (Hilton Worldwide)",
+    "resort_name": "Waldorf Astoria Maldives Ithaafushi",
+    "join_candidates": [
+      "Ithaafushi",
+      "Waldorf Astoria Maldives Ithaafushi",
+      "Sumaia Holdings (Maldives) Pvt Ltd, Ithaafushi Investments Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 31,
+    "source_row": 33,
+    "name": "Bodufaru Finolhu — Lanka Orix Leasing Company",
+    "atoll": "Raa",
+    "atoll_code": "R",
+    "coordinates_raw": "5.529722, 72.804722",
+    "coordinates": [
+      {
+        "lat": 5.529722,
+        "lon": 72.804722
+      }
+    ],
+    "lease_date": "2015-11-24",
+    "acquisition_cost": 1500000,
+    "comments": "",
+    "lease_awarded_to": "Bodufaru Beach Resort Pvt Ltd",
+    "hotel_brand": "",
+    "resort_name": "",
+    "join_candidates": [
+      "Bodufaru Finolhu",
+      "Bodufaru Beach Resort Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 32,
+    "source_row": 34,
+    "name": "Innafushi — Seagull Group",
+    "atoll": "Alifu Dhaalu",
+    "atoll_code": "ADh",
+    "coordinates_raw": "3.797222, 72.732222",
+    "coordinates": [
+      {
+        "lat": 3.797222,
+        "lon": 72.732222
+      }
+    ],
+    "lease_date": "2014-12-31",
+    "acquisition_cost": 400000,
+    "comments": "",
+    "lease_awarded_to": "Seagull Group Pvt Ltd",
+    "hotel_brand": "",
+    "resort_name": "",
+    "join_candidates": [
+      "Innafushi",
+      "Seagull Group Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 33,
+    "source_row": 35,
+    "name": "Dhigudefaru — Dhigudhefaru Investment, Ahmed Iqbal",
+    "atoll": "Baa",
+    "atoll_code": "B",
+    "coordinates_raw": "5.235278, 73.138333",
+    "coordinates": [
+      {
+        "lat": 5.235278,
+        "lon": 73.138333
+      }
+    ],
+    "lease_date": "2015-05-11",
+    "acquisition_cost": 300000,
+    "comments": "",
+    "lease_awarded_to": "Dhigudhefaru Investment Pvt Ltd",
+    "hotel_brand": "",
+    "resort_name": "",
+    "join_candidates": [
+      "Dhigudefaru",
+      "Dhigudhefaru Investment Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 34,
+    "source_row": 36,
+    "name": "Bodufinolhu — Lanka Orix Leasing Company (Bodufaru Beach Resort)",
+    "atoll": "Alifu Dhaalu",
+    "atoll_code": "ADh",
+    "coordinates_raw": "3.494167, 72.761111",
+    "coordinates": [
+      {
+        "lat": 3.494167,
+        "lon": 72.761111
+      }
+    ],
+    "lease_date": "2015-06-07",
+    "acquisition_cost": 1000000,
+    "comments": "",
+    "lease_awarded_to": "Bodufaru Beach Resort Pvt Ltd",
+    "hotel_brand": "",
+    "resort_name": "Bodufaru Beach Resort",
+    "join_candidates": [
+      "Bodufinolhu",
+      "Bodufaru Beach Resort",
+      "Bodufaru Beach Resort Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 2
+  },
+  {
+    "mmprc_id": 35,
+    "source_row": 37,
+    "name": "Lagoons — Lanka Orix Leasing Company",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "coordinates_raw": "4.674667, 73.533944 4.671778, 73.540167",
+    "coordinates": [
+      {
+        "lat": 4.674667,
+        "lon": 73.533944
+      },
+      {
+        "lat": 4.671778,
+        "lon": 73.540167
+      }
+    ],
+    "lease_date": "2015-09-13",
+    "acquisition_cost": 1600000,
+    "comments": "",
+    "lease_awarded_to": "Bodufaru Beach Resort Pvt Ltd",
+    "hotel_brand": "",
+    "resort_name": "",
+    "join_candidates": [
+      "Bodufaru Beach Resort Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 36,
+    "source_row": 39,
+    "name": "Uthuruboduveli, Uthurugasveli, and Hurasveli — Island Channels",
+    "atoll": "Meemu",
+    "atoll_code": "M",
+    "coordinates_raw": "* 3.025278, 73.618333 * 3.018889, 73.618056 * 3.031111, 73.618889",
+    "coordinates": [
+      {
+        "lat": 3.025278,
+        "lon": 73.618333
+      },
+      {
+        "lat": 3.018889,
+        "lon": 73.618056
+      },
+      {
+        "lat": 3.031111,
+        "lon": 73.618889
+      }
+    ],
+    "lease_date": "November 19, 2014; July 21, 2015",
+    "acquisition_cost": 1800000,
+    "comments": "",
+    "lease_awarded_to": "Island Channels Pvt Ltd",
+    "hotel_brand": "",
+    "resort_name": "",
+    "join_candidates": [
+      "Uthuruboduveli, Uthurugasveli, and Hurasveli",
+      "Uthuruboduveli",
+      "Uthurugasveli",
+      "and Hurasveli",
+      "Island Channels Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 37,
+    "source_row": 40,
+    "name": "Milaidhoo — Universal Enterprises (Milaidhoo Island Maldives Resort)",
+    "atoll": "Baa",
+    "atoll_code": "B",
+    "coordinates_raw": "5.266944, 73.128056",
+    "coordinates": [
+      {
+        "lat": 5.266944,
+        "lon": 73.128056
+      }
+    ],
+    "lease_date": "2015-01-12",
+    "acquisition_cost": 2000000,
+    "comments": "",
+    "lease_awarded_to": "Universal Enterprises Pvt Ltd",
+    "hotel_brand": "",
+    "resort_name": "Milaidhoo Island Maldives",
+    "join_candidates": [
+      "Milaidhoo",
+      "Milaidhoo Island Maldives",
+      "Universal Enterprises Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 38,
+    "source_row": 41,
+    "name": "Lagoon — Depezar Services Fettah Tamince, Tufan Aytekin Gultekin (Linked to Rixos Hotels)",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "coordinates_raw": "3.926058, 73.355139",
+    "coordinates": [
+      {
+        "lat": 3.926058,
+        "lon": 73.355139
+      }
+    ],
+    "lease_date": "2015-04-22",
+    "acquisition_cost": 2500000,
+    "comments": "",
+    "lease_awarded_to": "Depezar Services Ltd",
+    "hotel_brand": "Rixos Hotels",
+    "resort_name": "",
+    "join_candidates": [
+      "Depezar Services Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 39,
+    "source_row": 42,
+    "name": "Kothaifaru and Kuroshigili — Orient Landscape",
+    "atoll": "Raa",
+    "atoll_code": "R",
+    "coordinates_raw": "*5.525278, 72.842778 *5.513611, 72.850000",
+    "coordinates": [
+      {
+        "lat": 5.525278,
+        "lon": 72.842778
+      },
+      {
+        "lat": 5.513611,
+        "lon": 72.85
+      }
+    ],
+    "lease_date": "2015-06-28",
+    "acquisition_cost": 5000000,
+    "comments": "",
+    "lease_awarded_to": "Orient Rose Pvt Ltd",
+    "hotel_brand": "",
+    "resort_name": "",
+    "join_candidates": [
+      "Kothaifaru and Kuroshigili",
+      "Kothaifaru",
+      "Kuroshigili",
+      "Orient Rose Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 40,
+    "source_row": 43,
+    "name": "Lagoon — Coral Tree, Ali Zahir Hilmy",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "coordinates_raw": "4.266339, 73.421917",
+    "coordinates": [
+      {
+        "lat": 4.266339,
+        "lon": 73.421917
+      }
+    ],
+    "lease_date": "2015-07-21",
+    "acquisition_cost": 1000000,
+    "comments": "",
+    "lease_awarded_to": "Coral Tree Pvt Ltd",
+    "hotel_brand": "",
+    "resort_name": "",
+    "join_candidates": [
+      "Coral Tree Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 41,
+    "source_row": 44,
+    "name": "Ekuruffushi — Seawall Enterprises",
+    "atoll": "Thaa",
+    "atoll_code": "Th",
+    "coordinates_raw": "2.265556, 73.226389",
+    "coordinates": [
+      {
+        "lat": 2.265556,
+        "lon": 73.226389
+      }
+    ],
+    "lease_date": "2015-07-16",
+    "acquisition_cost": 300000,
+    "comments": "",
+    "lease_awarded_to": "Seawall Enterprises Pvt Ltd",
+    "hotel_brand": "",
+    "resort_name": "",
+    "join_candidates": [
+      "Ekuruffushi",
+      "Seawall Enterprises Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": false,
+    "match_count": 0
+  },
+  {
+    "mmprc_id": 42,
+    "source_row": 45,
+    "name": "Maniyafaru Lagoon — Ebony Pvt Ltd (Ownership Tied to Reethi Beach and Reethi Faru Resorts)",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "coordinates_raw": "4.056972, 73.387833",
+    "coordinates": [
+      {
+        "lat": 4.056972,
+        "lon": 73.387833
+      }
+    ],
+    "lease_date": "2015-09-30",
+    "acquisition_cost": 1000000,
+    "comments": "",
+    "lease_awarded_to": "Ebony Pvt Ltd",
+    "hotel_brand": "",
+    "resort_name": "",
+    "join_candidates": [
+      "Maniyafaru Lagoon",
+      "Ebony Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 43,
+    "source_row": 46,
+    "name": "Uthurumaafaru — Sun Front, Azemar (You and Me by Cocoon Maldives Resort)",
+    "atoll": "Raa",
+    "atoll_code": "R",
+    "coordinates_raw": "5.669722, 72.845556",
+    "coordinates": [
+      {
+        "lat": 5.669722,
+        "lon": 72.845556
+      }
+    ],
+    "lease_date": "2015-02-11",
+    "acquisition_cost": 2500000,
+    "comments": "",
+    "lease_awarded_to": "Sun Front Pvt Ltd",
+    "hotel_brand": "",
+    "resort_name": "You and Me by Cocoon Maldives",
+    "join_candidates": [
+      "Uthurumaafaru",
+      "You and Me by Cocoon Maldives",
+      "Sun Front Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 44,
+    "source_row": 47,
+    "name": "Maabinhuraa — Crown & Champa Resorts",
+    "atoll": "Lhaviyani",
+    "atoll_code": "Lh",
+    "coordinates_raw": "5.336944, 73.651944",
+    "coordinates": [
+      {
+        "lat": 5.336944,
+        "lon": 73.651944
+      }
+    ],
+    "lease_date": "2014-06-04",
+    "acquisition_cost": 5000000,
+    "comments": "",
+    "lease_awarded_to": "Kuredu Holdings Pvt Ltd",
+    "hotel_brand": "",
+    "resort_name": "",
+    "join_candidates": [
+      "Maabinhuraa",
+      "Kuredu Holdings Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 45,
+    "source_row": 48,
+    "name": "Lagoon between Olhuveli and Rihiveli — Sun Siyam",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "coordinates_raw": "3.832556, 73.446778",
+    "coordinates": [
+      {
+        "lat": 3.832556,
+        "lon": 73.446778
+      }
+    ],
+    "lease_date": "2014-12-31",
+    "acquisition_cost": 200000,
+    "comments": "",
+    "lease_awarded_to": "Emerald Resort Pvt Ltd",
+    "hotel_brand": "",
+    "resort_name": "",
+    "join_candidates": [
+      "Emerald Resort Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 46,
+    "source_row": 49,
+    "name": "Bodufushi — Gürallar Group (Ali Bey Hotels & Resorts)",
+    "atoll": "Raa",
+    "atoll_code": "R",
+    "coordinates_raw": "5.507528, 72.968444",
+    "coordinates": [
+      {
+        "lat": 5.507528,
+        "lon": 72.968444
+      }
+    ],
+    "lease_date": "2015-07-21",
+    "acquisition_cost": 3000000,
+    "comments": "",
+    "lease_awarded_to": "Ali Bey Maldives Pvt Ltd",
+    "hotel_brand": "Ali Bey Hotels & Resorts",
+    "resort_name": "",
+    "join_candidates": [
+      "Bodufushi",
+      "Ali Bey Maldives Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 47,
+    "source_row": 50,
+    "name": "Lagoon — Radhun Resorts and Investments, linked to Ahmed Nashid",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "coordinates_raw": "4.624472, 73.393722",
+    "coordinates": [
+      {
+        "lat": 4.624472,
+        "lon": 73.393722
+      }
+    ],
+    "lease_date": "2015-10-05",
+    "acquisition_cost": 1500000,
+    "comments": "",
+    "lease_awarded_to": "Radhun Resorts and Investments Pvt Ltd",
+    "hotel_brand": "",
+    "resort_name": "",
+    "join_candidates": [
+      "Radhun Resorts and Investments Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 48,
+    "source_row": 51,
+    "name": "Maamunagau — Hotel Properties Limited (InterContinental Maldives Maamunagau Resort)",
+    "atoll": "Raa",
+    "atoll_code": "R",
+    "coordinates_raw": "5.360278, 72.918889",
+    "coordinates": [
+      {
+        "lat": 5.360278,
+        "lon": 72.918889
+      }
+    ],
+    "lease_date": "2014-01-14",
+    "acquisition_cost": "Unknown ",
+    "comments": "This predates MMPRC scheme. There is no suggestion of wrongdoing, but has been included to give full context of HPL's business activities in the Maldives in 2014 and 2015.",
+    "lease_awarded_to": "Leisure Horizon Pvt Ltd",
+    "hotel_brand": "InterContinental Hotels Group",
+    "resort_name": "InterContinental Maldives Maamunagau Resort",
+    "join_candidates": [
+      "Maamunagau",
+      "InterContinental Maldives Maamunagau Resort",
+      "Leisure Horizon Pvt Ltd"
+    ],
+    "context_only": true,
+    "mmprc_implicated": false,
+    "label": "Paradise Leased context only",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 49,
+    "source_row": 52,
+    "name": "Dheruffinolhu — Crown & Champa Resorts",
+    "atoll": "Lhaviyani",
+    "atoll_code": "Lh",
+    "coordinates_raw": "5.324167, 73.647222",
+    "coordinates": [
+      {
+        "lat": 5.324167,
+        "lon": 73.647222
+      }
+    ],
+    "lease_date": "2014-07-24",
+    "acquisition_cost": "Unknown (Joint Venture)",
+    "comments": "",
+    "lease_awarded_to": "Champalars Holdings Pvt Ltd",
+    "hotel_brand": "",
+    "resort_name": "",
+    "join_candidates": [
+      "Dheruffinolhu",
+      "Champalars Holdings Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 50,
+    "source_row": 53,
+    "name": "Huravalhi — Crown & Champa Resorts (Hurawalhi Island Resort)",
+    "atoll": "Lhaviyani",
+    "atoll_code": "Lh",
+    "coordinates_raw": "5.520833, 73.441667",
+    "coordinates": [
+      {
+        "lat": 5.520833,
+        "lon": 73.441667
+      }
+    ],
+    "lease_date": "2014-05-29",
+    "acquisition_cost": "Unknown (Joint Venture)",
+    "comments": "",
+    "lease_awarded_to": "Champalars Holdings Pvt Ltd",
+    "hotel_brand": "Crown & Champa Resorts",
+    "resort_name": "Hurawalhi Island Resort",
+    "join_candidates": [
+      "Huravalhi",
+      "Hurawalhi Island Resort",
+      "Champalars Holdings Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 51,
+    "source_row": 54,
+    "name": "Innahuraa — Crown & Champa Resorts (Innahuraa Maldivian Resort)",
+    "atoll": "Lhaviyani",
+    "atoll_code": "Lh",
+    "coordinates_raw": "5.350278, 73.654167",
+    "coordinates": [
+      {
+        "lat": 5.350278,
+        "lon": 73.654167
+      }
+    ],
+    "lease_date": "2014-07-24",
+    "acquisition_cost": "Unknown (Joint Venture)",
+    "comments": "",
+    "lease_awarded_to": "Champalars Holdings Pvt Ltd",
+    "hotel_brand": "Crown & Champa Resorts",
+    "resort_name": "Innahuraa Maldivian Resort",
+    "join_candidates": [
+      "Innahuraa",
+      "Innahuraa Maldivian Resort",
+      "Champalars Holdings Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 52,
+    "source_row": 55,
+    "name": "Kudadhoo — Crown & Champa Resorts (Kudadoo Maldives Private Island)",
+    "atoll": "Lhaviyani",
+    "atoll_code": "Lh",
+    "coordinates_raw": "5.502500, 73.433889",
+    "coordinates": [
+      {
+        "lat": 5.5025,
+        "lon": 73.433889
+      }
+    ],
+    "lease_date": "2015-01-22",
+    "acquisition_cost": "Unknown (Joint Venture)",
+    "comments": "",
+    "lease_awarded_to": "Champalars Holdings Pvt Ltd",
+    "hotel_brand": "Crown & Champa Resorts",
+    "resort_name": "Kudadoo Maldives Private Island",
+    "join_candidates": [
+      "Kudadhoo",
+      "Kudadoo Maldives Private Island",
+      "Champalars Holdings Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 53,
+    "source_row": 56,
+    "name": "Lagoon — Gulf Craft",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "coordinates_raw": "4.277794, 73.352019",
+    "coordinates": [
+      {
+        "lat": 4.277794,
+        "lon": 73.352019
+      }
+    ],
+    "lease_date": "2015-04-30",
+    "acquisition_cost": "Unknown",
+    "comments": "",
+    "lease_awarded_to": "Gulf Craft Service Centre Maldives Pvt Ltd",
+    "hotel_brand": "",
+    "resort_name": "",
+    "join_candidates": [
+      "Gulf Craft Service Centre Maldives Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 54,
+    "source_row": 57,
+    "name": "Himithi — Saudi Royals",
+    "atoll": "Faafu",
+    "atoll_code": "F",
+    "coordinates_raw": "3.254722, 72.819167",
+    "coordinates": [
+      {
+        "lat": 3.254722,
+        "lon": 72.819167
+      }
+    ],
+    "lease_date": "2013-09-16",
+    "acquisition_cost": "Unknown (Joint Venture)",
+    "comments": "",
+    "lease_awarded_to": "Maldives Overseas Investment Pvt Ltd",
+    "hotel_brand": "",
+    "resort_name": "",
+    "join_candidates": [
+      "Himithi",
+      "Maldives Overseas Investment Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 55,
+    "source_row": 58,
+    "name": "Lagoon — Sunny Holdings",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "coordinates_raw": "3.893025, 73.407683",
+    "coordinates": [
+      {
+        "lat": 3.893025,
+        "lon": 73.407683
+      }
+    ],
+    "lease_date": "2015-08-12",
+    "acquisition_cost": 1000000,
+    "comments": "",
+    "lease_awarded_to": "Sunny Holdings Pvt Ltd",
+    "hotel_brand": "",
+    "resort_name": "",
+    "join_candidates": [
+      "Sunny Holdings Pvt Ltd"
+    ],
+    "context_only": false,
+    "mmprc_implicated": true,
+    "label": "MMPRC corruption implicated island",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  },
+  {
+    "mmprc_id": 56,
+    "source_row": 59,
+    "name": "Voavah — Hotel Properties Limited (Four Seasons Maldives Private Island at Voavah)",
+    "atoll": "Baa",
+    "atoll_code": "B",
+    "coordinates_raw": "5.316667, 73.077500",
+    "coordinates": [
+      {
+        "lat": 5.316667,
+        "lon": 73.0775
+      }
+    ],
+    "lease_date": "2015-02-09",
+    "acquisition_cost": 300000,
+    "comments": "Picnic island converted to resort. There is no suggestion of wrongdoing, but has been included to give full context of HPL's business activities in the Maldives in 2014 and 2015.",
+    "lease_awarded_to": "Landaa Giraavaru Pvt Ltd",
+    "hotel_brand": "",
+    "resort_name": "",
+    "join_candidates": [
+      "Voavah",
+      "Landaa Giraavaru Pvt Ltd"
+    ],
+    "context_only": true,
+    "mmprc_implicated": false,
+    "label": "Paradise Leased context only",
+    "source": "OCCRP Paradise Leased spreadsheet",
+    "matched_to_resort_dataset": true,
+    "match_count": 1
+  }
+]

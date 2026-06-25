@@ -21,7 +21,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 2,
@@ -45,7 +48,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 3,
@@ -67,7 +73,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 4,
@@ -91,7 +100,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 5,
@@ -115,7 +127,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 6,
@@ -139,7 +154,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 7,
@@ -163,7 +181,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 8,
@@ -187,7 +208,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 9,
@@ -211,7 +235,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 10,
@@ -235,7 +262,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 11,
@@ -259,7 +289,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 12,
@@ -283,7 +316,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 13,
@@ -307,7 +343,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 14,
@@ -331,7 +370,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 15,
@@ -355,7 +397,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 16,
@@ -379,7 +424,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 17,
@@ -403,7 +451,29 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": true,
+    "mmprc_context_only": false,
+    "mmprc_matches": [
+      {
+        "mmprc_id": 5,
+        "name": "Raafushi — Aitken Spence",
+        "atoll": "Noonu",
+        "label": "MMPRC corruption implicated island",
+        "context_only": false,
+        "acquisition_cost": 5000000,
+        "lease_date": "2015-04-09",
+        "lease_awarded_to": "Ace Resorts Pvt Ltd",
+        "hotel_brand": "",
+        "resort_name": "",
+        "comments": "",
+        "match_method": "name",
+        "match_score": 1,
+        "mm_candidate": "Raafushi",
+        "record_candidate": "Raafushi",
+        "source_row": 7
+      }
+    ]
   },
   {
     "project_no": 18,
@@ -427,7 +497,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 19,
@@ -451,7 +524,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 20,
@@ -475,7 +551,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 21,
@@ -499,7 +578,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 22,
@@ -523,7 +605,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 23,
@@ -548,7 +633,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 24,
@@ -572,7 +660,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 25,
@@ -596,7 +687,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 26,
@@ -620,7 +714,29 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": true,
+    "mmprc_context_only": false,
+    "mmprc_matches": [
+      {
+        "mmprc_id": 20,
+        "name": "Fuggiri — Classic Citi Island Holdings",
+        "atoll": "Raa",
+        "label": "MMPRC corruption implicated island",
+        "context_only": false,
+        "acquisition_cost": 1550000,
+        "lease_date": "2015-09-09",
+        "lease_awarded_to": "Classic Citi Island Holdings Ltd",
+        "hotel_brand": "",
+        "resort_name": "",
+        "comments": "",
+        "match_method": "name",
+        "match_score": 1,
+        "mm_candidate": "Fuggiri",
+        "record_candidate": "Fuggiri",
+        "source_row": 22
+      }
+    ]
   },
   {
     "project_no": 27,
@@ -644,7 +760,29 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": true,
+    "mmprc_context_only": false,
+    "mmprc_matches": [
+      {
+        "mmprc_id": 18,
+        "name": "Kan'doogan'du and Veyvah — Mohamed Hussain Fulhu",
+        "atoll": "Raa",
+        "label": "MMPRC corruption implicated island",
+        "context_only": false,
+        "acquisition_cost": 500000,
+        "lease_date": "2015-08-24",
+        "lease_awarded_to": "Mohamed Hussain Fulhu",
+        "hotel_brand": "",
+        "resort_name": "",
+        "comments": "",
+        "match_method": "name",
+        "match_score": 1,
+        "mm_candidate": "Kan'doogan'du",
+        "record_candidate": "Kan'doogan'du",
+        "source_row": 20
+      }
+    ]
   },
   {
     "project_no": 28,
@@ -668,7 +806,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 29,
@@ -692,7 +833,29 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": true,
+    "mmprc_context_only": false,
+    "mmprc_matches": [
+      {
+        "mmprc_id": 31,
+        "name": "Bodufaru Finolhu — Lanka Orix Leasing Company",
+        "atoll": "Raa",
+        "label": "MMPRC corruption implicated island",
+        "context_only": false,
+        "acquisition_cost": 1500000,
+        "lease_date": "2015-11-24",
+        "lease_awarded_to": "Bodufaru Beach Resort Pvt Ltd",
+        "hotel_brand": "",
+        "resort_name": "",
+        "comments": "",
+        "match_method": "name",
+        "match_score": 1,
+        "mm_candidate": "Bodufaru Finolhu",
+        "record_candidate": "Bodufarufinolhu",
+        "source_row": 33
+      }
+    ]
   },
   {
     "project_no": 30,
@@ -716,7 +879,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 31,
@@ -740,7 +906,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 32,
@@ -764,7 +933,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 33,
@@ -788,7 +960,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 34,
@@ -812,7 +987,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 35,
@@ -842,7 +1020,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 36,
@@ -866,7 +1047,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 37,
@@ -890,7 +1074,29 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": true,
+    "mmprc_context_only": false,
+    "mmprc_matches": [
+      {
+        "mmprc_id": 29,
+        "name": "Dhandhoo — Samed Resorts",
+        "atoll": "Baa",
+        "label": "MMPRC corruption implicated island",
+        "context_only": false,
+        "acquisition_cost": 800000,
+        "lease_date": "2015-03-30",
+        "lease_awarded_to": "Dhandhoo Holdings Pvt Ltd",
+        "hotel_brand": "Samed Resorts",
+        "resort_name": "Paradee Maldives",
+        "comments": "",
+        "match_method": "name",
+        "match_score": 1,
+        "mm_candidate": "Dhandhoo",
+        "record_candidate": "Dhandhoo",
+        "source_row": 31
+      }
+    ]
   },
   {
     "project_no": 38,
@@ -914,7 +1120,29 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": true,
+    "mmprc_context_only": false,
+    "mmprc_matches": [
+      {
+        "mmprc_id": 33,
+        "name": "Dhigudefaru — Dhigudhefaru Investment, Ahmed Iqbal",
+        "atoll": "Baa",
+        "label": "MMPRC corruption implicated island",
+        "context_only": false,
+        "acquisition_cost": 300000,
+        "lease_date": "2015-05-11",
+        "lease_awarded_to": "Dhigudhefaru Investment Pvt Ltd",
+        "hotel_brand": "",
+        "resort_name": "",
+        "comments": "",
+        "match_method": "name",
+        "match_score": 0.917,
+        "mm_candidate": "Dhigudefaru",
+        "record_candidate": "Dhigudhefaru",
+        "source_row": 35
+      }
+    ]
   },
   {
     "project_no": 39,
@@ -938,7 +1166,29 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": true,
+    "mmprc_context_only": false,
+    "mmprc_matches": [
+      {
+        "mmprc_id": 28,
+        "name": "Muthaafushi — Well Land Investment (Forthcoming Centara-branded Resort)",
+        "atoll": "Baa",
+        "label": "MMPRC corruption implicated island",
+        "context_only": false,
+        "acquisition_cost": 1000000,
+        "lease_date": "2015-04-21",
+        "lease_awarded_to": "Well Land Pvt Ltd",
+        "hotel_brand": "Centara Hotels & Resorts",
+        "resort_name": "",
+        "comments": "",
+        "match_method": "name",
+        "match_score": 1,
+        "mm_candidate": "Muthaafushi",
+        "record_candidate": "Muthaafushi",
+        "source_row": 30
+      }
+    ]
   },
   {
     "project_no": 40,
@@ -962,7 +1212,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 41,
@@ -986,7 +1239,29 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": true,
+    "mmprc_context_only": false,
+    "mmprc_matches": [
+      {
+        "mmprc_id": 14,
+        "name": "Maamaduvvari — Coastline Group, Universal Enterprises",
+        "atoll": "Baa",
+        "label": "MMPRC corruption implicated island",
+        "context_only": false,
+        "acquisition_cost": 3000000,
+        "lease_date": "2015-02-08",
+        "lease_awarded_to": "Coastline Investments Pvt Ltd",
+        "hotel_brand": "",
+        "resort_name": "",
+        "comments": "",
+        "match_method": "name",
+        "match_score": 1,
+        "mm_candidate": "Maamaduvvari",
+        "record_candidate": "Maamaduvvari",
+        "source_row": 16
+      }
+    ]
   },
   {
     "project_no": 42,
@@ -1010,7 +1285,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 43,
@@ -1034,7 +1312,29 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": true,
+    "mmprc_context_only": false,
+    "mmprc_matches": [
+      {
+        "mmprc_id": 11,
+        "name": "Hibalhidhoo — Biznas Maldives",
+        "atoll": "Baa",
+        "label": "MMPRC corruption implicated island",
+        "context_only": false,
+        "acquisition_cost": 3000000,
+        "lease_date": "2014-08-10",
+        "lease_awarded_to": "Biznas Maldives Pvt Ltd",
+        "hotel_brand": "",
+        "resort_name": "",
+        "comments": "",
+        "match_method": "name",
+        "match_score": 1,
+        "mm_candidate": "Hibalhidhoo",
+        "record_candidate": "Hibalhidhoo",
+        "source_row": 13
+      }
+    ]
   },
   {
     "project_no": 44,
@@ -1058,7 +1358,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 45,
@@ -1082,7 +1385,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 46,
@@ -1106,7 +1412,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 47,
@@ -1130,7 +1439,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 48,
@@ -1154,7 +1466,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 49,
@@ -1178,7 +1493,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 50,
@@ -1206,7 +1524,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 51,
@@ -1234,7 +1555,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 52,
@@ -1262,7 +1586,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 53,
@@ -1290,7 +1617,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 54,
@@ -1314,7 +1644,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 55,
@@ -1338,7 +1671,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 56,
@@ -1362,7 +1698,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 57,
@@ -1386,7 +1725,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 58,
@@ -1416,7 +1758,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 59,
@@ -1444,7 +1789,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 60,
@@ -1472,7 +1820,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 61,
@@ -1500,7 +1851,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 62,
@@ -1530,7 +1884,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 63,
@@ -1560,7 +1917,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 64,
@@ -1590,7 +1950,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 65,
@@ -1620,7 +1983,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 66,
@@ -1650,7 +2016,29 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": true,
+    "mmprc_context_only": false,
+    "mmprc_matches": [
+      {
+        "mmprc_id": 45,
+        "name": "Lagoon between Olhuveli and Rihiveli — Sun Siyam",
+        "atoll": "Kaafu",
+        "label": "MMPRC corruption implicated island",
+        "context_only": false,
+        "acquisition_cost": 200000,
+        "lease_date": "2014-12-31",
+        "lease_awarded_to": "Emerald Resort Pvt Ltd",
+        "hotel_brand": "",
+        "resort_name": "",
+        "comments": "",
+        "match_method": "coordinate 1.22 km",
+        "match_score": 0.9,
+        "mm_candidate": "3.832556, 73.446778",
+        "record_candidate": "3°49'30.32\"N 73°26'19.37\"E",
+        "source_row": 48
+      }
+    ]
   },
   {
     "project_no": 67,
@@ -1680,7 +2068,29 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": true,
+    "mmprc_context_only": false,
+    "mmprc_matches": [
+      {
+        "mmprc_id": 42,
+        "name": "Maniyafaru Lagoon — Ebony Pvt Ltd (Ownership Tied to Reethi Beach and Reethi Faru Resorts)",
+        "atoll": "Kaafu",
+        "label": "MMPRC corruption implicated island",
+        "context_only": false,
+        "acquisition_cost": 1000000,
+        "lease_date": "2015-09-30",
+        "lease_awarded_to": "Ebony Pvt Ltd",
+        "hotel_brand": "",
+        "resort_name": "",
+        "comments": "",
+        "match_method": "coordinate 0.00 km",
+        "match_score": 1.0,
+        "mm_candidate": "4.056972, 73.387833",
+        "record_candidate": "4°03'25.1\"N 73°23'16.2\"E",
+        "source_row": 45
+      }
+    ]
   },
   {
     "project_no": 68,
@@ -1710,7 +2120,29 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": true,
+    "mmprc_context_only": false,
+    "mmprc_matches": [
+      {
+        "mmprc_id": 47,
+        "name": "Lagoon — Radhun Resorts and Investments, linked to Ahmed Nashid",
+        "atoll": "Kaafu",
+        "label": "MMPRC corruption implicated island",
+        "context_only": false,
+        "acquisition_cost": 1500000,
+        "lease_date": "2015-10-05",
+        "lease_awarded_to": "Radhun Resorts and Investments Pvt Ltd",
+        "hotel_brand": "",
+        "resort_name": "",
+        "comments": "",
+        "match_method": "lessee match",
+        "match_score": 0.939,
+        "mm_candidate": "Radhun Resorts and Investments Pvt Ltd",
+        "record_candidate": "Radhun Resorts and Investmetns Pvt Ltd",
+        "source_row": 50
+      }
+    ]
   },
   {
     "project_no": 68,
@@ -1740,7 +2172,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 68,
@@ -1770,7 +2205,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 68,
@@ -1800,7 +2238,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 69,
@@ -1830,7 +2271,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 70,
@@ -1858,7 +2302,29 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": true,
+    "mmprc_context_only": false,
+    "mmprc_matches": [
+      {
+        "mmprc_id": 38,
+        "name": "Lagoon — Depezar Services Fettah Tamince, Tufan Aytekin Gultekin (Linked to Rixos Hotels)",
+        "atoll": "Kaafu",
+        "label": "MMPRC corruption implicated island",
+        "context_only": false,
+        "acquisition_cost": 2500000,
+        "lease_date": "2015-04-22",
+        "lease_awarded_to": "Depezar Services Ltd",
+        "hotel_brand": "Rixos Hotels",
+        "resort_name": "",
+        "comments": "",
+        "match_method": "coordinate 0.00 km",
+        "match_score": 1.0,
+        "mm_candidate": "3.926058, 73.355139",
+        "record_candidate": "3°55'33.81\" N 73°21'18.50\"E",
+        "source_row": 41
+      }
+    ]
   },
   {
     "project_no": 71,
@@ -1886,7 +2352,29 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": true,
+    "mmprc_context_only": false,
+    "mmprc_matches": [
+      {
+        "mmprc_id": 55,
+        "name": "Lagoon — Sunny Holdings",
+        "atoll": "Kaafu",
+        "label": "MMPRC corruption implicated island",
+        "context_only": false,
+        "acquisition_cost": 1000000,
+        "lease_date": "2015-08-12",
+        "lease_awarded_to": "Sunny Holdings Pvt Ltd",
+        "hotel_brand": "",
+        "resort_name": "",
+        "comments": "",
+        "match_method": "coordinate 0.00 km",
+        "match_score": 1.0,
+        "mm_candidate": "3.893025, 73.407683",
+        "record_candidate": "3°53'34.89\"N 73°24'27.66\"E",
+        "source_row": 58
+      }
+    ]
   },
   {
     "project_no": 72,
@@ -1916,7 +2404,29 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": true,
+    "mmprc_context_only": false,
+    "mmprc_matches": [
+      {
+        "mmprc_id": 16,
+        "name": "Lagoon — Sea House Resorts",
+        "atoll": "Kaafu",
+        "label": "MMPRC corruption implicated island",
+        "context_only": false,
+        "acquisition_cost": 1500000,
+        "lease_date": "2015-07-21",
+        "lease_awarded_to": "Sea House Resorts Pvt Ltd",
+        "hotel_brand": "Sea House Resorts",
+        "resort_name": "",
+        "comments": "",
+        "match_method": "lessee match",
+        "match_score": 1,
+        "mm_candidate": "Sea House Resorts Pvt Ltd",
+        "record_candidate": "Sea House Resorts Pvt Ltd",
+        "source_row": 18
+      }
+    ]
   },
   {
     "project_no": 73,
@@ -1944,7 +2454,47 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": true,
+    "mmprc_context_only": false,
+    "mmprc_matches": [
+      {
+        "mmprc_id": 22,
+        "name": "Lagoon — Mohamed Wafir",
+        "atoll": "Kaafu",
+        "label": "MMPRC corruption implicated island",
+        "context_only": false,
+        "acquisition_cost": 1400000,
+        "lease_date": "2015-09-13",
+        "lease_awarded_to": "Mohamed Wafir",
+        "hotel_brand": "",
+        "resort_name": "",
+        "comments": "",
+        "match_method": "coordinate 0.00 km",
+        "match_score": 1.0,
+        "mm_candidate": "4.680528, 73.526167",
+        "record_candidate": "4°40'49.9\"N 73°31'34.2\"E",
+        "source_row": 24
+      },
+      {
+        "mmprc_id": 35,
+        "name": "Lagoons — Lanka Orix Leasing Company",
+        "atoll": "Kaafu",
+        "label": "MMPRC corruption implicated island",
+        "context_only": false,
+        "acquisition_cost": 1600000,
+        "lease_date": "2015-09-13",
+        "lease_awarded_to": "Bodufaru Beach Resort Pvt Ltd",
+        "hotel_brand": "",
+        "resort_name": "",
+        "comments": "",
+        "match_method": "coordinate 1.08 km",
+        "match_score": 0.9,
+        "mm_candidate": "4.674667, 73.533944",
+        "record_candidate": "4°40'49.9\"N 73°31'34.2\"E",
+        "source_row": 37
+      }
+    ]
   },
   {
     "project_no": 74,
@@ -1974,7 +2524,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 75,
@@ -2002,7 +2555,29 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": true,
+    "mmprc_context_only": false,
+    "mmprc_matches": [
+      {
+        "mmprc_id": 40,
+        "name": "Lagoon — Coral Tree, Ali Zahir Hilmy",
+        "atoll": "Kaafu",
+        "label": "MMPRC corruption implicated island",
+        "context_only": false,
+        "acquisition_cost": 1000000,
+        "lease_date": "2015-07-21",
+        "lease_awarded_to": "Coral Tree Pvt Ltd",
+        "hotel_brand": "",
+        "resort_name": "",
+        "comments": "",
+        "match_method": "lessee match",
+        "match_score": 1,
+        "mm_candidate": "Coral Tree Pvt Ltd",
+        "record_candidate": "Coral Tree Pvt Ltd",
+        "source_row": 43
+      }
+    ]
   },
   {
     "project_no": 76,
@@ -2030,7 +2605,29 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": true,
+    "mmprc_context_only": false,
+    "mmprc_matches": [
+      {
+        "mmprc_id": 53,
+        "name": "Lagoon — Gulf Craft",
+        "atoll": "Kaafu",
+        "label": "MMPRC corruption implicated island",
+        "context_only": false,
+        "acquisition_cost": "Unknown",
+        "lease_date": "2015-04-30",
+        "lease_awarded_to": "Gulf Craft Service Centre Maldives Pvt Ltd",
+        "hotel_brand": "",
+        "resort_name": "",
+        "comments": "",
+        "match_method": "lessee match",
+        "match_score": 1,
+        "mm_candidate": "Gulf Craft Service Centre Maldives Pvt Ltd",
+        "record_candidate": "Gulf Craft Service Centre Maldives Pvt Ltd",
+        "source_row": 56
+      }
+    ]
   },
   {
     "project_no": 77,
@@ -2058,7 +2655,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 78,
@@ -2086,7 +2686,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 79,
@@ -2119,7 +2722,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 80,
@@ -2147,7 +2753,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 81,
@@ -2171,7 +2780,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 82,
@@ -2199,7 +2811,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 83,
@@ -2227,7 +2842,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 84,
@@ -2255,7 +2873,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 85,
@@ -2283,7 +2904,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 86,
@@ -2311,7 +2935,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 87,
@@ -2341,7 +2968,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 88,
@@ -2365,7 +2995,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 89,
@@ -2393,7 +3026,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 90,
@@ -2431,7 +3067,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 91,
@@ -2459,7 +3098,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 92,
@@ -2494,7 +3136,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 93,
@@ -2522,7 +3167,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 94,
@@ -2546,7 +3194,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 95,
@@ -2570,7 +3221,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 96,
@@ -2594,7 +3248,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 97,
@@ -2620,7 +3277,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 98,
@@ -2648,7 +3308,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 99,
@@ -2672,7 +3335,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 100,
@@ -2696,7 +3362,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 101,
@@ -2724,7 +3393,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 102,
@@ -2748,7 +3420,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 103,
@@ -2778,7 +3453,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 104,
@@ -2802,7 +3480,29 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": true,
+    "mmprc_context_only": false,
+    "mmprc_matches": [
+      {
+        "mmprc_id": 32,
+        "name": "Innafushi — Seagull Group",
+        "atoll": "Alifu Dhaalu",
+        "label": "MMPRC corruption implicated island",
+        "context_only": false,
+        "acquisition_cost": 400000,
+        "lease_date": "2014-12-31",
+        "lease_awarded_to": "Seagull Group Pvt Ltd",
+        "hotel_brand": "",
+        "resort_name": "",
+        "comments": "",
+        "match_method": "name",
+        "match_score": 1,
+        "mm_candidate": "Innafushi",
+        "record_candidate": "Innafushi",
+        "source_row": 34
+      }
+    ]
   },
   {
     "project_no": 105,
@@ -2837,7 +3537,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 106,
@@ -2867,7 +3570,29 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": true,
+    "mmprc_context_only": false,
+    "mmprc_matches": [
+      {
+        "mmprc_id": 34,
+        "name": "Bodufinolhu — Lanka Orix Leasing Company (Bodufaru Beach Resort)",
+        "atoll": "Alifu Dhaalu",
+        "label": "MMPRC corruption implicated island",
+        "context_only": false,
+        "acquisition_cost": 1000000,
+        "lease_date": "2015-06-07",
+        "lease_awarded_to": "Bodufaru Beach Resort Pvt Ltd",
+        "hotel_brand": "",
+        "resort_name": "Bodufaru Beach Resort",
+        "comments": "",
+        "match_method": "name",
+        "match_score": 1,
+        "mm_candidate": "Bodufinolhu",
+        "record_candidate": "Bodufinolhu",
+        "source_row": 36
+      }
+    ]
   },
   {
     "project_no": 107,
@@ -2891,7 +3616,29 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": true,
+    "mmprc_context_only": false,
+    "mmprc_matches": [
+      {
+        "mmprc_id": 24,
+        "name": "Heenfaru — Hussain Sharih",
+        "atoll": "Alifu Dhaalu",
+        "label": "MMPRC corruption implicated island",
+        "context_only": false,
+        "acquisition_cost": 150000,
+        "lease_date": "2015-10-08",
+        "lease_awarded_to": "T.H.S. Pvt Ltd",
+        "hotel_brand": "",
+        "resort_name": "",
+        "comments": "",
+        "match_method": "name",
+        "match_score": 1,
+        "mm_candidate": "Heenfaru",
+        "record_candidate": "Heenfaru",
+        "source_row": 26
+      }
+    ]
   },
   {
     "project_no": 108,
@@ -2915,7 +3662,29 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": true,
+    "mmprc_context_only": false,
+    "mmprc_matches": [
+      {
+        "mmprc_id": 27,
+        "name": "Fushidhigga",
+        "atoll": "Alifu Dhaalu",
+        "label": "MMPRC corruption implicated island",
+        "context_only": false,
+        "acquisition_cost": 3600000,
+        "lease_date": "2015-01-20",
+        "lease_awarded_to": "Maldiviana Group Pvt Ltd, M.H.M.I Pvt Ltd",
+        "hotel_brand": "",
+        "resort_name": "",
+        "comments": "",
+        "match_method": "name",
+        "match_score": 1,
+        "mm_candidate": "Fushidhigga",
+        "record_candidate": "Fushidhigga",
+        "source_row": 29
+      }
+    ]
   },
   {
     "project_no": 109,
@@ -2939,7 +3708,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 110,
@@ -2963,7 +3735,29 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": true,
+    "mmprc_context_only": false,
+    "mmprc_matches": [
+      {
+        "mmprc_id": 26,
+        "name": "Bodukaashi Huraa — Millennium Capital Management",
+        "atoll": "Alifu Dhaalu",
+        "label": "MMPRC corruption implicated island",
+        "context_only": false,
+        "acquisition_cost": 2000000,
+        "lease_date": "2014-10-20",
+        "lease_awarded_to": "Millennium Capital Management Pvt Ltd",
+        "hotel_brand": "",
+        "resort_name": "",
+        "comments": "",
+        "match_method": "name",
+        "match_score": 1,
+        "mm_candidate": "Bodukaashi Huraa",
+        "record_candidate": "Bodukaashihuraa",
+        "source_row": 28
+      }
+    ]
   },
   {
     "project_no": 111,
@@ -2993,7 +3787,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 112,
@@ -3023,7 +3820,29 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": true,
+    "mmprc_context_only": false,
+    "mmprc_matches": [
+      {
+        "mmprc_id": 1,
+        "name": "Fohtheyo Bodufushi — Hotel Properties Limited",
+        "atoll": "Vaavu",
+        "label": "MMPRC corruption implicated island",
+        "context_only": false,
+        "acquisition_cost": 5000000,
+        "lease_date": "2014-08-20",
+        "lease_awarded_to": "Leisure Beach Pvt Ltd",
+        "hotel_brand": "",
+        "resort_name": "",
+        "comments": "",
+        "match_method": "name",
+        "match_score": 0.944,
+        "mm_candidate": "Fohtheyo Bodufushi",
+        "record_candidate": "Foththeyobodufushi",
+        "source_row": 3
+      }
+    ]
   },
   {
     "project_no": 113,
@@ -3047,7 +3866,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 114,
@@ -3071,7 +3893,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 115,
@@ -3095,7 +3920,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 116,
@@ -3119,7 +3947,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 117,
@@ -3147,7 +3978,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 118,
@@ -3175,7 +4009,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 119,
@@ -3208,7 +4045,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 120,
@@ -3233,7 +4073,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 121,
@@ -3259,7 +4102,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 122,
@@ -3285,7 +4131,29 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": true,
+    "mmprc_context_only": false,
+    "mmprc_matches": [
+      {
+        "mmprc_id": 36,
+        "name": "Uthuruboduveli, Uthurugasveli, and Hurasveli — Island Channels",
+        "atoll": "Meemu",
+        "label": "MMPRC corruption implicated island",
+        "context_only": false,
+        "acquisition_cost": 1800000,
+        "lease_date": "November 19, 2014; July 21, 2015",
+        "lease_awarded_to": "Island Channels Pvt Ltd",
+        "hotel_brand": "",
+        "resort_name": "",
+        "comments": "",
+        "match_method": "name",
+        "match_score": 1,
+        "mm_candidate": "Uthuruboduveli",
+        "record_candidate": "Uthuruboduveli",
+        "source_row": 39
+      }
+    ]
   },
   {
     "project_no": 123,
@@ -3309,7 +4177,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 124,
@@ -3333,7 +4204,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 125,
@@ -3357,7 +4231,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 126,
@@ -3381,7 +4258,29 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": true,
+    "mmprc_context_only": false,
+    "mmprc_matches": [
+      {
+        "mmprc_id": 54,
+        "name": "Himithi — Saudi Royals",
+        "atoll": "Faafu",
+        "label": "MMPRC corruption implicated island",
+        "context_only": false,
+        "acquisition_cost": "Unknown (Joint Venture)",
+        "lease_date": "2013-09-16",
+        "lease_awarded_to": "Maldives Overseas Investment Pvt Ltd",
+        "hotel_brand": "",
+        "resort_name": "",
+        "comments": "",
+        "match_method": "name",
+        "match_score": 1,
+        "mm_candidate": "Himithi",
+        "record_candidate": "Himithi",
+        "source_row": 57
+      }
+    ]
   },
   {
     "project_no": 127,
@@ -3405,7 +4304,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 128,
@@ -3429,7 +4331,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 129,
@@ -3453,7 +4358,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 130,
@@ -3477,7 +4385,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 131,
@@ -3502,7 +4413,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 132,
@@ -3545,7 +4459,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 132,
@@ -3588,7 +4505,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 132,
@@ -3631,7 +4551,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 132,
@@ -3674,7 +4597,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 133,
@@ -3698,7 +4624,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 134,
@@ -3722,7 +4651,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 135,
@@ -3746,7 +4678,29 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": true,
+    "mmprc_context_only": false,
+    "mmprc_matches": [
+      {
+        "mmprc_id": 19,
+        "name": "Kalhudiyafushi — Huravee International (Gran Meliá Maldives)",
+        "atoll": "Thaa",
+        "label": "MMPRC corruption implicated island",
+        "context_only": false,
+        "acquisition_cost": 150000,
+        "lease_date": "2015-08-24",
+        "lease_awarded_to": "Huravee International Pvt Ltd",
+        "hotel_brand": "Meliá Hotels International",
+        "resort_name": "Gran Meliá Maldives",
+        "comments": "",
+        "match_method": "name",
+        "match_score": 0.933,
+        "mm_candidate": "Kalhudiyafushi",
+        "record_candidate": "Kalhudhiyafushi",
+        "source_row": 21
+      }
+    ]
   },
   {
     "project_no": 136,
@@ -3770,7 +4724,29 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": true,
+    "mmprc_context_only": false,
+    "mmprc_matches": [
+      {
+        "mmprc_id": 15,
+        "name": "Olhugiri — Family of Riyaz Rasheed",
+        "atoll": "Thaa",
+        "label": "MMPRC corruption implicated island",
+        "context_only": false,
+        "acquisition_cost": 1000000,
+        "lease_date": "2015-06-10",
+        "lease_awarded_to": "Popular Maldives Pvt Ltd",
+        "hotel_brand": "",
+        "resort_name": "",
+        "comments": "",
+        "match_method": "name",
+        "match_score": 1,
+        "mm_candidate": "Olhugiri",
+        "record_candidate": "Olhugiri",
+        "source_row": 17
+      }
+    ]
   },
   {
     "project_no": 137,
@@ -3794,7 +4770,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 138,
@@ -3819,7 +4798,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 139,
@@ -3843,7 +4825,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 140,
@@ -3867,7 +4852,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 141,
@@ -3892,7 +4880,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 142,
@@ -3916,7 +4907,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 143,
@@ -3940,7 +4934,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 144,
@@ -3964,7 +4961,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 145,
@@ -3988,7 +4988,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 146,
@@ -4012,7 +5015,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 147,
@@ -4036,7 +5042,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 148,
@@ -4060,7 +5069,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 149,
@@ -4084,7 +5096,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 150,
@@ -4108,7 +5123,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 150,
@@ -4133,7 +5151,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 150,
@@ -4158,7 +5179,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 151,
@@ -4183,7 +5207,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 152,
@@ -4207,7 +5234,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 153,
@@ -4231,7 +5261,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 154,
@@ -4255,7 +5288,29 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": true,
+    "mmprc_context_only": false,
+    "mmprc_matches": [
+      {
+        "mmprc_id": 23,
+        "name": "Vodamulaa — International Trade Holding Company K.S.C.",
+        "atoll": "Gaafu Alifu",
+        "label": "MMPRC corruption implicated island",
+        "context_only": false,
+        "acquisition_cost": 1000000,
+        "lease_date": "2015-10-08",
+        "lease_awarded_to": "United International Hotel Group Co. W.L.L.",
+        "hotel_brand": "",
+        "resort_name": "",
+        "comments": "",
+        "match_method": "name",
+        "match_score": 1,
+        "mm_candidate": "Vodamulaa",
+        "record_candidate": "Vodamulaa",
+        "source_row": 25
+      }
+    ]
   },
   {
     "project_no": 155,
@@ -4279,7 +5334,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 156,
@@ -4303,7 +5361,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 157,
@@ -4327,7 +5388,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 158,
@@ -4351,7 +5415,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 159,
@@ -4375,7 +5442,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 160,
@@ -4399,7 +5469,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 161,
@@ -4423,7 +5496,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 162,
@@ -4447,7 +5523,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 163,
@@ -4471,7 +5550,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 164,
@@ -4495,7 +5577,10 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   },
   {
     "project_no": 165,
@@ -4519,6 +5604,9 @@
     "status_verification": "not_checked",
     "status_confidence": "unverified",
     "status_discrepancy": false,
-    "verification_sources": []
+    "verification_sources": [],
+    "mmprc_implicated": false,
+    "mmprc_context_only": false,
+    "mmprc_matches": []
   }
 ]
