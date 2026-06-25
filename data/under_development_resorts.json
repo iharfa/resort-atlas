@@ -1,0 +1,3486 @@
+[
+  {
+    "project_no": 1,
+    "type_of_project": "Resort Development",
+    "atoll": "Haa Alifu",
+    "atoll_code": "HA",
+    "site_label": "Berinmadhoo",
+    "lessee_holder": "Mr. Franchin Guiseppe",
+    "status": "Under development",
+    "source_page": 1,
+    "is_continuation": false,
+    "join_candidates": [
+      "Berinmadhoo"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 2,
+    "type_of_project": "Resort Development",
+    "atoll": "Haa Alifu",
+    "atoll_code": "HA",
+    "site_label": "Velifinolhu",
+    "lessee_holder": "Pearl Sands of Maldives Private Limited",
+    "status": "Under development",
+    "source_page": 1,
+    "is_continuation": false,
+    "join_candidates": [
+      "Velifinolhu"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 3,
+    "type_of_project": "Resort Hotel",
+    "atoll": "Haa Alifu",
+    "atoll_code": "HA",
+    "site_label": "Plot of Land & Allocated Lagoon Area",
+    "lessee_holder": "Fedo Private Limited",
+    "status": "Under development",
+    "source_page": 1,
+    "is_continuation": false,
+    "join_candidates": [],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 4,
+    "type_of_project": "Resort Development",
+    "atoll": "Haa Alifu",
+    "atoll_code": "HA",
+    "site_label": "Medhafushi",
+    "lessee_holder": "Samana IFN Holding Limited",
+    "status": "Under development",
+    "source_page": 1,
+    "is_continuation": false,
+    "join_candidates": [
+      "Medhafushi"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 5,
+    "type_of_project": "Resort Development",
+    "atoll": "Haa Alifu",
+    "atoll_code": "HA",
+    "site_label": "Alidhuffarufinolhu",
+    "lessee_holder": "MMEPL-MMIPL Infrastructure Private Limited",
+    "status": "Under development",
+    "source_page": 1,
+    "is_continuation": false,
+    "join_candidates": [
+      "Alidhuffarufinolhu"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 6,
+    "type_of_project": "Trainning Facility\nDevelopment",
+    "atoll": "Haa Dhaalu",
+    "atoll_code": "HDh",
+    "site_label": "Nolhivaranfaru Training Resort and Training\nFacility",
+    "lessee_holder": "Nalaveli Maldives Pvt Ltd",
+    "status": "Under development",
+    "source_page": 1,
+    "is_continuation": false,
+    "join_candidates": [
+      "Nolhivaranfaru"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 7,
+    "type_of_project": "Resort Development",
+    "atoll": "Haa Dhaalu",
+    "atoll_code": "HDh",
+    "site_label": "Naagoashi",
+    "lessee_holder": "MTDC",
+    "status": "Under development",
+    "source_page": 1,
+    "is_continuation": false,
+    "join_candidates": [
+      "Naagoashi"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 8,
+    "type_of_project": "Resort Development",
+    "atoll": "Haa Dhaalu",
+    "atoll_code": "HDh",
+    "site_label": "Vaikuramuraidhoo",
+    "lessee_holder": "Glamour Investments Ltd",
+    "status": "Under development",
+    "source_page": 1,
+    "is_continuation": false,
+    "join_candidates": [
+      "Vaikuramuraidhoo"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 9,
+    "type_of_project": "Resort Development",
+    "atoll": "Shaviyani",
+    "atoll_code": "Sh",
+    "site_label": "Hurasfaru",
+    "lessee_holder": "Hurasfaru Holdings Private Limited",
+    "status": "Under development",
+    "source_page": 1,
+    "is_continuation": false,
+    "join_candidates": [
+      "Hurasfaru"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 10,
+    "type_of_project": "Resort Development",
+    "atoll": "Shaviyani",
+    "atoll_code": "Sh",
+    "site_label": "Naainfaru",
+    "lessee_holder": "Naainfaru Holdings Private Limited",
+    "status": "Under development",
+    "source_page": 1,
+    "is_continuation": false,
+    "join_candidates": [
+      "Naainfaru"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 11,
+    "type_of_project": "Resort Development",
+    "atoll": "Shaviyani",
+    "atoll_code": "Sh",
+    "site_label": "Dholhiyadhoo",
+    "lessee_holder": "Mohamed Latheef",
+    "status": "Under development",
+    "source_page": 1,
+    "is_continuation": false,
+    "join_candidates": [
+      "Dholhiyadhoo"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 12,
+    "type_of_project": "Resort Development",
+    "atoll": "Shaviyani",
+    "atoll_code": "Sh",
+    "site_label": "Kanbaalifaru",
+    "lessee_holder": "Kanbaalifaru Development Private Limited",
+    "status": "Under development",
+    "source_page": 1,
+    "is_continuation": false,
+    "join_candidates": [
+      "Kanbaalifaru"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 13,
+    "type_of_project": "Resort Development",
+    "atoll": "Noonu",
+    "atoll_code": "N",
+    "site_label": "Huivani",
+    "lessee_holder": "RHD Maldives Pvt Ltd,",
+    "status": "Under development",
+    "source_page": 1,
+    "is_continuation": false,
+    "join_candidates": [
+      "Huivani"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 14,
+    "type_of_project": "Resort Development",
+    "atoll": "Noonu",
+    "atoll_code": "N",
+    "site_label": "Huvandhumaavattaru",
+    "lessee_holder": "Noonu Hotels and Resorts Development Pvt Ltd",
+    "status": "Under development",
+    "source_page": 1,
+    "is_continuation": false,
+    "join_candidates": [
+      "Huvandhumaavattaru"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 15,
+    "type_of_project": "Resort Development",
+    "atoll": "Noonu",
+    "atoll_code": "N",
+    "site_label": "Maavelaavaru",
+    "lessee_holder": "Athama Investments Pvt Ltd",
+    "status": "Under development",
+    "source_page": 1,
+    "is_continuation": false,
+    "join_candidates": [
+      "Maavelaavaru"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 16,
+    "type_of_project": "Resort Development",
+    "atoll": "Noonu",
+    "atoll_code": "N",
+    "site_label": "Loafaru",
+    "lessee_holder": "Amala Maldives Private Limited",
+    "status": "Under development",
+    "source_page": 1,
+    "is_continuation": false,
+    "join_candidates": [
+      "Loafaru"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 17,
+    "type_of_project": "Resort Development",
+    "atoll": "Noonu",
+    "atoll_code": "N",
+    "site_label": "Raafushi",
+    "lessee_holder": "Leisure Sands Private Limited",
+    "status": "Under development",
+    "source_page": 1,
+    "is_continuation": false,
+    "join_candidates": [
+      "Raafushi"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 18,
+    "type_of_project": "Resort Development",
+    "atoll": "Noonu",
+    "atoll_code": "N",
+    "site_label": "Karinmavattaru",
+    "lessee_holder": "Portiaco SPV RSC Ltd.",
+    "status": "Under development",
+    "source_page": 1,
+    "is_continuation": false,
+    "join_candidates": [
+      "Karinmavattaru"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 19,
+    "type_of_project": "Resort Development",
+    "atoll": "Noonu",
+    "atoll_code": "N",
+    "site_label": "Kunnamalei",
+    "lessee_holder": "VANOA investments limited",
+    "status": "Under development",
+    "source_page": 2,
+    "is_continuation": false,
+    "join_candidates": [
+      "Kunnamalei"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 20,
+    "type_of_project": "Resort Development",
+    "atoll": "Noonu",
+    "atoll_code": "N",
+    "site_label": "Kendhivaru",
+    "lessee_holder": "Vita Heights Company Limited",
+    "status": "Under development",
+    "source_page": 2,
+    "is_continuation": false,
+    "join_candidates": [
+      "Kendhivaru"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 21,
+    "type_of_project": "Resort Development",
+    "atoll": "Noonu",
+    "atoll_code": "N",
+    "site_label": "Ehdhuffarumairah",
+    "lessee_holder": "Green Tree Property Management Co., LLC",
+    "status": "Under development",
+    "source_page": 2,
+    "is_continuation": false,
+    "join_candidates": [
+      "Ehdhuffarumairah"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 22,
+    "type_of_project": "Resort Development",
+    "atoll": "Noonu",
+    "atoll_code": "N",
+    "site_label": "Bandaidhidhdhoo",
+    "lessee_holder": "Indus Ressorts Private Limited",
+    "status": "Under development",
+    "source_page": 2,
+    "is_continuation": false,
+    "join_candidates": [
+      "Bandaidhidhdhoo"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 23,
+    "type_of_project": "Resort Development",
+    "atoll": "Noonu",
+    "atoll_code": "N",
+    "site_label": "Dhigufaru Lagoon and Dhekenanfaru",
+    "lessee_holder": "Crystal Holdings Pvt Limited",
+    "status": "Under development",
+    "source_page": 2,
+    "is_continuation": false,
+    "join_candidates": [
+      "Dhigufaru",
+      "Dhekenanfaru"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 24,
+    "type_of_project": "Resort Development",
+    "atoll": "Noonu",
+    "atoll_code": "N",
+    "site_label": "Maakurehdhoo",
+    "lessee_holder": "I & T Management Private Limited",
+    "status": "Under development",
+    "source_page": 2,
+    "is_continuation": false,
+    "join_candidates": [
+      "Maakurehdhoo"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 25,
+    "type_of_project": "Resort Development",
+    "atoll": "Noonu",
+    "atoll_code": "N",
+    "site_label": "Minaavaru",
+    "lessee_holder": "Arc 360 Investments Pvt Ltd",
+    "status": "Under development",
+    "source_page": 2,
+    "is_continuation": false,
+    "join_candidates": [
+      "Minaavaru"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 26,
+    "type_of_project": "Resort Development",
+    "atoll": "Raa",
+    "atoll_code": "R",
+    "site_label": "Fuggiri",
+    "lessee_holder": "Aria Hotel Partners Pvt Ltd",
+    "status": "Under development",
+    "source_page": 2,
+    "is_continuation": false,
+    "join_candidates": [
+      "Fuggiri"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 27,
+    "type_of_project": "Resort Development",
+    "atoll": "Raa",
+    "atoll_code": "R",
+    "site_label": "Kan'doogan'du",
+    "lessee_holder": "K & V Holdings Pvt Ltd.",
+    "status": "Under development",
+    "source_page": 2,
+    "is_continuation": false,
+    "join_candidates": [
+      "Kan'doogan'du"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 28,
+    "type_of_project": "Resort Development",
+    "atoll": "Raa",
+    "atoll_code": "R",
+    "site_label": "Lundhufushi",
+    "lessee_holder": "Silver Tides Pvt Ltd",
+    "status": "Under development",
+    "source_page": 2,
+    "is_continuation": false,
+    "join_candidates": [
+      "Lundhufushi"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 29,
+    "type_of_project": "Resort Development",
+    "atoll": "Raa",
+    "atoll_code": "R",
+    "site_label": "Bodufarufinolhu",
+    "lessee_holder": "Browns Raa Resort Pvt Ltd",
+    "status": "Under development",
+    "source_page": 2,
+    "is_continuation": false,
+    "join_candidates": [
+      "Bodufarufinolhu"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 30,
+    "type_of_project": "Resort Development",
+    "atoll": "Raa",
+    "atoll_code": "R",
+    "site_label": "Maanenfushi",
+    "lessee_holder": "Maanenfushi Pvt Ltd",
+    "status": "Under development",
+    "source_page": 2,
+    "is_continuation": false,
+    "join_candidates": [
+      "Maanenfushi"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 31,
+    "type_of_project": "Resort Development",
+    "atoll": "Raa",
+    "atoll_code": "R",
+    "site_label": "Gemana",
+    "lessee_holder": "Amir Mansoor",
+    "status": "Under development",
+    "source_page": 2,
+    "is_continuation": false,
+    "join_candidates": [
+      "Gemana"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 32,
+    "type_of_project": "Resort Development",
+    "atoll": "Raa",
+    "atoll_code": "R",
+    "site_label": "Fenfushi",
+    "lessee_holder": "Grand Leisure Ventures Private Limited",
+    "status": "Under development",
+    "source_page": 2,
+    "is_continuation": false,
+    "join_candidates": [
+      "Fenfushi"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 33,
+    "type_of_project": "Resort Development",
+    "atoll": "Raa",
+    "atoll_code": "R",
+    "site_label": "Kukulhudhuffaru",
+    "lessee_holder": "Naid Investments Pvt Ltd",
+    "status": "Under development",
+    "source_page": 2,
+    "is_continuation": false,
+    "join_candidates": [
+      "Kukulhudhuffaru"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 34,
+    "type_of_project": "Resort Development",
+    "atoll": "Raa",
+    "atoll_code": "R",
+    "site_label": "Dhoragali",
+    "lessee_holder": "Ali Zahir",
+    "status": "Under development",
+    "source_page": 2,
+    "is_continuation": false,
+    "join_candidates": [
+      "Dhoragali"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 35,
+    "type_of_project": "Resort Development",
+    "atoll": "Raa",
+    "atoll_code": "R",
+    "site_label": "5°25’54.164”N, 72°52’36.846”E\n(Maafaru Falhu)",
+    "lessee_holder": "Premier Equity Pvt. Ltd.",
+    "status": "Under development",
+    "source_page": 2,
+    "is_continuation": false,
+    "join_candidates": [
+      "Maafaru Falhu"
+    ],
+    "coordinates": [
+      {
+        "lat": 5.431712222222223,
+        "lon": 72.87690166666665,
+        "raw": "5°25'54.164\"N 72°52'36.846\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 36,
+    "type_of_project": "Resort Development",
+    "atoll": "Raa",
+    "atoll_code": "R",
+    "site_label": "Dhikkurehdheoo",
+    "lessee_holder": "Lycan Pvt Ltd",
+    "status": "Under development",
+    "source_page": 2,
+    "is_continuation": false,
+    "join_candidates": [
+      "Dhikkurehdheoo"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 37,
+    "type_of_project": "Resort Development",
+    "atoll": "Baa",
+    "atoll_code": "B",
+    "site_label": "Dhandhoo",
+    "lessee_holder": "Dhandhoo Holdings Pvt Ltd",
+    "status": "Under development",
+    "source_page": 2,
+    "is_continuation": false,
+    "join_candidates": [
+      "Dhandhoo"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 38,
+    "type_of_project": "Resort Development",
+    "atoll": "Baa",
+    "atoll_code": "B",
+    "site_label": "Dhigudhefaru",
+    "lessee_holder": "JD Dhigufaru Private Limited",
+    "status": "Under development",
+    "source_page": 2,
+    "is_continuation": false,
+    "join_candidates": [
+      "Dhigudhefaru"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 39,
+    "type_of_project": "Resort Development",
+    "atoll": "Baa",
+    "atoll_code": "B",
+    "site_label": "Muthaafushi",
+    "lessee_holder": "Muthaafushi Orient Investments Limited",
+    "status": "Under development",
+    "source_page": 2,
+    "is_continuation": false,
+    "join_candidates": [
+      "Muthaafushi"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 40,
+    "type_of_project": "Resort Development",
+    "atoll": "Baa",
+    "atoll_code": "B",
+    "site_label": "Funadhoo",
+    "lessee_holder": "Ifuru Investment Pvt Ltd",
+    "status": "Under development",
+    "source_page": 2,
+    "is_continuation": false,
+    "join_candidates": [
+      "Funadhoo"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 41,
+    "type_of_project": "Resort Development",
+    "atoll": "Baa",
+    "atoll_code": "B",
+    "site_label": "Maamaduvvari",
+    "lessee_holder": "Coastline Investment Pvt Ltd",
+    "status": "Under development",
+    "source_page": 2,
+    "is_continuation": false,
+    "join_candidates": [
+      "Maamaduvvari"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 42,
+    "type_of_project": "Resort Development",
+    "atoll": "Baa",
+    "atoll_code": "B",
+    "site_label": "Bodufinolhu",
+    "lessee_holder": "Seal Maldives Private Limited",
+    "status": "Under development",
+    "source_page": 3,
+    "is_continuation": false,
+    "join_candidates": [
+      "Bodufinolhu"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 43,
+    "type_of_project": "Resort Development",
+    "atoll": "Baa",
+    "atoll_code": "B",
+    "site_label": "Hibalhidhoo",
+    "lessee_holder": "Yura Private Limited",
+    "status": "Under development",
+    "source_page": 3,
+    "is_continuation": false,
+    "join_candidates": [
+      "Hibalhidhoo"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 44,
+    "type_of_project": "Resort Development",
+    "atoll": "Baa",
+    "atoll_code": "B",
+    "site_label": "Hulhudhoo",
+    "lessee_holder": "Millennium Capital Management Pvt Ltd",
+    "status": "Under development",
+    "source_page": 3,
+    "is_continuation": false,
+    "join_candidates": [
+      "Hulhudhoo"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 45,
+    "type_of_project": "Resort Development",
+    "atoll": "Baa",
+    "atoll_code": "B",
+    "site_label": "Plot of lagoon from Goidhoo Faru",
+    "lessee_holder": "Leo Trading Pvt Ltd",
+    "status": "Under development",
+    "source_page": 3,
+    "is_continuation": false,
+    "join_candidates": [
+      "from Goidhoo Faru"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 46,
+    "type_of_project": "Resort Development",
+    "atoll": "Lhaviyani",
+    "atoll_code": "Lh",
+    "site_label": "Veyvah",
+    "lessee_holder": "R.S.Q private limited.",
+    "status": "Under development",
+    "source_page": 3,
+    "is_continuation": false,
+    "join_candidates": [
+      "Veyvah"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 47,
+    "type_of_project": "Resort Development",
+    "atoll": "Lhaviyani",
+    "atoll_code": "Lh",
+    "site_label": "Hudhufushi",
+    "lessee_holder": "Legal Heirs of Late Abdul Rauf",
+    "status": "Under development",
+    "source_page": 3,
+    "is_continuation": false,
+    "join_candidates": [
+      "Hudhufushi"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 48,
+    "type_of_project": "Resort Development",
+    "atoll": "Lhaviyani",
+    "atoll_code": "Lh",
+    "site_label": "Lhossalafushi",
+    "lessee_holder": "Apex Realty Private Limited",
+    "status": "Under development",
+    "source_page": 3,
+    "is_continuation": false,
+    "join_candidates": [
+      "Lhossalafushi"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 49,
+    "type_of_project": "Resort Development",
+    "atoll": "Lhaviyani",
+    "atoll_code": "Lh",
+    "site_label": "Vihafarufinolhu",
+    "lessee_holder": "SJ Trade Private Limited",
+    "status": "Under development",
+    "source_page": 3,
+    "is_continuation": false,
+    "join_candidates": [
+      "Vihafarufinolhu"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 50,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "4°17'45.64\"N 73°28'40.90\"E",
+    "lessee_holder": "Legal Heirs of Late Abdul Rauf",
+    "status": "Under development",
+    "source_page": 3,
+    "is_continuation": false,
+    "join_candidates": [],
+    "coordinates": [
+      {
+        "lat": 4.296011111111111,
+        "lon": 73.47802777777778,
+        "raw": "4°17'45.64\"N 73°28'40.90\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 51,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "3 53'24.68\"N 73 21'36.74\"E",
+    "lessee_holder": "VKL & AL Namal Group Pvt Ltd",
+    "status": "Under development",
+    "source_page": 3,
+    "is_continuation": false,
+    "join_candidates": [],
+    "coordinates": [
+      {
+        "lat": 3.890188888888889,
+        "lon": 73.36020555555555,
+        "raw": "3 53'24.68\"N 73 21'36.74\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 52,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "4°0'24.28\"N 73°25'20.14\"E",
+    "lessee_holder": "Monterock Investments Nedhafushi Maldives Pvt Ltd",
+    "status": "Under development",
+    "source_page": 3,
+    "is_continuation": false,
+    "join_candidates": [],
+    "coordinates": [
+      {
+        "lat": 4.006744444444444,
+        "lon": 73.42226111111111,
+        "raw": "4°0'24.28\"N 73°25'20.14\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 53,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Plot of Lagoon\n4°27'27.58\"N 73°23'18.81\"E",
+    "lessee_holder": "MRAC Private Limited",
+    "status": "Under development",
+    "source_page": 3,
+    "is_continuation": false,
+    "join_candidates": [],
+    "coordinates": [
+      {
+        "lat": 4.457661111111111,
+        "lon": 73.38855833333334,
+        "raw": "4°27'27.58\"N 73°23'18.81\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 54,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Vaagali",
+    "lessee_holder": "Vaagali Investments pvt ltd",
+    "status": "Under development",
+    "source_page": 3,
+    "is_continuation": false,
+    "join_candidates": [
+      "Vaagali"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 55,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Kohdhipparu Lagoon",
+    "lessee_holder": "Dhidhoofinolhu Holdings Pvt Ltd",
+    "status": "Under development",
+    "source_page": 3,
+    "is_continuation": false,
+    "join_candidates": [
+      "Kohdhipparu"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 56,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Kohdhipparu Finolhu",
+    "lessee_holder": "Amingiri Investment pvt ltd",
+    "status": "Under development",
+    "source_page": 3,
+    "is_continuation": false,
+    "join_candidates": [
+      "Kohdhipparu Finolhu"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 57,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Embudu Lagoon",
+    "lessee_holder": "Dream Islands Development Pvt Ltd",
+    "status": "Under development",
+    "source_page": 3,
+    "is_continuation": false,
+    "join_candidates": [
+      "Embudu"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 58,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Dholla faru\nPlot of Lagoon\n4°34'2.13\"N 73°36'29.49\"E",
+    "lessee_holder": "Villa Holidays Private Limited",
+    "status": "Under development",
+    "source_page": 3,
+    "is_continuation": false,
+    "join_candidates": [
+      "Dholla faru"
+    ],
+    "coordinates": [
+      {
+        "lat": 4.567258333333333,
+        "lon": 73.60819166666666,
+        "raw": "4°34'2.13\"N 73°36'29.49\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 59,
+    "type_of_project": "Integrated Tourist Resort",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Lagoon 19\n4°16'36.46\"N 73°27'35.98\"E",
+    "lessee_holder": "Maarah Pvt Ltd",
+    "status": "Under development",
+    "source_page": 3,
+    "is_continuation": false,
+    "join_candidates": [],
+    "coordinates": [
+      {
+        "lat": 4.276794444444445,
+        "lon": 73.45999444444445,
+        "raw": "4°16'36.46\"N 73°27'35.98\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 60,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Lagoon 2\n4°36'58.36\"N / 73°30'38.96\"E",
+    "lessee_holder": "Dutch Docklands Maldives Pvt Ltd",
+    "status": "Under development",
+    "source_page": 3,
+    "is_continuation": false,
+    "join_candidates": [],
+    "coordinates": [
+      {
+        "lat": 4.61621111111111,
+        "lon": 73.51082222222222,
+        "raw": "4°36'58.36\"N 73°30'38.96\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 61,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Lagoon 9\n4°15'6.27\"N, 73°26'30.91\"E",
+    "lessee_holder": "Dutch Docklands Maldives Private Limited",
+    "status": "Under development",
+    "source_page": 3,
+    "is_continuation": false,
+    "join_candidates": [],
+    "coordinates": [
+      {
+        "lat": 4.251741666666667,
+        "lon": 73.44191944444445,
+        "raw": "4°15'6.27\"N 73°26'30.91\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 62,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Tholhimaraahuraa Lagoon 3°50'25.20\"N,\n73°22'36.33\"E",
+    "lessee_holder": "Prime Atoll Maldives Pvt Ltd",
+    "status": "Under development",
+    "source_page": 3,
+    "is_continuation": false,
+    "join_candidates": [
+      "Tholhimaraahuraa"
+    ],
+    "coordinates": [
+      {
+        "lat": 3.8403333333333336,
+        "lon": 73.37675833333333,
+        "raw": "3°50'25.20\"N 73°22'36.33\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 63,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Lagoon (Bolidhuhfaru)\n4°05’12.6”N 73°23’18.4”E,",
+    "lessee_holder": "Vita Heights Company Limited",
+    "status": "Under development",
+    "source_page": 3,
+    "is_continuation": false,
+    "join_candidates": [
+      "Bolidhuhfaru"
+    ],
+    "coordinates": [
+      {
+        "lat": 4.086833333333333,
+        "lon": 73.38844444444445,
+        "raw": "4°05'12.6\"N 73°23'18.4\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 64,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Lagoon (Vaaredhoo Faru)\n4°02’09.9”N 73°22’19.5”E",
+    "lessee_holder": "The Palace LXR Hotels & Resorts WLL",
+    "status": "Under development",
+    "source_page": 4,
+    "is_continuation": false,
+    "join_candidates": [
+      "Vaaredhoo Faru"
+    ],
+    "coordinates": [
+      {
+        "lat": 4.036083333333333,
+        "lon": 73.37208333333332,
+        "raw": "4°02'09.9\"N 73°22'19.5\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 65,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Lagoon (Maadhihgaru Falhu)\n3°59’01.1”N 73°21’37.6”E",
+    "lessee_holder": "Vita Heights Company Limited",
+    "status": "Under development",
+    "source_page": 4,
+    "is_continuation": false,
+    "join_candidates": [
+      "Maadhihgaru Falhu"
+    ],
+    "coordinates": [
+      {
+        "lat": 3.9836388888888887,
+        "lon": 73.36044444444444,
+        "raw": "3°59'01.1\"N 73°21'37.6\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 66,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Plot of Lagoon (Emerald Lagoon)\n3°49'30.32\"N, 73°26'19.37\"E",
+    "lessee_holder": "Emerald Resort Private Limited",
+    "status": "Under development",
+    "source_page": 4,
+    "is_continuation": false,
+    "join_candidates": [
+      "Emerald"
+    ],
+    "coordinates": [
+      {
+        "lat": 3.8250888888888888,
+        "lon": 73.4387138888889,
+        "raw": "3°49'30.32\"N 73°26'19.37\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 67,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Lagoon (Maniyafaru)\n4°03’25.1”N 73°23’16.2”E",
+    "lessee_holder": "Ebony Private Limited",
+    "status": "Under development",
+    "source_page": 4,
+    "is_continuation": false,
+    "join_candidates": [
+      "Maniyafaru"
+    ],
+    "coordinates": [
+      {
+        "lat": 4.056972222222222,
+        "lon": 73.38783333333333,
+        "raw": "4°03'25.1\"N 73°23'16.2\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 68,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Dhonfushi - 4 36'32\"N, 73 24'28\"E",
+    "lessee_holder": "Radhun Resorts and Investmetns Pvt Ltd",
+    "status": "Under development",
+    "source_page": 4,
+    "is_continuation": false,
+    "join_candidates": [
+      "Dhonfushi"
+    ],
+    "coordinates": [
+      {
+        "lat": 4.608888888888888,
+        "lon": 73.40777777777778,
+        "raw": "4 36'32\"N 73 24'28\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 68,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Kanbaashaa - 4 37'18\"N, 73 23'42\"E",
+    "lessee_holder": "Radhun Resorts and Investmetns Pvt Ltd",
+    "status": "Under development",
+    "source_page": 4,
+    "is_continuation": true,
+    "join_candidates": [
+      "Kanbaashaa"
+    ],
+    "coordinates": [
+      {
+        "lat": 4.621666666666667,
+        "lon": 73.39500000000001,
+        "raw": "4 37'18\"N 73 23'42\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 68,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Nashvilu - 4 37'29\"N. 73 24'23\"E",
+    "lessee_holder": "Radhun Resorts and Investmetns Pvt Ltd",
+    "status": "Under development",
+    "source_page": 4,
+    "is_continuation": true,
+    "join_candidates": [
+      "Nashvilu - ."
+    ],
+    "coordinates": [
+      {
+        "lat": 4.624722222222223,
+        "lon": 73.4063888888889,
+        "raw": "4 37'29\"N 73 24'23\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 68,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Hastheem - 4 37'23\"N, 73 24'41\"E",
+    "lessee_holder": "Radhun Resorts and Investmetns Pvt Ltd",
+    "status": "Under development",
+    "source_page": 4,
+    "is_continuation": true,
+    "join_candidates": [
+      "Hastheem"
+    ],
+    "coordinates": [
+      {
+        "lat": 4.623055555555556,
+        "lon": 73.4113888888889,
+        "raw": "4 37'23\"N 73 24'41\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 69,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Dhiffushifaru\n4°24'11.41\"N, 73°41'16.85\"E",
+    "lessee_holder": "Marina Development Pvt Ltd",
+    "status": "Under development",
+    "source_page": 4,
+    "is_continuation": false,
+    "join_candidates": [
+      "Dhiffushifaru"
+    ],
+    "coordinates": [
+      {
+        "lat": 4.403169444444445,
+        "lon": 73.68801388888889,
+        "raw": "4°24'11.41\"N 73°41'16.85\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 70,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Plot of Lagoon\n3°55'33.81\" N 73°21'18.50\"E",
+    "lessee_holder": "Royal Resorts WLL",
+    "status": "Under development",
+    "source_page": 4,
+    "is_continuation": false,
+    "join_candidates": [],
+    "coordinates": [
+      {
+        "lat": 3.926058333333333,
+        "lon": 73.35513888888889,
+        "raw": "3°55'33.81\" N 73°21'18.50\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 71,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Plot of Lagoon\n3°53’34.89”N, 73°24’27.66”E",
+    "lessee_holder": "Moonlight Holdings Pvt Ltd",
+    "status": "Under development",
+    "source_page": 4,
+    "is_continuation": false,
+    "join_candidates": [],
+    "coordinates": [
+      {
+        "lat": 3.893025,
+        "lon": 73.40768333333334,
+        "raw": "3°53'34.89\"N 73°24'27.66\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 72,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Plot of Lagoon (Dhonmaaga)\n3°57'54.9972\"N 73°26'47.8507\"E",
+    "lessee_holder": "Sea House Resorts Pvt Ltd",
+    "status": "Under development",
+    "source_page": 4,
+    "is_continuation": false,
+    "join_candidates": [
+      "Dhonmaaga"
+    ],
+    "coordinates": [
+      {
+        "lat": 3.9652770000000004,
+        "lon": 73.44662519444445,
+        "raw": "3°57'54.9972\"N 73°26'47.8507\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 73,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Plot of Lagoon\n4°40’49.9”N, 73°31’34.2”E",
+    "lessee_holder": "Lightblue Maldives Private Limited",
+    "status": "Under development",
+    "source_page": 4,
+    "is_continuation": false,
+    "join_candidates": [],
+    "coordinates": [
+      {
+        "lat": 4.680527777777778,
+        "lon": 73.52616666666667,
+        "raw": "4°40'49.9\"N 73°31'34.2\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 74,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Plot of lagoon: Embudhu Finolhu\n4°5'23.36\"N, 73°31'23.00\"E",
+    "lessee_holder": "Bayswater Maldives Private Limited",
+    "status": "Under development",
+    "source_page": 4,
+    "is_continuation": false,
+    "join_candidates": [
+      "Embudhu Finolhu"
+    ],
+    "coordinates": [
+      {
+        "lat": 4.089822222222222,
+        "lon": 73.52305555555556,
+        "raw": "4°5'23.36\"N 73°31'23.00\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 75,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Plot of Lagoon\n4°15'58.82\"N 73°25'18.90\"E",
+    "lessee_holder": "Coral Tree Pvt Ltd",
+    "status": "Under development",
+    "source_page": 4,
+    "is_continuation": false,
+    "join_candidates": [],
+    "coordinates": [
+      {
+        "lat": 4.266338888888889,
+        "lon": 73.42191666666668,
+        "raw": "4°15'58.82\"N 73°25'18.90\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 76,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Plot of Lagoon 4°16'40.06\" N 73°21'7.27\"E",
+    "lessee_holder": "Gulf Craft Service Centre Maldives Pvt Ltd",
+    "status": "Under development",
+    "source_page": 4,
+    "is_continuation": false,
+    "join_candidates": [],
+    "coordinates": [
+      {
+        "lat": 4.277794444444444,
+        "lon": 73.35201944444444,
+        "raw": "4°16'40.06\" N 73°21'7.27\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 77,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Plot of Lagoon\n4°30'56.11\"N 73°38'22.41\"E",
+    "lessee_holder": "Mazzo Pvt Ltd",
+    "status": "Under development",
+    "source_page": 4,
+    "is_continuation": false,
+    "join_candidates": [],
+    "coordinates": [
+      {
+        "lat": 4.515586111111111,
+        "lon": 73.63955833333334,
+        "raw": "4°30'56.11\"N 73°38'22.41\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 78,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Plot of Lagoon 4°31'9.68\"N\n73°39'9.44\"E",
+    "lessee_holder": "Middle Lagoon Pvt Ltd",
+    "status": "Under development",
+    "source_page": 4,
+    "is_continuation": false,
+    "join_candidates": [],
+    "coordinates": [
+      {
+        "lat": 4.519355555555555,
+        "lon": 73.65262222222223,
+        "raw": "4°31'9.68\"N 73°39'9.44\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 79,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Plot of Lagoons\n4°40’28.8”N, 73°32’02.2”E\n4°40’18.4”N, 73°32’24.6”E",
+    "lessee_holder": "Bodufaru Beach Resort Pvt Ltd",
+    "status": "Under development",
+    "source_page": 4,
+    "is_continuation": false,
+    "join_candidates": [],
+    "coordinates": [
+      {
+        "lat": 4.674666666666667,
+        "lon": 73.53394444444444,
+        "raw": "4°40'28.8\"N 73°32'02.2\"E"
+      },
+      {
+        "lat": 4.671777777777778,
+        "lon": 73.54016666666666,
+        "raw": "4°40'18.4\"N 73°32'24.6\"E"
+      }
+    ],
+    "coordinate_count": 2,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 80,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "4°17'19\"N, 73°24'11\"E",
+    "lessee_holder": "Samarafushi Pvt Ltd",
+    "status": "Under development",
+    "source_page": 4,
+    "is_continuation": false,
+    "join_candidates": [],
+    "coordinates": [
+      {
+        "lat": 4.288611111111111,
+        "lon": 73.40305555555557,
+        "raw": "4°17'19\"N 73°24'11\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 81,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Nakacha Huraa",
+    "lessee_holder": "Nakacha Huraa Developments Pvt Ltd",
+    "status": "Under development",
+    "source_page": 4,
+    "is_continuation": false,
+    "join_candidates": [
+      "Nakacha Huraa"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 82,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Plot of Lagoon 3°54'43\"N,\n73°24'03\"E",
+    "lessee_holder": "Dream Ocean Holidays Private Limited",
+    "status": "Under development",
+    "source_page": 4,
+    "is_continuation": false,
+    "join_candidates": [],
+    "coordinates": [
+      {
+        "lat": 3.9119444444444444,
+        "lon": 73.40083333333334,
+        "raw": "3°54'43\"N 73°24'03\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 83,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Plot of Lagoon\n4°19'32.54\"N, 73°23'59.64\"E",
+    "lessee_holder": "Darglobal Development Maldives Private Limited",
+    "status": "Under development",
+    "source_page": 5,
+    "is_continuation": false,
+    "join_candidates": [],
+    "coordinates": [
+      {
+        "lat": 4.3257055555555555,
+        "lon": 73.3999,
+        "raw": "4°19'32.54\"N 73°23'59.64\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 84,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Plot of Lagoon\n4°01'33.2\"N, 73°25'30.3\"E",
+    "lessee_holder": "D'Mal Island Private Limited",
+    "status": "Under development",
+    "source_page": 5,
+    "is_continuation": false,
+    "join_candidates": [],
+    "coordinates": [
+      {
+        "lat": 4.025888888888889,
+        "lon": 73.42508333333333,
+        "raw": "4°01'33.2\"N 73°25'30.3\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 85,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Plot of Lagoon\n4°38'48\"N, 73°33'09\"E",
+    "lessee_holder": "Everest Maldives Private Limited",
+    "status": "Under development",
+    "source_page": 5,
+    "is_continuation": false,
+    "join_candidates": [],
+    "coordinates": [
+      {
+        "lat": 4.6466666666666665,
+        "lon": 73.5525,
+        "raw": "4°38'48\"N 73°33'09\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 86,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Plot of Lagoon\n3°55'42.23\"N, 73°27'28.02\"E",
+    "lessee_holder": "Coolshades Investment Private Limited",
+    "status": "Under development",
+    "source_page": 5,
+    "is_continuation": false,
+    "join_candidates": [],
+    "coordinates": [
+      {
+        "lat": 3.928397222222222,
+        "lon": 73.45778333333334,
+        "raw": "3°55'42.23\"N 73°27'28.02\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 87,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Plot of Lagoon (Dhiya Adi Faru)\n4°32'6.907\"N, 73°37'59.193\"E",
+    "lessee_holder": "Premier Equity Pvt. Ltd",
+    "status": "Under development",
+    "source_page": 5,
+    "is_continuation": false,
+    "join_candidates": [
+      "Dhiya Adi Faru"
+    ],
+    "coordinates": [
+      {
+        "lat": 4.535251944444444,
+        "lon": 73.63310916666666,
+        "raw": "4°32'6.907\"N 73°37'59.193\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 88,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Velassaru Faru",
+    "lessee_holder": "Millenium Capital Management PVT LTD",
+    "status": "Under development",
+    "source_page": 5,
+    "is_continuation": false,
+    "join_candidates": [
+      "Velassaru Faru"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 89,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "4°2’32.263”N, 73°25’10.367\" E",
+    "lessee_holder": "Samana Ocean Investment Private Limited",
+    "status": "Under development",
+    "source_page": 5,
+    "is_continuation": false,
+    "join_candidates": [],
+    "coordinates": [
+      {
+        "lat": 4.042295277777778,
+        "lon": 73.41954638888889,
+        "raw": "4°2'32.263\"N 73°25'10.367\" E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 90,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "4.3717, 73.34417, 4.36537, 73.34709,\n4.36648, 73.35554",
+    "lessee_holder": "Alibey Maldives Private Limited",
+    "status": "Under development",
+    "source_page": 5,
+    "is_continuation": false,
+    "join_candidates": [],
+    "coordinates": [
+      {
+        "lat": 4.3717,
+        "lon": 73.34417,
+        "raw": "4.3717, 73.34417"
+      },
+      {
+        "lat": 4.36537,
+        "lon": 73.34709,
+        "raw": "4.36537, 73.34709"
+      },
+      {
+        "lat": 4.36648,
+        "lon": 73.35554,
+        "raw": "4.36648, 73.35554"
+      }
+    ],
+    "coordinate_count": 3,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 91,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "4°4’27.763”N, 73°24’46.269\" E",
+    "lessee_holder": "Maadhoala Private Limited",
+    "status": "Under development",
+    "source_page": 5,
+    "is_continuation": false,
+    "join_candidates": [],
+    "coordinates": [
+      {
+        "lat": 4.07437861111111,
+        "lon": 73.4128525,
+        "raw": "4°4'27.763\"N 73°24'46.269\" E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 92,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Gaafaru Falhu (4°46’54 N, 73 25' 29\" E and\n4°43’34”N,73°23’18 \"E)",
+    "lessee_holder": "Maldives Fund Management Corporation Limited",
+    "status": "Under development",
+    "source_page": 5,
+    "is_continuation": false,
+    "join_candidates": [
+      "Gaafaru Falhu ("
+    ],
+    "coordinates": [
+      {
+        "lat": 4.781666666666666,
+        "lon": 73.42472222222223,
+        "raw": "4°46'54 N 73 25' 29\" E"
+      },
+      {
+        "lat": 4.726111111111111,
+        "lon": 73.38833333333334,
+        "raw": "4°43'34\"N 73°23'18 \"E"
+      }
+    ],
+    "coordinate_count": 2,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 93,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "4°22’59.665”N, 73°23’28.883\" E",
+    "lessee_holder": "Keiretsu Private Limited",
+    "status": "Under development",
+    "source_page": 5,
+    "is_continuation": false,
+    "join_candidates": [],
+    "coordinates": [
+      {
+        "lat": 4.3832402777777775,
+        "lon": 73.3913563888889,
+        "raw": "4°22'59.665\"N 73°23'28.883\" E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 94,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Emboodhoo (Island 1)",
+    "lessee_holder": "Dream Islands Development Pvt Ltd",
+    "status": "Under development",
+    "source_page": 5,
+    "is_continuation": false,
+    "join_candidates": [
+      "Emboodhoo"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 95,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "3°55’21.076”N, 73°26’31.761",
+    "lessee_holder": "Arena Private Limited",
+    "status": "Under development",
+    "source_page": 5,
+    "is_continuation": false,
+    "join_candidates": [
+      "°26'31.761"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 96,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Fusfaru",
+    "lessee_holder": "Fusfaru Maldives Private Limited",
+    "status": "Under development",
+    "source_page": 5,
+    "is_continuation": false,
+    "join_candidates": [
+      "Fusfaru"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 97,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Erruhhuraa, Olhigan'dufinolhu and small\nisland with the feature code LD1727",
+    "lessee_holder": "OGN Private Limited",
+    "status": "Under development",
+    "source_page": 5,
+    "is_continuation": false,
+    "join_candidates": [
+      "Erruhhuraa",
+      "Olhigan'dufinolhu",
+      "small with the feature code LD1727"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 98,
+    "type_of_project": "Resort Development",
+    "atoll": "Kaafu",
+    "atoll_code": "K",
+    "site_label": "Plot of Lagoon 4°17’45.500”N, 73°26’44.553\"\nE",
+    "lessee_holder": "Luxuria Dubai Private Limited",
+    "status": "Under development",
+    "source_page": 5,
+    "is_continuation": false,
+    "join_candidates": [],
+    "coordinates": [
+      {
+        "lat": 4.295972222222222,
+        "lon": 73.44570916666667,
+        "raw": "4°17'45.500\"N 73°26'44.553\"\nE"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 99,
+    "type_of_project": "Resort Development",
+    "atoll": "Alifu Alifu",
+    "atoll_code": "AA",
+    "site_label": "Maagaa",
+    "lessee_holder": "Abdulla Jabir",
+    "status": "Under development",
+    "source_page": 5,
+    "is_continuation": false,
+    "join_candidates": [
+      "Maagaa"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 100,
+    "type_of_project": "Resort Development",
+    "atoll": "Alifu Alifu",
+    "atoll_code": "AA",
+    "site_label": "Madoogali",
+    "lessee_holder": "Noovilu Resort Pvt Ltd",
+    "status": "Under development",
+    "source_page": 5,
+    "is_continuation": false,
+    "join_candidates": [
+      "Madoogali"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 101,
+    "type_of_project": "Resort Development",
+    "atoll": "Alifu Alifu",
+    "atoll_code": "AA",
+    "site_label": "Plot of Lagoon\n3°56'55.08\"N, 72°56'44.1\"E",
+    "lessee_holder": "Legal Heirs of Late Abdul Rauf",
+    "status": "Under development",
+    "source_page": 5,
+    "is_continuation": false,
+    "join_candidates": [],
+    "coordinates": [
+      {
+        "lat": 3.9486333333333334,
+        "lon": 72.94558333333333,
+        "raw": "3°56'55.08\"N 72°56'44.1\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 102,
+    "type_of_project": "Resort Development",
+    "atoll": "Alifu Alifu",
+    "atoll_code": "AA",
+    "site_label": "Medhafushi",
+    "lessee_holder": "Samana IFN Holding Limited",
+    "status": "Under development",
+    "source_page": 5,
+    "is_continuation": false,
+    "join_candidates": [
+      "Medhafushi"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 103,
+    "type_of_project": "Resort Development",
+    "atoll": "Alifu Alifu",
+    "atoll_code": "AA",
+    "site_label": "Plot of Lagoon 4°5′31.29\"N, 72°54′19.76\"E\n(Bodugaafalhu)",
+    "lessee_holder": "Big Fish Maldives Pvt Ltd",
+    "status": "Under development",
+    "source_page": 5,
+    "is_continuation": false,
+    "join_candidates": [
+      "Bodugaafalhu"
+    ],
+    "coordinates": [
+      {
+        "lat": 4.092025,
+        "lon": 72.9054888888889,
+        "raw": "4°5'31.29\"N 72°54'19.76\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 104,
+    "type_of_project": "Resort Development",
+    "atoll": "Alifu Dhaalu",
+    "atoll_code": "ADh",
+    "site_label": "Innafushi",
+    "lessee_holder": "Seagull Group Private Limited",
+    "status": "Under development",
+    "source_page": 5,
+    "is_continuation": false,
+    "join_candidates": [
+      "Innafushi"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 105,
+    "type_of_project": "Resort Development",
+    "atoll": "Alifu Dhaalu",
+    "atoll_code": "ADh",
+    "site_label": "Plot of Lagoon: Hithifalhu\n1 - 3°40'7.65\" N 72°58'19.00\"E &\n2 - 3°39'45.78\" N 72°57'9.98\"E",
+    "lessee_holder": "Villa Air Private Limited",
+    "status": "Under development",
+    "source_page": 5,
+    "is_continuation": false,
+    "join_candidates": [
+      "Hithifalhu 1"
+    ],
+    "coordinates": [
+      {
+        "lat": 3.6687916666666665,
+        "lon": 72.97194444444445,
+        "raw": "3°40'7.65\" N 72°58'19.00\"E"
+      },
+      {
+        "lat": 3.6627166666666664,
+        "lon": 72.95277222222222,
+        "raw": "3°39'45.78\" N 72°57'9.98\"E"
+      }
+    ],
+    "coordinate_count": 2,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 106,
+    "type_of_project": "Resort Development",
+    "atoll": "Alifu Dhaalu",
+    "atoll_code": "ADh",
+    "site_label": "Plot of lagoon: Bodufinolhu Lagoon\n3°30'42.95\" N 72°43'45.58\"E",
+    "lessee_holder": "Villa Shipping & Trading Company Private Limited",
+    "status": "Under development",
+    "source_page": 6,
+    "is_continuation": false,
+    "join_candidates": [
+      "Bodufinolhu"
+    ],
+    "coordinates": [
+      {
+        "lat": 3.5119305555555558,
+        "lon": 72.72932777777778,
+        "raw": "3°30'42.95\" N 72°43'45.58\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 107,
+    "type_of_project": "Resort Development",
+    "atoll": "Alifu Dhaalu",
+    "atoll_code": "ADh",
+    "site_label": "Heenfaru",
+    "lessee_holder": "Nuemark Pvt Ltd,",
+    "status": "Under development",
+    "source_page": 6,
+    "is_continuation": false,
+    "join_candidates": [
+      "Heenfaru"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 108,
+    "type_of_project": "Resort Development",
+    "atoll": "Alifu Dhaalu",
+    "atoll_code": "ADh",
+    "site_label": "Fushidhigga",
+    "lessee_holder": "Maldiviana Group Private Limited",
+    "status": "Under development",
+    "source_page": 6,
+    "is_continuation": false,
+    "join_candidates": [
+      "Fushidhigga"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 109,
+    "type_of_project": "Resort Development",
+    "atoll": "Alifu Dhaalu",
+    "atoll_code": "ADh",
+    "site_label": "Oshagali",
+    "lessee_holder": "Oshagali Investments Private Limited",
+    "status": "Under development",
+    "source_page": 6,
+    "is_continuation": false,
+    "join_candidates": [
+      "Oshagali"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 110,
+    "type_of_project": "Resort Development",
+    "atoll": "Alifu Dhaalu",
+    "atoll_code": "ADh",
+    "site_label": "Bodukaashihuraa",
+    "lessee_holder": "H.M.H.I Company Pvt Ltd",
+    "status": "Under development",
+    "source_page": 6,
+    "is_continuation": false,
+    "join_candidates": [
+      "Bodukaashihuraa"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 111,
+    "type_of_project": "Resort Development",
+    "atoll": "Alifu Dhaalu",
+    "atoll_code": "ADh",
+    "site_label": "Plot of Lagoon 3°53′28.62″N, 72°57′5.74“E\n(Genburugaa Falhu)",
+    "lessee_holder": "KSR Marine Services (Maldives) Pvt Ltd",
+    "status": "Under development",
+    "source_page": 6,
+    "is_continuation": false,
+    "join_candidates": [
+      "Genburugaa Falhu"
+    ],
+    "coordinates": [
+      {
+        "lat": 3.8912833333333334,
+        "lon": 72.95159444444445,
+        "raw": "3°53'28.62\"N 72°57'5.74\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 112,
+    "type_of_project": "Resort Development",
+    "atoll": "Vaavu",
+    "atoll_code": "V",
+    "site_label": "Foththeyobodufushi\n3°23'40.272\"N, 73°39'52.677\"E",
+    "lessee_holder": "Amrock Investment (Maldives) pvt ltd",
+    "status": "Under development",
+    "source_page": 6,
+    "is_continuation": false,
+    "join_candidates": [
+      "Foththeyobodufushi"
+    ],
+    "coordinates": [
+      {
+        "lat": 3.39452,
+        "lon": 73.66463250000001,
+        "raw": "3°23'40.272\"N 73°39'52.677\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 113,
+    "type_of_project": "Resort Development",
+    "atoll": "Vaavu",
+    "atoll_code": "V",
+    "site_label": "Ambara",
+    "lessee_holder": "Handhuvaru Ocean Pvt Ltd",
+    "status": "Under development",
+    "source_page": 6,
+    "is_continuation": false,
+    "join_candidates": [
+      "Ambara"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 114,
+    "type_of_project": "Resort Development",
+    "atoll": "Vaavu",
+    "atoll_code": "V",
+    "site_label": "Bodumohoraa",
+    "lessee_holder": "Bodumohoraa Investment Private Limited",
+    "status": "Under development",
+    "source_page": 6,
+    "is_continuation": false,
+    "join_candidates": [
+      "Bodumohoraa"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 115,
+    "type_of_project": "Resort Development",
+    "atoll": "Vaavu",
+    "atoll_code": "V",
+    "site_label": "Lagoon in Vaavu Atoll",
+    "lessee_holder": "Global Ace Maldives Private Limited",
+    "status": "Under development",
+    "source_page": 6,
+    "is_continuation": false,
+    "join_candidates": [
+      "in Vaavu Atoll"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 116,
+    "type_of_project": "Resort Development",
+    "atoll": "Vaavu",
+    "atoll_code": "V",
+    "site_label": "Kudadhiggaru Falhu",
+    "lessee_holder": "Millennium Capital Management Pvt Ltd",
+    "status": "Under development",
+    "source_page": 6,
+    "is_continuation": false,
+    "join_candidates": [
+      "Kudadhiggaru Falhu"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 117,
+    "type_of_project": "Resort Development",
+    "atoll": "Vaavu",
+    "atoll_code": "V",
+    "site_label": "3°32’43.397”N, 73°30’15.829\" E",
+    "lessee_holder": "Veriri Private Limited",
+    "status": "Under development",
+    "source_page": 6,
+    "is_continuation": false,
+    "join_candidates": [],
+    "coordinates": [
+      {
+        "lat": 3.5453880555555553,
+        "lon": 73.50439694444445,
+        "raw": "3°32'43.397\"N 73°30'15.829\" E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 118,
+    "type_of_project": "Resort Development",
+    "atoll": "Vaavu",
+    "atoll_code": "V",
+    "site_label": "3°37'24.561\"N, 73°30'5.784\"E",
+    "lessee_holder": "Kaani Hotels and Resorts Private Limited",
+    "status": "Under development",
+    "source_page": 6,
+    "is_continuation": false,
+    "join_candidates": [],
+    "coordinates": [
+      {
+        "lat": 3.623489166666667,
+        "lon": 73.50160666666666,
+        "raw": "3°37'24.561\"N 73°30'5.784\"E"
+      }
+    ],
+    "coordinate_count": 1,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 119,
+    "type_of_project": "Resort Development",
+    "atoll": "Vaavu",
+    "atoll_code": "V",
+    "site_label": "Plot of Lagoon\n3°24'18.00\"N, 73°45'16.00\"E and\n3°22'40.00\"N, 73°43'58.00\"E",
+    "lessee_holder": "Constellation Lagoon PVT LTD",
+    "status": "Under development",
+    "source_page": 6,
+    "is_continuation": false,
+    "join_candidates": [],
+    "coordinates": [
+      {
+        "lat": 3.405,
+        "lon": 73.75444444444445,
+        "raw": "3°24'18.00\"N 73°45'16.00\"E"
+      },
+      {
+        "lat": 3.3777777777777778,
+        "lon": 73.73277777777778,
+        "raw": "3°22'40.00\"N 73°43'58.00\"E"
+      }
+    ],
+    "coordinate_count": 2,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 120,
+    "type_of_project": "Resort Development",
+    "atoll": "Meemu",
+    "atoll_code": "M",
+    "site_label": "Seedheehuraa and Seedheehuraa\nVeligan'du",
+    "lessee_holder": "Marketech Maldives Private Limited",
+    "status": "Under development",
+    "source_page": 6,
+    "is_continuation": false,
+    "join_candidates": [
+      "Seedheehuraa",
+      "Seedheehuraa Veligan'du"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 121,
+    "type_of_project": "Resort Development",
+    "atoll": "Meemu",
+    "atoll_code": "M",
+    "site_label": "Dhekunu Boduveli, Gasveli, Kudausfushi",
+    "lessee_holder": "Mr. Mohamed Manik (A023542)",
+    "status": "Under development",
+    "source_page": 6,
+    "is_continuation": false,
+    "join_candidates": [
+      "Dhekunu Boduveli",
+      "Gasveli",
+      "Kudausfushi"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 122,
+    "type_of_project": "Resort Development",
+    "atoll": "Meemu",
+    "atoll_code": "M",
+    "site_label": "Uthuruboduveli, Hurasveli and Uthurugasveli",
+    "lessee_holder": "Island Channels Pvt Ltd",
+    "status": "Under development",
+    "source_page": 6,
+    "is_continuation": false,
+    "join_candidates": [
+      "Uthuruboduveli",
+      "Hurasveli",
+      "Uthurugasveli"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 123,
+    "type_of_project": "Resort Development",
+    "atoll": "Meemu",
+    "atoll_code": "M",
+    "site_label": "Thuvaru",
+    "lessee_holder": "Coral Reserve Pvt Ltd",
+    "status": "Under development",
+    "source_page": 6,
+    "is_continuation": false,
+    "join_candidates": [
+      "Thuvaru"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 124,
+    "type_of_project": "Resort Development",
+    "atoll": "Faafu",
+    "atoll_code": "F",
+    "site_label": "En'bulufushi",
+    "lessee_holder": "Naid Trading Private Limited",
+    "status": "Under development",
+    "source_page": 6,
+    "is_continuation": false,
+    "join_candidates": [
+      "En'bulufushi"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 125,
+    "type_of_project": "Resort Development",
+    "atoll": "Faafu",
+    "atoll_code": "F",
+    "site_label": "Jinnathugau",
+    "lessee_holder": "Akiri Holdings Pvt Ltd",
+    "status": "Under development",
+    "source_page": 6,
+    "is_continuation": false,
+    "join_candidates": [
+      "Jinnathugau"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 126,
+    "type_of_project": "Resort Development",
+    "atoll": "Faafu",
+    "atoll_code": "F",
+    "site_label": "Himithi",
+    "lessee_holder": "Maldives Overseas Investment Pvt Ltd,",
+    "status": "Under development",
+    "source_page": 6,
+    "is_continuation": false,
+    "join_candidates": [
+      "Himithi"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 127,
+    "type_of_project": "Resort Development",
+    "atoll": "Faafu",
+    "atoll_code": "F",
+    "site_label": "Maafushi",
+    "lessee_holder": "Rania Investment Pvt Ltd",
+    "status": "Under development",
+    "source_page": 6,
+    "is_continuation": false,
+    "join_candidates": [
+      "Maafushi"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 128,
+    "type_of_project": "Resort Development",
+    "atoll": "Faafu",
+    "atoll_code": "F",
+    "site_label": "Adhangau",
+    "lessee_holder": "D'Ares Island Private Limited",
+    "status": "Under development",
+    "source_page": 6,
+    "is_continuation": false,
+    "join_candidates": [
+      "Adhangau"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 129,
+    "type_of_project": "Resort Development",
+    "atoll": "Dhaalu",
+    "atoll_code": "Dh",
+    "site_label": "Hiriyaafushi",
+    "lessee_holder": "Hiriyafushi Holdings Pvt Ltd",
+    "status": "Under development",
+    "source_page": 7,
+    "is_continuation": false,
+    "join_candidates": [
+      "Hiriyaafushi"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 130,
+    "type_of_project": "Resort Development",
+    "atoll": "Dhaalu",
+    "atoll_code": "Dh",
+    "site_label": "Hulhuvahi",
+    "lessee_holder": "OGN Private Limited",
+    "status": "Under development",
+    "source_page": 7,
+    "is_continuation": false,
+    "join_candidates": [
+      "Hulhuvahi"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 131,
+    "type_of_project": "Resort Development",
+    "atoll": "Dhaalu",
+    "atoll_code": "Dh",
+    "site_label": "Kiraidhoo and Dhebaidhoo",
+    "lessee_holder": "Dhaalu Airport Holding Private Limited",
+    "status": "Under development",
+    "source_page": 7,
+    "is_continuation": false,
+    "join_candidates": [
+      "Kiraidhoo",
+      "Dhebaidhoo"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 132,
+    "type_of_project": "Integrated Tourist Resort",
+    "atoll": "Dhaalu",
+    "atoll_code": "Dh",
+    "site_label": "72°52’35.301”E, 2°58’33.237\" N,\n72°52’57.999”E, 2°58’51.603\" N,\n72°53’4.765”E, 2°58’43.151\" N,\n72°52’42.067”E, 2°58’24.785\" N,\n(Plot 1)",
+    "lessee_holder": "Yash Exotic Island Private Limited",
+    "status": "Under development",
+    "source_page": 7,
+    "is_continuation": false,
+    "join_candidates": [],
+    "coordinates": [
+      {
+        "lat": 2.9758991666666668,
+        "lon": 72.87647249999999,
+        "raw": "72°52'35.301\"E 2°58'33.237\" N"
+      },
+      {
+        "lat": 2.9810008333333333,
+        "lon": 72.88277749999999,
+        "raw": "72°52'57.999\"E 2°58'51.603\" N"
+      },
+      {
+        "lat": 2.9786530555555557,
+        "lon": 72.88465694444444,
+        "raw": "72°53'4.765\"E 2°58'43.151\" N"
+      },
+      {
+        "lat": 2.973551388888889,
+        "lon": 72.87835194444443,
+        "raw": "72°52'42.067\"E 2°58'24.785\" N"
+      }
+    ],
+    "coordinate_count": 4,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 132,
+    "type_of_project": "Integrated Tourist Resort",
+    "atoll": "Dhaalu",
+    "atoll_code": "Dh",
+    "site_label": "72°53’24.316”E, 2°59’10.779\" N,\n72°53’49.341”E, 2°59’25.783\" N ,\n72°53’54.863”E, 2°59’16.465\" N,\n72°53’29.844”E, 2°59’1.461\" N\n(Plot 2)",
+    "lessee_holder": "Yash Exotic Island Private Limited",
+    "status": "Under development",
+    "source_page": 7,
+    "is_continuation": true,
+    "join_candidates": [],
+    "coordinates": [
+      {
+        "lat": 2.9863275000000002,
+        "lon": 72.89008777777778,
+        "raw": "72°53'24.316\"E 2°59'10.779\" N"
+      },
+      {
+        "lat": 2.990495277777778,
+        "lon": 72.89703916666667,
+        "raw": "72°53'49.341\"E 2°59'25.783\" N"
+      },
+      {
+        "lat": 2.9879069444444446,
+        "lon": 72.89857305555556,
+        "raw": "72°53'54.863\"E 2°59'16.465\" N"
+      },
+      {
+        "lat": 2.9837391666666666,
+        "lon": 72.89162333333334,
+        "raw": "72°53'29.844\"E 2°59'1.461\" N"
+      }
+    ],
+    "coordinate_count": 4,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 132,
+    "type_of_project": "Integrated Tourist Resort",
+    "atoll": "Dhaalu",
+    "atoll_code": "Dh",
+    "site_label": "72°54’22.040”E, 2°59’36.416\" N,\n72°55’9.437”E, 2°59’47.530\" N,\n72°55’11.767”E, 2°59’37.136\" N,\n72°54’24.572”E, 2°59’25.717\" N\n(Plot 3)",
+    "lessee_holder": "Yash Exotic Island Private Limited",
+    "status": "Under development",
+    "source_page": 7,
+    "is_continuation": true,
+    "join_candidates": [],
+    "coordinates": [
+      {
+        "lat": 2.993448888888889,
+        "lon": 72.90612222222222,
+        "raw": "72°54'22.040\"E 2°59'36.416\" N"
+      },
+      {
+        "lat": 2.9965361111111113,
+        "lon": 72.91928805555555,
+        "raw": "72°55'9.437\"E 2°59'47.530\" N"
+      },
+      {
+        "lat": 2.993648888888889,
+        "lon": 72.91993527777778,
+        "raw": "72°55'11.767\"E 2°59'37.136\" N"
+      },
+      {
+        "lat": 2.9904769444444446,
+        "lon": 72.90682555555556,
+        "raw": "72°54'24.572\"E 2°59'25.717\" N"
+      }
+    ],
+    "coordinate_count": 4,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 132,
+    "type_of_project": "Integrated Tourist Resort",
+    "atoll": "Dhaalu",
+    "atoll_code": "Dh",
+    "site_label": "72°53’39.121”E, 2°58’45.767\" N ,\n72°54’3.913”E, 2°59’0.282\" N,\n72°54’5.696”E, 2°58’57.229\" N,\n72°53’41.003”E, 2°58’42.628\" N\n(Plot 4)",
+    "lessee_holder": "Yash Exotic Island Private Limited",
+    "status": "Under development",
+    "source_page": 7,
+    "is_continuation": true,
+    "join_candidates": [],
+    "coordinates": [
+      {
+        "lat": 2.9793797222222222,
+        "lon": 72.89420027777778,
+        "raw": "72°53'39.121\"E 2°58'45.767\" N"
+      },
+      {
+        "lat": 2.9834116666666666,
+        "lon": 72.90108694444444,
+        "raw": "72°54'3.913\"E 2°59'0.282\" N"
+      },
+      {
+        "lat": 2.9825636111111113,
+        "lon": 72.90158222222223,
+        "raw": "72°54'5.696\"E 2°58'57.229\" N"
+      },
+      {
+        "lat": 2.9785077777777778,
+        "lon": 72.89472305555556,
+        "raw": "72°53'41.003\"E 2°58'42.628\" N"
+      }
+    ],
+    "coordinate_count": 4,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 133,
+    "type_of_project": "Resort Development",
+    "atoll": "Dhaalu",
+    "atoll_code": "Dh",
+    "site_label": "Maahdeli",
+    "lessee_holder": "SAS Capital Private Limited",
+    "status": "Under development",
+    "source_page": 7,
+    "is_continuation": false,
+    "join_candidates": [
+      "Maahdeli"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 134,
+    "type_of_project": "Resort Development",
+    "atoll": "Thaa",
+    "atoll_code": "Th",
+    "site_label": "Ekuruffushifinolhu",
+    "lessee_holder": "Sea Wall Enterpries Pvt Ltd",
+    "status": "Under development",
+    "source_page": 7,
+    "is_continuation": false,
+    "join_candidates": [
+      "Ekuruffushifinolhu"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 135,
+    "type_of_project": "Resort Development",
+    "atoll": "Thaa",
+    "atoll_code": "Th",
+    "site_label": "Kalhudhiyafushi",
+    "lessee_holder": "Huravee International Pvt Ltd,",
+    "status": "Under development",
+    "source_page": 7,
+    "is_continuation": false,
+    "join_candidates": [
+      "Kalhudhiyafushi"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 136,
+    "type_of_project": "Resort Development",
+    "atoll": "Thaa",
+    "atoll_code": "Th",
+    "site_label": "Olhugiri",
+    "lessee_holder": "Popular Maldives Private Limiited,",
+    "status": "Under development",
+    "source_page": 7,
+    "is_continuation": false,
+    "join_candidates": [
+      "Olhugiri"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 137,
+    "type_of_project": "Resort Development",
+    "atoll": "Thaa",
+    "atoll_code": "Th",
+    "site_label": "Dhiffushi",
+    "lessee_holder": "Angiri Resorts Management & Operation Pvt Ltd",
+    "status": "Under development",
+    "source_page": 7,
+    "is_continuation": false,
+    "join_candidates": [
+      "Dhiffushi"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 138,
+    "type_of_project": "Resort Development",
+    "atoll": "Thaa",
+    "atoll_code": "Th",
+    "site_label": "Olhufushi and Olhufushifinolhu",
+    "lessee_holder": "Subsolar Investments Private Limited",
+    "status": "Under development",
+    "source_page": 7,
+    "is_continuation": false,
+    "join_candidates": [
+      "Olhufushi",
+      "Olhufushifinolhu"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 139,
+    "type_of_project": "Resort Development",
+    "atoll": "Thaa",
+    "atoll_code": "Th",
+    "site_label": "Maagulhi",
+    "lessee_holder": "Accord Insurance Brokers Maldives Pvt Ltd",
+    "status": "Under development",
+    "source_page": 7,
+    "is_continuation": false,
+    "join_candidates": [
+      "Maagulhi"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 140,
+    "type_of_project": "Resort Development",
+    "atoll": "Thaa",
+    "atoll_code": "Th",
+    "site_label": "Kurandhuvaru",
+    "lessee_holder": "Accord Insurance Brokers Maldives Pvt Ltd",
+    "status": "Under development",
+    "source_page": 7,
+    "is_continuation": false,
+    "join_candidates": [
+      "Kurandhuvaru"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 141,
+    "type_of_project": "Resort Development",
+    "atoll": "Thaa",
+    "atoll_code": "Th",
+    "site_label": "Fenmeerufushi and Olhudhiyafushi",
+    "lessee_holder": "M.G.H Investment Pvt Ltd",
+    "status": "Under development",
+    "source_page": 7,
+    "is_continuation": false,
+    "join_candidates": [
+      "Fenmeerufushi",
+      "Olhudhiyafushi"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 142,
+    "type_of_project": "Resort Development",
+    "atoll": "Laamu",
+    "atoll_code": "L",
+    "site_label": "Baresdhoo",
+    "lessee_holder": "Maldives Marketing and Public Relations Corporation\nLimited",
+    "status": "Under development",
+    "source_page": 7,
+    "is_continuation": false,
+    "join_candidates": [
+      "Baresdhoo"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 143,
+    "type_of_project": "Resort Development",
+    "atoll": "Laamu",
+    "atoll_code": "L",
+    "site_label": "Gan Medical Resort",
+    "lessee_holder": "Island Development Company Pvt. Ltd",
+    "status": "Under development",
+    "source_page": 7,
+    "is_continuation": false,
+    "join_candidates": [
+      "Gan Medical Resort"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 144,
+    "type_of_project": "Resort Development",
+    "atoll": "Laamu",
+    "atoll_code": "L",
+    "site_label": "Guraidhoo",
+    "lessee_holder": "AUR OVERSEAS HOLDINGS LIMITED\n(MAURITIUS)",
+    "status": "Under development",
+    "source_page": 8,
+    "is_continuation": false,
+    "join_candidates": [
+      "Guraidhoo"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 145,
+    "type_of_project": "Resort Development",
+    "atoll": "Laamu",
+    "atoll_code": "L",
+    "site_label": "Hanhushi",
+    "lessee_holder": "FAM Holdings Pvt Ltd",
+    "status": "Under development",
+    "source_page": 8,
+    "is_continuation": false,
+    "join_candidates": [
+      "Hanhushi"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 146,
+    "type_of_project": "Resort Development",
+    "atoll": "Laamu",
+    "atoll_code": "L",
+    "site_label": "Boduhura",
+    "lessee_holder": "Heavy Load Maldives Private Limited",
+    "status": "Under development",
+    "source_page": 8,
+    "is_continuation": false,
+    "join_candidates": [
+      "Boduhura"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 147,
+    "type_of_project": "Resort Development",
+    "atoll": "Laamu",
+    "atoll_code": "L",
+    "site_label": "Bodumugnafushi",
+    "lessee_holder": "Emirates Hospitality Private Limited",
+    "status": "Under development",
+    "source_page": 8,
+    "is_continuation": false,
+    "join_candidates": [
+      "Bodumugnafushi"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 148,
+    "type_of_project": "Resort Development",
+    "atoll": "Laamu",
+    "atoll_code": "L",
+    "site_label": "Gasgan'dufinolhu",
+    "lessee_holder": "Bison Maldives Pvt Ltd",
+    "status": "Under development",
+    "source_page": 8,
+    "is_continuation": false,
+    "join_candidates": [
+      "Gasgan'dufinolhu"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 149,
+    "type_of_project": "Resort Development",
+    "atoll": "Gaafu Alifu",
+    "atoll_code": "GA",
+    "site_label": "Dhevvamaagala",
+    "lessee_holder": "Nalaveli Maldives Pvt Ltd",
+    "status": "Under development",
+    "source_page": 8,
+    "is_continuation": false,
+    "join_candidates": [
+      "Dhevvamaagala"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 150,
+    "type_of_project": "Resort Development",
+    "atoll": "Gaafu Alifu",
+    "atoll_code": "GA",
+    "site_label": "Keredhdhoo",
+    "lessee_holder": "Keredhoo Investment Private Limited",
+    "status": "Under development",
+    "source_page": 8,
+    "is_continuation": false,
+    "join_candidates": [
+      "Keredhdhoo"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 150,
+    "type_of_project": "Integrated Tourist Resort",
+    "atoll": "Gaafu Alifu",
+    "atoll_code": "GA",
+    "site_label": "Hirihuttaa (swap of R. Ehthigili)",
+    "lessee_holder": "Amin Constructions Pvt Ltd\n52 Bodhuthakurufaanu Magu,",
+    "status": "Under development",
+    "source_page": 8,
+    "is_continuation": true,
+    "join_candidates": [
+      "R. Ehthigili",
+      "Hirihuttaa ( R. Ehthigili)"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 150,
+    "type_of_project": "Resort Development",
+    "atoll": "Gaafu Alifu",
+    "atoll_code": "GA",
+    "site_label": "Hinaamaagalaa (swap of R. Ehthigili)",
+    "lessee_holder": "Keredhoo Investment Private Limited",
+    "status": "Under development",
+    "source_page": 8,
+    "is_continuation": true,
+    "join_candidates": [
+      "R. Ehthigili",
+      "Hinaamaagalaa ( R. Ehthigili)"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 151,
+    "type_of_project": "Resort Development",
+    "atoll": "Gaafu Alifu",
+    "atoll_code": "GA",
+    "site_label": "Bakeththa (swap of R. Ehthigili)",
+    "lessee_holder": "",
+    "status": "Under development",
+    "source_page": 8,
+    "is_continuation": false,
+    "join_candidates": [
+      "R. Ehthigili",
+      "Bakeththa ( R. Ehthigili)"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 152,
+    "type_of_project": "Resort Development",
+    "atoll": "Gaafu Alifu",
+    "atoll_code": "GA",
+    "site_label": "Mahadhdhoo",
+    "lessee_holder": "Travista Resorts Pvt Ltd",
+    "status": "Under development",
+    "source_page": 8,
+    "is_continuation": false,
+    "join_candidates": [
+      "Mahadhdhoo"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 153,
+    "type_of_project": "Resort Development",
+    "atoll": "Gaafu Alifu",
+    "atoll_code": "GA",
+    "site_label": "Maarandhoo",
+    "lessee_holder": "Maarandhoo Investments Pvt Ltd",
+    "status": "Under development",
+    "source_page": 8,
+    "is_continuation": false,
+    "join_candidates": [
+      "Maarandhoo"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 154,
+    "type_of_project": "Resort Development",
+    "atoll": "Gaafu Alifu",
+    "atoll_code": "GA",
+    "site_label": "Vodamulaa",
+    "lessee_holder": "United International Hotel Group Co. W.L.L",
+    "status": "Under development",
+    "source_page": 8,
+    "is_continuation": false,
+    "join_candidates": [
+      "Vodamulaa"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 155,
+    "type_of_project": "Resort Development",
+    "atoll": "Gaafu Alifu",
+    "atoll_code": "GA",
+    "site_label": "Kondeymatheelaabadhoo",
+    "lessee_holder": "Laabadhoo Private Limited",
+    "status": "Under development",
+    "source_page": 8,
+    "is_continuation": false,
+    "join_candidates": [
+      "Kondeymatheelaabadhoo"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 156,
+    "type_of_project": "Resort Development",
+    "atoll": "Gaafu Alifu",
+    "atoll_code": "GA",
+    "site_label": "Faruhulhedhoo",
+    "lessee_holder": "Millennium Capital Management Pvt Ltd",
+    "status": "Under development",
+    "source_page": 8,
+    "is_continuation": false,
+    "join_candidates": [
+      "Faruhulhedhoo"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 157,
+    "type_of_project": "Resort Development",
+    "atoll": "Gaafu Alifu",
+    "atoll_code": "GA",
+    "site_label": "Beyrumauddoo",
+    "lessee_holder": "Mauddua Holdings Private Limited",
+    "status": "Under development",
+    "source_page": 8,
+    "is_continuation": false,
+    "join_candidates": [
+      "Beyrumauddoo"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 158,
+    "type_of_project": "Resort Development",
+    "atoll": "Gaafu Dhaalu",
+    "atoll_code": "GDh",
+    "site_label": "Lonudhuahuttaa",
+    "lessee_holder": "One and Half Degree Maldives Pvt. Ltd",
+    "status": "Under development",
+    "source_page": 8,
+    "is_continuation": false,
+    "join_candidates": [
+      "Lonudhuahuttaa"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 159,
+    "type_of_project": "Resort Development",
+    "atoll": "Gaafu Dhaalu",
+    "atoll_code": "GDh",
+    "site_label": "Kaishidhoo",
+    "lessee_holder": "Kaishidhoo Resort Pvt Ltd",
+    "status": "Under development",
+    "source_page": 8,
+    "is_continuation": false,
+    "join_candidates": [
+      "Kaishidhoo"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 160,
+    "type_of_project": "Resort Development",
+    "atoll": "Gaafu Dhaalu",
+    "atoll_code": "GDh",
+    "site_label": "Vatavarrehaa",
+    "lessee_holder": "Yacht Tours Maldives Pvt Ltd .",
+    "status": "Under development",
+    "source_page": 8,
+    "is_continuation": false,
+    "join_candidates": [
+      "Vatavarrehaa"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 161,
+    "type_of_project": "Resort Development",
+    "atoll": "Gaafu Dhaalu",
+    "atoll_code": "GDh",
+    "site_label": "Gazeera",
+    "lessee_holder": "Gazeera Private Limited",
+    "status": "Under development",
+    "source_page": 8,
+    "is_continuation": false,
+    "join_candidates": [
+      "Gazeera"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 162,
+    "type_of_project": "Resort Development",
+    "atoll": "Gaafu Dhaalu",
+    "atoll_code": "GDh",
+    "site_label": "Kan'dahalagalaa",
+    "lessee_holder": "Pioneer Maldives Private Limited",
+    "status": "Under development",
+    "source_page": 8,
+    "is_continuation": false,
+    "join_candidates": [
+      "Kan'dahalagalaa"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 163,
+    "type_of_project": "Resort Development",
+    "atoll": "Gaafu Dhaalu",
+    "atoll_code": "GDh",
+    "site_label": "Kodegalaa",
+    "lessee_holder": "ITACA home maldives private limited",
+    "status": "Under development",
+    "source_page": 8,
+    "is_continuation": false,
+    "join_candidates": [
+      "Kodegalaa"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 164,
+    "type_of_project": "Resort Development",
+    "atoll": "Gaafu Dhaalu",
+    "atoll_code": "GDh",
+    "site_label": "Raaverinkolhuhuttaa",
+    "lessee_holder": "Real Asset Investment Company LLC",
+    "status": "Under development",
+    "source_page": 8,
+    "is_continuation": false,
+    "join_candidates": [
+      "Raaverinkolhuhuttaa"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  },
+  {
+    "project_no": 165,
+    "type_of_project": "Resort Development",
+    "atoll": "Seenu",
+    "atoll_code": "S",
+    "site_label": "Dhoogas",
+    "lessee_holder": "Maldives Ports Limited",
+    "status": "Under development",
+    "source_page": 9,
+    "is_continuation": false,
+    "join_candidates": [
+      "Dhoogas"
+    ],
+    "coordinates": [],
+    "coordinate_count": 0,
+    "source": "Ministry of Tourism under development PDF",
+    "source_file": "new_dev_List_07_April_2025.pdf"
+  }
+]

@@ -1,0 +1,927 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resort Atlas · Maldives Resort Spatial Browser</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <style>
+    :root {
+      --sand: #f6fafe;
+      --navy: #001220;
+      --navy-2: #06283d;
+      --ink: #171c1f;
+      --muted: #42474c;
+      --outline: #c3c7cd;
+      --cyan: #00677d;
+      --cyan-bright: #50d9fe;
+      --amber: #b8860b;
+      --reef: #1f8a4c;
+      --red: #ba1a1a;
+      --purple: #7b2fbe;
+      --white: #ffffff;
+    }
+    * { box-sizing: border-box; border-radius: 0 !important; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      background: var(--sand);
+      color: var(--ink);
+      font-family: Inter, system-ui, sans-serif;
+      overflow: hidden;
+    }
+    .mono { font-family: "JetBrains Mono", ui-monospace, monospace; }
+    button, input, select { font: inherit; }
+    button { cursor: pointer; }
+    ::-webkit-scrollbar { width: 8px; height: 8px; }
+    ::-webkit-scrollbar-thumb { background: var(--outline); }
+
+    .topbar {
+      height: 54px;
+      background: var(--navy);
+      color: var(--white);
+      display: grid;
+      grid-template-columns: minmax(220px, 380px) minmax(0, 1fr) auto;
+      align-items: center;
+      border-bottom: 1px solid var(--navy);
+      position: relative;
+      z-index: 30;
+    }
+    .brand {
+      padding: 0 18px;
+      border-right: 1px solid rgba(255,255,255,0.18);
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .brand-title {
+      font-size: 20px;
+      line-height: 1;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+    }
+    .brand-subtitle {
+      margin-top: 4px;
+      color: #d8e6ef;
+      font-size: 11px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    .top-search {
+      position: relative;
+      padding: 0 14px;
+    }
+    .top-search input {
+      width: 100%;
+      height: 34px;
+      border: 1px solid rgba(255,255,255,0.45);
+      background: #ffffff;
+      color: var(--ink);
+      padding: 0 12px;
+      outline: none;
+      font-size: 13px;
+    }
+    .top-search input:focus { border-color: var(--cyan-bright); }
+    .top-meta {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 0 14px;
+      font-size: 11px;
+      color: #d8e6ef;
+      white-space: nowrap;
+    }
+    .top-button {
+      border: 1px solid rgba(255,255,255,0.9);
+      background: transparent;
+      color: #ffffff;
+      padding: 6px 8px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .top-button:hover { background: #ffffff; color: var(--navy); }
+
+    .app {
+      height: calc(100vh - 54px);
+      display: grid;
+      grid-template-columns: 380px minmax(0, 1fr);
+    }
+    aside {
+      background: #ffffff;
+      border-right: 1px solid var(--outline);
+      overflow: auto;
+      min-height: 0;
+    }
+    .side-section {
+      padding: 14px;
+      border-bottom: 1px solid var(--outline);
+    }
+    .section-title {
+      margin: 0 0 10px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+      font-family: "JetBrains Mono", ui-monospace, monospace;
+      font-weight: 700;
+    }
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+    }
+    .metric {
+      border: 1px solid var(--outline);
+      background: #ffffff;
+      padding: 10px;
+      min-height: 70px;
+    }
+    .metric-value {
+      font-size: 24px;
+      font-weight: 800;
+      line-height: 1;
+      letter-spacing: -0.04em;
+    }
+    .metric-label {
+      margin-top: 6px;
+      color: var(--muted);
+      font-size: 11px;
+      line-height: 1.25;
+    }
+    .status {
+      border: 1px solid var(--outline);
+      background: #f0f4f8;
+      color: var(--muted);
+      padding: 9px 10px;
+      font-size: 12px;
+      line-height: 1.45;
+    }
+    .controls { display: grid; gap: 8px; }
+    select, .control-input {
+      width: 100%;
+      height: 34px;
+      border: 1px solid var(--outline);
+      background: #ffffff;
+      color: var(--ink);
+      outline: none;
+      padding: 0 10px;
+      font-size: 13px;
+    }
+    select:focus, .control-input:focus { border-color: var(--cyan); }
+    .toggle-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 6px;
+    }
+    .toggle {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      border: 1px solid var(--outline);
+      padding: 8px;
+      background: #ffffff;
+      font-size: 12px;
+      color: var(--ink);
+    }
+    .toggle input { accent-color: var(--cyan); }
+    .legend-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 7px;
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+    .swatch {
+      width: 14px;
+      height: 14px;
+      border: 1px solid var(--navy);
+      display: inline-block;
+    }
+    .review-intro {
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.45;
+      margin: -2px 0 10px;
+    }
+    .list { display: grid; gap: 8px; }
+    .item {
+      border: 1px solid var(--outline);
+      background: #ffffff;
+      padding: 10px;
+    }
+    .item:hover { border-color: var(--cyan); }
+    .item-title {
+      font-size: 13px;
+      font-weight: 800;
+      line-height: 1.3;
+    }
+    .item-meta {
+      margin-top: 5px;
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.35;
+    }
+    .pill-row { margin-top: 7px; display: flex; flex-wrap: wrap; gap: 5px; }
+    .pill {
+      border: 1px solid var(--outline);
+      background: #f6fafe;
+      color: var(--muted);
+      font-size: 10px;
+      line-height: 1;
+      padding: 4px 5px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .map-wrap { position: relative; min-width: 0; min-height: 0; }
+    #map { height: 100%; width: 100%; background: #e8eef3; }
+    .map-loading {
+      position: absolute;
+      left: 14px;
+      top: 14px;
+      z-index: 400;
+      border: 1px solid var(--outline);
+      background: rgba(255,255,255,0.94);
+      padding: 8px 10px;
+      color: var(--muted);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      pointer-events: none;
+    }
+    .map-legend {
+      position: absolute;
+      left: 14px;
+      bottom: 14px;
+      z-index: 400;
+      width: 260px;
+      border: 1px solid var(--outline);
+      background: rgba(255,255,255,0.95);
+      padding: 10px;
+      box-shadow: 0 10px 30px rgba(0, 18, 32, 0.08);
+    }
+    .map-legend .section-title { margin-bottom: 8px; }
+    .data-actions {
+      position: absolute;
+      right: 14px;
+      bottom: 14px;
+      z-index: 400;
+      display: grid;
+      gap: 6px;
+    }
+    .data-actions a {
+      display: block;
+      border: 1px solid var(--navy);
+      background: #ffffff;
+      color: var(--navy);
+      text-decoration: none;
+      padding: 7px 9px;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      text-align: right;
+    }
+    .data-actions a:hover { background: var(--navy); color: #ffffff; }
+
+    .leaflet-control-zoom a {
+      border-radius: 0 !important;
+      color: var(--navy) !important;
+    }
+    .leaflet-popup-content-wrapper, .leaflet-popup-tip {
+      border-radius: 0 !important;
+      color: var(--ink);
+    }
+    .leaflet-popup-content { width: 320px !important; margin: 13px; }
+    .popup h3 { margin: 0 0 6px; font-size: 16px; line-height: 1.2; }
+    .popup p { margin: 4px 0; font-size: 12px; line-height: 1.35; }
+    .popup .rec { border-top: 1px solid var(--outline); padding-top: 7px; margin-top: 7px; }
+
+    .about-modal {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 1000;
+      background: rgba(0,18,32,0.45);
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .about-modal.open { display: flex; }
+    .about-card {
+      width: min(760px, 100%);
+      max-height: 86vh;
+      overflow: auto;
+      border: 1px solid var(--navy);
+      background: #ffffff;
+      box-shadow: 0 22px 80px rgba(0,18,32,0.2);
+    }
+    .about-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: var(--navy);
+      color: #ffffff;
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--navy);
+    }
+    .about-body { padding: 14px; color: var(--muted); font-size: 13px; line-height: 1.55; }
+    .about-body h3 { margin: 14px 0 6px; color: var(--ink); font-size: 14px; }
+    .about-body ul { margin: 8px 0; padding-left: 20px; }
+    .mobile-filters { display: none; }
+
+    @media (max-width: 900px) {
+      body { overflow: auto; }
+      .topbar { grid-template-columns: 1fr auto; height: auto; min-height: 58px; }
+      .brand { border-right: 0; padding: 10px 12px; }
+      .top-search { grid-column: 1 / -1; grid-row: 2; padding: 0 12px 10px; }
+      .top-meta { display: none; }
+      .mobile-filters { display: inline-block; margin-right: 12px; }
+      .app { height: calc(100vh - 102px); grid-template-columns: 1fr; grid-template-rows: 52vh 1fr; }
+      aside { grid-row: 2; border-right: 0; border-top: 1px solid var(--outline); }
+      .map-wrap { grid-row: 1; }
+      .map-legend { width: calc(100% - 28px); max-width: 360px; }
+      .data-actions { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-title">Resort Atlas</div>
+      <div class="brand-subtitle mono">Maldives Resort Spatial Browser</div>
+    </div>
+    <div class="top-search">
+      <input id="search" type="search" placeholder="Search resort, island, atoll, lessee, operator">
+    </div>
+    <div class="top-meta mono">
+      <span id="topMeta">Loading datasets</span>
+      <button class="top-button mono" id="aboutBtn" type="button">About</button>
+    </div>
+    <button class="top-button mono mobile-filters" id="aboutBtnMobile" type="button">About</button>
+  </header>
+
+  <div class="app">
+    <aside>
+      <section class="side-section">
+        <h2 class="section-title">Resort data</h2>
+        <div class="summary-grid">
+          <div class="metric"><div class="metric-value" id="kpiOperating">0</div><div class="metric-label">Operating resort records</div></div>
+          <div class="metric"><div class="metric-value" id="kpiDevelopment">0</div><div class="metric-label">Under-development records</div></div>
+          <div class="metric"><div class="metric-value" id="kpiMatched">0</div><div class="metric-label">Matched to OneMap</div></div>
+          <div class="metric"><div class="metric-value" id="kpiUnmatched">0</div><div class="metric-label">Need manual review</div></div>
+        </div>
+      </section>
+
+      <section class="side-section">
+        <h2 class="section-title">Status</h2>
+        <div class="status" id="status">Loading local resort datasets.</div>
+      </section>
+
+      <section class="side-section">
+        <h2 class="section-title">Filters</h2>
+        <div class="controls">
+          <select id="atollFilter"><option value="">All atolls</option></select>
+          <div class="toggle-grid">
+            <label class="toggle"><input type="checkbox" id="showOperating" checked> Operating</label>
+            <label class="toggle"><input type="checkbox" id="showDevelopment" checked> Development</label>
+            <label class="toggle"><input type="checkbox" id="showCoordinates" checked> PDF coordinates</label>
+            <label class="toggle"><input type="checkbox" id="showOneMap" checked> OneMap outlines</label>
+          </div>
+        </div>
+      </section>
+
+      <section class="side-section">
+        <h2 class="section-title">Manual review queue</h2>
+        <p class="review-intro">Records with no coordinate and no confident OneMap island match. Use this list to make manual joins before publishing final coordinates.</p>
+        <div class="list" id="unmatchedList"></div>
+      </section>
+    </aside>
+
+    <main class="map-wrap">
+      <div id="map"></div>
+      <div class="map-loading mono" id="mapLoading">Loading map</div>
+      <div class="map-legend">
+        <h2 class="section-title">Legend</h2>
+        <div class="legend-grid">
+          <div class="legend-item"><span class="swatch" style="background:var(--reef)"></span> Operating resort island</div>
+          <div class="legend-item"><span class="swatch" style="background:var(--amber)"></span> Resort under development</div>
+          <div class="legend-item"><span class="swatch" style="background:var(--purple)"></span> Operating and development overlap</div>
+          <div class="legend-item"><span class="swatch" style="background:var(--cyan)"></span> Coordinate site from PDF</div>
+          <div class="legend-item"><span class="swatch" style="background:var(--red)"></span> Not operating in CSV</div>
+          <div class="legend-item"><span class="swatch" style="background:var(--outline)"></span> Fuzzy match</div>
+        </div>
+      </div>
+      <div class="data-actions mono">
+        <a href="data/resorts_combined_for_onemap_join.csv" download>Download combined CSV</a>
+        <a href="data/operating_resorts_clean.csv" download>Download operating CSV</a>
+        <a href="data/under_development_resorts_clean.csv" download>Download development CSV</a>
+        <a href="data/under_development_explicit_coordinates.geojson" download>Download coordinate GeoJSON</a>
+      </div>
+    </main>
+  </div>
+
+  <div class="about-modal" id="aboutModal">
+    <div class="about-card">
+      <div class="about-head mono">
+        <span>About Resort Atlas</span>
+        <button class="top-button mono" id="closeAbout" type="button">Close</button>
+      </div>
+      <div class="about-body">
+        <p>Resort Atlas maps operating resort records and resort development records against OneMap island geometry.</p>
+        <h3>What this page shows</h3>
+        <ul>
+          <li>Operating resort records from the provided CSV.</li>
+          <li>Resorts under development from the Ministry of Tourism list updated on 07 April 2025.</li>
+          <li>Explicit coordinate sites extracted from the PDF.</li>
+          <li>OneMap island outlines fetched live from the public ArcGIS layer.</li>
+        </ul>
+        <h3>Matching logic</h3>
+        <ul>
+          <li>Atoll and island name exact match first.</li>
+          <li>Unique island name match second.</li>
+          <li>Fuzzy matching inside the same atoll third.</li>
+          <li>Records with no confident match go to the manual review queue.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const ONEMAP_QUERY_URL = 'https://services7.arcgis.com/yvCbn3q8PPtPLZIM/ArcGIS/rest/services/island_20240509/FeatureServer/0/query';
+
+const atollAliases = {
+  haaalifu:'HA', ha:'HA',
+  haadhaalu:'HDh', hdh:'HDh',
+  shaviyani:'Sh', sh:'Sh',
+  noonu:'N', n:'N',
+  raa:'R', r:'R',
+  baa:'B', b:'B',
+  lhaviyani:'Lh', lh:'Lh',
+  kaafu:'K', k:'K', male:'K', maleatoll:'K',
+  alifualifu:'AA', aa:'AA',
+  alifudhaalu:'ADh', adh:'ADh',
+  vaavu:'V', v:'V',
+  meemu:'M', m:'M',
+  faafu:'F', f:'F',
+  dhaalu:'Dh', dh:'Dh',
+  thaa:'Th', th:'Th',
+  laamu:'L', l:'L',
+  gaafualifu:'GA', ga:'GA',
+  gaafudhaalu:'GDh', gdh:'GDh',
+  gnaviyani:'Gn', gn:'Gn',
+  seenu:'S', s:'S', addu:'S'
+};
+
+const state = {
+  operating: [],
+  development: [],
+  islands: null,
+  islandIndex: null,
+  coordinateRecords: [],
+  unmatched: [],
+  allMatchResults: [],
+  layers: {},
+  map: null
+};
+
+function norm(s) {
+  return String(s || '')
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/[’‘`]/g, "'")
+    .replace(/[^a-z0-9]+/g, '');
+}
+
+function normAtoll(s) {
+  const k = norm(s);
+  return atollAliases[k] || k;
+}
+
+function recordTitle(record) {
+  return record.dataset === 'operating' ? record.resort_name : record.site_label;
+}
+
+function recordSite(record) {
+  return record.dataset === 'operating' ? record.island : record.site_label;
+}
+
+function recordSearchText(record) {
+  return [
+    recordTitle(record), recordSite(record), record.atoll, record.status,
+    record.operator, record.owner_lessee, record.lessee_holder, record.type_of_project,
+    ...(record.join_candidates || [])
+  ].filter(Boolean).join(' ').toLowerCase();
+}
+
+function cleanCandidate(c) {
+  let s = String(c || '');
+  s = s.replace(/\([^)]*\d+[^)]*\)/g, ' ');
+  s = s.replace(/\b(plot of lagoons?|plot of land|allocated lagoon area|resort development|integrated tourist resort|resort hotel|training resort|training facility|facility|lagoons?|island\s*\d*)\b/gi, ' ');
+  s = s.replace(/[-:,;]/g, ' ');
+  s = s.replace(/\s+/g, ' ').trim();
+  return s;
+}
+
+function getCandidates(record) {
+  const raw = [];
+  if (Array.isArray(record.join_candidates)) raw.push(...record.join_candidates);
+  raw.push(recordSite(record));
+  const out = [];
+  const seen = new Set();
+  for (const c of raw) {
+    const cleaned = cleanCandidate(c);
+    if (!cleaned || norm(cleaned).length < 3) continue;
+    const key = norm(cleaned);
+    if (!seen.has(key)) {
+      seen.add(key);
+      out.push(cleaned);
+    }
+  }
+  return out;
+}
+
+function levenshtein(a, b) {
+  if (a === b) return 0;
+  if (!a.length) return b.length;
+  if (!b.length) return a.length;
+  const v0 = new Array(b.length + 1).fill(0);
+  const v1 = new Array(b.length + 1).fill(0);
+  for (let i = 0; i <= b.length; i++) v0[i] = i;
+  for (let i = 0; i < a.length; i++) {
+    v1[0] = i + 1;
+    for (let j = 0; j < b.length; j++) {
+      const cost = a[i] === b[j] ? 0 : 1;
+      v1[j + 1] = Math.min(v1[j] + 1, v0[j + 1] + 1, v0[j] + cost);
+    }
+    for (let j = 0; j <= b.length; j++) v0[j] = v1[j];
+  }
+  return v1[b.length];
+}
+
+function similarity(a, b) {
+  a = norm(a); b = norm(b);
+  if (!a || !b) return 0;
+  if (a === b) return 1;
+  if ((a.includes(b) || b.includes(a)) && Math.min(a.length, b.length) >= 5) return 0.93;
+  const d = levenshtein(a, b);
+  return 1 - d / Math.max(a.length, b.length);
+}
+
+function makeIslandIndex(geojson) {
+  const exact = new Map();
+  const byName = new Map();
+  const byAtoll = new Map();
+  for (const feature of geojson.features) {
+    const p = feature.properties || {};
+    const atoll = normAtoll(p.atoll);
+    const names = [p.islandName, p.islandNa_1].filter(Boolean);
+    feature._atollCode = atoll;
+    feature._names = names;
+    for (const name of names) {
+      const n = norm(name);
+      exact.set(`${atoll}|${n}`, feature);
+      if (!byName.has(n)) byName.set(n, []);
+      byName.get(n).push(feature);
+    }
+    if (!byAtoll.has(atoll)) byAtoll.set(atoll, []);
+    byAtoll.get(atoll).push(feature);
+  }
+  return { exact, byName, byAtoll };
+}
+
+function matchRecord(record, index) {
+  const atoll = normAtoll(record.atoll);
+  const candidates = getCandidates(record);
+
+  for (const c of candidates) {
+    const key = `${atoll}|${norm(c)}`;
+    if (index.exact.has(key)) {
+      return { record, feature: index.exact.get(key), matchType: 'exact', candidate: c, score: 1 };
+    }
+  }
+
+  for (const c of candidates) {
+    const nameMatches = index.byName.get(norm(c)) || [];
+    if (nameMatches.length === 1) {
+      return { record, feature: nameMatches[0], matchType: 'unique-name', candidate: c, score: 0.98 };
+    }
+  }
+
+  let best = null;
+  const sameAtoll = index.byAtoll.get(atoll) || [];
+  for (const c of candidates) {
+    for (const feature of sameAtoll) {
+      for (const n of feature._names || []) {
+        const score = similarity(c, n);
+        if (!best || score > best.score) {
+          best = { record, feature, matchType: 'fuzzy', candidate: c, score };
+        }
+      }
+    }
+  }
+
+  if (best && best.score >= 0.88) return best;
+
+  if (record.coordinates && record.coordinates.length) {
+    return { record, feature: null, matchType: 'coordinate-only', candidate: null, score: 1 };
+  }
+
+  return { record, feature: null, matchType: 'unmatched', candidate: candidates.join(', '), score: 0 };
+}
+
+function allCoordinatesFromGeometry(geometry) {
+  const coords = [];
+  function walk(x) {
+    if (!x) return;
+    if (typeof x[0] === 'number' && typeof x[1] === 'number') {
+      coords.push([x[1], x[0]]);
+      return;
+    }
+    for (const y of x) walk(y);
+  }
+  walk(geometry.coordinates);
+  return coords;
+}
+
+function buildPopupForIsland(feature, records) {
+  const p = feature.properties || {};
+  const rows = records.map(m => {
+    const r = m.record;
+    const title = recordTitle(r);
+    const status = r.dataset === 'operating' ? r.status : 'Under development';
+    const owner = r.dataset === 'operating' ? (r.owner_lessee || r.operator || '') : (r.lessee_holder || '');
+    const extra = r.dataset === 'operating'
+      ? `${Number(r.rooms || 0).toLocaleString()} rooms, ${Number(r.beds || 0).toLocaleString()} beds`
+      : `${r.type_of_project || ''}, PDF page ${r.source_page || ''}`;
+    return `<div class="rec">
+      <p><strong>${escapeHtml(title)}</strong></p>
+      <p>${escapeHtml(status)} · ${escapeHtml(extra)}</p>
+      <p>${escapeHtml(owner)}</p>
+      <p>Match: ${escapeHtml(m.matchType)}${m.candidate ? ' · ' + escapeHtml(m.candidate) : ''}${m.matchType === 'fuzzy' ? ' · ' + Math.round(m.score * 100) + '%' : ''}</p>
+    </div>`;
+  }).join('');
+  return `<div class="popup">
+    <h3>${escapeHtml(p.islandName || 'Island')}</h3>
+    <p>${escapeHtml(p.atoll || '')} · ${escapeHtml(p.Usage || p.category || '')}</p>
+    <p>Area: ${p.Area_ha ? Number(p.Area_ha).toFixed(2) + ' ha' : 'n/a'}</p>
+    ${rows}
+  </div>`;
+}
+
+function buildPopupForCoordinate(record) {
+  const coords = (record.coordinates || []).map(c => `${Number(c.lat).toFixed(6)}, ${Number(c.lon).toFixed(6)}`).join('<br>');
+  return `<div class="popup">
+    <h3>${escapeHtml(recordTitle(record))}</h3>
+    <p>${escapeHtml(record.atoll || '')} · ${escapeHtml(record.type_of_project || record.status || '')}</p>
+    <p>${escapeHtml(record.lessee_holder || '')}</p>
+    <div class="rec"><p><strong>PDF coordinates</strong></p><p>${coords}</p></div>
+  </div>`;
+}
+
+function escapeHtml(s) {
+  return String(s || '').replace(/[&<>"']/g, ch => ({
+    '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'
+  }[ch]));
+}
+
+function colorForRecords(records) {
+  const hasOp = records.some(m => m.record.dataset === 'operating' && m.record.status === 'Operating');
+  const hasNot = records.some(m => m.record.dataset === 'operating' && m.record.status === 'Not Operating');
+  const hasDev = records.some(m => m.record.dataset === 'development');
+  const hasFuzzy = records.some(m => m.matchType === 'fuzzy');
+  if (hasOp && hasDev) return '#7b2fbe';
+  if (hasNot) return '#ba1a1a';
+  if (hasDev) return '#b8860b';
+  if (hasFuzzy) return '#c3c7cd';
+  return '#1f8a4c';
+}
+
+function passesFilters(record) {
+  const q = document.getElementById('search').value.trim().toLowerCase();
+  const atoll = document.getElementById('atollFilter').value;
+  const showOp = document.getElementById('showOperating').checked;
+  const showDev = document.getElementById('showDevelopment').checked;
+
+  if (record.dataset === 'operating' && !showOp) return false;
+  if (record.dataset === 'development' && !showDev) return false;
+  if (atoll && normAtoll(record.atoll) !== atoll) return false;
+  if (q && !recordSearchText(record).includes(q)) return false;
+  return true;
+}
+
+function renderLayers() {
+  const map = state.map;
+  state.layers.matched.clearLayers();
+  state.layers.coords.clearLayers();
+  state.layers.islands.clearLayers();
+
+  const showOneMap = document.getElementById('showOneMap').checked;
+  const showCoords = document.getElementById('showCoordinates').checked;
+
+  if (showOneMap && state.islands) {
+    L.geoJSON(state.islands, {
+      style: { color: '#c3c7cd', weight: 0.55, fillOpacity: 0.045, fillColor: '#f6fafe' }
+    }).addTo(state.layers.islands);
+  }
+
+  const grouped = new Map();
+  for (const match of state.allMatchResults) {
+    if (!match.feature) continue;
+    if (!passesFilters(match.record)) continue;
+    const id = match.feature.properties.OBJECTID;
+    if (!grouped.has(id)) grouped.set(id, { feature: match.feature, records: [] });
+    grouped.get(id).records.push(match);
+  }
+
+  for (const { feature, records } of grouped.values()) {
+    const color = colorForRecords(records);
+    L.geoJSON(feature, {
+      style: { color, weight: 2, fillOpacity: 0.28, fillColor: color }
+    }).bindPopup(buildPopupForIsland(feature, records)).addTo(state.layers.matched);
+  }
+
+  if (showCoords) {
+    for (const record of state.coordinateRecords) {
+      if (!passesFilters(record)) continue;
+      const latlngs = (record.coordinates || []).map(c => [c.lat, c.lon]);
+      if (!latlngs.length) continue;
+      let layer;
+      if (latlngs.length === 1) {
+        layer = L.circleMarker(latlngs[0], { radius: 6, color: '#00677d', weight: 2, fillOpacity: 0.78, fillColor: '#50d9fe' });
+      } else if (latlngs.length >= 3) {
+        layer = L.polygon(latlngs, { color: '#00677d', weight: 2, fillOpacity: 0.14, fillColor: '#50d9fe' });
+      } else {
+        layer = L.polyline(latlngs, { color: '#00677d', weight: 2 });
+      }
+      layer.bindPopup(buildPopupForCoordinate(record)).addTo(state.layers.coords);
+    }
+  }
+
+  renderUnmatchedList();
+
+  const layers = [state.layers.matched, state.layers.coords];
+  let bounds = null;
+  for (const group of layers) {
+    group.eachLayer(layer => {
+      const b = layer.getBounds ? layer.getBounds() : L.latLngBounds([layer.getLatLng()]);
+      bounds = bounds ? bounds.extend(b) : b;
+    });
+  }
+  if (bounds && bounds.isValid()) map.fitBounds(bounds.pad(0.2), { maxZoom: 11 });
+}
+
+function renderUnmatchedList() {
+  const list = document.getElementById('unmatchedList');
+  const items = state.unmatched
+    .filter(m => passesFilters(m.record))
+    .slice(0, 80);
+
+  if (!items.length) {
+    list.innerHTML = '<div class="status">No unmatched records under the current filters.</div>';
+    return;
+  }
+
+  list.innerHTML = items.map(m => {
+    const r = m.record;
+    return `<div class="item">
+      <div class="item-title">${escapeHtml(recordTitle(r))}</div>
+      <div class="item-meta">${escapeHtml(r.atoll || '')} · ${escapeHtml(recordSite(r) || '')}</div>
+      <div class="pill-row"><span class="pill mono">${escapeHtml(r.dataset === 'operating' ? 'CSV' : 'PDF')}</span><span class="pill mono">${escapeHtml(r.status || 'review')}</span></div>
+    </div>`;
+  }).join('');
+}
+
+async function fetchJson(path) {
+  const res = await fetch(path);
+  if (!res.ok) throw new Error(`Failed to load ${path}`);
+  return await res.json();
+}
+
+async function fetchOneMap() {
+  const outFields = 'OBJECTID,FCODE,atoll,islandName,islandNa_1,longitude,latitude,Area_ha,category,Sector,Usage,PrimAgency';
+  const all = [];
+  let offset = 0;
+  while (true) {
+    const params = new URLSearchParams({
+      where: '1=1',
+      outFields,
+      returnGeometry: 'true',
+      f: 'geojson',
+      outSR: '4326',
+      resultOffset: String(offset),
+      resultRecordCount: '1000'
+    });
+    const res = await fetch(`${ONEMAP_QUERY_URL}?${params.toString()}`);
+    if (!res.ok) throw new Error('OneMap request failed');
+    const data = await res.json();
+    const features = data.features || [];
+    all.push(...features);
+    if (features.length < 1000) break;
+    offset += 1000;
+  }
+  return { type: 'FeatureCollection', features: all };
+}
+
+function populateAtollFilter(records) {
+  const select = document.getElementById('atollFilter');
+  const items = new Map();
+  for (const r of records) {
+    const code = normAtoll(r.atoll);
+    if (code) items.set(code, r.atoll);
+  }
+  [...items.entries()].sort((a,b) => String(a[1]).localeCompare(String(b[1]))).forEach(([code, label]) => {
+    const opt = document.createElement('option');
+    opt.value = code;
+    opt.textContent = label;
+    select.appendChild(opt);
+  });
+}
+
+function refreshStats() {
+  const op = state.operating.length;
+  const dev = state.development.length;
+  const matched = state.allMatchResults.filter(m => m.feature).length;
+  const unmatched = state.unmatched.length;
+  const coords = state.coordinateRecords.length;
+  document.getElementById('kpiOperating').textContent = op.toLocaleString();
+  document.getElementById('kpiDevelopment').textContent = dev.toLocaleString();
+  document.getElementById('kpiMatched').textContent = matched.toLocaleString();
+  document.getElementById('kpiUnmatched').textContent = unmatched.toLocaleString();
+  document.getElementById('topMeta').textContent = `${op.toLocaleString()} operating · ${dev.toLocaleString()} development · ${coords.toLocaleString()} coordinate records`;
+}
+
+function initMap() {
+  const map = L.map('map', { zoomControl: true }).setView([3.2, 73.2], 6);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
+
+  state.layers.islands = L.layerGroup().addTo(map);
+  state.layers.matched = L.layerGroup().addTo(map);
+  state.layers.coords = L.layerGroup().addTo(map);
+  state.map = map;
+}
+
+function openAbout() { document.getElementById('aboutModal').classList.add('open'); }
+function closeAbout() { document.getElementById('aboutModal').classList.remove('open'); }
+
+async function init() {
+  initMap();
+  try {
+    const [operating, development] = await Promise.all([
+      fetchJson('data/operating_resorts.json'),
+      fetchJson('data/under_development_resorts.json')
+    ]);
+
+    state.operating = operating.map(x => ({ ...x, dataset: 'operating' }));
+    state.development = development.map(x => ({ ...x, dataset: 'development' }));
+    populateAtollFilter([...state.operating, ...state.development]);
+    refreshStats();
+    document.getElementById('status').textContent = 'Loading OneMap island polygons.';
+    document.getElementById('mapLoading').textContent = 'Loading OneMap';
+
+    state.islands = await fetchOneMap();
+    state.islandIndex = makeIslandIndex(state.islands);
+
+    const allRecords = [...state.operating, ...state.development];
+    state.allMatchResults = allRecords.map(r => matchRecord(r, state.islandIndex));
+    state.coordinateRecords = state.development.filter(r => r.coordinates && r.coordinates.length);
+    state.unmatched = state.allMatchResults.filter(m => m.matchType === 'unmatched');
+
+    refreshStats();
+    document.getElementById('status').textContent = `Loaded ${state.islands.features.length.toLocaleString()} OneMap island polygons. Review unmatched records before publishing final coordinates.`;
+    document.getElementById('mapLoading').style.display = 'none';
+    renderLayers();
+  } catch (err) {
+    console.error(err);
+    document.getElementById('status').textContent = err.message + '. Serve this folder through a local web server or deploy it to Vercel.';
+    document.getElementById('mapLoading').textContent = 'Map load failed';
+  }
+}
+
+['search','atollFilter','showOperating','showDevelopment','showCoordinates','showOneMap'].forEach(id => {
+  document.addEventListener('input', e => { if (e.target && e.target.id === id) renderLayers(); });
+  document.addEventListener('change', e => { if (e.target && e.target.id === id) renderLayers(); });
+});
+
+document.getElementById('aboutBtn').addEventListener('click', openAbout);
+document.getElementById('aboutBtnMobile').addEventListener('click', openAbout);
+document.getElementById('closeAbout').addEventListener('click', closeAbout);
+document.getElementById('aboutModal').addEventListener('click', e => { if (e.target.id === 'aboutModal') closeAbout(); });
+
+init();
+</script>
+</body>
+</html>
