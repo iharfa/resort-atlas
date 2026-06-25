@@ -1,4 +1,4 @@
-resort_no,resort_name,atoll,atoll_code,island,rooms,beds,phone,fax,email,resort_phone,resort_fax,resort_email,operator,owner_lessee,management,state,status,join_candidates,coordinates,coordinate_count,source
+resort_no,resort_name,atoll,atoll_code,island,rooms,beds,phone,fax,email,resort_phone,resort_fax,resort_email,operator,owner_lessee,management,state,status,join_candidates,coordinates,coordinate_count,source,ministry_status,verified_status,status_verification,status_confidence,status_discrepancy,verification_notes
 1,Aanugandu Island Resort,Kaafu,K,Aanugan'du Finolhu and Aanugan'du Huraa,384.0,768.0,3339992,,shrikant@atmospherehotelsandresorts.com,4000022,4000022,info@ailafushi@colorsofoblu.com,"Promonant Pvt Ltd 
 H. Aage, 6th Floor
 12 Boduthakurufaanu Magu
@@ -8,28 +8,28 @@ M. Mirihimaage
 Male', Republic of Maldives","Atmosphere Core (BVI) Ltd 
 H. Aage, 3rd Floor
 12 Boduthakurufaanu Magu
-Male', Republic of Maldives",Operating,Operating,Aanugan'du Finolhu|Aanugan'du Huraa,[],0,resorts.csv
+Male', Republic of Maldives",Operating,Operating,Aanugan'du Finolhu|Aanugan'du Huraa,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 2,Adaaran Club Rannalhi,Kaafu,K,Rannalhi,122.0,244.0,3323323,3315238,info@adaaran.com,6642688,6642688,reservations@adaaran.com.mv,"Jetan Travel Services Company Pvt Ltd
 H. Thuniya Building (6th Floor) 
 Boduthakurufaanu Magu
 Male', Republic of Maldives","Jetan Travel Services Company Pvt Ltd
 H. Thuniya Building (6th Floor) 
 Boduthakurufaanu Magu
-Male', Republic of Maldives",,Operating,Operating,Rannalhi,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Rannalhi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 3,Adaaran Prestige Vadoo,Kaafu,K,Vaadhoo,50.0,100.0,3323323 / 3315238,3315237,mahdy@aitkenspence.lk / info@adaaran.com,6643976,6643976,reservations@adaaran.com.mv,"Unique Resorts Pvt Ltd
 H. Thuniya, 6th Floor, 
 Boduthakurufaanu Magu,
 Male', Republic of Maldives","Unique Resorts Pvt Ltd
 H. Thuniya, 6th Floor, 
 Boduthakurufaanu Magu,
-Male', Republic of Maldives",-,Operating,Operating,Vaadhoo,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Vaadhoo,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 4,Adaaran Select Hudhuranfushi,Kaafu,K,Lhohifushi,202.0,404.0,"3323323
 3315238",3315237,info@adaaran.com,6641930,6641930,reservations@adaaran.com.mv,"A.D.S Resorts Pvt. Ltd.
 H. Thuniya, 6th Floor, 
 Boduthakurufaanu Magu, 
 Male', Republic of Maldives","Altaf Enterprises Pvt. Ltd. 
 H. No.8, Ibrahim Hassan Didi Magu, 
-Male', Republic of Maldives",-,Operating,Operating,Lhohifushi,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Lhohifushi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 5,Adaaran Select Meedhupparu,Raa,R,Meedhupparu,238.0,476.0,"332 3323
 331 5238",331 5237,gm@aitkenspence.com.mv,6640375,6640375,res.mir@adaaran.com.mv,"Cowrie Investment Pvt. Ltd.
 H. STO Aifaanu Building, 7th Floor, 
@@ -37,7 +37,7 @@ Boduthakurufaanu Magu,
 Male', Republic of Maldives","Cowrie Investment Pvt. Ltd.
 H. STO Aifaanu Building, 7th Floor, 
 Boduthakurufaanu Magu, 
-Male', Republic of Maldives",-,Operating,Operating,Meedhupparu,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Meedhupparu,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 6,Alila Kothaifaru Maldives,Raa,R,Kothaifaru and Kuroshigiri,86.0,172.0,3005515,,masoodh@momentum.com.mv,7783767 / 6591234,7783767 / 6591234,kothaifaru@alilahotels.com,"Ballentine Pvt Ltd 
 M. Faamudheyrige, 05th Floor
 Orchid Magu
@@ -46,7 +46,7 @@ M. Faamudheyrige, 05th Floor
 Orchid Magu
 Male', Republic of Maldives","Hyatt International South West Asia Limited 
 G. Sosanee
-Male', Republic of Maldives",Operating,Operating,Kothaifaru|Kuroshigiri,[],0,resorts.csv
+Male', Republic of Maldives",Operating,Operating,Kothaifaru|Kuroshigiri,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 7,Alimatha Aquatic Resort,Vaavu,V,Alimatha,156.0,312.0,3323214,3322516,"office@maleoffice.com.mv 
 manager@maleoffice.com.mv",67005753323524,,alimatha@dhivehinetnet.mv,"L.A Resorts Pvt Ltd 
 M.Opera Building
@@ -54,7 +54,7 @@ Chaandhanee Magu
 Male', Republic of Maldives","Safari Tours Pvt. Ltd 
 Opera Building, Chaandhanee Magu
 Male', Republic of Maldives
-safari@dhivehinet.net.mv",,Operating,Operating,Alimatha,[],0,resorts.csv
+safari@dhivehinet.net.mv",,Operating,Operating,Alimatha,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 8,Ananea Madivaru Maldives,Alifu Alifu,AA,Etheremadivaru,137.0,274.0,3330617,-,"info@ananeamadivaru.com
 
 website: www.ananeamadivaru.com",,,,"Twin Island Pvt Ltd 
@@ -63,14 +63,14 @@ Maaveyo Magu,
 Male', Republic of Maldives","Twin Island Pvt Ltd 
 M. Maaveyodhoshuge,
 Maaveyo Magu, 
-Male', Republic of Maldives",-,Operating,Operating,Etheremadivaru,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Etheremadivaru,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 9,Anantara Kihavah Villas,Baa,B,Kihavah Huravalhi,89.0,178.0,0060(87)453-288,0060(87)451-288,dkoegerl@anantara.com,6644111,6644111,mailto:kihavahmaldives@anantara.com,"Minor International (Labuan) Ltd
 Level 15 (A2), Main Office Tower Financial Park
 Labuan, Jalan Mereedeka, 87000 FT
 Malaysia","Maldives Tourism Development Corporation Plc
 01st Floor, Fathuruvehi
 Buruzu Magu
-Republic of Maldives",,Operating,Operating,Kihavah Huravalhi,[],0,resorts.csv
+Republic of Maldives",,Operating,Operating,Kihavah Huravalhi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 10,Anantara Resort and Spa Maldives,Kaafu,K,Dhigufinolhu,113.0,226.0,7797779,3327058,shahdy@sandalawyers.com,6644100,6644100,dhigumaldives@anantara.com,"SS & L Beach Pvt Ltd 
 H. #02-01, Millennia Tower
 10 Ameer Ahmed Magu
@@ -80,7 +80,7 @@ H. #02-01, Millennia Tower
 Male', Republic of Maldives","Minor Hotel Group (Maldives) Pvt Ltd 
 Anantara Kihavah Villas
 B. Kihavah Huravalhi
-Republic of Maldives",Operating,Operating,Dhigufinolhu,[],0,resorts.csv
+Republic of Maldives",Operating,Operating,Dhigufinolhu,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 11,Anantara Veli and Naladhu,Kaafu,K,Veligan'du Huraa,88.0,176.0,7797779,,shahdy@sandalawyers.com,6644111,,velimaldives@anantara.com / stay@naladhu.com,"SS & L Beach Pvt Ltd 
 H. #02-01, Millennia Tower
 10 Ameer Ahmed Magu
@@ -90,14 +90,14 @@ H. #02-01, Millennia Tower
 Male', Republic of Maldives","Minor Hotel Group (Maldives) Pvt Ltd 
 Anantara Kihavah Villas
 B. Kihavah Huravalhi
-Republic of Maldives",Operating,Operating,Veligan'du Huraa,[],0,resorts.csv
+Republic of Maldives",Operating,Operating,Veligan'du Huraa,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 12,Angaga Island Resort and Spa,Alifu Dhaalu,ADh,Angaga,90.0,180.0,331 3523,331 3522,info@happymarket.com.mv,6680510,6680510,angaga@dhivehinet.net.mv,"Angiri Resorts Management and Operations Pvt Ltd
 M.New Plot, 2nd Floor 
 Ameenee Magu
 Male', Republic of Maldives","Angiri Resorts Management and Operations Pvt Ltd 
 M.New Plot, 2nd Floor 
 Ameenee Magu
-Male', Republic of Maldives",,Operating,Operating,Angaga,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Angaga,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 13,Angsana Resort & Spa Maldives - Velavaru,Dhaalu,Dh,Velavaru,119.0,238.0,"3304087
 6760028","3304660
 6760029",velavaru@angsana.com,676 0028,676 0028,reservations-velavaru@angsana.com,"Maldives Bay Pvt Ltd
@@ -106,7 +106,7 @@ Fareedhee Magu,
 Male', Republic of Maldives","Sancturay Sands Maldives Pvt. Ltd
 H. Aage, 6th Floor, 
 Boduthakurufaanu Magu, 
-Male', Republic of Maldives",-,Operating,Operating,Velavaru,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Velavaru,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 14,Atmosphere Kanifushi Maldives,Lhaviyani,Lh,Kanifushi,190.0,380.0,3006554,3006557,info@kanifushi.com.mv,3339992,,sales@atmosphere-kanifushi.com,"Kanifushi Investment Pvt. Ltd
 M. Rowville, 5th Floor
 Fareedhee Magu
@@ -116,13 +116,13 @@ Fareedhee Magu
 Male, Rep of Maldives","Atmosphere Kani Resort Pvt. Ltd
 Aage, 02nd Floor
 12 Boduthakurufaanu Magu
-Male', Rep of Maldives",Operating,Operating,Kanifushi,[],0,resorts.csv
+Male', Rep of Maldives",Operating,Operating,Kanifushi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 15,Avani + Fares Maldives,Baa,B,Fares,210.0,420.0,7773152,,zayan@salihshihab.co,6601660,6601660,reservations.fares@avanihotels.com,"Plexus Maldives Private Limited
 H. The Cyprea, Boduthakurufaanu Magu, Male', Republic of Maldives","Plexus Maldives Private Limited
 H. The Cyprea, Boduthakurufaanu Magu, Male', Republic of Maldives","Minor Hotel Group (Maldives) Private Limited 
 Anantara Kihavah Villas,
 Kihavah Huravalhi, Baa Atoll,
-Republic of Maldives",Operating,Operating,Fares,[],0,resorts.csv
+Republic of Maldives",Operating,Operating,Fares,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 16,Ayada Maldives,Gaafu Dhaalu,GDh,Magudhdhuvaa,100.0,200.0,"7303055
 745 8336
 6844444","330 3003
@@ -134,20 +134,20 @@ Boduthakurufaanu Magu
 Male', Republic of Maldives","Maldives Tourism Development and Corporation 
 G. Fathuruvehi, 1st Floor
 Buruzu Magu 20124
-Male', Republic of Maldives",,Operating,Operating,Magudhdhuvaa,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Magudhdhuvaa,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 17,Baglioni Resort Maldives,Dhaalu,Dh,Maagau,101.0,206.0,9802222,,m.suri@baglionihotels.com,4000600,4000600,reservations.maldives@baglionihotels.com,"Baglioni Maldives Pvt Ltd 
 H. Hulhugali, 1st Floor, South Wing, 
 Kalhuhuraa Magu, 
 Male', Republic of Maldives","New Mood Resorts Pvt Ltd 
 M. Faamudheyrige, 6th Floor Unit A, Orchid Magu, 
-Male', Republic of Maldives",-,Operating,Operating,Maagau,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Maagau,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 18,Bandos Maldives,Kaafu,K,Bandos,220.0,440.0,6640088,6643877,info@bandos.com.mv,6640088,6640088,sales@bandos.com.mv,"Orchid Holdings Private Limited
 H. Deens Villa, 
 Meheli Goalhi, 
 Male', Republic of Maldives","Mohamed Waheed Deen
 H. Deens Villa
 Meheli Goalhi
-Male', Republic of Maldives",-,Operating,Operating,Bandos,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Bandos,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 19,Banyan Tree Maldives Vabbinfaru,Kaafu,K,Vabbinfaru,48.0,96.0,"(65)8495888
 6643147","(65)4620186
 6643147",mohamed.naeem@banyantree.com,960 664 3147,,reservations-vabbinfaru@banyantree.com,"Vabbinvest Maldives Pvt. Ltd, 
@@ -156,14 +156,14 @@ Male', Republic of Maldives",-,Operating,Operating,Bandos,[],0,resorts.csv
  Singapore 588182","Vabbinvest Maldives Pvt. Ltd, 
 K. Vabbinfaru 
  c/o 211 Upper Bukit Timah Road
- Singapore 588182",Banyan Tree Resorts Ltd,Operating,Operating,Vabbinfaru,[],0,resorts.csv
+ Singapore 588182",Banyan Tree Resorts Ltd,Operating,Operating,Vabbinfaru,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 20,Baros Maldives,Kaafu,K,Baros,75.0,150.0,"3323080
 6642672","3320274
 3322678",info@baros.com; sales@unient.com.mv,664 26 72,664 26 72,reservations@baros.com,"Universal Enterprises Pvt Ltd
 M. No. 39, Orchid Magu
 Male', Republic of Maldives","Universal Enterprises Pvt Ltd
 M. No. 39, Orchid Magu
-Male', Republic of Maldives",-,Operating,Operating,Baros,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Baros,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 21,Bolifushi Island Resort,Kaafu,K,Bolifushi,114.0,228.0,7964481 / 3339992 / 3317526,,muaz@alephpropertiesltd.com,6642020 / 7937070,6642020 / 7937070,reservations@ozenreserve-bolifushi.com,"Alpha Property (BVI)Limited 
 Mill Mall, Suite 6
 Wickhams Cay1, P.O. Box 3085, British Virgin Islands","Gateway Maldives Pvt. Ltd 
@@ -173,7 +173,7 @@ Male', Republic of Maldives","Atmosphere Core (BVI) Ltd
 03rd Floor, H. Aage 
 12, Boduthakurufaanu Magu
 Male', Republic of Maldives
-www.ozenreserve-bolifushi.com",Operating,Operating,Bolifushi,[],0,resorts.csv
+www.ozenreserve-bolifushi.com",Operating,Operating,Bolifushi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 22,Brennia Kottefaru,Raa,R,Kottefaru,145.0,290.0,4002022,,info@brennia.com,4002022,,info@brennia.com,"Brennia Maldives Pvt Ltd 
 G. Gevadige
 Faashanaakilege Magu 
@@ -183,7 +183,7 @@ Fareedhee Magu
 Male', Republic of Maldives","Brennia Maldives Pvt Ltd 
 G. Gevadige
 Faashanaakilege Magu 
-Male', Republic of Maldives",Operating,Operating,Kottefaru,[],0,resorts.csv
+Male', Republic of Maldives",Operating,Operating,Kottefaru,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 23,Canareef Resort Maldives,Seenu,S,Herethere,271.0,542.0,689-6677,689-3377,"info@canareef.com
 
 Website: https://canareef.com/",689-6677 / 689-3377,-,info@canareef.com,"Canaries Resorts Maldives Pvt Ltd
@@ -191,12 +191,12 @@ M. Marina Building, 5th floor
 Koli Umar Manik Goalhi 
 Male’, Republic of Maldives","Canaries Pte. Ltd. 
 63 UBI Avenue 1 #06-01, 
-Singapore 408937",-,Operating,Operating,Herethere,[],0,resorts.csv
+Singapore 408937",-,Operating,Operating,Herethere,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 24,Centara Mirage Lagoon Maldives & Centara Grand Lagoon Maldives,Kaafu,K,4°19’0.85”N73°20’43.59”E,416.0,832.0,,,,4015555,4015555,cmlm@chr.co.th,"Lagoon Assets Private Limited 
 H. Shah, Hussain & Co. Barristers and Attorneys, 6th Floor, Aage,Boduthakurufaanu Magu, 
 Male', Republic of Maldives","Lagoon Assets Private Limited
 H. Shah, Hussain & Co. Barristers and Attorneys, 6th Floor, Aage,Boduthakurufaanu Magu, 
-Male', Republic of Maldives",-,Operating,Operating,,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 25,Centara Ras Fushi Resort & Spa,Kaafu,K,Giraavaru,140.0,280.0,3306566,3309796,sales@chr.co.th; crf@chr.co.th,664 3880,664 3880,crf@chr.co.th,"Centara Maldives Pvt. Ltd. 
 C/O. SHAH, HUSSAIN & CO. Barristers and Attorneys, 
 H. Aage, 6th Floor,
@@ -219,14 +219,14 @@ M. Snow Rose, Male', Republic of Maldives
 8. Ahmed Affan Abdul Rauf 
 Dew Berry, Male', Republic of Maldives
 9. Luyuna Abdul Rauf 
-Dew Berry, Male', Republic of Maldives",-,Operating,Operating,Giraavaru,[],0,resorts.csv
+Dew Berry, Male', Republic of Maldives",-,Operating,Operating,Giraavaru,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 26,Cheval Blanc Randheli,Noonu,N,Randheli,60.0,120.0,330 5590,331 5590,info@int.com.mv,656 1515,656 1515,info.randheli@chevalblanc.com,"I & T Management Pvt Ltd 
 H. Bonthi Villa, Level 2, 
 Ameer Ahmed Magu, 
 Male', Republic of Maldives","I & T Management Pvt Ltd 
 H. Bonthi Villa, Level 2, 
 Ameer Ahmed Magu, 
-Male', Republic of Maldives",,Operating,Operating,Randheli,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Randheli,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 27,Cinnamon Dhonveli Maldives,Kaafu,K,Kanuoiy Huraa,148.0,296.0,"3326219
 3313738",3326264,jkmr@keells.com.mv,6640055,6640055,dhonveli@cinnamonhotels.com,"Tranquility Pvt Ltd 
 G. Kelam 4th Floor, 
@@ -238,7 +238,7 @@ Male', Republic of Maldives","Sublessee:
 John Keells Maldivian Resorts Pvt Ltd 
 Address: G. Kelam 4th Floor,
 Hithaffinivaa Magu, 
-Male', Republic of Maldives",Operating,Operating,Kanuoiy Huraa,[],0,resorts.csv
+Male', Republic of Maldives",Operating,Operating,Kanuoiy Huraa,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 28,Cinnamon Hakuraa Huraa Maldives,Meemu,M,Hakuraahuraa,100.0,200.0,"3313738
 3332867",3326264,manager@maleoffice.com.mv,672-6000,672-6000,hakura@cinnamonhotels.com / resorts@cinnamonhotels.com,"Fantasea World Investments Pvt. Ltd.
 G. Kelam 4th Floor, 
@@ -246,12 +246,12 @@ Hithaffinivaa Magu,
 Male', Republic of Maldives","Fantasea World Investments Pvt. Ltd.
 G. Kelam 4th Floor, 
 Hithaffinivaa Magu, 
-Male', Republic of Maldives",-,Operating,Operating,Hakuraahuraa,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Hakuraahuraa,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 29,Cinnamon Velifushi Maldives,Vaavu,V,Aarah,90.0,180.0,3336000,3326264,velifushi@cinnamonhotels.com,6706000,6706000,manager@maleoffice.com.mv,"Tranquility Pvt. Ltd. 
 2nd Floor H. Maizan, Sosun Magu
 Male', Republic of Maldives","Aaarah Investment Pvt Ltd 
 M. Omadu Fannu (2nd Floor)
-Male', Republic of Maldives",,Operating,Operating,Aarah,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Aarah,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 30,Club Med Finolhu Villas,Kaafu,K,Gasfinolhu,52.0,104.0,"3314149
 6642078","3314150
 6645941",kanvcrec01@clubmed.com,660 8800,660 8800,kanvcrec01@clubmed.com,"Maldivian Holiday Villages Private Ltd
@@ -261,12 +261,12 @@ PO Box 2051,
 Male', Republic of Maldives","Global Pvt Ltd
 Champa Building, 3rd Floor
 Kandi Dhon Manik Goalhi
-Male', Rep.. of Maldives",-,Operating,Operating,Gasfinolhu,[],0,resorts.csv
+Male', Rep.. of Maldives",-,Operating,Operating,Gasfinolhu,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 31,Club Med Kanifinolhu,Kaafu,K,Kanifinolhu,272.0,544.0,332 2451,332 3523,info@cyprea.com.mv,6644859 / 6643152,,info@cyprea.com.mv / kancplan01@clubmed.com,"Maldivian Holiday Villages Ltd  (On Behalf of Club Mediterrannee S. A) (FC-0007/2012)
 11 Rue De Cambrai
 75957 Paris Cedex 19, France","Cyprea Pvt. Ltd. (436)
 66/17 Boduthakurufaanu Magu
-Male', Republic of Maldives",,Operating,Operating,Kanifinolhu,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Kanifinolhu,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 32,Coco Bodu Hithi,Kaafu,K,Boduhithi,100.0,200.0,"3324658
 3336611","3325542
 3336622",sunland@dhivehinet.net.mv,,,reservations@cococollection.com,"Sunland Hotels Pte. Ltd.
@@ -275,7 +275,7 @@ Medhuziyaaraiy Magu
 Male', Republic of Maldives","Shinetree Holdings Pvt Ltd.(C-0198/1994)
 Oceanic Building
 No.7 Boduthakurufaanu Magu 
-Male', Republic of Maldives",,Operating,Operating,Boduhithi,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Boduhithi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 33,Coco Palm Dhunikolhu,Baa,B,Dhunikolhu,98.0,196.0,"332 4658
  333 6611
  6600011","332 5542
@@ -286,7 +286,7 @@ Male', Republic of Maldives","Sunland Hotels Pte. Ltd.
 #04-01, STO Trade Center, 
 Orchid Magu
 Male', Republic of Maldives
-sunland@dhivehinet.net.mv",,Operating,Operating,Dhunikolhu,[],0,resorts.csv
+sunland@dhivehinet.net.mv",,Operating,Operating,Dhunikolhu,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 34,Cocoa Island,Kaafu,K,Makunufushi,33.0,66.0,6641818,6641919,oscar.perez@comohotels.com,6641818,,res.cocoaisland@comohotels.com,"Orchid Resorts Management Pvt. Ltd.
 H. Deens Villa, Meheli Goalhi
 Male', Republic of Maldives","Ahmed Fayaz Waheed
@@ -301,7 +301,7 @@ Hassan Mafaz Waheed
 mariyam Ali
 M. Sosunmaage, Male'
 (Legal Heirs of the late Abdulla Waheed,
- M. Sosunmaage)",,Operating,Operating,Makunufushi,[],0,resorts.csv
+ M. Sosunmaage)",,Operating,Operating,Makunufushi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 35,Cocogiri Island Resort,Vaavu,V,Vashugiri,40.0,80.0,7893579 / 7932230,,"vashugirimaldives@gmail.com
 http://www.cocogiri.com/",+9606709998 / +9606709998,,info@cocogiri.com,"Vashugiri Pvt Ltd
 M. Anchorage, 1st Floor
@@ -309,14 +309,14 @@ Shaheed Ali Hingun
 Male', Republic of Maldives","Vashugiri Pvt Ltd
 M. Anchorage, 1st Floor
 Shaheed Ali Hingun
-Male', Republic of Maldives",,Operating,Operating,Vashugiri,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Vashugiri,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 36,Cocoon Maldives,Lhaviyani,Lh,Ookolhu Finolhu,151.0,302.0,3016888,3016800,info@cocoonmaldives.com,301 6800,,info@cocoonmaldives.com,"Cocoon Investments Pvt Ltd 
 H. Sonary, 2nd Floor
 Boduthakurufaanu Magu
 Male', Republic of Maldives","Cocoon Investments Pvt Ltd 
 H. Sonary, 2nd Floor
 Boduthakurufaanu Magu
-Male', Republic of Maldives",,Operating,Operating,Ookolhu Finolhu,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Ookolhu Finolhu,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 37,Como Maalifushi,Thaa,Th,Male'fushi,76.0,152.0,"6780008
 7778684",6780009,"email@reefinvest.com
 sawad.plc@gmail.com",6780009,6780009,benjamincruez@comohotels.com / res.maalifushi@comohotels.com,"I.V.P.L Investment Ventures Pvt. Ltd 
@@ -325,7 +325,7 @@ H. #04-01, Millennia Tower,
 Male', Republic of Maldives","I.V.P.L Investment Ventures Pvt. Ltd.
 H. #04-01, Millennia Tower,
 10 Ameer Ahmed Magu, 
-Male', Republic of Maldives",-,Operating,Operating,Male'fushi,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Male'fushi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 38,Conrad Maldives Rangali Island,Alifu Dhaalu,ADh,Rangalifinolhu,176.0,352.0,3013211 / 7779779,-,"shahdy@suoodanwar.com
 lamaan@suoodanwar.com",6680629 / 9309999,6680629 / 9309999,mlehi.maldives@conradhotels.com,"Maldives Property Holdings Pvt Ltd
 H. #02-01, Millennia Tower, 
@@ -336,7 +336,7 @@ H. #02-01, Millennia Tower,
 Male', Republic of Maldives","Hilton International Manage (Maldives) Pvt Ltd
 H. Aage, 06th Floor
 Boduthakurufaanu Magu
-Male', Republic of Maldives",Operating,Operating,Rangalifinolhu,[],0,resorts.csv
+Male', Republic of Maldives",Operating,Operating,Rangalifinolhu,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 39,Constance Halaveli Resort,Alifu Alifu,AA,Halaveli,86.0,172.0,"3343613
 3343614",3343615,officemgr@halaveli.com,666 7000,666 7000,resa@constancehotels.com,"The Waterfront Pvt Ltd .
 2nd Floor, H.Thandiraiymaage
@@ -349,7 +349,7 @@ Port Louis Mauritius","Constance Hotels International Services Ltd (FC)
 C/o ECS Global Ltd, 3rd Floor, 
 Labama House, 
 Sir William Newton Street, 
-Port Louis Mauritius",Operating,Operating,Halaveli,[],0,resorts.csv
+Port Louis Mauritius",Operating,Operating,Halaveli,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 40,Constance Moofushi Resort,Alifu Dhaalu,ADh,Moofushi,110.0,220.0,"333 3644
 668 0517","331 5453
 668 0509","ea@moofushiresort.com
@@ -361,13 +361,13 @@ c/o Shah Hussain & Co.
 2nd Floor (East Wing) H.Aage
 Male', Rep. of Maldives","Moofushi Investments Pvt. Ltd.
 Yaagoothuge, Muniyaa Magu
-Male'Republic of Maldives",,Operating,Operating,Moofushi,[],0,resorts.csv
+Male'Republic of Maldives",,Operating,Operating,Moofushi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 41,Cora Cora Maldives,Raa,R,Maamigili,106.0,212.0,3344911,,info@coracoraresorts.com,,,info@coracoraresorts.com,"HMM Pvt Ltd 
 H. Millennia Tower 
 10, Ameer Ahmed Magu 
 Male', Republic of Maldives","Legal Heirs of Late Ahmed Waheed
 G. Vaffushi  
-Male', Republic of Maldives",,Operating,Operating,Maamigili,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Maamigili,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 42,Dhawa Ihuru,Kaafu,K,Ihuru,45.0,90.0,6658205,"(65)4620186
 6645933",mohamed.naeem@banyantree.com,960 664 3502,960 664 3502,reservations-ihuru@angsana.com,"Maldives Angsana Pvt Ltd 
 M. Gulfaamuge, 04th Floor
@@ -376,22 +376,22 @@ Male', Republic of Maldives","Ihuru Investments Pvt Ltd
 Ma. Rimkhaa, Ground Floor
 Dhilbahaaru Goalhi,
 Male', Republic of Maldives","Banyan Tree Resorts Ltd
-China Insurance Group Building, 2401, 24th floor, 141 Des Voeux Road Central, Hong Kong",Operating,Operating,Ihuru,[],0,resorts.csv
+China Insurance Group Building, 2401, 24th floor, 141 Des Voeux Road Central, Hong Kong",Operating,Operating,Ihuru,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 43,Dheruhfinolhu by Jawakara Islands Maldives,Lhaviyani,Lh,Dheruhfinolhu,93.0,186.0,7785035,-,reservations@jawakara.com,6629999,6628888,,"Champalars Holdings Pvt Ltd 
 M. Champa Building 4th Floor, 
 Kandi Dhonmaniku Goalhi, 
 Male', Republic of Maldives","Champalars Holdings Pvt Ltd 
 M. Champa Building 4th Floor, 
 Kandi Dhonmaniku Goalhi, 
-Male', Republic of Maldives",-,Operating,Operating,Dheruhfinolhu,[],0,resorts.csv
-44,Dhiggiri Tourist Resort,Vaavu,V,Dhiggiri,61.0,122.0,3323214,,reservations@dhiggiriresort.com,6700593,6700593,reservations@dhiggiriresort.com,Dhiggiri Investment Pte Ltd. ,,,Operating,Operating,Dhiggiri,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Dheruhfinolhu,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
+44,Dhiggiri Tourist Resort,Vaavu,V,Dhiggiri,61.0,122.0,3323214,,reservations@dhiggiriresort.com,6700593,6700593,reservations@dhiggiriresort.com,Dhiggiri Investment Pte Ltd. ,,,Operating,Operating,Dhiggiri,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 45,Dhigufaru Island Resort,Baa,B,Dhigufaruvinagandu,85.0,170.0,3302656,3330804,info@dhigufaru.com,660-2656,660-2656,reservations@dhigufaru.com,"Dhigufaru Investments Pvt Ltd 
 M. Huraa
 Fareedhee Magu
 Male', Republic of Maldives","Dhigufaru Investments Pvt Ltd 
 M. Huraa
 Fareedhee Magu
-Male', Republic of Maldives",,Operating,Operating,Dhigufaruvinagandu,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Dhigufaruvinagandu,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 46,Diamonds Athuruga Beach & Water Villas,Alifu Dhaalu,ADh,Athurugau,72.0,144.0,3323617,3325336,info@voyages.com,6680508,6680508,es.athuruga@diamonds-resorts.comiinfo@voyagesmaldives.com,"F & P Worlds Sporting & Hotel Pvt Ltd 
 M. No. 2, 
 Fareedhee Magu, 
@@ -402,7 +402,7 @@ Male', Republic of Maldives","F & P Worlds Sporting and Hotel Private
 Limited 
 M. No. 2, 
 Fareedhee Magu
-Male', Republic of Maldives",Operating,Operating,Athurugau,[],0,resorts.csv
+Male', Republic of Maldives",Operating,Operating,Athurugau,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 47,Diamonds Thudufushi Beach and Water Villas,Alifu Dhaalu,ADh,Thundufushi,72.0,144.0,"332 5349
 332 3617",332 5336,info@seagull.com.mv,6680583,6680583,info.thudufushi@diamonds-resorts.com,"Seagull Group Pvt. Ltd.
 Narugis, 
@@ -410,14 +410,14 @@ Chaandhanee Magu
 Male', Republic of Maldives","Seagull Group Pvt. Ltd.
 Narugis, 
 Chaandhanee Magu
-Male', Republic of Maldives",-,Operating,Operating,Thundufushi,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Thundufushi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 48,Dreamland - The Unique Sea & Lake Resort/Spa,Baa,B,Hirundhoo,90.0,180.0,3313523,3313522,info@happymarket.com.mv,660-0101,660-0101,reservations@dreamland.com.mv,"Angiri Joint Venture Pvt Ltd 
 M. Newport, 
 Ameenee Magu, 
 Male', Republic of Maldives","Angiri Joint Venture Pvt Ltd 
 M. Newport, 
 Ameenee Magu, 
-Male', Republic of Maldives",-,Operating,Operating,Hirundhoo,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Hirundhoo,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 49,Drift Theluveliga Retreat,Alifu Dhaalu,ADh,Theluveliga,30.0,60.0,3347777,3347887,"info@driftretreat.com
 hawwa.shakeela@theluveligaretreat.com
 nabeel.hilmy@castawaymaldives.com",6680668,6680668,info@driftretreat.com,"Theluveliga Retreat Pvt Ltd 
@@ -426,7 +426,7 @@ Javaahiru Goalhi,
 Male', Republic of Maldives","Theluveliga Retreat Pvt Ltd 
 Ma. Vahaari, 
 Javaahiru Goalhi, 
-Male', Republic of Maldives",-,Operating,Operating,Theluveliga,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Theluveliga,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 50,Dusit Thani Maldives,Baa,B,Mudhdhoo,104.0,208.0,660 8888,660 9999,bhanwar.ratore@dusit.com,6608888,6608888,bhanwar.rathore@dusit.comresmaldives@dusit.com,"Dusit Maldives Management Pvt Ltd,  
 H. #02-01, Millenia Tower, 
 10 Ameer Ahmed Magu, 
@@ -436,21 +436,21 @@ H. #02-01, Millenia Tower,
 Male', Republic of Maldives","Dusit Worldwide Maldives Pvt Ltd,  
 H. #02-01, Millenia Tower, 
 10 Ameer Ahmed Magu, 
-Male', Republic of Maldives",Operating,Operating,Mudhdhoo,[],0,resorts.csv
+Male', Republic of Maldives",Operating,Operating,Mudhdhoo,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 51,dusitD2,Kaafu,K,Feydhoo Finolhu,69.0,138.0,6689988,-,https://www.dusit.com/,6689988,-,resd2md@dusit.com,"Pearl Atoll Pvt Ltd 
 H-Block 3.5, First Floor, Feydhoo Finolhu, Kaafu Atoll, Republic of Maldives","Pearl Atoll Pvt Ltd 
 H-Block 3.5, First Floor, Feydhoo Finolhu, Kaafu Atoll, Republic of Maldives","Dusit Worldwide Maldives Pvt Ltd
 H. #02-01, Millennia Tower 10, 
 Ameer Ahmed Magu, 
 Male', Republic of
-Maldives",Operating,Operating,Feydhoo Finolhu,[],0,resorts.csv
+Maldives",Operating,Operating,Feydhoo Finolhu,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 52,Ellaidhoo Maldives By Cinnamon,Alifu Alifu,AA,Ellaidhoo,112.0,224.0,"331 3738
 333 2867",332 6264,resorts@cinnamonhotels.com,666 0514,,ellaidhoo@cinnamonhotels.com,"Travel Club Pvt. Ltd. 
 H. Maizaan, 2nd Floor
 Sosun Magu
 Male', Republic of Maldives","Ellaidhoo Investments Pvt Ltd
 5A STO Aifaanu Building, 
-Boduthakurufaanu Magu Male', Republic of Maldives",,Operating,Operating,Ellaidhoo,[],0,resorts.csv
+Boduthakurufaanu Magu Male', Republic of Maldives",,Operating,Operating,Ellaidhoo,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 53,Embudhu Village,Kaafu,K,Embudhu,118.0,236.0,"3322212
 3318005",3318057,kaimoo@dhivehinet.net.mv,664 4776.,664 4776.,gm@embudhuvillage.com / sales@embudhuvillage.com.mv,"Kaimoo Travels & Hotels Services Pvt. Ltd.
 H. Maagala, 
@@ -458,14 +458,14 @@ Meheli Goalhi
 Male', Republic of Maldives","Kaimoo Travels & Hotels Services Pvt. Ltd.
 H. Maagala, 
 Meheli Goalhi
-Male', Republic of Maldives",-,Operating,Operating,Embudhu,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Embudhu,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 54,Emerald Faarufushi Resort & Spa,Raa,R,Faarufushi,88.0,176.0,6582100,,gm@emerald-faarufushi.com,6588000,,info@emeraldmaldives-seana.com,"Fasmendhoo Pvt Ltd 
 H. Aage, 6th Floor, 
 12 Boduthakurufaanu Magu
 Male', Republic of Maldives","Fasmendhoo Pvt Ltd 
 H. Aage, 6th Floor, 
 12 Boduthakurufaanu Magu
-Male', Republic of Maldives",,Operating,Operating,Faarufushi,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Faarufushi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 55,Emerald Maldives Resort & Spa Fasmendho,Raa,R,Fasmendhoo,143.0,286.0,6582100,-,gm@emerald-maldives.com,6582100,6582100,tscarapicchia@fasmendhoo.com / reservations@emerald-maldives.com,"Emil Resort Pvt Ltd 
 H. Aage, 06th Floor, 
 Boduthakurufaanu Magu, 
@@ -476,33 +476,33 @@ Male', Republic of Maldives","Seana S.R.L (FC)
 C/O Shah Hussain & CO Barristers and Attorneys, 
 H. Aage, 12 (6th Floor),
 Boduthakurufaanu Magu, 
-Male', Republic of Maldives",Operating,Operating,Fasmendhoo,[],0,resorts.csv
+Male', Republic of Maldives",Operating,Operating,Fasmendhoo,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 56,Eri Maldives,Kaafu,K,Eriyadhu,76.0,152.0,9130614,-,reservations@eriyadumaldives.com,6644487,6644487,reservations@eriyadumaldives.com,"Eri Holdings Pvt Ltd 
 M. Kaneeru Villa, 4th Floor,
 Orchid Magu, 
 Male’, Republic of Maldives","Eri Holdings Pvt Ltd 
 M. Kaneeru Villa, 4th Floor,
 Orchid Magu, 
-Male’, Republic of Maldives",-,Operating,Operating,Eriyadhu,[],0,resorts.csv
+Male’, Republic of Maldives",-,Operating,Operating,Eriyadhu,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 57,Fihaalhohi Maldives,Kaafu,K,Fihaalhohi,150.0,300.0,3006876,3006879,info@fehimoorithi.com,664 2903,664 2903,info@fihalhohi.com.mv,"Fehi Moorithi Pvt Ltd 
 6th Floor, Moorithi Buiding 
 Chaandhanee Magu
 Male', Republic of Maldives","Fehi Moorithi Pvt Ltd 
 6th Floor, Moorithi Buiding 
 Chaandhanee Magu
-Male' City, Republic of Maldives",,Operating,Operating,Fihaalhohi,[],0,resorts.csv
+Male' City, Republic of Maldives",,Operating,Operating,Fihaalhohi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 58,Filitheyo Island Resort,Faafu,F,Filitheyo,125.0,250.0,331 7373,332 1862,admin@aaa.com.mv,6740025,6740025,"project@aaa.com,mv","A.A.A. & Trading Company Pvt. Ltd.
 G. Neem, Majeedhee Magu
 Male', Republic of Maldives","A.A.A. & Trading Company Pvt. Ltd.
 #17 & 19 Chaandhanee Magu
-Male', Republic of Maldives",,Operating,Operating,Filitheyo,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Filitheyo,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 59,Finolhu Baa Atoll Maldives,Baa,B,Kanufushi,168.0,336.0,3333644,3315453,dheena@shclawyers.com,6608800,6608800,stay@finolhu.mv,"Seaside Finolhu Maldives Pvt Ltd 
 6th Floor, H. Aage'
 12 Boduthakurufaanu Magu
 Male', Republic of Maldives","Seaside Finolhu Maldives Pvt Ltd 
 6th Floor, H. Aage'
 12 Boduthakurufaanu Magu
-Male', Republic of Maldives",-,Operating,Operating,Kanufushi,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Kanufushi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 60,Four Seasons Private Island Maldives at Voavah,Baa,B,Voavah,11.0,26.0,6600888,6600800,gan@hplhotels.com,66 00 888,66 00 888,reservations.mal@fourseasons.com,"Landaa Giraavaru Pvt. Ltd. 
 M. Lux Lodge, Level 2
 Orchid Magu
@@ -511,7 +511,7 @@ M. Lux Lodge, Level 2
 Orchid Magu
 Male’, Republic of Maldives","FS Kuda Huraa Hotel Management Pvt. Ltd.
 Kuda Huraa, Kaafu Atoll
-Republic of Maldives",Operating,Operating,Voavah,[],0,resorts.csv
+Republic of Maldives",Operating,Operating,Voavah,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 61,Four Seasons Resort Maldives at Kuda Huraa,Kaafu,K,Kuda Huraa,112.0,224.0,6644888,6644888,reservations.maldives@four-seasons.com,9606600888,,RESERVATIONS.MAL@FOURSEASONS.COM,"Four Seasons Hotel & Resorts BVI
 (On behalf ofHPL Resorts (Maldives) Pvt. Ltd. 
 Aurora Building, 7th Floor, Stadhouderskade 2
@@ -519,7 +519,7 @@ Aurora Building, 7th Floor, Stadhouderskade 2
 M. Lux Lodge, 2nd Floor
 Orchid Magu
 Male', Republic of Maldives","Fs Kuda Huraa Hotel Management Pvt. Ltd. 
-c/o Four Seasons Hotels and Resorts Asia Pacific Pte. Ltd, 1 Orchard Sprig Lane #04-01, Tourism Court, Singapore 247729",Operating,Operating,Kuda Huraa,[],0,resorts.csv
+c/o Four Seasons Hotels and Resorts Asia Pacific Pte. Ltd, 1 Orchard Sprig Lane #04-01, Tourism Court, Singapore 247729",Operating,Operating,Kuda Huraa,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 62,Four Seasons Resort Maldives at Landaa Giraavaru,Baa,B,Landaa Giraavaru,145.0,290.0,3330888,"0065 6738 8379
 660 0700",reservations.mal@fourseasons.com,6600888,6600888,reservations.mal@fourseasons.com,"Landaa Giraavaru Pvt Ltd (FC)
 H. #02-1, Millennia Tower, 
@@ -527,49 +527,49 @@ Male', Republic of Maldives","Landaa Giraavaru Pvt Ltd (FC)
 H. #02-1, Millennia Tower, 
 Male', Republic of Maldives","FS Kuda Huraa Hotel Management Pvt Ltd 
 Kuda Huraa, Kaafu Atoll
-Republic of Maldives",Operating,Operating,Landaa Giraavaru,[],0,resorts.csv
+Republic of Maldives",Operating,Operating,Landaa Giraavaru,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 63,Furaveri Maldives,Raa,R,Furaveri,171.0,342.0,3317315,3317723,cfo@furaveri.com,6581111,6581111,reservations@furaveri.com,"NAID Investments Pvt Ltd 
 M. Newton, 3rd Floor
 Dhanbu Goalhi
 Male', Republic of Maldives","Ahmed Ibrahim Didi 
 Ma. Niyazvilla, 10th Floor
 Buruzumagu
-Male', Rep. of Maldives",-,Operating,Operating,Furaveri,[],0,resorts.csv
+Male', Rep. of Maldives",-,Operating,Operating,Furaveri,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 64,Fushifaru Maldives,Lhaviyani,Lh,Fushifaru,63.0,126.0,3331512,3331513,info@fushifaru.com,6620202,6620303,reservations@fushifaru.com,"Fushifaru Investments Pvt Ltd 
 M. Loobiya, 4th Floor
 Ameenee Magu
 Male', Republic of Maldives","Fushifaru Investments Pvt Ltd
 M. Loobiya, 4th Floor
 Ameenee Magu
-Male', Republic of Maldives",,Operating,Operating,Fushifaru,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Fushifaru,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 65,Gangehi Island Resort,Alifu Alifu,AA,Gangehi,36.0,72.0,332 9013,332 9014,info@gangehi.com / info@fushifaru.com,666-0505,666-0505,info@gangehi.com / info@fushifaru.com,"Noomadi Resorts Pvt. Ltd.
 H. East Light, No.4/A, 4th floor, 
 Ameer Ahmed Magu, 
 Male', Republic of Maldives","Gangehi Invesments Pvt Ltd
 H. Dhonveli Thundi, Ground Floor, 
 Dhunbugas Magu, 
-Male', Republic of Maldives",-,Operating,Operating,Gangehi,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Gangehi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 66,Gili Lankanfushi,Kaafu,K,Lankanfushi,49.0,98.0,3336663,,promus@sonevagili.com.mv,664-0304,664-0304,mr.friday@gili-lankanfushi.com,"Promus Pvt. Ltd.
 2nd Floor, 3/4 Faamudheyri Magu
 Male', Republic of Maldives","Transco Pvt Ltd
 2nd Floor, H. Marvel
-Male', Republic of Maldives",,Operating,Operating,Lankanfushi,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Lankanfushi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 67,Grand Park Kodhipparu Maldives,Kaafu,K,Kodhipparu,125.0,250.0,6651111,6651122,"info@parkhotelgroup.com
 raffaele.solferino@parkhotelgroup.com",665 1111,,info.gpkd@parkhotelgroup.com,"CES Park Kodhipparu Pvt Ltd 
 H. Aage, 6th Floor
 Male', Republic of Maldives","CES Park Kodhipparu Pvt Ltd
 H. Aage, 6th Floor
-Male', Republic of Maldives",,Operating,Operating,Kodhipparu,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Kodhipparu,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 68,Hard Rock Hotel Maldives,Kaafu,K,Akasdhoo,197.0,394.0,+9606651400,,rsvn@hrhmaldives.com,6551400,6551400,info@hrhmaldives.com,"Dream Islands Development 2 Pvt. Ltd. 
 H. #02-01, Millennia Tower, 10 Ameer Ahmed Magu, Male', Republic of Maldives","Dream Islands Development 2 Pvt. Ltd. 
-H. #02-01, Millennia Tower, 10 Ameer Ahmed Magu, Male', Republic of Maldives",,Operating,Operating,Akasdhoo,[],0,resorts.csv
+H. #02-01, Millennia Tower, 10 Ameer Ahmed Magu, Male', Republic of Maldives",,Operating,Operating,Akasdhoo,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 69,Heritance Aarah,Raa,R,Aarah,158.0,316.0,6580222,,mahdy@aitkenspence.lk,6580222,6580222,mahdy@aitkenspence.lk,"Cowrie Investment Pvt Ltd 
 H. Thuniya, 6th Floor, 
 Boduthakurufaanu Magu, 
 Male', Republic of Maldives","Cowrie Investment Pvt Ltd 
 H. Thuniya, 6th Floor, 
 Boduthakurufaanu Magu, 
-Male', Republic of Maldives",-,Operating,Operating,Aarah,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Aarah,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 70,Hilton Maldives Amingiri Resort & Spa,Kaafu,K,Kohdhipparu Lagoon,132.0,264.0,7776789,,nihad@amin.mv,7300500,7300500,gaurav.thakur@hilton.com,"Amingiri Holdings Pvt Ltd 
 M. World Dream, 2nd Floor
 Handhuvaree Hingun
@@ -577,7 +577,7 @@ Male', Republic of Maldives","Amingiri Holdings Pvt Ltd
 M. World Dream, 2nd Floor
 Handhuvaree Hingun
 Male', Republic of Maldives","Hilton Worldwide Management Ltd 
-Maple Court, Central Park, Reeds Crescent, Watford WD244QQ, England",Operating,Operating,Kohdhipparu,[],0,resorts.csv
+Maple Court, Central Park, Reeds Crescent, Watford WD244QQ, England",Operating,Operating,Kohdhipparu,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 71,Holiday Inn Resort Kandooma Maldives,Kaafu,K,Kandoomafushi,162.0,324.0,3314377,3314378,sales.hikandooma@ihg.com / reservations.hikandooma@ihg.com,6640511,6640511,sales.hikandooma@ihg.com / reservations.hikandooma@ihg.com,"Leisure Holidays Pvt Ltd
 H. Millennia Tower, #02-01, 10 
 Ameer Ahmed Magu, 20026, 
@@ -586,7 +586,7 @@ H. Aagadhage Building, 5th Floor,
 Boduthakurufaanu Magu, 
 Male', Republic of Maldives","Intercontinental Hotels Group (Greater China) Ltd 
 Level 54, Hopewell Centre, 
-Hong Kong, 183 Queens Road East, China",Operating,Operating,Kandoomafushi,[],0,resorts.csv
+Hong Kong, 183 Queens Road East, China",Operating,Operating,Kandoomafushi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 72,Hondaafushi Island Resort,Haa Dhaalu,HDh,Hondaafushi,57.0,114.0,3317373,3316016,sales@aaa.com.mv,674-0025,674-0025,hondaafushi@aaa.com.mv,"Hondaafushi Island Resort (SP)
 Mr. Abdulla Ali 
 M. Three A Villa
@@ -594,21 +594,21 @@ Fareedhee Magu
 Male', Republic of Maldives","Mr. Abdulla Ali
 M. Three A Villa
 Fareedhee Magu
-Male', Republic of Maldives",-,Operating,Operating,Hondaafushi,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Hondaafushi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 73,Hurawalhi Island Resort,Lhaviyani,Lh,Huravalhi,90.0,180.0,3326545,3326544,md@champabrothers.com,6622000,,reservations@hurawalhi.com,"Champalars Holdings Pvt Ltd 
 M. Champa Building, 4th Floor
 Kani Dhonmaniku Goalhi
 Male', Republic of Maldives","Champalars Holdings Pvt Ltd 
 M. Champa Building, 4th Floor
 Kani Dhonmaniku Goalhi
-Male', Republic of Maldives",,Operating,Operating,Huravalhi,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Huravalhi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 74,Huvafenfushi Maldives,Kaafu,K,Nakatchafushi,51.0,102.0,3323080,3320274,stay@huvafenfushi.com,6644222,6644222,stay@huvafenfushi.com / www.huvafenfushi.com,"Nakatchafushi Holdings Pvt. Ltd.  
 H. 39, Orchid Magu
 Male', Republic of Maldives","Nakatchafushi Holdings Pvt. Ltd.
 H. 39, Orchid Magu
 Male', Republic of Maldivesv","Nakatchafushi Holdings Pvt. Ltd. 
 H. 39, Orchid Magu
-Male', Republic of Maldives",Operating,Operating,Nakatchafushi,[],0,resorts.csv
+Male', Republic of Maldives",Operating,Operating,Nakatchafushi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 75,Inter Continental Maldives Maamunagau,Raa,R,Maamunagau,97.0,194.0,657345250 / 6580500,,gan@hplhotels.com / james.sutcliffe@ihg.com,6580500,,reservations.icmaldives@ihg.com,"Leisure Horizons Pvt Ltd 
 M. Lux Lodge (2nd Floor) 
 Orchid Magu 
@@ -618,28 +618,28 @@ Orchid Magu
 Male', Republic of Maldives","Inter Continental Hotels Group (Greater China) Ltd
 230 Victoria Street, # 13-00
 Bugis Junction Tower
-Singapore 188024",Operating,Operating,Maamunagau,[],0,resorts.csv
+Singapore 188024",Operating,Operating,Maamunagau,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 76,JA Manafaru,Haa Alifu,HA,Manafaru,88.0,176.0,3344720,3344721,william.harleyfleming@dutco.com,6500400,6500400,vlsd.reyes@jaresorts.com,"Jarh Maldives Pvt Ltd 
 Marina Building, 7th Floor
 Koli Umar Maniku Goalhi
 Male', Republic of Maldives","Jarh Maldives Pvt Ltd 
 Marina Building, 7th Floor
 Koli Umar Maniku Goalhi
-Male', Republic of Maldives",,Operating,Operating,Manafaru,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Manafaru,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 77,Joali Being Bodufushi,Raa,R,Bodufushi,85.0,170.0,3005551,,masoodh@momentum.com.mv,6583100,,info.being@joali.com,"Ali Bey Maldives Pvt Ltd
 Ma. MF Building, 3rd Floor
 Chaandhanee Magu
 Male', Republic of Maldives","Ali Bey Maldives Pvt Ltd 
 Ma. MF Building, 3rd Floor
 Chaandhanee Magu
-Male', Republic of Maldives",,Operating,Operating,Bodufushi,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Bodufushi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 78,Joali Muravandhoo,Raa,R,Muravandhoo,80.0,160.0,3305515,,pa@momentum.com.mv,6584400,6584404,masoodh@momentum.com.mv,"Ali Bey Maldives Pvt Ltd 
 Ma. MF Building, 3rd Floor
 Chaandhanee Magu
 Male', Republic of Maldives","Ali Bey Maldives Pvt Ltd
 Ma. MF Building, 3rd Floor
 Chaandhanee Magu
-Male', Republic of Maldives",,Operating,Operating,Muravandhoo,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Muravandhoo,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 79,Joy Island,Kaafu,K,Island 1 Plot of Lagoon,153.0,306.0,6626888 / 6649966 / 3016888,,"booking@cocoonmaldives.com
 info@cocoonmaldives.com",6626888,6626888,alex@cocoonmaldives.com; akbar@akbar.com,"Joy Resort Pvt Ltd 
 H. Sonary, 2nd Floor,
@@ -647,7 +647,7 @@ Boduthakurufaanu Magu,
 Male', Republic of Maldives","AB Lagoon Pvt Ltd
 H. Sonary, 2nd Floor,
 Boduthakurufaanu Magu,
-Male', Republic of Maldives",,Operating,Operating,,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 80,Jumeirah Maldives Olhahali Island,Kaafu,K,Olhahali,91.0,182.0,"7731865
 7951795",-,"lamaan@sandalawyers.com
 sama@sandalawyers.com",6682600,-,reservations.jmh@jumeirah.com,"Grand Meridian Pvt Ltd 
@@ -659,7 +659,7 @@ Orchid Magu,
 Male', Republic of Maldives","Maldives 1 Hospitality Pvt Ltd 
 H. Millenia Tower, #02-01,
 10 Ameer Ahmed Magu,
-Male', Republic of Maldives",Operating,Operating,Olhahali,[],0,resorts.csv
+Male', Republic of Maldives",Operating,Operating,Olhahali,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 81,JW Marriott Kaafu Atoll Island Resort,Kaafu,K,Hathaafinolhu,86.0,172.0,3005515,-,Ibrahim.ishfaaq@momentum.com.mv,665-6666,665-6666,https://www.marriott.com/en-us/hotels/mlejm-jw-marriott-maldives-kaafu-atoll-island-resort/overview/,"Bayswater Maldives Pvt Ltd
 M. Faamdheyrige Building, 5th floor, Unit C, 
 Orchid Magu, 
@@ -669,7 +669,7 @@ Orchid Magu,
 Male', Republic of Maldives","Marriott Hotels Maldives Pvt Ltd 
 H. Millennia Tower, #04-01, 
 10 Ameer Ahmed Magu, 
-Male', Republic of Maldives",Operating,Operating,Hathaafinolhu,[],0,resorts.csv
+Male', Republic of Maldives",Operating,Operating,Hathaafinolhu,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 82,JW Marriott Maldives Resort & Spa,Shaviyani,Sh,Vagaru,73.0,146.0,3006966,3006696,"lamaan@suoodanwar.com
 shahdy@suoodanwar.com",6545555,6545555,jw.mlejs.rsvn@marriothotels.com,"Bon Free Private Limited
 H. Aage, Boduthakurufaanu Magu
@@ -680,28 +680,28 @@ Male', Republic of Maldives
 www.viceroyhotelsandresorts.com","Marriott Hotels Maldives Pvt Ltd 
 H. Orchidmaage, 1st Floor
 Ameer Ahmed Magu
-Male', Republic of Maldives",Operating,Operating,Vagaru,[],0,resorts.csv
+Male', Republic of Maldives",Operating,Operating,Vagaru,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 83,Kagi Maldives Resort and Spa,Kaafu,K,Kagi,50.0,100.0,3326712,-,cfo@champaresorts.com,6640123,6640123,info@kagimaldives.com,"Kagi Development Pvt Ltd 
 Champa Building, 3rd Floor
 Kandi Dhon Maniku Goalhi
 Male', Republic of Maldives","Kagi Development Pvt Ltd
 Champa Building, 3rd Floor
 Kandi Dhon Maniku Goalhi
-Male', Republic of Maldives",,Operating,Operating,Kagi,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Kagi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 84,Kandima Maldives,Dhaalu,Dh,Kadinma,272.0,544.0,7980082,,imdad.mohamed@pulseresorts.com,676 0077,676 0077,mykindofplace@kandima.com,"Kandinma Holdings Pvt Ltd 
 M. Kaneeru Villa, 04th Floor
 Orchid Magu
 Male', Republic of Maldives","Kandinma Holdings Pvt Ltd 
 M. Kaneeru Villa, 04th Floor
 Orchid Magu
-Male', Republic of Maldives",,Operating,Operating,Kadinma,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Kadinma,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 85,Kandolhu Maldives,Alifu Alifu,AA,Kandholhudhoo,30.0,60.0,"6680789 / 6680790
 3323080","6680788
 3333618",www.kandholhu.com,668 0790,668 0790,info@kandolhu.com,"Kandholhudhoo Holdings Pvt Ltd 
 39 Orchid Magu, 
 Male', Republic of Maldives","Kandholhudhoo Island Investments Pvt. Ltd. 
 39 Orchid Magu,
-Male', Republic of Maldives",-,Operating,Operating,Kandholhudhoo,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Kandholhudhoo,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 86,Komandoo Island Resort,Lhaviyani,Lh,Komandoo,65.0,130.0,662 1010,"39064706396
 332 6544",main@ctnt.com,662 1010,662 1010,reservations@komandoo.com,"Komandoo Holdings Pvt. Ltd. 
 CHP-3
@@ -709,7 +709,7 @@ Kandi Dhon Manik Goalhi
 Male', Republic of Maldives","Komandoo Holdings Pvt. Ltd.
 CHP-3
 Kandi Dhon Manik Goalhi
-Male', Republic of Maldives",,Operating,Operating,Komandoo,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Komandoo,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 87,Kuda Villingili Resort Maldives,Kaafu,K,Kudavillingili,99.0,198.0,3322660,,nahiz.ali@mfarhotels.com,4000900,,reservations@kudavillingili.com,"MFAR Kudavillingili Pvt Ltd 
 H. Magma, 3rd Floor, 
 Nasheed & Co LLP,
@@ -718,21 +718,21 @@ Male', Republic of Maldives","MFAR Kudavillingili Pvt Ltd
 H. Magma, 3rd Floor, 
 Nasheed & Co LLP,
 Sikka Goalhi, 
-Male', Republic of Maldives",-,Operating,Operating,Kudavillingili,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Kudavillingili,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 88,Kudadoo Maldives Private island,Lhaviyani,Lh,Kudadhoo,17.0,34.0,3386545,3326544,aslam@ctnt.com,6622000,6622000,reservations@kudadoo.com,"Champalars Holdings Pvt Ltd
 M. Champa Building, 4th Floor
 Kandi Dhonmaniku Goalhi
 Male', Republic of Maldives","Champalars Holdings Pvt Ltd
 M. Champa Building, 4th Floor
 Kani Dhonmaniku Goalhi
-Male', Republic of Maldives",-,Operating,Operating,Kudadhoo,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Kudadhoo,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 89,Kudafushi Resort & Spa,Raa,R,Kudafushi,107.0,214.0,658-0080,,reservations@kudafushiresort.com,7774982,7774982,ali@abnmaldives.com,"Silver Drift Maldives Pvt Ltd
 H. Eggamuge Aage, 
 Karankaa Magu, 
 Male', Republic of Maldives","Ali Zahir 
 H. Iruvelige
 Moonimaa Hingun
-Male', Republic of Maldives",-,Operating,Operating,Kudafushi,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Kudafushi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 90,Kuredhivaru Resort and Spa,Noonu,N,Kuredhivaru,111.0,222.0,3322999,,"m.gruszecki@zenresorts.site
 r.rahman@zenresort.site",656-3000,656-3000,Resort.Kuredhivaru.Reservations@movenpick.com,"Zen Resort Pvt. Ltd 
 H. Dhoorihaa, 5th floor, 5B, 
@@ -740,15 +740,15 @@ Kalaafaanu Hingun,
 Male', Republic of Maldives","Zen Resort Pvt. Ltd
 H. Dhoorihaa, 5th floor, 5B, 
 Kalaafaanu Hingun, 
-Male', Republic of Maldives",-,Operating,Operating,Kuredhivaru,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Kuredhivaru,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 91,Kuredu Island Resort,Lhaviyani,Lh,Kuredu,389.0,778.0,3326545,3326544,main@ctnt.com,662-0337,662-0337,info@kuredu.com / reservations@kuredu.com,"Kuredhu Holdings (Pvt) Ltd. 
 M. Champa Building, 4th Floor, Kandidhonmaniku Goalhi, Male', Republic ofMaldives","Kuredhu Holdings (Pvt) Ltd. 
-M. Champa Building, 4th Floor, Kandidhonmaniku Goalhi, Male', Republic ofMaldives",,Operating,Operating,Kuredu,[],0,resorts.csv
+M. Champa Building, 4th Floor, Kandidhonmaniku Goalhi, Male', Republic ofMaldives",,Operating,Operating,Kuredu,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 92,Kurumba Maldives,Kaafu,K,Vihamanaafushi,181.0,362.0,3323080,3333618,kurumba@kurumba.com.mv,6643885,,kurumba@kurumba.com,"Vihamanaafushi Holdings Pvt Ltd (C-0448/2011)
 39, Orchid Magu
 Male'City, Republic of Maldives","Mr. Mohamed Umar Manik  (A053530)
 M. Rukkara
-Male', Republic of Maldives",,Operating,Operating,Vihamanaafushi,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Vihamanaafushi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 93,Le Méridien Maldives Resort and Spa,Lhaviyani,Lh,Thilamaafushi and Bodufinolhu,157.0,314.0,3346439,,philip@asters.com.mv,4008888,4008888,reservations.maldives@lemeridien.com,"CT At Thilamaafushi Pvt Ltd 
 H. Asters Building
 Ameer Ahmed Magu
@@ -758,7 +758,7 @@ Ameer Ahmed Magu
 Male', Republic of Maldives","Marriott Hotels Maldives Pvt Ltd
 H. Millenia Tower, #04-01
 10 Ameer Ahmed Magu
-Male', Republic of Maldives",Operating,Operating,Thilamaafushi|Bodufinolhu,[],0,resorts.csv
+Male', Republic of Maldives",Operating,Operating,Thilamaafushi|Bodufinolhu,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 94,Lily Beach Resort,Alifu Dhaalu,ADh,Huvahendhoo,125.0,250.0,331 7464,331 7466,"admin@lilyhotels.com
 
 Website: www.lilybeachmaldives.com",6680013,6680013,admin@lilyhotels.com,"Lily Hotels Pvt. Ltd. 
@@ -767,28 +767,28 @@ Boduthakurufaanu Magu,
 Male', Republic of Maldives","Lily Hotels Pvt. Ltd. 
 H. Fasmeeru Building, 2nd Floor,
 Boduthakurufaanu Magu,
-Male', Republic of Maldives",-,Operating,Operating,Huvahendhoo,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Huvahendhoo,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 95,"Lux* South Ari Atoll, Maldives",Alifu Dhaalu,ADh,Dhidhdhoofinolhu,193.0,386.0,331 2204,331 7508,reservation@luxresorts.com / stay@luxmaldivesresort.com,668-0901,668-0901,reservation@luxresorts.com / stay@luxmaldivesresort.com,"White Sands Resort and Spa Pvt Ltd
 Jazeera Building, 5th Floor
 Boduthakurufaanu Magu
 Male', Republic of Maldives","Ari Beach Co Pvt Ltd
 M.Kinbidhooge
 Izzudheen Magu
-Male', Republic of Maldives",,Operating,Operating,Dhidhdhoofinolhu,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Dhidhdhoofinolhu,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 96,Maayafushi Tourist Resort,Alifu Alifu,AA,Maayafushi,75.0,150.0,3323214,3322516,manager.maleoffice@nakairesorts.com,6660588,6660588,maayafushi@nakairesorts.com / reservations@maayafushi.com,"Maayafushi Resort Management Pvt Ltd 
 M. Omadu Fanu Building, 2nd Floor 
 Haveeree Hingun
 Male', Republic of Maldives","I.R.T.S Private Limited
 M.Omadu Fanu Building, 2nd Floor
 Haveeree Hingun
-Male', Republic of Maldives",,Operating,Operating,Maayafushi,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Maayafushi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 97,Mabinhura by Jawakara Islands Maldives,Lhaviyani,Lh,Maabinhuraa,212.0,424.0,7785035,,aslam@ctnt.com,6629999,6629999,reservations@jawakara.com / https://jawakara.com/,"Kuredu Holdings Private Limited 
 M. Champa Building, 4th Floor
 Kandidhonmaniku Goalhi 
 Male', Republic of Maldives","Kuredu Holdings Private Limited 
 M. Champa Building, 4th Floor
 Kandidhonmaniku Goalhi 
-Male', Republic of Maldives",,Operating,Operating,Maabinhuraa,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Maabinhuraa,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 98,"Machchafushi Island Resort & Spa Maldives, The Centara Collection",Alifu Dhaalu,ADh,Machchafushi,112.0,224.0,"330 6566
  333 3644","331 5453
 332 3463",ahrdcirm@chr.co.th,668 8000,668 8000,cirm@chr.co.th,"R.M.L Leisure Pvt. Ltd.
@@ -799,12 +799,12 @@ Male', Republic of Maldives","Sioux Investment Pvt. Ltd.
 2nd Floor, Filla Building 
 Boduthakurufaanu Magu
 Male', Republic of Maldives","Centara International Management Co, Ltd
- (manager since 11th Oct 2009)",Operating,Operating,Machchafushi,[],0,resorts.csv
+ (manager since 11th Oct 2009)",Operating,Operating,Machchafushi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 99,Madifushi Private Island,Meemu,M,Madifushi,88.0,174.0,6720000,,stay@madifushiprivateisland.com,6720000,,stay@madifushiprivateisland.com,"Maldives Inflight Catering Pte Ltd
 Velana International Airport
 Hulhule' 22000, Republic of Maldives","Maldives Inflight Catering Pte Ltd
 Velana International Airport
-Hulhule' 22000, Republic of Maldives",,Operating,Operating,Madifushi,[],0,resorts.csv
+Hulhule' 22000, Republic of Maldives",,Operating,Operating,Madifushi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 100,Makunudu Island,Kaafu,K,Makunudhoo,36.0,72.0,3324658,3325543,sunland@dhivehinet.net.mv,664 6464,664 6464,info@makunudu.com,"Sunland Travel (Pvt) Ltd.
 G.Shafaq,7th Floor
 Rah Dhebai Magu
@@ -812,21 +812,21 @@ Male', Republic of Maldives","Sunland Travels (Pvt) Ltd.
 H.Millenia
 Ameeru Ahmed Magu
 Male', Republic of Maldives
-sunland@dhivehinet.net.mv",,Operating,Operating,Makunudhoo,[],0,resorts.csv
+sunland@dhivehinet.net.mv",,Operating,Operating,Makunudhoo,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 101,Malahini Kuda Bandos,Kaafu,K,Kuda Bandos,82.0,164.0,6644556,,social@malahini.mv,6644556,6644556,reservations@malahini.mv,"Malahini Holdings Pvt Ltd 
 H. Jazeera, 03rd Floor, No. 15
 Boduthakurufaanu Magu
 Male', Republic of Maldives","Malahini Holdings Pvt Ltd 
 H. Jazeera, 03rd Floor, No. 15
 Boduthakurufaanu Magu
-Male', Republic of Maldives",,Operating,Operating,Kuda Bandos,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Kuda Bandos,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 102,Medhufushi Island Resort,Meemu,M,Medhufushi,120.0,240.0,7785861 / 6720026,-,ereservations@aaaresorts.com,6720026,6720026,info@medhufushiisland.com / reservations@medhufushiisland.com,"Medhufushi Investment Pvt Ltd 
 G. Neem, 
 Majeedhee Magu, 
 Male', Republic of Maldives","Medhufushi Investment Pvt Ltd 
 G. Neem, 
 Majeedhee Magu, 
-Male', Republic of Maldives",-,Operating,Operating,Medhufushi,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Medhufushi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 103,Meeru Maldives Resort Island,Kaafu,K,Meerufenfushi,284.0,568.0,3314149,3314150,"cfo@champaresorts.com
 reservations@meeru.com",6645946,6645946,reservations@meeru.com,"KASA Holdings Pvt. Ltd.
 M. Champa Building, 3rd Floor
@@ -834,31 +834,31 @@ Kandi Dhonmaniku Goalhi
 Male', Republic of Maldives","KASA Holdings Pvt. Ltd.
 M. Champa Building, 3rd Floor
 Kandi Dhonmaniku Goalhi
-Male', Republic of Maldives",-,Operating,Operating,Meerufenfushi,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Meerufenfushi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 104,Melia Whale Lagoon Maldives,Alifu Dhaalu,ADh,Bodufinolhu,100.0,200.0,7797779 /  3013200,Website: https://www.melia.com/,shahdy@sandalawyers.com,6683000,6683000,reservations.meliawhalelagoon@melia.com,"ASB Hotel Properties Maldives Pvt Ltd 
 H. #02-01, Millennia Tower, #02-001
 Ameer Ahmed Magu
 Male', Republic of Maldives","ASB Hotel Properties Maldives Pvt Ltd 
 H. #02-01, Millennia Tower, #02-001
 Ameer Ahmed Magu
-Male', Republic of Maldives",-,Operating,Operating,Bodufinolhu,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Bodufinolhu,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 105,Meyyafushi Maldives,Lhaviyani,Lh,Meyyafushi,88.0,176.0,3331512 / 3331513,Website: www.meyyafushi.com,info@muni.com.mv,6620303,6620303,info@meyyafushi.com,"Meyyafushi Investments Private Limited
 M. Loobiya , 5th Floor,
 Ameenee Magu, 
 Male', Republic of Maldives","Meyyafushi Investments Private Limited
 M. Loobiya , 5th Floor,
 Ameenee Magu, 
-Male', Republic of Maldives",-,Operating,Operating,Meyyafushi,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Meyyafushi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 106,Milaidhoo Island Maldives,Baa,B,Milaidhoo,50.0,100.0,3323080,3320274,iyaz.waheed@universalenterprises.com,660 77 88,,welcome@milaidhoo.com,"Universal Enterprises Pvt Ltd 
 39, Orchid Magu
 Male', Republic of Maldives","Universal Enterprises Pvt Ltd 
 39, Orchid Magu
-K.Male', Republic of Maldives",,Operating,Operating,Milaidhoo,[],0,resorts.csv
+K.Male', Republic of Maldives",,Operating,Operating,Milaidhoo,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 107,Nala Maldives by Jawakara,Lhaviyani,Lh,Innahuraa,42.0,84.0,6623434 / 7292415,Website:  www.jawakara.com,reservations@jawakara.com,6620000,6620000,reservations@jawakara.com,"Champalars Holdings Pvt Ltd 
 M. Champa Building, 4th Floor, 
 Male', Republic of Maldives","Champalars Holdings Pvt Ltd 
 M. Champa Building, 4th Floor, 
-Male', Republic of Maldives",-,Operating,Operating,Innahuraa,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Innahuraa,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 108,NH Collection Maldives Havodda Resort,Gaafu Dhaalu,GDh,Havodda,120.0,240.0,3005518,3005516,samantha@crystalplazaresorts.com,684-4888,684-4888,havodda@amari.com,"Crystal Plaza Resorts Pvt Ltd 
 2nd Floor, MF Building
 Chaandhanee Magu
@@ -868,7 +868,7 @@ Chaandhanee Magu
 Male', Republic of Maldives","Minor Hotels Group (Maldives) Pvt Ltd
 Anantara Kihavah Villas
 Kihavah Huravalhi, Baa Atoll
-Republic of Maldives",Operating,Operating,Havodda,[],0,resorts.csv
+Republic of Maldives",Operating,Operating,Havodda,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 109,NH Collection Maldives Reethi Resort,Baa,B,Fonimagoodhoo,109.0,218.0,7988638,-,"manal@salihshihab.co
 edarmawan@aresmgmt.com
 thchua@aresmgmt.com",6602626,6602626,info@reethibeach.com / website: https://www.reethibeach.com/,"Hanifaru Holdings Pvt Ltd 
@@ -880,13 +880,13 @@ Ameer Ahmed Magu,
 Male', Republic of Maldives","Minor Hotel Group (Maldives) Pvt Ltd 
 Anantara Kihavah Villas, 
 Kihavah Huravalhi, Baa Atoll, 
-Republic of Maldives",Operating,Operating,Fonimagoodhoo,[],0,resorts.csv
+Republic of Maldives",Operating,Operating,Fonimagoodhoo,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 110,nH Maldives Kuda Rah Resort,Alifu Dhaalu,ADh,Kudarah,51.0,102.0,6680000,6681000,rm.kudarah@amayaresorts.com,6 6 80000,6 6 80000,reservations.kudarah@amayaresorts.com,"Luxury Resort Pvt Ltd 
 G. Thoanee Asseyri, Ground Floor, 
 Male', Republic of Maldives","Luxury Resort Pvt Ltd 
 G. Thoanee Asseyri, Ground Floor, 
 Male', Republic of Maldives","Minor Hotel Group (Maldives) Private Limited
-Anantara Kihavah Villas, B. Kihavah Huravalhi, Republic of Maldives",Operating,Operating,Kudarah,[],0,resorts.csv
+Anantara Kihavah Villas, B. Kihavah Huravalhi, Republic of Maldives",Operating,Operating,Kudarah,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 111,Nika Island Resort and Spa,Alifu Alifu,AA,Kudafolhudhoo,52.0,104.0,"7771643
 6660516
 3314541",3325097,nika_htl@dhivehinet.net.mv,6660516,6660516,reservation@nikaisland.com.mv,"Nika Maldives Pvt.Ltd. 
@@ -895,17 +895,17 @@ M. West House, Chambeylee Magu
 Male', Republic of Maldives","Nika Maldives Pvt.Ltd. 
 M. West House, Chambeylee Magu
 Male', Republic of Maldives
-nika_htl@dhivehinet.net.mv",-,Operating,Operating,Kudafolhudhoo,[],0,resorts.csv
+nika_htl@dhivehinet.net.mv",-,Operating,Operating,Kudafolhudhoo,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 112,Niva Dhigali Maldives,Raa,R,Dhigali,181.0,362.0,3323080,3333618,info@coraledge.com.mv,6586060,6586060,info@dhigali.com,"Coral Edge Pvt Ltd 
 M. Rukkara, Fulooniyaa Magu, 
 Male', Republic of Maldives","Coral Edge Pvt Ltd
 M. Rukkara, Fulooniyaa Magu, 
-Male', Republic of Maldives",,Operating,Operating,Dhigali,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Dhigali,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 113,Niva Kuramathi Maldives,Alifu Alifu,AA,Kuramathi,395.0,790.0,3323080,3333618,iyaz.waheed@universalenterprises.com,6660527,6660527,info@kuramathi.com,"Universal Enterprises Pvt. Ltd. 
 H. 39, Orchid Magu
 Male', Republic of Maldives","Universal Enterprises Pvt. Ltd. 
 H. 39, Orchid Magu
-Male', Republic of Maldives",-,Operating,Operating,Kuramathi,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Kuramathi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 114,Niva Velassaru Maldives,Kaafu,K,Velassaru,129.0,258.0,"3323080
 6643042","3320274
 3322678",sales@unient.com.mv,6643041,6643041,reservations@velassaru.com / info@velassaru.com,"Universal Enterprises Ltd.
@@ -913,7 +913,7 @@ Male', Republic of Maldives",-,Operating,Operating,Kuramathi,[],0,resorts.csv
 Male', Republic of Maldives","Universal Enterprises Ltd.
 39, Orchid Magu
 Male', Republic of Maldives
-sales@unient.com.mvv",-,Operating,Operating,Velassaru,[],0,resorts.csv
+sales@unient.com.mvv",-,Operating,Operating,Velassaru,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 115,Niyama Maldives,Dhaalu,Dh,Embudhufushi and Olhuveli,139.0,278.0,3005552,3005553,"reservations@niyama.com
 info.pniy@niyama.com",6762828,654-6666,reservations@niyama.com / info.pniy@niyama.com,"O Plus E Holding Pvt. Ltd
 H. Meerubahuruge Aage, 1st Floor
@@ -924,7 +924,7 @@ Ameeru Ahmed Magu
 Republic of Maldives","Minor International (Labuan) Limited 
 Level 5 (A1) Main Office Tower,
 Financial Park Labuan, Jalan Merdeka 8700
-F.T. Labuan Malaysia",Operating,Operating,Embudhufushi|Olhuveli,[],0,resorts.csv
+F.T. Labuan Malaysia",Operating,Operating,Embudhufushi|Olhuveli,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 116,Noku Maldives Vignette Collection,Noonu,N,Kudafunafaru,50.0,100.0,3013200,,shahdy@suoodanwar.com,656 2020,656 2020,info@nokuhotels.com,"Roxy Maldives Resort & Spa Pvt Ltd 
 H. Millenia Tower, #02-01
 10 Ameer Ahmed Magu
@@ -934,7 +934,7 @@ H. Millenia Tower, #02-01
 Male', Republic of Maldives","Sustainable Luxury Maldives Pvt Ltd
 M. Lux Lodge
 Orchid Magu
-Male', Republic of Maldives",Operating,Operating,Kudafunafaru,[],0,resorts.csv
+Male', Republic of Maldives",Operating,Operating,Kudafunafaru,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 117,Nooe Maldives Kunavashi,Vaavu,V,Kunaavashi,50.0,100.0,9333355,,simon.douthett@laviehotels.com,,,,"C.J.L Investments Pvt Ltd 
 M. Chandhaneege, 3rd Floor
 Alhivilaa Magu
@@ -944,28 +944,28 @@ Izzuddheen Magu
 Male', Republic of Maldives","La Vie Hotels & Resorts (Maldives) Pvt Ltd 
 H. Aage (6th Floor)
 Boduthakurufaanu Magu
-Male', Republic of Maldives",Operating,Operating,Kunaavashi,[],0,resorts.csv
+Male', Republic of Maldives",Operating,Operating,Kunaavashi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 118,Nova Maldives,Alifu Dhaalu,ADh,Vakarufalhi,57.0,114.0,7908835,,afzam.zuhury@reollo.com,7261212,7261212,hello@nova-maldives.com,"Nova Resorts Pvt Ltd 
 4th Floor , M. Kaneeru Villa
 Orchid Magu
 Male', Republic of Maldives","Athama Travels and Trade Pvt. Ltd. 
 G. Dhivehi Atha
 Majeedhee Magu
-Male', Republic of Maldives",,Operating,Operating,Vakarufalhi,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Vakarufalhi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 119,Oaga Art Resort,Kaafu,K,Maaranfushi,62.0,124.0,3342737,,"info@oagaresorts.com, info@radhun-resorts.com",3316242,3316242,"info@oagaresorts.com, info@radhun-resorts.com","Radhun Resort and Investments Private Limited 
 H. Ranrinbudhoo
 Ameer Ahmed Magu
 Male’, Republic of Maldives","Radhun Resort and Investments Private Limited 
 H. Ranrinbudhoo
 Ameer Ahmed Magu
-Male’, Republic of Maldives",,Not Operating,Not Operating,Maaranfushi,[],0,resorts.csv
+Male’, Republic of Maldives",,Not Operating,Not Operating,Maaranfushi,[],0,resorts.csv,Not Operating,Operating,cross_checked,high,True,"CSV says Not Operating, but official website, official opening notice, Booking.com, Agoda, and trade news support Operating."
 120,Oblu By Atmosphere at Helengeli,Kaafu,K,Helengeli,176.0,352.0,3339992,3339998,fc@oblu-helengeli.com,4000077,4000077,sales.helengeli@coloursofoblu.com/ https://oblunaturehelengeli.com-maldives.com/en/,"S.P.C Pvt Ltd 
 (East Wing) Aage, 2nd Floor
 12 Boduthakurufaanu Magu
 Male, Rep. of Maldives","Helengeli Island Resort Pvt Ltd 
 H.Orchid Maage  
 Ameer Ahmed Magu
-Male', Rep. of Maldives",,Operating,Operating,Helengeli,[],0,resorts.csv
+Male', Rep. of Maldives",,Operating,Operating,Helengeli,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 121,Oblu Select by Atmosphere at Sangeli,Kaafu,K,Akirifushi,114.0,288.0,3339992,3339998,"info@eonresorts.com
 
 shrikant@atmospherehotelsandresorts.com",400 4501,,sales@oblu-sangeli.com,"North East Pvt Ltd 
@@ -974,7 +974,7 @@ Boduthakurufaanu Magu
 Male', Republic of Maldives","Akirifushi Investments Pvt Ltd 
 Ma. Milano, 2nd Floor
 Rahdhebai Magu
-Male', Republic of Maldives",,Operating,Operating,Akirifushi,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Akirifushi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 122,"One & Only Reethi Rah, Maldives",Kaafu,K,Medhufinolhu,134.0,268.0,3310550,3310660,reservations@oneandonlyreethirah.com,6648800,6648800,reservations@oneandonlyreethirah.com,"Reethi Rah Resort Pvt. Ltd.
 1st Floor, Fasmeeru Building
 Boduthakurufaanu Magu
@@ -984,7 +984,7 @@ Boduthakurufaanu Magu
 Male', Republic of Maldives","One & Only (Indian Ocean) Management Ltd.
 1st Floor, Fasmeeru building 
 Boduthakurufaanu magu
-Male', Republic of Maldives",Operating,Operating,Medhufinolhu,[],0,resorts.csv
+Male', Republic of Maldives",Operating,Operating,Medhufinolhu,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 123,Outrigger Maldives Maafushivaru Resort,Alifu Dhaalu,ADh,Maafushivaru,93.0,186.0,7770948,Website: https://www.outrigger.com/,juni@sandalawyers.com,6680001,6680001,maldives.maafushivaru@outrigger.com,"OM Maldives Pvt Ltd 
 #02-01 Millennia Tower
 Ameer Ahmed Magu
@@ -994,7 +994,7 @@ Ameer Ahmed Magu
 Male', Republic of Maldives","OGHM Private Limited 
 H. #04-01 Millenia Tower
 Ameer Ahmed Magu
-Male', Republic of Maldives",Operating,Operating,Maafushivaru,[],0,resorts.csv
+Male', Republic of Maldives",Operating,Operating,Maafushivaru,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 124,Ozen By Atmosphere At Maadhoo,Kaafu,K,Maadhoo,107.0,214.0,3339992,3339998,shrikant@atmospherehotelsandresorts.com,400 2222,400 2222,reservations@ozen-maadhoo.com.,"D.P.C Private Limited 
 H.Aage, 3rd Floor
 12, Boduthakurufaanu Magu
@@ -1005,7 +1005,7 @@ Orchid Magu
 Male', Rep. of Maldives","Atmosphere Core Pte Ltd 
 H. Aage, 03rd Floor
 12, Boduthakurufaanu Magu
-Male', Republic of Maldives",Operating,Operating,Maadhoo,[],0,resorts.csv
+Male', Republic of Maldives",Operating,Operating,Maadhoo,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 125,Park Hyatt Maldives Hadahaa,Gaafu Alifu,GA,Hadahaa,56.0,112.0,3313388,331 6783,info@driftwoodmaldives.com,6821234,6821234,maldives.parkhadahaa@hyatt.com | Website: www.hyatt.com,"Driftwood Maldives Pvt.Ltd.
 M. Vaarey Villa
 Izzudeen Magu
@@ -1015,7 +1015,7 @@ Izzudeen Magu
 Male', Republic of Maldives","Hyatt International - South West Asia Ltd (FC), 
 Al Kifaf Building, 27th Floor,
 Zabeel Area, PO Box 506727,
-Dubai, United Arab Emirates",Operating,Operating,Hadahaa,[],0,resorts.csv
+Dubai, United Arab Emirates",Operating,Operating,Hadahaa,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 126,"Patina Maldives, Fari Islands",Kaafu,K,Fari Veli Huraa,123.0,246.0,7846861,,marco.denouden@patinahotels.com / chris.chuah@mesarf.com,4000555,4000555,reservations.maldives@patinahotels.com,"Tomlinson Investment Pvt Ltd
 H. Millenia Tower, #02-01
 10 Ameer Ahmed Magu
@@ -1025,7 +1025,7 @@ Orchid Magu
 Male', Republic of Maldives","Capella Hotel Group Management (Maldives) Pvt Ltd 
 H. Millenia Tower, #02-01
 10 Ameer Ahmed Magu
-Male', Republic of Maldives",Operating,Operating,Fari Veli Huraa,[],0,resorts.csv
+Male', Republic of Maldives",Operating,Operating,Fari Veli Huraa,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 127,Pullman Maldives Maamutaa Resort,Gaafu Alifu,GA,Maamutaa,136.0,271.0,3333887,3011699,erah@keonghong.com,6820909,6820909,H9924@accor.com,"Pristine Islands Investment (Maldives)Pvt Ltd 
 G. Alhifashuviaage, 3rd floor, Dharumavantha Magu, 
 Male', Republic of Maldives","Pristine Islands Investment (Maldives) Pvt Ltd
@@ -1033,7 +1033,7 @@ G. Alhifashuviaage, 3rd floor,
 Dharumavantha Magu,
 Male', Republic of Maldives","AAPC (Maldives) Private Limited 
 C/O H. Shah, Hussain & Co. Barristers and Attorneys, 6th Floor, Aage, 12 Boduthakurufaanu Magu,
-Male', Republic of Maldives",Operating,Operating,Maamutaa,[],0,resorts.csv
+Male', Republic of Maldives",Operating,Operating,Maamutaa,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 128,Raaya by Atmosphere,Raa,R,Kudakurathu,200.0,400.0,7902612 / 77777242,,mohdhussainf@gmail.com,4001400,4001400,raaya@amari.com,"Kudakurathu Island Resort Pvt Ltd
 Ma. Dawn Shine
 Zamaanee Goalhi
@@ -1043,21 +1043,21 @@ Zamaanee Goalhi
 Male', Republic of Maldives","Atmosphere Core Pvt Ltd 
 H. Aage, 6th Floor
 Boduthakurufaanu Magu
-Male', Republic of Maldives",Operating,Operating,Kudakurathu,[],0,resorts.csv
+Male', Republic of Maldives",Operating,Operating,Kudakurathu,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 129,Radisson Blu Resort Maldives,Alifu Dhaalu,ADh,Huruelhi,160.0,320.0,9151593,3310940,james.wong@changhua.com.sg,9151593,9151593,james.wong@changhua.com.sg / eunice.tan@carlsonrezidor.com,"Huruelhi Investment Pvt Ltd 
 M. Faamudheyrige, 6A, 
 Orchid Magu, 
 Male', Republic of Maldives","Huruelhi Investment Pvt Ltd 
 M. Faamudheyrige, 6A, 
 Orchid Magu, 
-Male', Republic of Maldives",,Operating,Operating,Huruelhi,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Huruelhi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 130,Rah Gili Maldives,Kaafu,K,Mahaana elhi Huraa,42.0,84.0,9330339,Website: https://rahgili.com/,harish@dhonmaaga.com,+960 401 4001,+960 401 4001,marketing@rahgili.com,"BeachX Pvt Ltd 
 H. Aage, 3rd Floor,
 Boduthakurufaanu Magu, 
 Male', Republic of Maldives","Maahal Tours Pvt Ltd 
 Ma. Thandinoomaage, Ground Floor, 
 Badifasgandu Magu, 
-Male', Republic of Maldives",-,Operating,Operating,Mahaana elhi Huraa,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Mahaana elhi Huraa,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 131,Rahaa Resort,Laamu,L,Kudafares and Fares,81.0,162.0,"6800044
 7428005",,"info@rahaaresort.com
 ismail@rahaaresort.com",,,rahaa@rahaaresort.com,"MO Hotels and Resorts Pvt Ltd 
@@ -1066,14 +1066,14 @@ Fareedhee Magu
 Male', Republic of Maldives","Heavy Load Maldives Pvt Ltd 
 M. Gulhazaaruge 
 Fareedhee Magu 
-Male', Republic of Maldives",,Operating,Operating,Kudafares|Fares,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Kudafares|Fares,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 132,Reethi Faru Resort,Raa,R,Filaidhoo,164.0,328.0,3312626,4004445,shihab@reethifaru.com,400-4000,400-4000,inquiry@reethifaru.com,"Mahogany Pvt Ltd 
 H. Maadhooge, 1st Floor
 Karankaa Magu
 Male', Republic of Maldives","Mahogany Pvt Ltd 
 H. Maadhooge, 1st Floor
 Karankaa Magu
-Male', Republic of Maldives",,Operating,Operating,Filaidhoo,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Filaidhoo,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 133,Riu Atoll and Riu Palace Maldivas,Dhaalu,Dh,Maafushi and Kedhigandu,440.0,880.0,3333644,3315453,dheena@shclawyers.com,3333644,3315453,pfernandezb@riu.com,"Riu Atoll Pvt. Ltd. 
 Shah, Hussain & Co. Barristers and Attorneys 
 6th Floor, H. Aagé
@@ -1082,21 +1082,21 @@ Male', Republic of Maldives","Riu Atoll Pvt. Ltd.
 Shah, Hussain & Co. Barristers and Attorneys 
 6th Floor, H. Aagé
 12 Boduthakurufaanu Magu, 
-Male', Republic of Maldives",,Operating,Operating,Maafushi|Kedhigandu,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Maafushi|Kedhigandu,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 134,Robinson Maldives,Gaafu Alifu,GA,Funamauddua,124.0,248.0,7970051,-,Monalisa.Roy@robinson.com,6820000,6820000,Reservation.Maldives@robinson.com / maldives@robinson.com,"Robinson Club Maldives Pvt Ltd 
 H. Maaram Building, 5th Floor, 
 Ameer Ahmed Magu, 
 Male', Republic of Maldives","Robinson Club Maldives Pvt Ltd 
 H. Maaram Building, 5th Floor, 
 Ameer Ahmed Magu, 
-Male', Republic of Maldives",-,Operating,Operating,Funamauddua,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Funamauddua,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 135,Robinson Noonu,Noonu,N,Orivaru,150.0,300.0,3009095,4004445,officemanager.maldives@robinson.com bjoern.thuemmel@robinson.com,4004444,4004445,noonu@robinson.com,"Robinsion Club Maldives Pvt Ltd 
 H. Maaram, 5th Floor
 Ameer Ahmed Magu
 Male', Republic of Maldives","Robinsion Club Maldives Pvt Ltd
 H. Maaram, 5th Floor
 Ameer Ahmed Magu
-Male', Republic of Maldives",,Operating,Operating,Orivaru,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Orivaru,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 136,Royal Island Resort and Spa,Baa,B,Horubadhoo,152.0,304.0,332 5195,"332 5177
 6600088",info@villa.com.mv,660 0088,660 0088,bookings@royal-island.com.mv,"Villa Shipping and Trading Company Pvt Ltd 
 Villa Building
@@ -1104,24 +1104,24 @@ Ibrahim Hassan Didi Magu
 Male', Republic of Maldives","Island Travel and Trade Pvt. Ltd
 Villa Building
 Ibrahim Hassan Didi Magu
-Male', Republic of Maldives",,Operating,Operating,Horubadhoo,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Horubadhoo,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 137,Saii Lagoon Maldives,Kaafu,K,Eh'mafushi,170.0,340.0,+9606651300,,rsvn.lagoon@SAiiresorts.com,6651300,6651300,info.lagoon@saiiresorts.com,"Dream Islands Development 2 Pvt. Ltd. 
 H. #02-01, Millennia Tower, 10 Ameer Ahmed Magu, Male', Republic of Maldives","Dream Islands Development 2 Pvt. Ltd. 
-H. #02-01, Millennia Tower, 10 Ameer Ahmed Magu, Male', Republic of Maldives",,Operating,Operating,Eh'mafushi,[],0,resorts.csv
+H. #02-01, Millennia Tower, 10 Ameer Ahmed Magu, Male', Republic of Maldives",,Operating,Operating,Eh'mafushi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 138,Sandies Bathala,Alifu Alifu,AA,Bathala,70.0,140.0,7905040,,resmg.thudufushi@diamonds-resorts.com,4002400,-,info.bathala@sandies-resorts.com,"Away Hotels Maldives Pvt. Ltd. 
 M. Veeza 
 Dhambu Goalhi 20190
 Male’, Republic of Maldives","B Resorts Investment Pvt. Ltd. 
 G. Neem Building, 3rd Floor
 Majeedhee Magu
-Male’, Republic of Maldives",-,Operating,Operating,Bathala,[],0,resorts.csv
+Male’, Republic of Maldives",-,Operating,Operating,Bathala,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 139,Shangri-la Villingili Maldives,Seenu,S,Villingili,11.0,22.0,3321378,Website: www.shangri-la.com/male/villingiliresort/,slmd@shangri-la.com,6897888,6897888,slmd@shangri-la.com,"Addu Investments Pvt Ltd 
 Ma. No. 379, 
 Male', Kaafu Atoll, 
 Republic of Maldives","Addu Investments Pvt Ltd 
 Ma. No. 379, 
 Male', Kaafu Atoll, 
-Republic of Maldives",,Operating,Operating,Villingili,[],0,resorts.csv
+Republic of Maldives",,Operating,Operating,Villingili,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 140,Sheraton Maldives Full Moon Resort & Spa,Kaafu,K,Furanafushi,176.0,352.0,7931698,,vijay.kumar@marriott.com,6642010,6642010,sheraton.maldives@sheraton.com,"Manta Resort Holdings II Pvt. Ltd 
 H. #02-01, Millennia Tower
 10 Ameer Ahmed Magu 20026
@@ -1131,14 +1131,14 @@ H. #02-01, Millennia Tower
 Male', Republic of Maldives","Marriott Hotels Maldives Pvt Ltd
 H. #04-01, Millennia Tower
 10 Ameer Ahmed Magu 20026
-Male', Republic of Maldives",Operating,Operating,Furanafushi,[],0,resorts.csv
+Male', Republic of Maldives",Operating,Operating,Furanafushi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 141,Sirru Fen Fushi,Shaviyani,Sh,Gaakoshibee,149.0,298.0,6548888 / 3013200,,shahdy@suoodanwar.com,6548888 / 3013200,,mld.reservations.maldives@fairmont.com /,"GBH Maldives Resorts Pvt Ltd 
 #02-01, H.Millenia Tower
 10 Ameeru Ahmed Magu
 Male', Republic of Maldives","GBH Maldives Resorts Pvt Ltd 
 #02-01, H.Millenia Tower
 10 Ameeru Ahmed Magu
-Male', Republic of Maldives",,Operating,Operating,Gaakoshibee,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Gaakoshibee,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 142,Six Senses Kanuhura,Lhaviyani,Lh,Kanuhuraa,96.0,192.0,7786424,,mohamed.riza@sixsenses.com,6620044,6620044,info@sixsenses.com / http://www.sixsenses.com/,"Leisure Oceans Pvt Ltd 
 H. Millenia Tower
  Ameer Ahmed Magu
@@ -1148,7 +1148,7 @@ H. Millenia Tower
  Male’, Republic of Maldives","Sustainable Luxury Maldives Pvt Ltd 
 M. Lux Lodge
  Orchid Magu 2013
-Male’, Republic of Maldives",Operating,Operating,Kanuhuraa,[],0,resorts.csv
+Male’, Republic of Maldives",Operating,Operating,Kanuhuraa,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 143,Six Senses Laamu,Laamu,L,Olhuveli,99.0,198.0,301 3200,,"shahdy@suoodanwar.com
 may.anchoriz@sixsenses.com",680 0800,,reservations-laamu@sixsenses.com," Leisure Frontiers Pvt. Ltd
  H.#02-01, Millenia Tower
@@ -1156,14 +1156,14 @@ may.anchoriz@sixsenses.com",680 0800,,reservations-laamu@sixsenses.com," Leisure
  Male', Rep of Maldives","Leisure Frontiers Pvt. Ltd
  H.#02-01, Millenia Tower
  10, Ameeru Ahmed Magu
- Male', Rep of Maldives",,Operating,Operating,Olhuveli,[],0,resorts.csv
+ Male', Rep of Maldives",,Operating,Operating,Olhuveli,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 144,Siyam World Maldives,Noonu,N,Dhigurah,530.0,1060.0,3325977,,info@siyamworld.com,6567777,,sales@siyamworld.com / stay@siyamworld.com,"Wego Maldives Pvt Ltd 
 H. Sun Siyam Building 
 Boduthakurufaanu Magu 
 Male', Republic of Maldives","Wego Pvt Ltd
 H. Sun Siyam Building 
 Boduthakurufaanu Magu 
-Male', Republic of Maldives",,Operating,Operating,Dhigurah,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Dhigurah,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 145,SO/ Maldives,Kaafu,K,"4° 7’ 24.562” N, 73° 28’ 52.015” E",93.0,186.0,6649100,-,"jespersoerense@so-hotels.com 
 https://so-hotels.com/",,,SO.Maldives@so-hotels.com,"Dream Islands Development 3 Pvt Ltd
 H. Millenia Tower, #02-0110 
@@ -1171,7 +1171,7 @@ Ameer Ahmed Magu
 Male', Republic of Maldives","Dream Islands Development 2 Pvt Ltd
 H. Millenia Tower, #02-0110 
 Ameer Ahmed Magu
-Male', Republic of Maldives",,Operating,Operating,,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 146,Soneva Fushi Resort,Baa,B,Kunfunadhoo,176.0,352.0,3017201,,mgr-male@soneva.com,660 0304,660 0304,mail@soneva.com,"Soneva Management (BVI) Limited
 Jazeera Building, 4th Floor
 Boduthakurufaanu Magu
@@ -1181,7 +1181,7 @@ Boduthakurufaanu Magu
 Male', Republic of Maldives","Soneva Management (BVI) Limited
 Jazeera Building, 4th Floor
 Boduthakurufaanu Magu
-Male', Republic of Maldives",Operating,Operating,Kunfunadhoo,[],0,resorts.csv
+Male', Republic of Maldives",Operating,Operating,Kunfunadhoo,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 147,Soneva Jani,Noonu,N,Medhufaru,98.0,196.0,"6600304
 3326686",6600374,patrickm@soneva.com,656 6666,656 6666,reservations@soneva.com,"Hillside Villa Pvt Ltd 
 H. Jazeera Building, 4th Floor
@@ -1192,7 +1192,7 @@ Boduthakurufaanu Magu
 Male', Maldives","Soneva Management (BVI) Ltd. 
 H. Jazeera Building, 4th Floor
 Boduthakurufaanu Magu
-Male', Repubic of Maldives",Operating,Operating,Medhufaru,[],0,resorts.csv
+Male', Repubic of Maldives",Operating,Operating,Medhufaru,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 148,Soneva Secret,Haa Dhaalu,HDh,Dhipparufushi,30.0,60.0,7792656,-,mgr-male@soneva.com,4010000,4010000,reservations@soneva.com,"Secret Venture Pvt Ltd 
 H. Jazeera Building, 4th Floor
 Boduthakurufaanu Magu
@@ -1202,14 +1202,14 @@ Boduthakurufaanu Magu
 Male', Republic of Maldives","Soneva Management (BVI) Ltd (FC)
 H. Jazeera Building, 4th Floor
 Boduthakurufaanu Magu
-Male', Republic of Maldiv",Operating,Operating,Dhipparufushi,[],0,resorts.csv
+Male', Republic of Maldiv",Operating,Operating,Dhipparufushi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 149,South Palm Resort Maldives,Seenu,S,Ismehelahera Kedevaahera,130.0,260.0,6890010,,reservations@southpalmresort.com,6890009,6890009,reservations@southpalmresort.com,"South Palm Maldives Pvt Ltd 
 Keytha 
 Feydhoo, Seenu Atoll
 Republic of Maldives","South Palm Maldives Pvt Ltd 
 Keytha 
 Feydhoo, Seenu Atoll
-Republic of Maldives",,Operating,Operating,Ismehelahera Kedevaahera,[],0,resorts.csv
+Republic of Maldives",,Operating,Operating,Ismehelahera Kedevaahera,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 150,Summer Island Maldives,Kaafu,K,Ziyaaraiyfushi,157.0,314.0,"3322212
 3318005",3318057,reservations@summerislandmaldives.com,664 1949,664 1949,reservations@summerislandmaldives.com,"Kaimoo Travels and Hotel Services Pvt. Ltd.
 H. Maagala
@@ -1217,7 +1217,7 @@ Meheli Goalhi
 Male', Republic of Maldives","Ziyaraiy Maldives Pvt. Ltd. 
 M. Nooranee Aage 
 Ameer Ahmed Magu
-Male', Republic of Maldives",-,Operating,Operating,Ziyaaraiyfushi,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Ziyaaraiyfushi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 151,Sun Siyam Iru Fushi Maldives,Noonu,N,Medhafushi,224.0,448.0,3325977,"3333897/
 332 0419",info@sunsiyam.com,6560591,6560591,ecommerce.irufushi@sunsiyam.com,"Sun Travels & Tours Pvt Ltd
 H. Sun Siyam Building
@@ -1228,28 +1228,28 @@ Boduthakurufaanu Magu
 Male', Republic of Maldives","Iru Hotels & Resorts Pvt Ltd,
 H. Sun Siyam Building, 
 Boduthakurufaanu Magu, 
-Male', Republic of Maldives",Operating,Operating,Medhafushi,[],0,resorts.csv
+Male', Republic of Maldives",Operating,Operating,Medhafushi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 152,Sun Siyam Iru Veli Maldives,Dhaalu,Dh,Aluvifushi,127.0,254.0,3325977,3333897,info@sunsiyam.cm,6760022,6760022,rsvn.iruveli@sunaqua.com,"Ocean Islands Pvt Ltd 
 H. Sun Siyam Building
 Boduthakurufaanu Magu
 Male', Republic of Maldives","Ocean Islands Pvt Ltd 
 H. Sun Siyam Building
 Boduthakurufaanu Magu
-Male', Republic of Maldivesmaldives.com.mv",,Operating,Operating,Aluvifushi,[],0,resorts.csv
+Male', Republic of Maldivesmaldives.com.mv",,Operating,Operating,Aluvifushi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 153,Sun Siyam Olhuveli Maldives,Kaafu,K,Olhuveli,460.0,920.0,3325977,3333897,info@sunsiyam.com,6642788,6642788,customercare@olhuvelimaldives.com,"Emerald Resort Pvt. Ltd. 
 H. Sun Siyam Building, 
 Boduthakurufaanu Magu, 
 Male', Republic of Maldives","Hotels and Resorts Holding Pvt. Ltd. 
 H. Sun Siyam Building, 
 Boduthakurufaanu Magu,
-Male', Republic of Maldives",-,Operating,Operating,Olhuveli,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Olhuveli,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 154,Sun Siyam Vilu Reef Maldives,Dhaalu,Dh,Meedhuffushi,104.0,208.0,3329110,3333897,admin@suntravelmaldives.com.mv,6760011,6760011,ecommerce.vilureef@sunsiyam.com,"Sun Investments Pvt. Ltd. 
 H. Sun Siyam Building
 Boduthakurufaanu Magu
 Male', Republic of Maldives","Sun Investments Pvt. Ltd. 
 H. Sun Siyam Building
 Boduthakurufaanu Magu
-Male', Republic of Maldives",-,Operating,Operating,Meedhuffushi,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Meedhuffushi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 155,Taj Coral Reef Resort and Spa,Kaafu,K,Hembadhu,64.0,128.0,3317530,3314059,tajmale@dhivehinet.net.mv,664-1948,,tajcoralreef@tajhotels.com,"Tal Maldives Resorts Pvt. Ltd.
 (Taj Group of Hotels, India)
 G. Maajehige, 1st Floor
@@ -1260,13 +1260,13 @@ Male', Republic of Maldives
 G. Maajehige, 1st Floor
 Lily Magu
 Male', Republic of Maldives
-tajmale@dhivehinet.net.mv",,Operating,Operating,Hembadhu,[],0,resorts.csv
+tajmale@dhivehinet.net.mv",,Operating,Operating,Hembadhu,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 156,Taj Exotica Resort & Spa Maldives,Kaafu,K,Embudhu Finolhu,67.0,134.0,3317530,,exotica.maldives@tajhotels.com,400600,400600,exotica.maldives@tajhotels.com,"TAL Maldives Resorts Pvt. Ltd 
 H. Sifa, 4th Floor B
 Boduthakurufaanu Magu
 Male', Republic of Maldives","Hima Holdings Pvt Ltd
 2/44 Orchid Magu
-Male', Republic of Maldives",,Operating,Operating,Embudhu Finolhu,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Embudhu Finolhu,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 157,The Halcyon Private Isles Maldives Autograph Collection,Gaafu Alifu,GA,Meradhoo,50.0,100.0,6828800/,-,reservations@thehalcyonmaldives.com,6828800,-,reservations@thehalcyonmaldives.com,"CDL HBT Oceanic Maldives Pvt Ltd 
 H. Millennia Tower, #02-01, 10 Ameer Ahmed Magu 20026, 
 Male', Republic of Maldives","CDLHT Oceanic Maldives Pvt Ltd 
@@ -1274,28 +1274,28 @@ H. Millennia Tower, #02-01, 10 Ameer Ahmed Magu 20026,
 Male', Republic of Maldives","Apara Hotel Management Maldives Pvt Ltd,
 H. Millennia Tower, #02-01, 10
 Ameer Ahmed Magu, 
-Male', Republic of Maldives",Operating,Operating,Meradhoo,[],0,resorts.csv
+Male', Republic of Maldives",Operating,Operating,Meradhoo,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 158,The Nautilus Maldives,Baa,B,Thiladhoo,31.0,62.0,6600000,6600001,akheel.muhsin@reollo.com / althaf@thenautilusmaldives.com,6600000,6600000,hello@thenautilusmaldives.com,"Thiladhoo Resorts Pvt Ltd
 M. Sakkeyogasdhoshuge, 
 Fiyaathoshi Magu, 
 Male', Republic of Maldives","Thiladhoo Resorts Pvt Ltd
 M. Sakkeyogasdhoshuge, 
 Fiyaathoshi Magu, 
-Male', Republic of Maldives",,Operating,Operating,Thiladhoo,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Thiladhoo,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 159,The Residence Maldives,Gaafu Alifu,GA,Falhumaafushi,100.0,200.0,682-0088,330 9041,msundaram@theresidence.com,682-0088,,msundaram@theresidence.com,"Bonaventure (Maldives) Pvt. Ltd
 Ma. Malaaz
 Huvandhuma Goalhi 
 Male', Republic of Maldives","Bonaventure (Maldives) Pvt. Ltd
 Ma. Malaaz
 Huvandhuma Goalhi 
-Male', Republic of Maldives",,Operating,Operating,Falhumaafushi,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Falhumaafushi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 160,The Residence Maldives At Dhigurah,Gaafu Alifu,GA,Dhigurah,185.0,370.0,6820088,,chpl@dhinet.net.mv,6820088,6820088,chpl@dhinet.net.mv,"Bonavista (Maldives) Pvt Ltd 
 Ma. Malaaz, 
 Huvandhumaa Goalhi, 
 Male, Republic of Maldives","Bonavista (Maldives) Pvt Ltd 
 Ma. Malaaz, 
 Huvandhumaa Goalhi, 
-Male, Republic of Maldives",,Operating,Operating,Dhigurah,[],0,resorts.csv
+Male, Republic of Maldives",,Operating,Operating,Dhigurah,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 161,The Ritz Carlton Maldives Fari Islands,Kaafu,K,Fari Kandu Huraa,117.0,234.0,7797779,-,shahdy@sandalawyers.com,4000999,4000999,maldives.reservations@ritzcarlton.com,"CPRC (Maldives) Pvt Ltd 
 H. Millenia Tower, #02-01,
 10 Ameer Ahmed Magu,
@@ -1305,7 +1305,7 @@ Orchid Magu
 Male', Republic of Maldives","Marriot Hotels Maldives Pvt Ltd
 H. Millenia Tower, #04-01
 10 Ameer Ahmed Magu
-Male', Republic of Maldives",Operating,Operating,Fari Kandu Huraa,[],0,resorts.csv
+Male', Republic of Maldives",Operating,Operating,Fari Kandu Huraa,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 162,"The St. Regis Vommuli Resort, Maldives",Dhaalu,Dh,Vommuli,95.0,190.0,9946464,,sascapital@theresidency.com,6763636,6763636,sascapital@theresidency.com,"SAS Capital Private Limited 
 6A, M. Faamdheyrige
 Orchid Magu
@@ -1315,7 +1315,7 @@ Orchid Magu,
 Male', Republic of Maldives","Starwood Asia Pacific Hotels and Resorts Pte Ltd 
 06 Temasek Boulevard
 #04-01 Suntee Tower Four
-Singapore 038986",Operating,Operating,Vommuli,[],0,resorts.csv
+Singapore 038986",Operating,Operating,Vommuli,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 163,The Standard Huruvalhi Maldives,Raa,R,Huruvalhi,122.0,244.0,,,,658 5555,658 5555,mv.reservations@standardhotels.com,"Snapper Blue Investments Pvt Ltd
 H. Millennia Tower, 10, #02-01, 
 Ameer Ahmed Magu, 
@@ -1325,7 +1325,7 @@ Ameer Ahmed Magu,
 Male', Republic of Maldives","Standard Asia Co. Ltd. 
 No. 59, Rimklong Phrakanong Alley, 
 Phrakanong Nua Sub-District, Wattana District, 
-Bangkok, Thailand",Operating,Operating,Huruvalhi,[],0,resorts.csv
+Bangkok, Thailand",Operating,Operating,Huruvalhi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 164,The Westin Maldives Miriandhoo Resort,Baa,B,Miriandhoo,73.0,146.0,7991100,,majdee.imad@alohamaldives.com,660-4444,660-4444,mlewi.reservation@westinhotels.com,"Miriandhoo Maldives Resorts Pvt Ltd
 M. Whale Shark, 2nd Floor
 Aaburuzu Hingun
@@ -1334,14 +1334,14 @@ M. Whale Shark, 2nd Floor
 Aaburuzu Hingun
 Male', Republic of Maldives","Starwood Asia Pacific Hotels and Resorts Pte Ltd
 02 Harbour Front, Bank of America 
-Merril Lynch, #06-08, Singapore 098499",Operating,Operating,Miriandhoo,[],0,resorts.csv
+Merril Lynch, #06-08, Singapore 098499",Operating,Operating,Miriandhoo,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 165,Thulhagiri Island Resort & Spa,Kaafu,K,Thulhaagiri,87.0,174.0,3313523,3313522,hr@thulhagiri.com.mv,6645930,6645930,reserve@thulhagiri.com.mv,"Angiri Resorts Management & Operations Pvt. Ltd.
 M. New Plot
 Ameenee Magu
 Male', Republic of Maldives","Thulhaagiri Development Pvt. Ltd.
 M. New Plot
 Ameenee Magu
-Male', Republic of Maldives",-,Operating,Operating,Thulhaagiri,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Thulhaagiri,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 166,V Villas Maldives at Mirihi-Mgallery Collection,Alifu Dhaalu,ADh,Mirihi,38.0,76.0,7773152,-,zayan@salihshihab.co,6680500,6680500,info@mirihi.com,"Vie Maldives Pvt Ltd 
 M. Marina Building, Level 7, 
 Koliumaru Maniku Goalhi, 
@@ -1351,14 +1351,14 @@ Koliumaru Maniku Goalhi,
 Male', Republic of Maldives","Accor Luxury Maldives Pvt Ltd
 H. Aage, 6th floor, 12 
 Boduthakurufaanu Magu, 
-Male', Republic of Maldives",Operating,Operating,Mirihi,[],0,resorts.csv
+Male', Republic of Maldives",Operating,Operating,Mirihi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 167,Vakkaru Maldives,Baa,B,Vakkaru,128.0,256.0,7777222,,6699sato@gmail.com,660 7000,660 7000,info@vakkarumaldives.com,"Efzy Holdings Pvt Ltd 
 H. Millennium
 Lansimoo Goalhi
 Male', Republic of Maldives","Efzy Holdings Pvt Ltd
 H. Millennium
 Lansimoo Goalhi
-Male', Republic of Maldives",,Operating,Operating,Vakkaru,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Vakkaru,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 168,Varu Island Resort,Kaafu,K,Madivaru,125.0,250.0,3333000,3333713,imran.ali@shuaz.mv,400700,400700,imran.ali@shuaz.mv,"Shuaz Investment Pvt Ltd 
 M. Shuaz 
 Orchid Magu 
@@ -1368,21 +1368,21 @@ Seeraazee Goalhi
 Male', Republic of Maldives","Prospect Pvt Ltd 
 H. Aage (6th Floor) 
 Boduthakurufaanu Magu
-Male', Republic of Maldives",Operating,Operating,Madivaru,[],0,resorts.csv
+Male', Republic of Maldives",Operating,Operating,Madivaru,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 169,Velaa Private Island Maldives,Noonu,N,Fushivelaavaru,67.0,134.0,3010011,301 0022,Mohamed.Mausoom@velaaisland.com,6565000,6565000,info@velaaprivateisland.com,"Velaa Island Maldives Pvt Ltd 
 M. Uniya, 4th Floor
 Fareedhee Magu, 
 Male', Republic of Maldives","Velaa Asset Management Pvt Ltd 
 M. Kaneeru Villa, 6th Floor
 Orchid Magu 2012, 
-Male', Republic of Maldives",,Operating,Operating,Fushivelaavaru,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Fushivelaavaru,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 170,Veligandu Maldives Resort Island,Alifu Alifu,AA,Veligan'du,100.0,200.0,3322432,3324009,info@crowncompany.com,666 0519,666 0519,reservations@veligandu.com,"Crown Company Pvt. Ltd. 
 Fasmeeru Building, 6th Floor
 Boduthakurufaanu Magu
 Male', Republic of Maldives","Crown Company Pvt. Ltd. 
 Fasmeeru Building, 6th Floor
 Boduthakurufaanu Magu
-Male', Republic of Maldives",-,Operating,Operating,Veligan'du,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Veligan'du,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 171,Vilamendhoo Island Resort,Alifu Dhaalu,ADh,Vilamendhoo,184.0,368.0,"3314149
 7983342",,cfo@champaresorts.com,,,,"Vilamendhoo Investments Pvt. Ltd.
 Champa Building, 3rd Floor
@@ -1390,21 +1390,21 @@ Kandidhon Manik Goalhi
 Male', Republic of Maldives","Vilamendhoo Investments Pvt. Ltd.
 Champa Building, 3rd Floor
 Kandidhon Manik Goalhi
-Male', Republic of Maldives",,Operating,Operating,Vilamendhoo,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Vilamendhoo,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 172,Villa Nautica Paradise Island,Kaafu,K,Lankanfinolhu,284.0,568.0,3344777,3325177,info@villa.com.mv,3316161,3316161,hello@villaresorts.com,"Villa Shipping & Trading Company Pvt.Ltd.
 (on behalf of Diza Trade & Travels Pvt. Ltd.)
 Villa Building, Ibrahim Hassan Didi Magu
 Male', Republic of Maldives","Diza Travel & Trade Pvt. Ltd.
 Villa Building, Ibrahim Hassan Didi Magu
 Male', Republic of Maldives
-info@villa.com.mv",,Operating,Operating,Lankanfinolhu,[],0,resorts.csv
+info@villa.com.mv",,Operating,Operating,Lankanfinolhu,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 173,Villa Park Sun Island,Alifu Dhaalu,ADh,Nalaguraidhoo,466.0,932.0,3325195,3325177,info@villa.com.mv,668 0099,668 0099,reservations@sun-island.com.mv,"Villa Shipping & Trading Company Pvt Ltd
 M. Villa Building, 
 Ibrahim Hassan Didi Magu, 
 Male', Republic of Maldives","Villa Shipping & Trading Company Pvt Ltd 
 M. Villa Building, 
 Ibrahim Hassan Didi Magu, 
-Male', Republic of Maldives",-,Operating,Operating,Nalaguraidhoo,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Nalaguraidhoo,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 174,W Maldives,Alifu Alifu,AA,Fesdhoo,79.0,158.0,7797779,-,shahdy@sandalawyers.com,6662222,6662222,wmaldives.welcome@whotels.com,"Manta Resort Holdings I Pvt Ltd
 H. #02-01, Millennia Tower 10, 
 Ameer Ahmed Magu, 
@@ -1416,21 +1416,21 @@ H. #04-01, Millennia Tower 10,
 Ameer Ahmed Magu, 
 Male', Republic of Maldives
 
-Website: https://www.marriott.com/en-us/hotels/mlewh-w-maldives/",Operating,Operating,Fesdhoo,[],0,resorts.csv
+Website: https://www.marriott.com/en-us/hotels/mlewh-w-maldives/",Operating,Operating,Fesdhoo,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 175,Waldorf Astoria Maldives Ithaafushi,Kaafu,K,Ithaafushi,136.0,272.0,3325602,3325601,suzan@hotelresortsconstruction.com,4000300,4000300,"etienne.dalancon@waldorfastoria,com","Ithaafushi Investments Pvt. Ltd. 
 H. Sea Side, Level One, 
 Boduthakurufaanu Magu
 Male', Republic of Maldives","Ithaafushi Investments Pvt. Ltd.
 H. Sea Side, Level One, 
 Boduthakurufaanu Magu
-Male', Republic of Maldives",,Operating,Operating,Ithaafushi,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Ithaafushi,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 176,Yash Nature Resort,Dhaalu,Dh,Dhoores,33.0,66.0,7731865,,lamaan@sandalawyers.com,7731865,,lamaan@sandalawyers.com,"Yash Exotic Island Pvt Ltd 
 H. Millennia Tower
 Ameer Ahmed Magu
 Male', Republic of Maldives","Yash Exotic Island Pvt Ltd 
 H. Millennia Tower
 Ameer Ahmed Magu
-Male', Republic of Maldives",,Operating,Operating,Dhoores,[],0,resorts.csv
+Male', Republic of Maldives",,Operating,Operating,Dhoores,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,
 177,You & Me Maldives,Raa,R,Uthurumaafaru,109.0,218.0,3016888,,"alex@cocoonmaldives.com
 info@cocoonmaldives.com",6581000,6581000,booking@youandmemaldives.com,"Uthurumaafaru Holdings Pvt Ltd 
 H. Soanary, 
@@ -1438,4 +1438,4 @@ Boduthakurufaanu Magu,
 Male', Republic of Maldives","Uthurumaafaru Holdings Pvt Ltd 
 H. Soanary, 
 Boduthakurufaanu Magu, 
-Male', Republic of Maldives",-,Operating,Operating,Uthurumaafaru,[],0,resorts.csv
+Male', Republic of Maldives",-,Operating,Operating,Uthurumaafaru,[],0,resorts.csv,Operating,Operating,ministry_only,unverified,False,

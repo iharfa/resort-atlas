@@ -1,8 +1,22 @@
-# Resort Atlas
+# Resort Atlas · Maldives Resort Spatial Browser
 
-Map-first browser for Maldives resort information.
+Static Leaflet app for mapping Maldives resort records against OneMap island geometry.
 
-It shows operating resort records from the CSV, under-development resort records from the Ministry of Tourism PDF, explicit coordinate sites from the PDF, and OneMap island outlines fetched from the public ArcGIS layer.
+## What changed in this build
+
+- Satellite basemap using Esri World Imagery.
+- OneMap island outlines fetched live from the public ArcGIS layer.
+- Source status and verified status are kept separately.
+- Oaga Art Resort is corrected from `Not Operating` to `Operating` with evidence links.
+- Status corrections are highlighted on the map and exported as CSV.
+
+## Files
+
+- `index.html` - full static app
+- `data/operating_resorts.json` - operating resort records with verification fields
+- `data/under_development_resorts.json` - development records with verification placeholders
+- `data/resorts_combined_for_onemap_join.csv` - combined dataset for GIS joins
+- `data/status_verification.csv` - status corrections and evidence links
 
 ## Run locally
 
@@ -10,31 +24,30 @@ It shows operating resort records from the CSV, under-development resort records
 python -m http.server 8000
 ```
 
-Open http://localhost:8000
+Open `http://localhost:8000`.
 
 ## Deploy to Vercel
 
-1. Create a new GitHub repository.
-2. Upload the full contents of this folder.
-3. Import the repository in Vercel.
-4. Choose Other as the framework preset.
-5. Leave build command empty.
-6. Leave output directory empty.
-7. Deploy.
+Use this as a static site.
 
-## Files
+- Framework preset: Other
+- Build command: blank
+- Output directory: blank
 
-- `index.html` contains the full static app.
-- `data/operating_resorts.json` powers operating resort records.
-- `data/under_development_resorts.json` powers development records.
-- `data/resorts_combined_for_onemap_join.csv` is the main joining table.
-- `data/under_development_explicit_coordinates.geojson` contains coordinate sites extracted from the PDF.
+## Verification workflow
 
-## Data notes
+For each resort or development record, keep the source status unchanged, then add:
 
-The app matches resorts to OneMap islands in this order:
+- `verified_status`
+- `status_verification`
+- `status_confidence`
+- `status_discrepancy`
+- `verification_sources`
 
-1. Atoll and island name exact match.
-2. Unique island name match.
-3. Fuzzy match inside the same atoll.
-4. Manual review queue when no confident match exists.
+Use at least two independent sources for corrections where possible. Preferred order:
+
+1. Official resort website or booking engine
+2. Booking.com listing with live reviews or availability context
+3. Agoda listing with live reviews or availability context
+4. Recent trade news or press release
+5. Resort social channels as supporting evidence only

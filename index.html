@@ -360,7 +360,7 @@
       <div class="brand-subtitle mono">Maldives Resort Spatial Browser</div>
     </div>
     <div class="top-search">
-      <input id="search" type="search" placeholder="Search resort, island, atoll, lessee, operator">
+      <input id="search" type="search" placeholder="Search resort, island, atoll, status, lessee, operator">
     </div>
     <div class="top-meta mono">
       <span id="topMeta">Loading datasets</span>
@@ -378,6 +378,7 @@
           <div class="metric"><div class="metric-value" id="kpiDevelopment">0</div><div class="metric-label">Under-development records</div></div>
           <div class="metric"><div class="metric-value" id="kpiMatched">0</div><div class="metric-label">Matched to OneMap</div></div>
           <div class="metric"><div class="metric-value" id="kpiUnmatched">0</div><div class="metric-label">Need manual review</div></div>
+          <div class="metric"><div class="metric-value" id="kpiCorrections">0</div><div class="metric-label">Verified status corrections</div></div>
         </div>
       </section>
 
@@ -395,6 +396,7 @@
             <label class="toggle"><input type="checkbox" id="showDevelopment" checked> Development</label>
             <label class="toggle"><input type="checkbox" id="showCoordinates" checked> PDF coordinates</label>
             <label class="toggle"><input type="checkbox" id="showOneMap" checked> OneMap outlines</label>
+            <label class="toggle"><input type="checkbox" id="showCorrections" checked> Status corrections</label>
           </div>
         </div>
       </section>
@@ -408,7 +410,7 @@
 
     <main class="map-wrap">
       <div id="map"></div>
-      <div class="map-loading mono" id="mapLoading">Loading map</div>
+      <div class="map-loading mono" id="mapLoading">Loading satellite map</div>
       <div class="map-legend">
         <h2 class="section-title">Legend</h2>
         <div class="legend-grid">
@@ -416,7 +418,8 @@
           <div class="legend-item"><span class="swatch" style="background:var(--amber)"></span> Resort under development</div>
           <div class="legend-item"><span class="swatch" style="background:var(--purple)"></span> Operating and development overlap</div>
           <div class="legend-item"><span class="swatch" style="background:var(--cyan)"></span> Coordinate site from PDF</div>
-          <div class="legend-item"><span class="swatch" style="background:var(--red)"></span> Not operating in CSV</div>
+          <div class="legend-item"><span class="swatch" style="background:var(--cyan-bright)"></span> Verified status correction</div>
+          <div class="legend-item"><span class="swatch" style="background:var(--red)"></span> Verified not operating</div>
           <div class="legend-item"><span class="swatch" style="background:var(--outline)"></span> Fuzzy match</div>
         </div>
       </div>
@@ -425,6 +428,7 @@
         <a href="data/operating_resorts_clean.csv" download>Download operating CSV</a>
         <a href="data/under_development_resorts_clean.csv" download>Download development CSV</a>
         <a href="data/under_development_explicit_coordinates.geojson" download>Download coordinate GeoJSON</a>
+        <a href="data/status_verification.csv" download>Download status verification CSV</a>
       </div>
     </main>
   </div>
@@ -439,10 +443,17 @@
         <p>Resort Atlas maps operating resort records and resort development records against OneMap island geometry.</p>
         <h3>What this page shows</h3>
         <ul>
-          <li>Operating resort records from the provided CSV.</li>
+          <li>Operating resort records from the provided CSV, with separate source and verified status fields.</li>
           <li>Resorts under development from the Ministry of Tourism list updated on 07 April 2025.</li>
           <li>Explicit coordinate sites extracted from the PDF.</li>
           <li>OneMap island outlines fetched live from the public ArcGIS layer.</li>
+          <li>A satellite basemap for visual checking against resort islands and lagoons.</li>
+        </ul>
+        <h3>Status validation</h3>
+        <ul>
+          <li>The app keeps the Ministry or CSV status as source status.</li>
+          <li>Cross-checked records receive a verified status, confidence level, and evidence links.</li>
+          <li>Discrepancies are highlighted on the map and exported in the verification CSV.</li>
         </ul>
         <h3>Matching logic</h3>
         <ul>
@@ -516,9 +527,21 @@ function recordSite(record) {
   return record.dataset === 'operating' ? record.island : record.site_label;
 }
 
+function effectiveStatus(record) {
+  return record.verified_status || record.status || record.state || '';
+}
+
+function sourceStatus(record) {
+  return record.ministry_status || record.state || record.status || '';
+}
+
+function hasStatusCorrection(record) {
+  return Boolean(record.status_discrepancy) || (norm(effectiveStatus(record)) && norm(sourceStatus(record)) && norm(effectiveStatus(record)) !== norm(sourceStatus(record)));
+}
+
 function recordSearchText(record) {
   return [
-    recordTitle(record), recordSite(record), record.atoll, record.status,
+    recordTitle(record), recordSite(record), record.atoll, record.status, record.verified_status, record.ministry_status, record.status_verification,
     record.operator, record.owner_lessee, record.lessee_holder, record.type_of_project,
     ...(record.join_candidates || [])
   ].filter(Boolean).join(' ').toLowerCase();
@@ -659,15 +682,19 @@ function buildPopupForIsland(feature, records) {
   const rows = records.map(m => {
     const r = m.record;
     const title = recordTitle(r);
-    const status = r.dataset === 'operating' ? r.status : 'Under development';
+    const status = r.dataset === 'operating' ? effectiveStatus(r) : effectiveStatus(r) || 'Under development';
+    const originalStatus = sourceStatus(r);
+    const correction = hasStatusCorrection(r);
     const owner = r.dataset === 'operating' ? (r.owner_lessee || r.operator || '') : (r.lessee_holder || '');
     const extra = r.dataset === 'operating'
       ? `${Number(r.rooms || 0).toLocaleString()} rooms, ${Number(r.beds || 0).toLocaleString()} beds`
       : `${r.type_of_project || ''}, PDF page ${r.source_page || ''}`;
     return `<div class="rec">
       <p><strong>${escapeHtml(title)}</strong></p>
-      <p>${escapeHtml(status)} · ${escapeHtml(extra)}</p>
+      <p>Verified: ${escapeHtml(status)} · ${escapeHtml(extra)}</p>
+      <p>Source status: ${escapeHtml(originalStatus || 'n/a')}${correction ? ' · Status corrected' : ''}</p>
       <p>${escapeHtml(owner)}</p>
+      ${buildEvidenceLinks(r)}
       <p>Match: ${escapeHtml(m.matchType)}${m.candidate ? ' · ' + escapeHtml(m.candidate) : ''}${m.matchType === 'fuzzy' ? ' · ' + Math.round(m.score * 100) + '%' : ''}</p>
     </div>`;
   }).join('');
@@ -689,6 +716,13 @@ function buildPopupForCoordinate(record) {
   </div>`;
 }
 
+function buildEvidenceLinks(record) {
+  const sources = record.verification_sources || [];
+  if (!sources.length) return '';
+  const links = sources.map((s, idx) => `<a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${idx + 1}. ${escapeHtml(s.type || 'source')}</a>`).join('<br>');
+  return `<div class="rec"><p><strong>Status evidence</strong></p><p>${links}</p></div>`;
+}
+
 function escapeHtml(s) {
   return String(s || '').replace(/[&<>"']/g, ch => ({
     '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'
@@ -696,10 +730,12 @@ function escapeHtml(s) {
 }
 
 function colorForRecords(records) {
-  const hasOp = records.some(m => m.record.dataset === 'operating' && m.record.status === 'Operating');
-  const hasNot = records.some(m => m.record.dataset === 'operating' && m.record.status === 'Not Operating');
+  const hasCorrection = records.some(m => hasStatusCorrection(m.record));
+  const hasOp = records.some(m => m.record.dataset === 'operating' && norm(effectiveStatus(m.record)) === norm('Operating'));
+  const hasNot = records.some(m => m.record.dataset === 'operating' && norm(effectiveStatus(m.record)) === norm('Not Operating'));
   const hasDev = records.some(m => m.record.dataset === 'development');
   const hasFuzzy = records.some(m => m.matchType === 'fuzzy');
+  if (hasCorrection) return '#50d9fe';
   if (hasOp && hasDev) return '#7b2fbe';
   if (hasNot) return '#ba1a1a';
   if (hasDev) return '#b8860b';
@@ -712,9 +748,11 @@ function passesFilters(record) {
   const atoll = document.getElementById('atollFilter').value;
   const showOp = document.getElementById('showOperating').checked;
   const showDev = document.getElementById('showDevelopment').checked;
+  const showCorrections = document.getElementById('showCorrections').checked;
 
   if (record.dataset === 'operating' && !showOp) return false;
   if (record.dataset === 'development' && !showDev) return false;
+  if (hasStatusCorrection(record) && !showCorrections) return false;
   if (atoll && normAtoll(record.atoll) !== atoll) return false;
   if (q && !recordSearchText(record).includes(q)) return false;
   return true;
@@ -731,7 +769,7 @@ function renderLayers() {
 
   if (showOneMap && state.islands) {
     L.geoJSON(state.islands, {
-      style: { color: '#c3c7cd', weight: 0.55, fillOpacity: 0.045, fillColor: '#f6fafe' }
+      style: { color: '#ffffff', weight: 0.65, fillOpacity: 0.02, fillColor: '#ffffff' }
     }).addTo(state.layers.islands);
   }
 
@@ -747,7 +785,7 @@ function renderLayers() {
   for (const { feature, records } of grouped.values()) {
     const color = colorForRecords(records);
     L.geoJSON(feature, {
-      style: { color, weight: 2, fillOpacity: 0.28, fillColor: color }
+      style: { color, weight: 2.5, fillOpacity: 0.32, fillColor: color }
     }).bindPopup(buildPopupForIsland(feature, records)).addTo(state.layers.matched);
   }
 
@@ -854,18 +892,20 @@ function refreshStats() {
   const matched = state.allMatchResults.filter(m => m.feature).length;
   const unmatched = state.unmatched.length;
   const coords = state.coordinateRecords.length;
+  const corrections = [...state.operating, ...state.development].filter(r => hasStatusCorrection(r)).length;
   document.getElementById('kpiOperating').textContent = op.toLocaleString();
   document.getElementById('kpiDevelopment').textContent = dev.toLocaleString();
   document.getElementById('kpiMatched').textContent = matched.toLocaleString();
   document.getElementById('kpiUnmatched').textContent = unmatched.toLocaleString();
-  document.getElementById('topMeta').textContent = `${op.toLocaleString()} operating · ${dev.toLocaleString()} development · ${coords.toLocaleString()} coordinate records`;
+  document.getElementById('kpiCorrections').textContent = corrections.toLocaleString();
+  document.getElementById('topMeta').textContent = `${op.toLocaleString()} operating · ${dev.toLocaleString()} development · ${coords.toLocaleString()} coordinate records · ${corrections.toLocaleString()} status correction`;
 }
 
 function initMap() {
   const map = L.map('map', { zoomControl: true }).setView([3.2, 73.2], 6);
-  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
     maxZoom: 19,
-    attribution: '&copy; OpenStreetMap contributors'
+    attribution: 'Tiles &copy; Esri, Maxar, Earthstar Geographics, and the GIS User Community'
   }).addTo(map);
 
   state.layers.islands = L.layerGroup().addTo(map);
@@ -901,7 +941,7 @@ async function init() {
     state.unmatched = state.allMatchResults.filter(m => m.matchType === 'unmatched');
 
     refreshStats();
-    document.getElementById('status').textContent = `Loaded ${state.islands.features.length.toLocaleString()} OneMap island polygons. Review unmatched records before publishing final coordinates.`;
+    document.getElementById('status').textContent = `Loaded ${state.islands.features.length.toLocaleString()} OneMap island polygons on satellite basemap. Review unmatched records and status corrections before publishing final coordinates.`;
     document.getElementById('mapLoading').style.display = 'none';
     renderLayers();
   } catch (err) {
@@ -911,7 +951,7 @@ async function init() {
   }
 }
 
-['search','atollFilter','showOperating','showDevelopment','showCoordinates','showOneMap'].forEach(id => {
+['search','atollFilter','showOperating','showDevelopment','showCoordinates','showOneMap','showCorrections'].forEach(id => {
   document.addEventListener('input', e => { if (e.target && e.target.id === id) renderLayers(); });
   document.addEventListener('change', e => { if (e.target && e.target.id === id) renderLayers(); });
 });
