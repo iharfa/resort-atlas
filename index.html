@@ -117,21 +117,42 @@
       grid-template-columns: minmax(0, 1fr);
     }
     .filters-panel {
-      position: absolute;
-      left: 14px;
-      top: 14px;
-      z-index: 500;
-      width: 340px;
+      position: fixed;
+      left: 50%;
+      bottom: 74px;
+      transform: translateX(-50%);
+      z-index: 600;
+      width: 380px;
       max-width: calc(100% - 28px);
-      max-height: calc(100% - 28px);
+      max-height: calc(100vh - 160px);
       overflow: auto;
       background: #ffffff;
       border: 1px solid var(--navy);
-      box-shadow: 0 18px 60px rgba(0, 18, 32, 0.22);
+      box-shadow: 0 18px 60px rgba(0, 18, 32, 0.28);
       display: none;
     }
     .filters-panel.open { display: block; }
-    .top-button.is-active { background: #ffffff; color: var(--navy); }
+
+    .filters-bar {
+      position: fixed;
+      left: 50%;
+      bottom: 18px;
+      transform: translateX(-50%);
+      z-index: 601;
+    }
+    .filters-toggle {
+      border: 1px solid var(--navy);
+      background: var(--navy);
+      color: #ffffff;
+      padding: 13px 40px;
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      box-shadow: 0 12px 34px rgba(0, 18, 32, 0.4);
+    }
+    .filters-toggle:hover { background: #06283d; }
+    .filters-toggle.is-active { background: #ffffff; color: var(--navy); }
     .side-section {
       padding: 14px;
       border-bottom: 1px solid var(--outline);
@@ -398,12 +419,10 @@
     </div>
     <div class="top-meta mono">
       <span id="topMeta">Loading datasets</span>
-      <button class="top-button mono" id="filtersBtn" type="button">Filters</button>
       <a class="top-button mono" href="data.html">Data</a>
       <button class="top-button mono" id="aboutBtn" type="button">About</button>
     </div>
     <div class="top-actions-mobile">
-      <button class="top-button mono" id="filtersBtnMobile" type="button">Filters</button>
       <a class="top-button mono" href="data.html">Data</a>
       <button class="top-button mono" id="aboutBtnMobile" type="button">About</button>
     </div>
@@ -440,6 +459,10 @@
             <div class="list" id="unmatchedList"></div>
           </div>
         </section>
+      </div>
+
+      <div class="filters-bar">
+        <button class="filters-toggle mono" id="filtersBtn" type="button">Filters</button>
       </div>
 
       <div class="map-loading mono" id="mapLoading">Loading satellite map</div>
@@ -844,7 +867,7 @@ function renderLayers() {
       const stroke = impl ? COLOR_MMPRC : COLOR_DEVELOPMENT;
       let layer;
       if (latlngs.length === 1) {
-        layer = L.circleMarker(latlngs[0], { radius: impl ? 9 : 6, color: stroke, weight: impl ? 3 : 1.5, fillOpacity: 0.85, fillColor: COLOR_DEVELOPMENT });
+        layer = L.circle(latlngs[0], { radius: impl ? 240 : 170, color: stroke, weight: impl ? 3 : 1.5, fillOpacity: 0.85, fillColor: COLOR_DEVELOPMENT });
       } else if (latlngs.length >= 3) {
         layer = L.polygon(latlngs, { color: stroke, weight: impl ? 4 : 2, fillOpacity: impl ? 0.28 : 0.18, fillColor: COLOR_DEVELOPMENT });
       } else {
@@ -1045,7 +1068,6 @@ function toggleFilters() {
 }
 
 document.getElementById('filtersBtn').addEventListener('click', toggleFilters);
-document.getElementById('filtersBtnMobile').addEventListener('click', toggleFilters);
 document.getElementById('aboutBtn').addEventListener('click', openAbout);
 document.getElementById('aboutBtnMobile').addEventListener('click', openAbout);
 document.getElementById('closeAbout').addEventListener('click', closeAbout);
